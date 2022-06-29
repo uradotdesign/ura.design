@@ -1,0 +1,54 @@
+{{ define "main" }}
+<main class="post">
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-6 col-md-8 col-12 pt-5">
+                    {{ if .IsTranslated }}
+                    {{ i18n "postAvailable" }}
+                    {{ range .Translations }}
+                    <a href="{{ .Permalink }}"><span>{{ index $.Site.Data.langFlags (.Lang) }}</span></a>
+                    {{ end}}
+                    {{ end }}
+                    <h1 class="post-title">Get in touch</h1>
+                    <p class="contact">Have a challenge? Get in touch with our team to discuss how we can help.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 col-12 pt-5">
+                    <div class="row social-links">
+                        <div class="col-xl-3 col-lg-3 col-12 mb-lg-0 mb-5">
+                            <p>Email</p>
+                            <a href="mailto:hello@ura.design">hello@ura.design</a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-12 mb-lg-0 mb-5">
+                            <p>GitHub</p>
+                            <a href="https://github.com/uracreative" target="_blank" rel="noopener noreferrer">UraCreative</a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-12 mb-lg-0 mb-5">
+                            <p>Twitter</p>
+                            <a href="https://twitter.com/uracreative" target="_blank" rel="noopener noreferrer">@UraCreative</a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-12 mb-lg-0 mb-5">
+                            <p>Mattermost Chat</p>
+                            <a href="https://chat.ura.design" target="_blank" rel="noopener noreferrer">chat.ura.design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-sm-3 px-0">
+            <div class="row pt-lg-5 pt-0 justify-content-end">
+                <div class="col-xl-5 col-lg-7 col-12 px-lg-3 px-0">
+                    <div class="cta-card py-5">
+                        <h2>Prefer to talk over a call?</h2>
+                        <a class="arrow-link" href="#">Schedule a call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

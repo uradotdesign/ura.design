@@ -1,0 +1,191 @@
+baseURL = "https://ura.design"
+title = "Ura Design"
+
+defaultContentLanguage = "en"
+languageCode = "en-us"
+
+rssLimit  = 300
+copyright = "Some rights reserved. Unless otherwise noted, content on this page is under a Creative Commons license."
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = true
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = true
+
+pluralizeListTitles = false
+paginate = 8
+
+[permalinks]
+  blog = "/blog/:filename/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  author   = "authors"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  description = "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects."
+  keywords = "design, ux, ui, public, developer, privacy, security, foss, floss"
+  images = [""]
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #gitUrl = "https://github.com/uracreative/ura.design/commit/"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  justifyContent = false
+  contentTypeName = "blog"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#1F78D1"
+    msapplication = "#1F78D1"
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/uracreative"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/uracreative"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/uradotdesign"
+  
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/company/ura/"
+
+[languages]
+  [languages.en]
+    subtitle  = ""
+    weight    = 1
+    copyright = 'Some rights reserved. Unless otherwise noted, content on this page is under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative Commons license</a>.'
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = "1"
+  [[languages.en.menu.main]]
+    identifier = "work"
+    name       = "Work"
+    url        = "/work/"
+    weight     = "2"
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = "3"
+  [[languages.en.menu.main]]
+    identifier = "clients"
+    name       = "Clients"
+    url        = "/clients/"
+    weight     = "4"
+  [[languages.en.menu.footer]]
+    identifier = "source-code"
+    name       = "Source Code"
+    url        = "/source"
+    weight     = "1"
+  [[languages.en.menu.footer]]
+    identifier = "data-privacy"
+    name       = "Data Privacy"
+    url        = "/privacy"
+    weight     = "2"
+  [[languages.en.menu.footer]]
+    identifier = "imprint"
+    name       = "Imprint"
+    url        = "/imprint"
+    weight     = "3"
+
+  [languages.de]
+    subtitle  = ""
+    weight    = 2
+    copyright = 'Some rights reserved. Unless otherwise noted, content on this page is under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative Commons license</a>.'
+  [[languages.de.menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = "1"
+  [[languages.de.menu.main]]
+    identifier = "Work"
+    name       = "Work"
+    url        = "/work/"
+    weight     = "2"
+  [[languages.de.menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = "3"
+  [[languages.en.menu.main]]
+    identifier = "clients"
+    name       = "Clients"
+    url        = "/clients/"
+    weight     = "4"
+  [[languages.de.menu.footer]]
+    identifier = "source-code"
+    name       = "Source Code"
+    url        = "/source"
+    weight     = "1"
+  [[languages.de.menu.footer]]
+    identifier = "data-privacy"
+    name       = "Data Privacy"
+    url        = "/privacy"
+    weight     = "2"
+  [[languages.de.menu.footer]]
+    identifier = "imprint"
+    name       = "Imprint"
+    url        = "/imprint"
+    weight     = "3"
+
+[privacy]
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

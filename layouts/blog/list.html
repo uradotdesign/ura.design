@@ -1,0 +1,91 @@
+{{ define "main" }}
+<!--<main class="post py-5">
+    <div class="container-fluid">
+        <div class="container">
+
+            <h1 class="post-title mb-5">{{ .Title }}</h1>
+
+            {{- if .Content }}
+            <div class="content">{{ .Content }}</div>
+            {{- end }}
+
+            {{ $paginator := .Paginate (where .Pages "Type" "blog") 8 }}
+
+            <div class="row">
+                <div class="col-xl-8 col-lg-12 col-12 pb-lg-0 pb-4">
+                    {{ range first 1 $paginator.Pages }}
+                    <article class="first">
+                        <img class="grayscale mb-lg-3 mb-0" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}">
+                        <div class="data">
+                            <p class="info mb-0">{{ .ReadingTime }} minute read / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
+                            <a class="title mb-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                            <p class="description mb-0 mt-2">{{ .Summary | truncate 200 }}</p>
+                        </div>
+                    </article>
+                    {{ end }}
+                </div>
+                <div class="col-xl-4 col-lg-12 col-12">
+                    {{ range first 1 (after 1 $paginator.Pages) }}
+                    <article class="card">
+                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}">
+                        <p class="info mb-0">{{ .ReadingTime }} minute read / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
+                        <a class="title mb-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                    </article>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="row py-4">
+                {{- range first 3 (after 2 $paginator.Pages) }}
+                <div class="col-xl-4 col-lg-12 col-12">
+                    <article class="card">
+                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                        <p class="info mb-0">{{ .ReadingTime }} minute read / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
+                        <a class="title mb-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                    </article>
+                </div>
+                {{- end }}
+            </div>
+
+            <div class="row mx-0 schedule justify-content-between align-items-center">
+                <div class="col-xl-8 col-lg-8 col-12 pb-lg-0 pb-4">
+                    <h2>Need design support?</h2>
+                    <p class="mb-0">Schedule a 30min chat with us to find out how we can help</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-12 d-flex justify-content-center mt-lg-0 mt-2 mb-lg-0 mb-3">
+                    <a href="#">Schedule a Chat</a>
+                </div>
+            </div>
+
+            <!-- <div class="row py-4">
+                {{- range first 3 (after 5 .Pages.ByPublishDate.Reverse) }}
+                <div class="col-xl-4 col-lg-12 col-12">
+                    <article class="card">
+                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" loading="lazy">
+                        <p class="info mb-0">{{ .ReadingTime }} minute read / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
+                        <a class="title mb-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                    </article>
+                </div>
+                {{- end }}
+            </div>
+
+            <div class="row py-4">
+                {{ range first 3 (after 5 $paginator.Pages) }}
+                <div class="col-xl-4 col-lg-12 col-12 pb-4">
+                    <article class="card">
+                        <p class="info mb-0">{{ .ReadingTime }} minute read / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
+                        <a class="title mb-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                    </article>
+                </div>
+                {{ end }}
+            </div>
+
+            {{ template "_internal/pagination.html" . }}
+        </div>
+    </div>
+</main>-->
+{{ end }}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="{{ .Site.Language }}" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <a class="screen-reader-text" href="#content">Skip to content</a>
+
+    <button id="theme-toggle" class="acctoggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+
+    {{ partial "header.html" . }}
+
+    <div id="content" class="content">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+    
+</body>
+
+</html>

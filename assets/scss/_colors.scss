@@ -1,0 +1,254 @@
+// Default colors
+$white: #ffffff;
+$black: #000000;
+
+// Indigo
+$indigo-list: (
+  "50": #f7f7ff,
+  "100": #ebebfa,
+  "200": #d1d1f0,
+  "300": #a6a6de,
+  "400": #7c7ccc,
+  "500": #6666c4,
+  "600": #5b5bbd,
+  "700": #4b4ba3,
+  "800": #393982,
+  "900": #292961,
+  "950": #1a1a40,
+);
+
+$indigo-50: map-get($indigo-list, "50");
+$indigo-100: map-get($indigo-list, "100");
+$indigo-200: map-get($indigo-list, "200");
+$indigo-300: map-get($indigo-list, "300");
+$indigo-400: map-get($indigo-list, "400");
+$indigo-500: map-get($indigo-list, "500");
+$indigo-600: map-get($indigo-list, "600");
+$indigo-700: map-get($indigo-list, "700");
+$indigo-800: map-get($indigo-list, "800");
+$indigo-900: map-get($indigo-list, "900");
+$indigo-950: map-get($indigo-list, "950");
+
+// Blue
+$blue-list: (
+  "50": #f6fafe,
+  "100": #e4f0fb,
+  "200": #b8d6f4,
+  "300": #73afea,
+  "400": #418cd8,
+  "500": #1f78d1,
+  "600": #1b69b6,
+  "700": #17599c,
+  "800": #134a81,
+  "900": #0f3b66,
+  "950": #0a2744,
+);
+
+$blue-50: map-get($blue-list, "50");
+$blue-100: map-get($blue-list, "100");
+$blue-200: map-get($blue-list, "200");
+$blue-300: map-get($blue-list, "300");
+$blue-400: map-get($blue-list, "400");
+$blue-500: map-get($blue-list, "500");
+$blue-600: map-get($blue-list, "600");
+$blue-700: map-get($blue-list, "700");
+$blue-800: map-get($blue-list, "800");
+$blue-900: map-get($blue-list, "900");
+$blue-950: map-get($blue-list, "950");
+
+// Green
+$green-list: (
+  "50": #f1fdf6,
+  "100": #dcf5e7,
+  "200": #b3e6c8,
+  "300": #75d09b,
+  "400": #37b96d,
+  "500": #1aaa55,
+  "600": #168f48,
+  "700": #12753a,
+  "800": #0e5a2d,
+  "900": #0a4020,
+  "950": #072b15,
+);
+
+$green-50: map-get($green-list, "50");
+$green-100: map-get($green-list, "100");
+$green-200: map-get($green-list, "200");
+$green-300: map-get($green-list, "300");
+$green-400: map-get($green-list, "400");
+$green-500: map-get($green-list, "500");
+$green-600: map-get($green-list, "600");
+$green-700: map-get($green-list, "700");
+$green-800: map-get($green-list, "800");
+$green-900: map-get($green-list, "900");
+$green-950: map-get($green-list, "950");
+
+// Gray
+$gray-list: (
+  "50": #fafafa,
+  "100": #f4f4f5,
+  "200": #e4e4e7,
+  "300": #d4d4d8,
+  "400": #a1a1aa,
+  "500": #71717a,
+  "600": #52525b,
+  "700": #3f3f46,
+  "800": #27272a,
+  "900": #18181b,
+  "950": #0c0c0e,
+);
+
+$gray-50: map-get($gray-list, "50");
+$gray-100: map-get($gray-list, "100");
+$gray-200: map-get($gray-list, "200");
+$gray-300: map-get($gray-list, "300");
+$gray-400: map-get($gray-list, "400");
+$gray-500: map-get($gray-list, "500");
+$gray-600: map-get($gray-list, "600");
+$gray-700: map-get($gray-list, "700");
+$gray-800: map-get($gray-list, "800");
+$gray-900: map-get($gray-list, "900");
+$gray-950: map-get($gray-list, "950");
+
+// Slate
+$slate-list: (
+  "50": #F8FAFC,
+  "100": #F1F5F9,
+  "200": #E2E8F0,
+  "300": #CBD5E1,
+  "400": #94A3B8,
+  "500": #64748B,
+  "600": #475569,
+  "700": #334155,
+  "800": #1E293B,
+  "900": #0F172A,
+);
+
+$slate-50: map-get($slate-list, "50");
+$slate-100: map-get($slate-list, "100");
+$slate-200: map-get($slate-list, "200");
+$slate-300: map-get($slate-list, "300");
+$slate-400: map-get($slate-list, "400");
+$slate-500: map-get($slate-list, "500");
+$slate-600: map-get($slate-list, "600");
+$slate-700: map-get($slate-list, "700");
+$slate-800: map-get($slate-list, "800");
+$slate-900: map-get($slate-list, "900");
+
+// Orange
+$orange-list: (
+  "50": #fffaf4,
+  "100": #fff1de,
+  "200": #fed69f,
+  "300": #fdbc60,
+  "400": #fca429,
+  "500": #fc9403,
+  "600": #de7e00,
+  "700": #c26700,
+  "800": #a35200,
+  "900": #853c00,
+  "950": #592800,
+);
+
+$orange-50: map-get($orange-list, "50");
+$orange-100: map-get($orange-list, "100");
+$orange-200: map-get($orange-list, "200");
+$orange-300: map-get($orange-list, "300");
+$orange-400: map-get($orange-list, "400");
+$orange-500: map-get($orange-list, "500");
+$orange-600: map-get($orange-list, "600");
+$orange-700: map-get($orange-list, "700");
+$orange-800: map-get($orange-list, "800");
+$orange-900: map-get($orange-list, "900");
+$orange-950: map-get($orange-list, "950");
+
+// Red
+$red-list: (
+  "50": #fef6f5,
+  "100": #fbe5e1,
+  "200": #f2b4a9,
+  "300": #ea8271,
+  "400": #e05842,
+  "500": #db3b21,
+  "600": #c0341d,
+  "700": #a62d19,
+  "800": #8b2615,
+  "900": #711e11,
+  "950": #4b140b,
+);
+
+$red-50: map-get($red-list, "50");
+$red-100: map-get($red-list, "100");
+$red-200: map-get($red-list, "200");
+$red-300: map-get($red-list, "300");
+$red-400: map-get($red-list, "400");
+$red-500: map-get($red-list, "500");
+$red-600: map-get($red-list, "600");
+$red-700: map-get($red-list, "700");
+$red-800: map-get($red-list, "800");
+$red-900: map-get($red-list, "900");
+$red-950: map-get($red-list, "950");
+
+// Dynamic background and color classes creation
+@each $value in $indigo-list {
+  .background-indigo-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-indigo-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $blue-list {
+  .background-blue-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-blue-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $green-list {
+  .background-green-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-green-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $gray-list {
+  .background-gray-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-gray-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $slate-list {
+  .background-slate-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-slate-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $orange-list {
+  .background-orange-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-orange-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $red-list {
+  .background-red-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-red-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}

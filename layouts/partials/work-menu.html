@@ -1,0 +1,68 @@
+<div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="{{ .Site.BaseURL }}">
+          <img src="/img/icon.svg" alt="Ura Design icon" height="42px">
+          <img class="wordmark" src="/img/wordmark.svg" alt="Ura Design wordmark" height="27px">
+        </a>
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation" onclick="openNav()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            {{ if eq .Page.Params.theme "dark" }}
+            {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
+            {{- range .Site.Menus.main -}}
+            <li class="nav-item ms-4">
+              <a class="nav-link text-white {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
+                ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ else }}
+            {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
+            {{- range .Site.Menus.main -}}
+            <li class="nav-item ms-4">
+              <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
+                ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </nav>
+      <div id="navbar-mobile" class="overlay" {{ if .Params.background }}style="background-color: {{ .Params.background }};"{{ else }}{{ end }}>
+        <div class="container-fluid">
+            <div class="container">
+                <a class="brand" href="{{ .Site.BaseURL }}">
+                    <img src="/img/logo-white.svg" alt="Ura Design logo" width="120px">
+                </a>
+            </div>
+        </div>
+        <button class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></button>
+        <div class="overlay-content">
+          <div class="container-fluid">
+            <div class="container">
+              {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
+              {{- range .Site.Menus.main -}}
+                <a class="{{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
+                  ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  function openNav() {
+    document.getElementById("navbar-mobile").style.width = "100%";
+    document.documentElement.style.overflow = 'hidden';
+    document.body.scroll = "no";
+  }
+  function closeNav() {
+    document.getElementById("navbar-mobile").style.width = "0%";
+    document.documentElement.style.overflow = 'scroll';
+    document.body.scroll = "yes";
+  }
+  </script>

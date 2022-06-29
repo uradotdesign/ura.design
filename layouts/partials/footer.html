@@ -1,0 +1,67 @@
+<footer class="py-4 mt-auto">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row d-none d-lg-flex">
+        <nav class="navbar navbar-expand-lg">
+          <div class="navbar-collapse" id="footerNav">
+            <ul class="navbar-nav">
+              {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
+              {{- range .Site.Menus.main -}}
+              <li class="nav-item">
+                <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
+                  ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{
+                  .Name
+                  }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="row py-5 pt-lg-5 cta">
+        <div class="col-xxl-5 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+          <p>Let's talk:</p>
+          <a class="arrow-link" href="/contact">Contact</a>
+        </div>
+        <div class="col-xxl-5 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+          <p>Subscribe:</p>
+          <a class="arrow-link" href="https://tinyletter.com/uracreative" target="_blank"
+            rel="noopener noreferrer">Newsletter</a>
+        </div>
+        <div class="col-xxl-2 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+          <p>We are on:</p>
+          <div class="pt-2">
+            {{- with .Site.Params.social }}
+            {{ partial "social-icons.html" . }}
+            {{- end }}
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-xxl-4 col-xl-12">
+          <nav class="navbar navbar-expand-lg" aria-label="Secondary">
+            <div class="navbar-collapse" id="footerLinks">
+              <ul class="navbar-nav flex-row">
+                {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
+                {{- range .Site.Menus.footer -}}
+                <li class="nav-item">
+                  <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
+                    ($firstUrlElement|lower) (.URL|lower) }}aria-current="page"{{end}} href="{{ .URL | absLangURL }}">{{
+                    .Name
+                    }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-xxl-8 col-xl-12 d-flex justify-content-xxl-end justify-content-start">
+          <p class="copyright mb-0">© Ura Design {{ now.Year }}. {{ .Site.Copyright | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{{ partial "javascript.html" . }}

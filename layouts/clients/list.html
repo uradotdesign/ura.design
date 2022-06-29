@@ -1,0 +1,83 @@
+{{ define "main" }}
+<main class="post pt-5">
+  <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-8 col-md-12 col-12">
+            <h1 class="post-title mb-3">{{ .Title }}</h1>
+            <p class="subtitle mb-3">{{ .Page.Params.subtitle }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row py-5 justify-content-center">
+          <div class="col-lg-10 col-md-12 col-12 px-lg-0 px-3">
+            <div class="row">
+              {{ range where .Site.RegularPages "Type" "clients" }}
+                <div class="col-xl-4 col-md-6 col-12 pb-md-4 pb-3 px-lg-4 px-2">
+                    <p class="client-title">{{ .Page.Params.name }}</p>
+                    <p class="client-description">{{ .Content }}</p>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid background-gray-50">
+    <div class="container">
+        <div class="row justify-content-center py-4">
+            <div class="col-xl-10 col-12">
+            <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
+                {{ $testimonial := (where .Site.RegularPages "Type" "testimonials") }}
+                <button class="carousel-control-prev" type="button" aria-label="Previous slide" data-bs-target="#testimonials" data-bs-slide="prev">
+                    <span aria-hidden="true"><i class="fa-solid fa-arrow-left color-blue-500 fa-2x"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <div class="carousel-indicators">
+                    {{ range first 1 $testimonial }}
+                    <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" class="active" aria-current="true" aria-label="Testimonial by {{.Page.Params.name }}"></button>
+                    {{ end }}
+                    {{ range after 1 $testimonial }}
+                    <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" aria-label="Testimonial by {{.Page.Params.name }}"></button>
+                    {{ end }}
+                </div>
+                <div class="carousel-inner">
+                    {{ range first 1 $testimonial }}
+                    <div class="carousel-item testimonial py-5 active">
+                        <blockquote>{{ .Content }}</blockquote>
+                        <h2 class="testimonial-name">{{ .Page.Params.name }}</h2>
+                        <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                    </div>
+                    {{ end }}
+                    {{ range after 1 $testimonial }}
+                    <div class="carousel-item testimonial py-5">
+                        <blockquote>{{ .Content | markdownify }}</blockquote>
+                        <h2 class="testimonial-name">{{ .Page.Params.name }}</h2>
+                        <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                    </div>
+                    {{ end }}
+                </div>
+                <button class="carousel-control-next" type="button" aria-label="Next slide" data-bs-target="#testimonials" data-bs-slide="next">
+                  <span aria-hidden="true"><i class="fa-solid fa-arrow-right color-blue-500 fa-2x"></i></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid px-sm-3 px-0 pt-5 background-gray-50">
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-xl-5 col-lg-7 col-12 px-sm-3 px-0">
+                <div class="cta-card py-5">
+                    <h2>Can we help on your project?</h2>
+                    <a class="arrow-link" href="#">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</main>
+{{ end }}

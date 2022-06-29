@@ -1,0 +1,174 @@
+{{ define "main" }}
+<main class="post">
+
+    <div class="container-fluid services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-12 pt-5 pe-0 background-gray-50 d-none d-lg-block">
+
+                    {{ if .IsTranslated }}
+                    | {{ i18n "postAvailable" }}
+                    {{ range .Translations }}
+                    <a href="{{ .Permalink }}"><span>{{ index $.Site.Data.langFlags (.Lang) }}</span></a>
+                    {{ end }}
+                    {{ end }}
+
+                    <h2>Our Expertise</h2>
+
+                    <div class="tab pb-4" aria-role="tablist">
+                        {{ range (where .Site.RegularPages "Type" "services") }}
+                        <button type="button" role="tab" class="tablinkservice" aria-controls="{{ .Page.Params.id }}" onclick="service(event, '{{ .Page.Params.id }}')" {{ if eq .Page.Params.weight 1 }}id="firstopen" aria-selected="true"{{ else }}aria-selected="false"{{ end }}>{{ .Page.Params.title }}</button>
+                        {{ end }}
+                    </div>
+
+                    </div>
+
+                    <div class="offset-xl-1 col-xl-8 offset-lg-1 col-lg-7 col-12 pt-lg-5 pt-0 d-none d-lg-block">
+                        {{ range (where .Site.RegularPages "Type" "services") }}
+                            <div id="{{ .Page.Params.id }}" class="tabcontentservice">
+                                <p class="mb-0">{{ .Content }}<p>
+                                <a class="see-more mt-3" href="/categories/{{ .Page.Params.id }}">See our {{ .Page.Params.title }} Work</a>
+                            </div>
+                        {{ end }}                    
+                        <script>
+                            document.getElementById("firstopen").click();
+                        
+                            function service(evt, type) {
+                                // Declare all variables
+                                var i, tabcontentservice, tablinkservice;
+                        
+                                // Get all elements with class="tabcontentservice" and hide them
+                                tabcontentservice = document.getElementsByClassName("tabcontentservice");
+                                for (i = 0; i < tabcontentservice.length; i++) {
+                                    tabcontentservice[i].style.display = "none";
+                                }
+                        
+                                // Get all elements with class="tablinkservice" and remove the class "active"
+                                tablinkservice = document.getElementsByClassName("tablinkservice");
+                                for (i = 0; i < tablinkservice.length; i++) {
+                                    tablinkservice[i].className = tablinkservice[i].className.replace(" active", "");
+                                    tablinkservice[i].setAttribute("aria-selected", "false");
+                                }
+                        
+                                // Show the current tab, and add an "active" class to the button that opened the tab
+                                document.getElementById(type).style.display = "block";
+                                evt.currentTarget.className += " active";
+                                evt.currentTarget.setAttribute("aria-selected", "true");
+                            }
+                        </script>
+                    </div>
+
+                    <div class="col-12 pt-5 d-block d-lg-none">
+                        <h2 class="mb-5">Our Expertise</h2>
+                        {{ range (where .Site.RegularPages "Type" "services") }}
+                        <details>
+                            <summary>{{ .Page.Params.title }}</summary>
+                            <p class="mb-0">{{ .Content }}<p>
+                            <a class="see-more w-100 justify-content-center my-3" href="/categories/{{ .Page.Params.id }}">See our {{ .Page.Params.title }} Work</a>
+                        </details>
+                        {{ end }}                        
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2>Who are we?</h2>
+            <div class="row pt-lg-4 pt-0">
+            {{ range (where .Site.RegularPages "Type" "authors") }}
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="row mb-3 mb-lg-5">
+                        <div class="col-xxl-5 col-xl-12 col-5">
+                            <img class="img-fluid pb-3" src="/img/authors/{{ .Page.Params.image }}" alt="">
+                        </div>
+                        <div class="col-xxl-7 col-xl-12 col-7 circle-icons">
+                            <h2>{{ .Page.Params.name }}</h2>
+                            <p>{{ .Page.Params.position }}</p>
+                            {{ if .Page.Params.website }}
+                                <a href="{{ .Page.Params.website }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
+                            {{ end }}
+                            {{ if .Page.Params.twitter }}
+                                <a href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                            {{ end }}
+                            {{ if .Page.Params.github }}
+                                <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                            {{ end }}
+                            {{ if .Page.Params.email }}
+                                <a href="mailto:{{ .Page.Params.email }}" aria-label="{{ .Page.Params.name }}'s email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+                            {{ end }}
+                            {{ if .Page.Params.gpg }}
+                                <a href="{{ .Page.Params.gpg }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GPG key"><i class="fa-solid fa-key" aria-hidden="true"></i></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid background-gray-50">
+        <div class="container">
+            <div class="row justify-content-center py-4">
+                <div class="col-xl-10 col-12">
+                <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
+                    {{ $testimonial := (where .Site.RegularPages "Type" "testimonials") }}
+                    <button class="carousel-control-prev" type="button" aria-label="Previous slide" data-bs-target="#testimonials" data-bs-slide="prev">
+                        <span aria-hidden="true">
+                            <svg width="55" height="33" viewBox="0 0 55 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M32 18.9822L9.06166 18.9822L19.1828 29.2419L15.7839 32.5949L4.84003e-07 16.595L15.7839 0.595214L19.1828 3.94825L9.06169 14.2078L32 14.2078L32 18.9822Z" fill="#1B69B6"/>
+                            </svg>
+                        </span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        {{ range first 1 $testimonial }}
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" class="active" aria-current="true" aria-label="Testimonial by {{.Page.Params.name }}"></button>
+                        {{ end }}
+                        {{ range after 1 $testimonial }}
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" aria-label="Testimonial by {{.Page.Params.name }}"></button>
+                        {{ end }}
+                    </div>
+                    <div class="carousel-inner">
+                        {{ range first 1 $testimonial }}
+                        <div class="carousel-item testimonial py-5 active">
+                            <blockquote>{{ .Content }}</blockquote>
+                            <h2 class="testimonial-name">{{ .Page.Params.name }}</h2>
+                            <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                        </div>
+                        {{ end }}
+                        {{ range after 1 $testimonial }}
+                        <div class="carousel-item testimonial py-5">
+                            <blockquote>{{ .Content | markdownify }}</blockquote>
+                            <h2 class="testimonial-name">{{ .Page.Params.name }}</h2>
+                            <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <button class="carousel-control-next" type="button" aria-label="Next slide" data-bs-target="#testimonials" data-bs-slide="next">
+                      <span aria-hidden="true">
+                            <!-- <i class="fa-solid fa-arrow-right color-blue-500 fa-2x"></i> -->
+                      </span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-sm-3 px-0 pt-5 background-gray-50">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-xl-5 col-lg-7 col-12 px-sm-3 px-0">
+                    <div class="cta-card py-5">
+                        <h2>Can we help on your project?</h2>
+                        <a class="arrow-link" href="#">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="d-flex flex-column min-vh-100" style="background-color: {{ .Params.background }};">
+    <a class="screen-reader-text" href="#content">Skip to content</a>
+
+    <button id="theme-toggle" class="acctoggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+
+    <header>
+        {{ partial "menu.html" . }}
+    </header>
+
+    <div id="content" class="content">
+        <main class="project {{ with .Params.theme }}{{ if eq . "dark" }}text-white{{ else }}{{ end }}{{ end }}">
+            <div class="container-fluid py-5 mb-5">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-xl-9 col-lg-9 col-12 pt-5">
+                            <h1 class="project-title">{{ .Title | markdownify }}</h1>
+                            <p class="project-summary">{{ .Params.summary | markdownify }}</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-12">
+                            <div class="sticky-xl-top pt-5">
+                            {{ if .Params.categories }}
+                            <div class="mb-5">
+                                <p class="list">Services</p>
+                                <div class="d-flex flex-column" style="color: {{ .Params.accent }};">
+                                    {{ range .Params.categories }}
+                                        <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            {{ end }}
+                            {{ if .Params.links }}
+                                <div class="mb-5">
+                                    <p class="list">Links</p>
+                                    <div class="d-flex flex-column" style="color: {{ .Params.accent }};">
+                                        {{ range $index, $value := .Params.links }}
+                                            <a class="links" href="{{ $value }}" target="_blank" rel="noopener noreferrer">{{ $index }}</a>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            {{ end }}
+                            {{ if .Params.sources }}
+                                    <p class="list">Sources</p>
+                                    <div class="d-flex flex-column" style="color: {{ .Params.accent }};">
+                                        {{ range $index, $value := .Params.sources }}
+                                            <a class="links" href="{{ $value }}" target="_blank" rel="noopener noreferrer">{{ $index }}</a>
+                                        {{ end }}
+                                    </div>
+                            {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="offset-xl-1 col-xl-7 col-lg-7 col-12 pt-5 project-content">
+                            {{ .Content | safeHTML }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <section aria-label="Return to all items page">
+        <div class="container-fluid py-5 background-white">
+            <div class="container">
+                <a class="back-overview" href="/work">Back to overview</a>
+            </div>
+        </div>
+    </section>
+
+    {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+    
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="{{ .Site.Language }}" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <a class="screen-reader-text" href="#content">Skip to content</a>
+
+    <button id="theme-toggle" class="acctoggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+
+    <header class="background-blue-500">
+        {{ partial "menu.html" . }}
+        <div class="container text-white py-5">
+            <div class="row">
+                <div class="offset-xl-1 col-xl-7 col-lg-8 col-12">
+                    <h1 class="mb-3">{{ .Title | markdownify }}</h1>
+                    <p class="mb-0 subtitle">{{ .Params.subtitle | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="content">
+        <main>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-7 col-lg-7 col-md-12 col-12 py-5">
+        
+                            <article>
+                                {{ if .IsTranslated }}
+                                {{ i18n "postAvailable" }}
+                                {{ range .Translations }}
+                                <a href="{{ .Permalink }}"><span>{{ index $.Site.Data.lang (.Lang) }}</span></a>
+                                {{ end}}
+                                {{ end }}
+    
+                                <div class="post-content">
+                                    {{ .Content }}
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+    
+</body>
+
+</html>
