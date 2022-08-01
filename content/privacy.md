@@ -4,49 +4,145 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida ac 
 theme = "dark"
 +++
 
-Your privacy is critically important to us. At Ura, we have a few fundamental principles:
+Ura Design is operated by (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):
 
-We don’t ask you for personal information unless we truly need it. (We can’t stand services that ask you for things like your gender or income level for no apparent reason).
- We don’t share your personal information with anyone except to comply with the law, develop our products or protect our rights.
- We don’t store personal information on our servers unless required for the ongoing operation of one of our services.
-    In our platform, we aim to make it as simple as possible for you to control what’s visible to the public, seen by search engines, kept private, and permanently deleted.
+Elio Qoshi  
+c/o Cultivation Space\
+Aufgang 4\
+Gottschedstraße 4\
+13357 Berlin\
+USt-IdNr/VAT: 18/101/00728
 
-Below is our privacy policy, which incorporates these goals. (Note: this privacy policy available under a Creative Commons ShareAlike license, which means you’re more than welcome to steal it and repurpose it for your own use. Just make sure to replace references to us with ones to you, and we’d appreciate a link to Automattic.com, which is the organisation that created this document first).
+Email: hello@ura.design\
+Website: https://ura.design/
 
-If you have questions about deleting or correcting your personal data please contact our support team.
-It is Ura’s policy to respect your privacy regarding any information we may collect while operating our platform.
+Ura Design adheres to the highest ethical standards in all of our operations and is dedicated to protecting the privacy of everyone who interacts with us. We don’t sell, barter, give away, rent, or permit anyone outside of Ura Design, and project-scoped contractors to use or access information about our partners, collaborators, research participants, or website visitors.
 
-## Website Visitors
+We use third party services to publish work, keep in touch with people, and understand how we can do both of these things better. Here you can find out what these services are and how we handle all sorts of data, from user research to job applications.
 
-Like most website operators, Ura collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Ura’s purpose in collecting non-personally identifying information is to better understand how Ura’s visitors use its website. From time to time, Ura may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.
-Ura also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users. Ura only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below, except that blog commenter IP addresses and email addresses are visible and disclosed to the administrators of the blog where the comment was left.
+If there is additional information you would like to see in this document about our practices, or if you have other comments or questions, please reach out to email hello@ura.design
 
-## Gathering of Personally-Identifying Information
+This document was last updated on 1 August, 2022.
 
-Certain visitors to Ura’s websites choose to interact with Ura in ways that require the Ura team to gather personally-identifying information. The amount and type of information that Ura gathers depends on the nature of the interaction. For example, we ask visitors who wish to donate to provide some personal information. Those who engage in financial transactions related to the Ura project – by purchasing a software as a services package, for example – are asked to provide additional information, including as necessary the personal and financial information required to process those transactions. In each case, Ura collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Ura. The Ura team does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.
+# Our site & services
 
-## Aggregated Statistics
+We use the following services to run our websites and understand how people are using them.
 
-Ura may collect statistics about the behavior of visitors to its websites. Ura may display this information publicly or provide it to others. However, Ura does not disclose personally-identifying information other than as described below.
+## Website Analytics
 
-## Information We Collect from Other Sources
+Our website uses Plausible for simple and privacy-friendly web analytics. We collect information about how people are using our sites to allow us to improve their experience. Our traffic data is not used for any other purposes. Plausible does not use cookies and is fully compliant with GDPR, CCPA, PECR and other privacy regulations out of the box.
 
-With your authorization, we may also obtain information about you from other sources. For example, if you create or log into your Ura account through a Github account we will receive information from that service (such as your username, basic profile information etc) via the authorization procedures used by that service. The information we receive depends on which services you authorize and any options that are available.
+## GitHub
 
-## Protection of Certain Personally-Identifying Information
+We use GitHub Pages to host our website. Find out more about how Github uses data in their privacy statement.
 
-Ura discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors and affiliated organizations that (i) need to know that information in order to process it on Ura’s behalf or to provide services available at Ura’s websites, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organizations may be located outside of your home country; by using Ura’s websites, you consent to the transfer of such information to them. Ura will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors and affiliated organizations, as described above, Ura discloses potentially personally-identifying and personally-identifying information only in response to a subpoena, court order or other governmental request, or when Ura believes in good faith that disclosure is reasonably necessary to protect the property or rights of Ura, third parties or the public at large. If you are a registered user of an Ura website and have supplied your email address, Ura may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with Ura and our services. We primarily use our various product blogs to communicate this type of information, so we expect to keep this type of email to a minimum. If you send us a request, we reserve the right to publish it in order to help us clarify or respond to your request or to help us support other users. Ura takes all measures reasonably necessary to protect against the unauthorized access, use, alteration or destruction of potentially personally-identifying and personally-identifying information.
+## Presentator
 
-## Business Transfers
+We host our work presentations using Presentator for its robust and scalable infrastructure. Find out more about how they use data in their privacy statement.
 
-If Ura, or substantially all of its assets, were acquired, or in the unlikely event that Ura goes out of business or enters bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of Ura may continue to use your personal information as set forth in this policy.
+## ProtonMail
 
-## Privacy Policy Changes
+We currently use ProtonMail for our email, calendaring, and document storage. Individual members of the team use PGP and are happy to correspond via encrypted email, or honor requests to have files shared with us be not stored in Google Drive. We respect diverse threat models and work to accommodate our partners’ needs and concerns.
 
-Although most changes are likely to be minor, Ura may change its Privacy Policy from time to time, and in Ura’s sole discretion. Ura encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
+## Mattermost
 
-## Change log:
+We host Mattermost chat service for internal communication and community organizing. Mattermost stores your account information and usage data, and our administrators have access to all public channels. Please refer to Mattermost’s privacy policy before you sign on.
 
-- May 8, 2019: removal of Cookies.
-- March 1, 2018: first publication of the Privacy Policy document.
+## Nextcloud
 
+We host a Nextcloud server to store every work project, documentations and photographies from conferences we have participated and organized. We also use Nextcloud for surveys and forms needed for the testing and research.
+
+## HedgeDoc
+
+We use HedgeDoc as our real-time editor, allowing authors and users to edit a text document and see their edits instantly and simultaneously.
+
+# Our social media accounts
+
+We use social media accounts to share our work. We occasionally use the analytics tools provided by these platforms to understand how we can use these services better. Our social media accounts are:
+
+- [Ura Design on Twitter](<https://twitter.com/uracreative> "Twitter Link") | [Privacy policy](<https://twitter.com/en/privacy#update>)
+- [Ura Design on Instagram](<https://www.instagram.com/uradotdesign/>) | [Privacy policy](<https://help.instagram.com/519522125107875/?helpref=uf_share>)
+
+If you’d like content about you removed from any of our social media profiles, please contact us at <https://chat.ura.design/>.
+
+# Research participants
+
+Research is an important part of our work: it helps us understand people’s needs and build better products and services.
+
+## Asking for consent
+
+All research participants are given a consent form that outlines what the research involves, what information will be recorded and how it will be used. If the participant is happy to proceed we ask them to sign the form to confirm this. We scan signed consent forms and shred paper copies, then store consent forms on our Nextcloud server and keep these for 3 years.
+
+At the moment, we do not conduct any research with people under the age of 18. We do not give incentives for the participants.
+
+You can view an example of our participant Bill of Rights on GitHub. *link here*
+
+# Using information from research
+
+Research material is separated from any identifiable information, such as consent forms, while we are working with it.
+
+Any notes we gather during research sessions are stored securely. Any digital files (like audio, photos and videos) are stored on Nextcloud and are only accessed by Ura Design's team members involved in the research. At the end of the project, all notes and digital files are destroyed or deleted.
+
+Sometimes we may publish quotes from research sessions. We only do this if we have specific consent from the participant and any personally identifiable information has been removed. We will only publish audio, photos and video from a research session if a participant has given consent and has signed a model release form.
+
+# Survey
+
+We use Nextcloud for gathering and processing information from survey participants. See their privacy policy for more information.
+
+# Withdrawing your consent
+
+Participants are able to withdraw their information from a project at any time. To do this, contact 
+
+## Working at Ura
+
+Only team members involved in the recruitment process have access to applications, CVs and emails we receive. We don’t collect any special category data or ask for any background checks as part of the application process.
+
+When people join Ura Design, we request information about them needed for tax purposes. We hold information about their role and their professional development at Ura Design. Access to this information is controlled.
+
+## Things we don’t do
+
+Ura Design doesn’t participate in the following data processing activities:
+
+- Buying or selling marketing lists
+- Entering into data sharing agreements with other organisations
+- Telephone marketing
+- Postal marketing
+- CCTV surveillance
+
+We don’t use “soft opt-in”, meaning you won’t receive any marketing communication from us unless you’ve specifically agreed to it.
+
+## Keeping data secure
+
+We carefully choose our services and tools at Ura Design. It’s important that they follow good security practices, like HTTPS, two-factor authentication and the ability to set a strong password. We’ve reviewed the privacy policies and security practices of everything we use.
+
+When a new team member joins Ura Design, we explain best practices for keeping their devices secure, maintaining the security of their online accounts including the usage of a new Yubikey provided by [Yubico](<https://www.yubico.com/>).
+
+## Data breaches
+
+In the event of a data breach, we are required to notify the Information Commissioner’s Office. We will do so following their [guidance](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/>).
+
+## Data transfer outside the EEA
+
+We have reviewed the privacy policies of third party services we use. They provide adequate protections when information is shared outside of the European Economic Area.
+
+## Reviewing how we use data
+
+Every quarter, we review our documentation of the data we handle and third party services we use. This helps us continuously improve our processes and hold ourselves to account. We will update this document as necessary.
+
+## Your rights and getting in touch
+
+The General Data Protection Regulation gives EU citizens the following rights:
+
+- [Right to be informed](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-be-informed/>)
+- [Right of access](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-of-access/>)
+- [Right to rectification](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-rectification/>)
+- [Right to erasure](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/>)
+- [Right to restrict processing](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-restrict-processing/>)
+- [Right to data portability](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-data-portability/>)
+- [Right to object](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-object/>)
+- [Rights related to automated decision-making, including profiling](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/rights-related-to-automated-decision-making-including-profiling/>)
+
+To exercise any of these rights, please contact us at link. You can find information specific to the services we use or our activities in the relevant sections of this document. If you are located in the EU and aren’t satisfied by our response, you can contact the EU [Information Commissioner’s Office](<https://ico.org.uk/make-a-complaint/>).
+# Acknowledgements
+
+In drafting this policy we used a number of different resources and inspirations. We want to offer particular thanks to Simply Secure for their clear example.

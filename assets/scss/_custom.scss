@@ -371,7 +371,7 @@ footer {
 }
 
 .post-content {
-  h1,
+  & h1,
   h2,
   h3,
   h4,
@@ -379,6 +379,16 @@ footer {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+
+  & a {
+    color: $blue-600;
+
+    &:hover,
+    :active,
+    :focus-visible {
+      color: $blue-700;
+    }
   }
 }
 
