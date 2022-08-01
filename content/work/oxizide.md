@@ -62,12 +62,6 @@ After setting the visual identity, everything else was done step-by-step. With v
 
 {{< figure src="/img/work/oxidize-swag.png" >}}
 
-## Oxidize on web
-
-LOREM IPSUM
-
-{{< figure src="/img/work/oxidize-website.png" >}}
-
 
 ## How we helped
 
