@@ -85,7 +85,7 @@ body {
   font-size: 1.25rem;
   position: fixed;
   bottom: auto;
-  top: 55vh;
+  top: 85vh;
   left: 0;
   right: auto;
   z-index: 100;
@@ -661,11 +661,21 @@ details[open] summary::after {
 }
 
 .testimonial {
-  animation: fadeInAnimation 1s;
+  animation: fadeInAnimation 0.35s;
 
   &-name {
     font-size: 1.25rem;
     margin-bottom: 0;
+  }
+
+  &-link {
+    color: $blue-600;
+
+    &:hover,
+    :active,
+    :focus-visible {
+      color: $blue-700;
+    }
   }
 
   & blockquote {
@@ -684,6 +694,8 @@ details[open] summary::after {
   min-height: 22rem;
 }
 
+// $carousel-transition-duration: .3s !important;
+
 .carousel-indicators {
   justify-content: start;
   margin-bottom: 0.5rem;
@@ -696,19 +708,23 @@ details[open] summary::after {
   opacity: 1;
   justify-content: start;
   width: 5%;
-  transition: transform 0.25s ease-in-out;
+  transition: background-image 0.25s ease-in-out;
 
   &:focus-visible {
     outline: 2px solid $blue-500;
   }
 }
 
-.carousel-control-prev:hover i:before {
-  content: "\f177";
+.arrow-prev:hover path {
+  d: path(
+    "M55 18.982H9.979l10.121 10.26-3.399 3.353-15.784-16 15.784-16 3.399 3.353-10.121 10.26H55v4.774z"
+  );
 }
 
-.carousel-control-next:hover i:before {
-  content: "\f178";
+.arrow-next:hover path {
+  d: path(
+    "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
+  );
 }
 
 .carousel-control-next {
@@ -1024,6 +1040,11 @@ details[open] summary::after {
     &.active {
       background-color: $blue-500;
     }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: unset;
   }
 
   .testimonial {

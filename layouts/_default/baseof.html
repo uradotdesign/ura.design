@@ -8,7 +8,7 @@
 <body class="d-flex flex-column min-vh-100">
     <a class="screen-reader-text" href="#content">Skip to content</a>
 
-    <button id="theme-toggle" class="acctoggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <button id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Toggle High Contrast" class="acctoggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
 
     {{ partial "header.html" . }}
 
@@ -19,6 +19,11 @@
     {{ block "footer" . }}
     {{ partial "footer.html" . }}
     {{ end }}
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
     
 </body>
 

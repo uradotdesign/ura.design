@@ -1,6 +1,7 @@
 +++
 name = "Sara Sinclair Brody"
 organization = "Design Director"
+twitter = "scouttle"
 weight = 1
 +++
 

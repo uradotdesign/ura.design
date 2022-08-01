@@ -1,6 +1,7 @@
 +++
 name = "Florian Gilcher"
 organization = "Ferrous Systems / Rust-Lang"
+twitter = "Argorak"
 weight = 3
 +++
 

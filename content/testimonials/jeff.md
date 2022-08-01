@@ -1,6 +1,7 @@
 +++
 name = "Jeff Beatty"
 organization = "Mozilla / Firefox Localization"
+twitter = "gueroJeff"
 weight = 2
 +++
 

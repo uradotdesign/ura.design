@@ -108,55 +108,7 @@
         </div>
     </div>
 
-    <div class="container-fluid background-gray-50">
-        <div class="container">
-            <div class="row justify-content-center py-4">
-                <div class="col-xl-10 col-12">
-                <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
-                    {{ $testimonial := (where .Site.RegularPages "Type" "testimonials") }}
-                    <button class="carousel-control-prev" type="button" aria-label="Previous slide" data-bs-target="#testimonials" data-bs-slide="prev">
-                        <span aria-hidden="true">
-                            <svg width="55" height="33" viewBox="0 0 55 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M32 18.9822L9.06166 18.9822L19.1828 29.2419L15.7839 32.5949L4.84003e-07 16.595L15.7839 0.595214L19.1828 3.94825L9.06169 14.2078L32 14.2078L32 18.9822Z" fill="#1B69B6"/>
-                            </svg>
-                        </span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <div class="carousel-indicators">
-                        {{ range first 1 $testimonial }}
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" class="active" aria-current="true" aria-label="Testimonial by {{.Page.Params.name }}"></button>
-                        {{ end }}
-                        {{ range after 1 $testimonial }}
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" aria-label="Testimonial by {{.Page.Params.name }}"></button>
-                        {{ end }}
-                    </div>
-                    <div class="carousel-inner">
-                        {{ range first 1 $testimonial }}
-                        <div class="carousel-item testimonial py-5 active">
-                            <blockquote>{{ .Content }}</blockquote>
-                            <h2 class="testimonial-name">{{ .Page.Params.name }}</h2>
-                            <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
-                        </div>
-                        {{ end }}
-                        {{ range after 1 $testimonial }}
-                        <div class="carousel-item testimonial py-5">
-                            <blockquote>{{ .Content | markdownify }}</blockquote>
-                            <h2 class="testimonial-name">{{ .Page.Params.name }}</h2>
-                            <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
-                        </div>
-                        {{ end }}
-                    </div>
-                    <button class="carousel-control-next" type="button" aria-label="Next slide" data-bs-target="#testimonials" data-bs-slide="next">
-                      <span aria-hidden="true">
-                            <!-- <i class="fa-solid fa-arrow-right color-blue-500 fa-2x"></i> -->
-                      </span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {{ partial "testimonials" . }}
 
     <div class="container-fluid px-sm-3 px-0 pt-5 background-gray-50">
         <div class="container">
