@@ -67,7 +67,6 @@ body {
     & .home a {
       text-decoration: none !important;
     }
-
     & .circle-icons i {
       &:hover,
       &:focus-visible,
@@ -837,9 +836,13 @@ svg path {
     transition: 0.25s ease-in-out;
   }
 
-  &:hover:before {
-    color: $blue-600;
-    margin-right: 1rem;
+  &:hover,
+  &:focus-visible,
+  &.selected {
+    &:before {
+      color: $blue-600;
+      margin-right: 1rem;
+    }
   }
 }
 
