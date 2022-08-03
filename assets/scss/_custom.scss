@@ -22,54 +22,58 @@ body {
     }
 
     & .back-overview:before {
-      color: #ecc781 !important;
+      color: $contrast !important;
     }
 
     & .logo {
-      fill: #ecc781 !important;
+      fill: $contrast !important;
     }
 
     & a {
-      color: #ecc781 !important;
-      border-color: #ecc781;
+      color: $contrast !important;
+      border-color: $contrast;
+    }
+
+    & .fa-grip-lines, .fa-xmark {
+      color: $contrast !important;
     }
 
     & .acctoggle {
       &:hover,
       &:focus-visible,
       &:focus {
-        border: 2px solid #ecc781;
+        border: 2px solid $contrast;
       }
     }
 
     & .tablinkservice:hover {
-      color: #ecc781 !important;
-      border-left-color: #ecc781;
+      color: $contrast !important;
+      border-left-color: $contrast;
     }
 
     & .tablinkservice.active {
-      color: #ecc781 !important;
-      border-left-color: #ecc781;
+      color: $contrast !important;
+      border-left-color: $contrast;
     }
 
     & .carousel-dark .carousel-indicators [data-bs-target] {
-      border-color: #ecc781;
+      border-color: $contrast;
 
       &.active {
-        background-color: #ecc781 !important;
+        background-color: $contrast !important;
       }
     }
 
     & .button-filter {
-      color: #ecc781 !important;
+      color: $contrast !important;
 
       &:after {
-        background: #ecc781 !important;
+        background: $contrast !important;
       }
     }
 
     & .carousel-control-next path {
-      fill: #ecc781 !important;
+      fill: $contrast !important;
     }
 
     & .home a {
@@ -80,16 +84,16 @@ body {
       &:hover,
       &:focus-visible,
       &:focus {
-        outline-color: #ecc781;
+        outline-color: $contrast;
       }
     }
 
     & footer a i:hover:before {
-      color: #ecc781;
+      color: $contrast;
     }
 
     & a:after {
-      color: #ecc781 !important;
+      color: $contrast !important;
     }
   }
 }
@@ -1030,13 +1034,14 @@ svg path {
   }
 
   .carousel-indicators {
+    right: unset;
     justify-content: center;
     margin-bottom: 0.5rem;
   }
 
   .carousel-control-next {
-    right: 0;
-    left: unset;
+    right: unset;
+    left: 35%;
     top: unset;
     opacity: 1;
     justify-content: center;
