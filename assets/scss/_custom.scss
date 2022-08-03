@@ -34,6 +34,14 @@ body {
       border-color: #ecc781;
     }
 
+    & .acctoggle {
+      &:hover,
+      &:focus-visible,
+      &:focus {
+        border: 2px solid #ecc781;
+      }
+    }
+
     & .tablinkservice:hover {
       color: #ecc781 !important;
       border-left-color: #ecc781;
@@ -67,6 +75,7 @@ body {
     & .home a {
       text-decoration: none !important;
     }
+
     & .circle-icons i {
       &:hover,
       &:focus-visible,
@@ -108,9 +117,8 @@ body {
   left: 0;
   right: auto;
   z-index: 100;
-  transform: translateZ(4px);
   transition: 0.2s;
-  will-change: opacity, visibility;
+  will-change: border;
 }
 
 // Backgrounds
