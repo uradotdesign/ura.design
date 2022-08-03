@@ -32,7 +32,7 @@ This project has the ambition to help I2P define their aspiration and the missio
 
 By understanding the purpose of I2P, starting with the “Why?”, after several discussions and research, we helped define the voice and personality of the I2P identity. Visually moving away from the dark hacker aestethetics, we made I2P’s look approachable look, potentially making it easier to reach a larger audience of people who have not been familiar with I2P before. By eliminating inconsistencies in its brand identity, the purpose of I2P becomes more clear and it reinforces the others, creating a virtuous circle of definition and confirmation of their identity.
 
-{{< figure src="/img/work/i2p-large.png" >}}
+{{< figure src="/img/work/i2p-large.png" alt="I2P brand overview" >}}
 
 ## Shaping the Identity
 
@@ -40,7 +40,7 @@ After our research, we concluded I2P’s identity in collaboration with the core
 
 I2P has a rational personality, with an open and simple voice, making it friendly and approachable for a diversity of people. I2P should be usable by everyone. Its ideological and futuristic characteristics are and will continue to be a very important part of I2P personality, avoiding exaggerated claims and over-promises but staying true to what it aspires.
 
-![i2p book illustration](/img/work/i2p-book.png)
+{{< figure src="/img/work/i2p-book.png" alt="I2P brand book mockup" >}}
 
 ## New Identity, New Looks
 
@@ -50,7 +50,7 @@ The new logo has a modern and approachable glyph with elements that symbolize I2
 
 Link: [I2P - Brand & Visual Identity: Graphic Assets](https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-Branding?page-id=504%3A2&node-id=504%3A4&viewport=241%2C48%2C0.33&scaling=contain)
 
-{{< figure src="/img/work/i2p-logo.png" >}}
+{{< figure src="/img/work/i2p-logo.png" alt="I2P logo composition" >}}
 
 ## Browser Extension Ideation
 

@@ -21,13 +21,13 @@ CalyxOS is an Android mobile operating system that puts privacy and security int
 
 CalyxOS needs to be the obvious alternative to the big mobile duopoly Google and Apple are controlling, so we prioritized making CalyxOS more approachable by improving various visual identity shortcoming. We aimed to bring an easy-going and fun note to the privacy values CalyxOS embodies. At the end of the day, this should be a phone available to the every-day person.
 
-{{< figure src="/img/work/calyxos-flower.png" >}}
+{{< figure src="/img/work/calyxos-flower.png" alt="CalyxOS illustration preview" >}}
 
 ## Illustrations
 
 We helped CalyxOS by offering a new set of Illustrations to replace the current ones, giving a unique and modern look, also setting a flexible and scalable graphic style. These graphics are bright, fun, abstract, vivid, with elements of privacy and security integrated into them. We wanted to move away from the overexposed approach of shady metaphors when it comes to privacy and instead settled for a visual approach which normalized privacy features.
 
-{{< figure src="/img/work/calyxos-illustrations.png" >}}
+{{< figure src="/img/work/calyxos-illustrations.png" alt="CalyxOS overview of 5 illustrations on dark mode" >}}
 
 ## Wallpapers
 
@@ -35,7 +35,7 @@ During our visual explorations for the default wallpapers which ship with CalyxO
 
 Due to the low contrast among the wallpaper colours, they offer splendid contrast levels with icons and text on the screen, while preserving the Calyx visual style.
 
-{{< figure src="/img/work/calyxos-wallpapers.png" >}}
+{{< figure src="/img/work/calyxos-wallpapers.png" alt="Mockups of phones with CalyxOS wallpapers" >}}
 
 ## Accessibility Audit
 
@@ -45,7 +45,7 @@ As part of our accessibility audit we reviewed various apps shipped by default i
 
 Common accessibility errors discovered were missing alt= tags as well as inconsistent focus orders. We summarized our findings in a FigJam whiteboard project which we relayed to the CalyxOS lead developer.
 
-{{< figure src="/img/work/calyxos-audit.png" >}}
+{{< figure src="/img/work/calyxos-audit.png" alt="CalyxOS Datura Firewall and OpenKeychain screenshots" >}}
 
 Many of the buttons were labeled as "unleveled button". For screenreader users this creates an enormous accessibility issue which can be easily mitigated by adding a concise description to the interactive element.
 

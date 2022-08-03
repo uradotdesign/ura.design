@@ -22,29 +22,27 @@ Working with Stackpin consisted in creating a modern and relevant brand identity
 
 We created the entire brand design and implemented the new identity in the X pages. To ensure the visual consistency, we provided a guideline manual so Stackspin’s visual identity will presented correctly in their future activity.
 
-{{< figure src="/img/work/stackspin-cover.png" >}}
+{{< figure src="/img/work/stackspin-cover.png" alt="Stackspin Logo cover image" >}}
 
 ## S as Stack / S as Spin,
 
-The icon of the new logo symbolizes the stacked blocks while forming the letter S. (something about the colorr and the Greenhost connection). Lorem Ipsum
+The icon of the new logo symbolizes the stacked blocks while forming the letter S. (something about the colorr and the Greenhost connection).
 
-{{< figure src="/img/work/stackspin-icon.png" >}}
+{{< figure src="/img/work/stackspin-icon.png" alt="Stackspin logo composition" >}}
 
 ## Typography and Colors
 
-Lorem Ipsum
+{{< figure src="/img/work/stackspin-typography.png" alt="Typeface preview (Space Grotesk & Inter)" >}}
 
-{{< figure src="/img/work/stackspin-typography.png" >}}
-
-{{< figure src="/img/work/stackspin-colors.png" >}}
+{{< figure src="/img/work/stackspin-colors.png" alt="Color palette preview (teal)" >}}
 
 ## Brand Book
 
-After setting the visual identity, we prepared and provided the brand guidelines book. The purpose of this book is to ensure that the brand and visual identity of Stackspin is correclty presented everywhere. Lorem Ipsum
+After setting the visual identity, we prepared and provided the brand guidelines book. The purpose of this book is to ensure that the brand and visual identity of Stackspin is correclty presented everywhere. 
 
 Link: [Stackspin - Brand Book](https://www.figma.com/proto/upxHYnkoc9x4bKSXlCvsdv/Branding?page-id=77%3A62&node-id=81%3A100&viewport=241%2C48%2C0.19&scaling=contain)
 
-{{< figure src="/img/work/stackspin-mockup.png" >}}
+{{< figure src="/img/work/stackspin-mockup.png" alt="Stackspin brand book mockup" >}}
 
 ## How we helped
 

@@ -29,13 +29,13 @@ Unfortunately, Mozilla moving away from Thunderbird created technical and design
 
 In Open Source we often times encounter resistance and hesitation to change. It’s something we acknowledge and can understand, considering there are contributors who have been involved for years and suddenly someone out of the blue suggests doing a number of changes. We respect that. However the Thunderbird project has been welcoming to suggestions and help, allowing us to enjoy the process thoroughly beyond simply handing off the deliverables.
 
-{{< figure src="/img/work/thunderbird-icon.png" >}}
+{{< figure src="/img/work/thunderbird-icon.png" alt="Redesigned Thunderbird logo" >}}
 
 ## Improving user flows
 
 We have worked on improving the user experience for many features of Thunderbird, starting with the preferences view redesign and continuing with an overall assessment of the security features, the most critical of them being OpenPGP encryption. Throughout the way, we utilized various user research methods to make sure we bring the users' voice to inform our designs and shared our findings with the broader community. 
 
-{{< figure src="/img/work/thunderbird-mockup.png" >}}
+{{< figure src="/img/work/thunderbird-mockup.png" alt="Privacy & Security tab view in Thunderbird Settings" >}}
 
 ## Rethinking encryption
 
@@ -47,7 +47,7 @@ Account Settings/End-To-End Encryption, covering the entire user journey:
 * Email
 * Security/encryption for email
 
-{{< figure src="/img/work/thunderbird-encryption.png" >}}
+{{< figure src="/img/work/thunderbird-encryption.png" alt="Redesigned OpenPGP setup wizard in Thunderbird" >}}
 
 ## How we helped
 
@@ -56,7 +56,7 @@ On our heuristic evaluation, we discovered 20+ usability violations in different
 We then offered insights and recommendations for quick improvements. 
 In addition, during this research phase, we discovered that encryption was challenging to understand for novice users. That led us to continue our research with this particular segment in mind, to find optimal solutions for simplifying the encryption process. To help with this, we designed an onboarding system that guides new users to enable and use encryption in their daily workflow.
 
-{{< figure src="/img/work/thunderbird-help.png" >}}
+{{< figure src="/img/work/thunderbird-help.png" alt="Set Up Encryption wizard Thunderbird" >}}
 
 ## Encryption Onboarding
 
@@ -67,4 +67,4 @@ We talked directly to novice Thunderbird users and non-users to validate our des
 
 These were semi-structured interviews in combination with formal usability testing to find out how the onboarding fits the overall Thunderbird experience and uncover usability flaws of our previously suggested prototypes.
 
-{{< figure src="/img/work/thunderbird-onboarding.png" >}}
+{{< figure src="/img/work/thunderbird-onboarding.png" alt="Import an Existing key view in Thunderbird" >}}

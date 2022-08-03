@@ -20,13 +20,13 @@ Internews’ OPTIMA program is designed to build resources and advocacy capacity
 
 The visual design for Internews’ OPTIMA aims to create a modern, approachable, and friendly identity for the program and its mission. As part of this scope we created a set of design deliverables, as well as accompanying brand guidelines to ensure coherent application of the OPTIMA brand across different channels.
 
-{{< figure src="/img/work/optima-brand.svg" >}}
+{{< figure src="/img/work/optima-brand.svg" alt="Optima brand preview" >}}
 
 ## About the Logo
 
 As part of the logo, the rectangles represent censorship, while the divided OPTIMA stands for the obstacles in communication. The logo of Internews' OPTIMA aims to represent the idea of being able to communicate and understand through distance, division, and censorship. 
 
-{{< figure src="/img/work/optima-text.svg" >}}
+{{< figure src="/img/work/optima-text.svg" alt="Optima logo composition" >}}
 
 ## Visual Style
 
@@ -36,7 +36,7 @@ We designed the visual components in a modular way in order to compliment the en
 
 The illustrations set is flexible and open for changes. Any icon can be added, as long as it is designed in this specific style.
 
-{{< figure src="/img/work/optima-icons.svg" >}}
+{{< figure src="/img/work/optima-icons.svg" alt="Optima brand elements preview" >}}
 
 ## Independent Slogan
 
@@ -46,7 +46,7 @@ It stands in the middle of the two graphic styles, creating a bridge between the
 
 There is no constraint regarding the logo and slogan relationship. The slogan is independent. It may be shown with the logo or just part of the illustrated artworks.
 
-{{< figure src="/img/work/optima-slogan.svg" >}}
+{{< figure src="/img/work/optima-slogan.svg" alt="Optima brand elements 'Defending the Internet with Data'">}}
 
 ## Brand Book
 
@@ -54,7 +54,7 @@ The brand book is an important addition and documentation of the visual identity
 
 Link: [Internews’ OPTIMA - Brand Book](https://www.figma.com/proto/sf5rhrK9a6tS7yEomiNwmr/Optima?page-id=248%3A1754&node-id=248%3A1755&viewport=241%2C48%2C0.13&scaling=contain)
 
-{{< figure src="/img/work/optima-typography.svg" >}}
+{{< figure src="/img/work/optima-typography.svg" alt="Optima Typeface and color palette preview" >}}
 
 ## Needs Assessment Report
 
@@ -64,7 +64,7 @@ The report was redesigned with a new layout based on the recently designed visua
 
 Link: [Internews’ OPTIMA- Building Capacity for Internet Shutdown Advocacy](https://internews.org/wp-content/uploads/2021/03/Optima_Needs_Assessment_Report_2020.pdf)
 
-{{< figure src="/img/work/optima-report.webp" >}}
+{{< figure src="/img/work/optima-report.webp" alt="Optima Needs assessment report mockup" >}}
 
 ## How we helped
 
