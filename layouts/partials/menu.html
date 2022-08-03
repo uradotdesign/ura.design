@@ -5,7 +5,17 @@
         {{ $theme := .Page.Params.theme }}
         {{ $type := .Page.Type }}
         {{ $home := .IsHome }}
-        <img src="{{ if .IsHome }}/img/logo-white.svg{{ else if eq .Page.Type "about" }}/img/logo-white.svg{{ else if eq $theme "dark" }}/img/logo-white.svg{{ else if eq $theme "light" }}/img/logo-dark.svg{{ else }}/img/logo.svg{{ end }}" alt="Ura Design logo" {{ if .IsHome }}width="100px"{{ else }}width="100px"{{ end }}>
+        {{ if .IsHome }}
+        {{ partial "logo.html" "white" }}
+        {{ else if eq .Page.Type "about" }}
+        {{ partial "logo.html" "white" }}
+        {{ else if eq $theme "dark" }}
+        {{ partial "logo.html" "white" }}
+        {{ else if eq $theme "light" }}
+        {{ partial "logo.html" "dark" }}
+        {{ else }}
+        {{ partial "logo.html" "default" }}
+        {{ end }}
       </a>
       <button class="navbar-toggler" type="button" aria-label="Toggle navigation" onclick="openNav()">
         <i class="fa-solid fa-grip-lines {{ if .IsHome }}text-white{{ else if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if eq $type "about" }}text-white{{ else }}color-blue-500{{ end }}"></i>
@@ -27,7 +37,15 @@
         <div class="container">
           <div class="navbar align-items-center justify-content-between">
             <a class="brand" href="{{ .Site.BaseURL }}">
-                <img src="{{ if eq $theme "dark" }}/img/logo-white.svg{{ else if eq $theme "light" }}/img/logo-dark.svg{{ else }}/img/logo-white.svg{{ end }}" alt="Ura Design logo" width="100px">
+
+              {{ if eq $theme "dark" }}
+              {{ partial "logo.html" "white" }}
+              {{ else if eq $theme "light" }}
+              {{ partial "logo.html" "dark" }}
+              {{ else }}
+              {{ partial "logo.html" "white" }}
+              {{ end }}
+
             </a>
             <button type="button" class="closebtn" aria-label="Toggle navigation" onclick="closeNav()"><i class="fa-solid fa-xmark {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else }}{{ end }}"></i></button>
         </div>

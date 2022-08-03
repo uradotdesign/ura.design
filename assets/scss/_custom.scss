@@ -160,6 +160,10 @@ nav .nav-link {
   transition: 0.3s;
   overflow: auto;
   overscroll-behavior-y: contain;
+
+  & .container {
+    padding-top: 0.2rem;
+  }
 }
 
 .overlay a:not(.brand) {
@@ -896,14 +900,12 @@ details[open] summary::after {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 0;
     height: 0.25rem;
     background: transparent;
     display: block;
     margin-top: 0.5rem;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: 0.25s ease-in-out;
   }
 
   &:hover,
@@ -912,10 +914,8 @@ details[open] summary::after {
     color: $blue-800;
 
     &:after {
-      content: "";
+      width: 100%;
       background: currentColor;
-      transform: scaleX(1);
-      transform-origin: bottom left;
     }
   }
 }
