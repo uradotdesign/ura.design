@@ -25,9 +25,18 @@ body {
       color: #ecc781 !important;
     }
 
+    & .logo {
+      fill: #ecc781 !important;
+    }
+
     & a {
       color: #ecc781 !important;
       border-color: #ecc781;
+    }
+
+    & .tablinkservice:hover {
+      color: #ecc781 !important;
+      border-left-color: #ecc781;
     }
 
     & .tablinkservice.active {
@@ -43,9 +52,20 @@ body {
       }
     }
 
-    & .carousel-control-prev i,
-    .carousel-control-next i {
+    & .button-filter {
       color: #ecc781 !important;
+      
+      &:after {
+        background: #ecc781 !important;
+      }
+    }
+
+    & .arrow-prev path {
+      fill: #ecc781 !important;
+    }
+
+    & .arrow-next path {
+      fill: #ecc781 !important;
     }
 
     & .home a {
@@ -707,6 +727,10 @@ details[open] summary::after {
   &:focus-visible {
     outline: 2px solid $blue-500;
   }
+}
+
+svg path {
+  transition: .2s ease-in-out;
 }
 
 .arrow-prev:hover path {
