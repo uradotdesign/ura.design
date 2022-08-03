@@ -4,98 +4,98 @@ html {
   height: 100%;
 }
 
-// Body
+html[data-theme="dark"] {
+  & * {
+    background: #121212 !important;
+    color: hsla(0, 0%, 100%, 0.87) !important;
+  }
 
+  & a:not(.nav-link, .see-more) {
+    text-decoration: underline;
+  }
+
+  & .back-overview:before {
+    color: $contrast !important;
+  }
+
+  & .logo {
+    fill: $contrast !important;
+  }
+
+  & a {
+    color: $contrast !important;
+    border-color: $contrast;
+  }
+
+  & .fa-grip-lines,
+  .fa-xmark {
+    color: $contrast !important;
+  }
+
+  & .acctoggle {
+    &:hover,
+    &:focus-visible,
+    &:focus {
+      border: 2px solid $contrast;
+    }
+  }
+
+  & .tablinkservice:hover {
+    color: $contrast !important;
+    border-left-color: $contrast;
+  }
+
+  & .tablinkservice.active {
+    color: $contrast !important;
+    border-left-color: $contrast;
+  }
+
+  & .carousel-dark .carousel-indicators [data-bs-target] {
+    border-color: $contrast;
+
+    &.active {
+      background-color: $contrast !important;
+    }
+  }
+
+  & .button-filter {
+    color: $contrast !important;
+
+    &:after {
+      background: $contrast !important;
+    }
+  }
+
+  & .carousel-control-next path {
+    fill: $contrast !important;
+  }
+
+  & .home a {
+    text-decoration: none !important;
+  }
+
+  & .circle-icons i {
+    &:hover,
+    &:focus-visible,
+    &:focus {
+      outline-color: $contrast;
+    }
+  }
+
+  & footer a i:hover:before {
+    color: $contrast;
+  }
+
+  & a:after {
+    color: $contrast !important;
+  }
+}
+
+// Body
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
   overflow-y: scroll;
-
-  &.accessibility-contrast {
-    & * {
-      background: #121212 !important;
-      color: hsla(0, 0%, 100%, 0.87) !important;
-    }
-
-    & a:not(.nav-link, .see-more) {
-      text-decoration: underline;
-    }
-
-    & .back-overview:before {
-      color: $contrast !important;
-    }
-
-    & .logo {
-      fill: $contrast !important;
-    }
-
-    & a {
-      color: $contrast !important;
-      border-color: $contrast;
-    }
-
-    & .fa-grip-lines, .fa-xmark {
-      color: $contrast !important;
-    }
-
-    & .acctoggle {
-      &:hover,
-      &:focus-visible,
-      &:focus {
-        border: 2px solid $contrast;
-      }
-    }
-
-    & .tablinkservice:hover {
-      color: $contrast !important;
-      border-left-color: $contrast;
-    }
-
-    & .tablinkservice.active {
-      color: $contrast !important;
-      border-left-color: $contrast;
-    }
-
-    & .carousel-dark .carousel-indicators [data-bs-target] {
-      border-color: $contrast;
-
-      &.active {
-        background-color: $contrast !important;
-      }
-    }
-
-    & .button-filter {
-      color: $contrast !important;
-
-      &:after {
-        background: $contrast !important;
-      }
-    }
-
-    & .carousel-control-next path {
-      fill: $contrast !important;
-    }
-
-    & .home a {
-      text-decoration: none !important;
-    }
-
-    & .circle-icons i {
-      &:hover,
-      &:focus-visible,
-      &:focus {
-        outline-color: $contrast;
-      }
-    }
-
-    & footer a i:hover:before {
-      color: $contrast;
-    }
-
-    & a:after {
-      color: $contrast !important;
-    }
-  }
 }
 
 @keyframes fadeInAnimation {
