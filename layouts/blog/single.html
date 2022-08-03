@@ -16,13 +16,6 @@
         <article>
             <p class="mb-0">{{ .Params.categories }}</p>
 
-            {{ if .IsTranslated }}
-            | {{ i18n "postAvailable" }}
-            {{ range .Translations }}
-            <a href="{{ .Permalink }}"><span>{{ index $.Site.Data.langFlags (.Lang) }}</span></a>
-            {{ end}}
-            {{ end }}
-
             <h1 class="post-title">{{ .Title | markdownify }}</h1>
 
             <p>by 

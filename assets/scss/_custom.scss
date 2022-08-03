@@ -54,14 +54,10 @@ body {
 
     & .button-filter {
       color: #ecc781 !important;
-      
+
       &:after {
         background: #ecc781 !important;
       }
-    }
-
-    & .arrow-prev path {
-      fill: #ecc781 !important;
     }
 
     & .arrow-next path {
@@ -72,8 +68,12 @@ body {
       text-decoration: none !important;
     }
 
-    & .circle-icons i:hover {
-      outline-color: #ecc781;
+    & .circle-icons i {
+      &:hover,
+      &:focus-visible,
+      &:focus {
+        outline-color: #ecc781;
+      }
     }
 
     & footer a i:hover:before {
@@ -250,14 +250,15 @@ nav .nav-link {
       transition: 0.25s ease-in-out;
     }
 
-    &:hover {
+    &:hover,
+    &:focus-visible,
+    &:focus {
       color: $blue-500;
       background-color: $white;
-    }
 
-    &:hover:after {
-      margin-left: 1rem;
-      color: $blue-500;
+      &:after {
+        color: $blue-500;
+      }
     }
   }
 }
@@ -304,8 +305,12 @@ footer {
     text-decoration: none;
   }
 
-  &:hover:after {
-    margin-left: 1rem;
+  &:hover,
+  &:focus-visible,
+  &:focus {
+    &:after {
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -616,13 +621,15 @@ article.first {
     transition: 0.25s ease-in-out;
   }
 
-  &:hover {
+  &:hover,
+  &:focus-visible,
+  &:focus {
     color: $white;
     background-color: $blue-500;
-  }
 
-  &:hover:after {
-    color: $white;
+    &:after {
+      color: $white;
+    }
   }
 }
 
@@ -669,7 +676,9 @@ details[open] summary::after {
   line-height: 2rem;
   vertical-align: middle;
 
-  &:hover {
+  &:hover,
+  &:focus-visible,
+  &:focus {
     outline: 2px solid $blue-500;
   }
 }
@@ -708,15 +717,12 @@ details[open] summary::after {
   min-height: 22rem;
 }
 
-// $carousel-transition-duration: .3s !important;
-
 .carousel-indicators {
   justify-content: start;
   margin-bottom: 0.5rem;
-  margin-left: 10%;
+  margin-left: 0;
 }
 
-.carousel-control-prev,
 .carousel-control-next {
   top: unset;
   opacity: 1;
@@ -730,13 +736,7 @@ details[open] summary::after {
 }
 
 svg path {
-  transition: .2s ease-in-out;
-}
-
-.arrow-prev:hover path {
-  d: path(
-    "M55 18.982H9.979l10.121 10.26-3.399 3.353-15.784-16 15.784-16 3.399 3.353-10.121 10.26H55v4.774z"
-  );
+  transition: 0.25s ease-in-out;
 }
 
 .arrow-next:hover path {
@@ -745,8 +745,20 @@ svg path {
   );
 }
 
+.carousel-control-next:focus-visible path {
+  d: path(
+    "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
+  );
+}
+
+.carousel-control-next:focus path {
+  d: path(
+    "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
+  );
+}
+
 .carousel-control-next {
-  left: 25%;
+  left: 12.5%;
   z-index: 3;
 }
 
@@ -998,18 +1010,13 @@ svg path {
       transition: 0.25s ease-in-out;
     }
 
-    &:hover:after {
-      margin-left: 1rem;
+    &:hover,
+    &:focus-visible,
+    &:focus {
+      &:after {
+        margin-left: 1rem;
+      }
     }
-  }
-}
-
-.carousel-control-prev svg {
-  transition: width 0.3s;
-  &:hover {
-    d: path(
-      "M55 18.9824L9.97942 18.9824L20.1007 29.2422L16.7017 32.5952L0.917667 16.5952L16.7017 0.595213L20.1007 3.94828L9.97945 14.2079L55 14.2079L55 18.9824Z"
-    ) !important;
   }
 }
 
@@ -1026,10 +1033,6 @@ svg path {
   .carousel-control-next {
     right: 0;
     left: unset;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
     top: unset;
     opacity: 1;
     justify-content: center;
@@ -1056,7 +1059,6 @@ svg path {
     }
   }
 
-  .carousel-control-prev,
   .carousel-control-next {
     width: unset;
   }
