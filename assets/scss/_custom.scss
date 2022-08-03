@@ -110,6 +110,7 @@ nav {
 
 nav .nav-link {
   color: $blue-500;
+  display: inline-block;
   position: relative;
 
   &:after {
@@ -117,51 +118,30 @@ nav .nav-link {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 0;
     height: 0.25rem;
     background: transparent;
     display: block;
     margin-top: 0.5rem;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: 0.25s ease-in-out;
   }
 
   &:hover,
   &:focus-visible,
+  &:active,
   &.active {
     color: $blue-800;
 
     &:after {
-      content: "";
+      width: 100%;
       background: currentColor;
-      transform: scaleX(1);
-      transform-origin: bottom left;
     }
-  }
-}
-
-nav .nav-link,
-nav:hover .nav-link.active {
-  color: $blue-500;
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 0.25rem;
-    background: transparent;
-    display: block;
-    margin-top: 0.5rem;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
   }
 }
 
 .navbar-toggler {
   font-size: 1.5rem;
+  border: none;
 }
 
 .navbar-toggler:focus {
