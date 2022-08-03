@@ -19,44 +19,52 @@ categories = ["Branding", "UX Research", "Web Development"]
     "Brand Assets" = "#"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. Donec ullamcorper congue lacus a commodo. Duis volutpat in nisl quis cursus. Vivamus nisi neque, semper in laoreet eu, finibus ut arcu. 
-
-Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat. 
+Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped redesign the Thunderbird Conversations add-on and even now our email infrastructure is powered by ProtonMail and ProtonMail Bridge via Thunderbird.
 
 ---
 
 ## Refreshing the identity
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. Donec ullamcorper congue lacus a commodo. Duis volutpat in nisl quis cursus. Vivamus nisi neque, semper in laoreet eu, finibus ut arcu. 
+Unfortunately, Mozilla moving away from Thunderbird created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird. As a comparison, Firefox latest logo makeovers happened in 2010, 2013 and 2017. Respectively, the last update to the Thunderbird logo and branding was 2010.
 
-Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
+In Open Source we often times encounter resistance and hesitation to change. It’s something we acknowledge and can understand, considering there are contributors who have been involved for years and suddenly someone out of the blue suggests doing a number of changes. We respect that. However the Thunderbird project has been welcoming to suggestions and help, allowing us to enjoy the process thoroughly beyond simply handing off the deliverables.
 
 {{< figure src="/img/work/thunderbird-icon.png" >}}
 
 ## Improving user flows
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. Donec ullamcorper congue lacus a commodo. Duis volutpat in nisl quis cursus. Vivamus nisi neque, semper in laoreet eu, finibus ut arcu. 
-
-Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
+We have worked on improving the user experience for many features of Thunderbird, starting with the preferences view redesign and continuing with an overall assessment of the security features, the most critical of them being OpenPGP encryption. Throughout the way, we utilized various user research methods to make sure we bring the users' voice to inform our designs and shared our findings with the broader community. 
 
 {{< figure src="/img/work/thunderbird-mockup.png" >}}
 
-## Redesigned encryption
+## Rethinking encryption
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. Donec ullamcorper congue lacus a commodo. Duis volutpat in nisl quis cursus. Vivamus nisi neque, semper in laoreet eu, finibus ut arcu. 
+The redesign journey started with a heuristic evaluation to uncover potential pain points while encrypting messages using Thunderbird. The evaluation targeted
+Account Settings/End-To-End Encryption, covering the entire user journey:
 
-Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
+* Key management
+* Encryption settings 
+* Email
+* Security/encryption for email
 
 {{< figure src="/img/work/thunderbird-encryption.png" >}}
 
-# “Do users understand how to use Thunderbird’s Security features? Where do they struggle?”
-
 ## How we helped
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Sed eget arcu turpis.
-- Donec ullamcorper congue lacus a commodo.
-- Duis volutpat in nisl quis cursus.
-- Vivamus nisi neque, semper in laoreet eu, finibus ut arcu.
-- Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut.
-- Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
+On our heuristic evaluation, we discovered 20+ usability violations in different realms: the match between the system and the real world, visibility of system status, help users recognize, diagnose, recover from errors, and help & documentation. 
+
+We then offered insights and recommendations for quick improvements. 
+In addition, during this research phase, we discovered that encryption was challenging to understand for novice users. That led us to continue our research with this particular segment in mind, to find optimal solutions for simplifying the encryption process. To help with this, we designed an onboarding system that guides new users to enable and use encryption in their daily workflow.
+
+{{< figure src="/img/work/thunderbird-help.png" >}}
+
+## Encryption Onboarding
+
+We conducted a detailed competitive analysis of the onboarding process with multiple other email clients that offer OpenPGP/PGP encryption.
+We identified common themes and patterns missing from the proposed designs and gaps(missing features) that Thunderbird could fill in. After that, we developed journey maps, and user flows to uncover user behaviors and mindsets with the main focus on encryption features. The design patterns and language were adapted to the existing end-to-end encryption that is already implemented as core functionality on Thunderbird.
+
+We talked directly to novice Thunderbird users and non-users to validate our design proposals. The main focus relies on non-users of different backgrounds(students, IT professionals, "Non-technical" users) and new enterprise users.
+
+These were semi-structured interviews in combination with formal usability testing to find out how the onboarding fits the overall Thunderbird experience and uncover usability flaws of our previously suggested prototypes.
+
+{{< figure src="/img/work/thunderbird-onboarding.png" >}}

@@ -60,7 +60,7 @@ body {
       }
     }
 
-    & .arrow-next path {
+    & .carousel-control-next path {
       fill: #ecc781 !important;
     }
 
@@ -739,22 +739,15 @@ svg path {
   transition: 0.25s ease-in-out;
 }
 
-.arrow-next:hover path {
-  d: path(
-    "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
-  );
-}
-
-.carousel-control-next:focus-visible path {
-  d: path(
-    "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
-  );
-}
-
-.carousel-control-next:focus path {
-  d: path(
-    "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
-  );
+.carousel-control-next {
+  &:hover,
+  &:focus-visible {
+    & path {
+      d: path(
+        "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
+      );
+    }
+  }
 }
 
 .carousel-control-next {
@@ -1189,9 +1182,4 @@ svg path {
   padding: 1rem;
   text-decoration: none;
   z-index: 100000;
-}
-
-// Header
-header {
-  //background-color: $blue-500;
 }
