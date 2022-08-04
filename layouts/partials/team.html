@@ -1,0 +1,35 @@
+<div class="container-fluid py-5">
+    <div class="container">
+        <h2>Who are we?</h2>
+        <div class="row pt-lg-4 pt-0">
+        {{ range (where .Site.RegularPages "Type" "authors") }}
+            <div class="col-xl-4 col-lg-6 col-12">
+                <div class="row mb-3 mb-lg-5">
+                    <div class="col-xxl-5 col-xl-12 col-5">
+                        <img class="img-fluid pb-3" src="/img/authors/{{ .Page.Params.image }}" alt="">
+                    </div>
+                    <div class="col-xxl-7 col-xl-12 col-7 circle-icons">
+                        <h2>{{ .Page.Params.name }}</h2>
+                        <p>{{ .Page.Params.position }}</p>
+                        {{ if .Page.Params.website }}
+                            <a href="{{ .Page.Params.website }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
+                        {{ end }}
+                        {{ if .Page.Params.twitter }}
+                            <a href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        {{ end }}
+                        {{ if .Page.Params.github }}
+                            <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        {{ end }}
+                        {{ if .Page.Params.email }}
+                            <a href="mailto:{{ .Page.Params.email }}" aria-label="{{ .Page.Params.name }}'s email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+                        {{ end }}
+                        {{ if .Page.Params.gpg }}
+                            <a href="{{ .Page.Params.gpg }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GPG key"><i class="fa-solid fa-key" aria-hidden="true"></i></a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+</div>
