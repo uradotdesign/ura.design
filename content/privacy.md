@@ -1,40 +1,28 @@
 +++
 title = "Privacy Policy"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida ac nisl magna at accumsan, viverra lacus. Rhoncus cras sed in pellentesque amet, at mattis purus in."
+subtitle = "We strive for the lowest amount of data retention as possible. In fact even this website uses no cookies! Learn here how you interact with our services."
 theme = "dark"
 +++
-
-Ura Design is operated by (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):
-
-Elio Qoshi  
-c/o Cultivation Space\
-Aufgang 4\
-Gottschedstraße 4\
-13357 Berlin\
-USt-IdNr/VAT: 18/101/00728
-
-Email: hello@ura.design\
-Website: https://ura.design/
 
 Ura Design adheres to the highest ethical standards in all of our operations and is dedicated to protecting the privacy of everyone who interacts with us. We don’t sell, barter, give away, rent, or permit anyone outside of Ura Design, and project-scoped contractors to use or access information about our partners, collaborators, research participants, or website visitors.
 
 We use third party services to publish work, keep in touch with people, and understand how we can do both of these things better. Here you can find out what these services are and how we handle all sorts of data, from user research to job applications.
 
-If there is additional information you would like to see in this document about our practices, or if you have other comments or questions, please reach out to email hello@ura.design
+If there is additional information you would like to see in this document about our practices, or if you have other comments or questions, please reach out to hello@ura.design
 
-This document was last updated on 1 August, 2022.
+This document was last updated on 5 August, 2022.
 
-# Our site & services
+## Our site & services
 
 We use the following services to run our websites and understand how people are using them.
 
 ## Website Analytics
 
-Our website uses Plausible for simple and privacy-friendly web analytics. We collect information about how people are using our sites to allow us to improve their experience. Our traffic data is not used for any other purposes. Plausible does not use cookies and is fully compliant with GDPR, CCPA, PECR and other privacy regulations out of the box.
+Our website uses [Plausible](https://plausible.io/) for simple and privacy-friendly web analytics. We collect information about how people are using our sites to allow us to improve their experience. Our traffic data is not used for any other purposes. Plausible does not use cookies and is fully compliant with GDPR, CCPA, PECR and other privacy regulations out of the box.
 
 ## GitHub
 
-We use GitHub Pages to host our website. Find out more about how Github uses data in their privacy statement.
+We use GitHub to host our website. Find out more about how Github uses data in their privacy statement.
 
 ## Presentator
 
@@ -56,16 +44,16 @@ We host a Nextcloud server to store every work project, documentations and photo
 
 We use HedgeDoc as our real-time editor, allowing authors and users to edit a text document and see their edits instantly and simultaneously.
 
-# Our social media accounts
+## Our social media accounts
 
 We use social media accounts to share our work. We occasionally use the analytics tools provided by these platforms to understand how we can use these services better. Our social media accounts are:
 
-- [Ura Design on Twitter](<https://twitter.com/uracreative> "Twitter Link") | [Privacy policy](<https://twitter.com/en/privacy#update>)
+- [Ura Design on Twitter](<https://twitter.com/uradotdesign> "Twitter Link") | [Privacy policy](<https://twitter.com/en/privacy#update>)
 - [Ura Design on Instagram](<https://www.instagram.com/uradotdesign/>) | [Privacy policy](<https://help.instagram.com/519522125107875/?helpref=uf_share>)
 
 If you’d like content about you removed from any of our social media profiles, please contact us at <https://chat.ura.design/>.
 
-# Research participants
+## Research participants
 
 Research is an important part of our work: it helps us understand people’s needs and build better products and services.
 
@@ -77,7 +65,7 @@ At the moment, we do not conduct any research with people under the age of 18. W
 
 You can view an example of our participant Bill of Rights on GitHub. *link here*
 
-# Using information from research
+## Using information from research
 
 Research material is separated from any identifiable information, such as consent forms, while we are working with it.
 
@@ -85,11 +73,11 @@ Any notes we gather during research sessions are stored securely. Any digital fi
 
 Sometimes we may publish quotes from research sessions. We only do this if we have specific consent from the participant and any personally identifiable information has been removed. We will only publish audio, photos and video from a research session if a participant has given consent and has signed a model release form.
 
-# Survey
+## Survey
 
 We use Nextcloud for gathering and processing information from survey participants. See their privacy policy for more information.
 
-# Withdrawing your consent
+## Withdrawing your consent
 
 Participants are able to withdraw their information from a project at any time. To do this, contact 
 
@@ -143,6 +131,7 @@ The General Data Protection Regulation gives EU citizens the following rights:
 - [Rights related to automated decision-making, including profiling](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/rights-related-to-automated-decision-making-including-profiling/>)
 
 To exercise any of these rights, please contact us at link. You can find information specific to the services we use or our activities in the relevant sections of this document. If you are located in the EU and aren’t satisfied by our response, you can contact the EU [Information Commissioner’s Office](<https://ico.org.uk/make-a-complaint/>).
-# Acknowledgements
+
+## Acknowledgements
 
 In drafting this policy we used a number of different resources and inspirations. We want to offer particular thanks to Simply Secure for their clear example.

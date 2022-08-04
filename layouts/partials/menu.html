@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="container">
     <nav class="navbar navbar-expand-lg justify-content-between align-items-center" aria-label="Primary">
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <a aria-label="Ura Logo" class="navbar-brand" href="{{ .Site.BaseURL }}">
         {{ $theme := .Page.Params.theme }}
         {{ $type := .Page.Type }}
         {{ $home := .IsHome }}
@@ -36,7 +36,7 @@
       <div class="container-fluid">
         <div class="container">
           <div class="navbar align-items-center justify-content-between">
-            <a class="brand" href="{{ .Site.BaseURL }}">
+            <a aria-label="Ura Logo" class="brand" href="{{ .Site.BaseURL }}">
 
               {{ if eq $theme "dark" }}
               {{ partial "logo.html" "white" }}

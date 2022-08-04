@@ -47,5 +47,5 @@ In the past we have implemented style guides for various projects, including [Th
 
 Last but not least, the points touched upon in this article is the very reason we started building [Identihub](https://identihub.co). Have a look and try it out yourself! 
 
-If you like to explore the possibility of a style guide for your project, feel free to reach us by [email](mailto:hello@ura.design) or [Twitter](https://twitter.com/uracreative)
+If you like to explore the possibility of a style guide for your project, feel free to reach us by [email](mailto:hello@ura.design) or [Twitter](https://twitter.com/uradotdesign)
 

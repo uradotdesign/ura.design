@@ -94,8 +94,11 @@ html[data-theme="dark"] {
 // Body
 body {
   font-family: "Inter", sans-serif;
+  font-feature-settings: "calt" 1, "tnum" 1, "frac" 1, "case" 1, "ccmp" 1,
+    "ss01" 1, "ss02" 1, "ss03" 1, "zero" 1;
   line-height: 1.5;
   overflow-y: scroll;
+  color: $gray-800;
 }
 
 @keyframes fadeInAnimation {
@@ -134,6 +137,16 @@ body {
   background-color: $black;
 }
 
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1;
+}
+
 // Navbar
 nav {
   z-index: 2;
@@ -141,6 +154,7 @@ nav {
 
 nav .nav-link {
   color: $blue-500;
+  font-weight: 500;
   display: inline-block;
   position: relative;
 
@@ -288,7 +302,7 @@ footer {
   background-color: $gray-100;
 }
 
-.cta p {
+.cta h2 {
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
   color: $gray-700;
@@ -971,6 +985,9 @@ svg path {
 
   & p {
     margin-bottom: 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
   & a {
@@ -1149,9 +1166,7 @@ svg path {
     right: 0;
     left: auto;
     z-index: 100;
-    transform: translateZ(4px);
     transition: 0.2s;
-    will-change: opacity, visibility;
   }
 }
 

@@ -1,5 +1,6 @@
 +++
 layout = "work/single"
+draft = true
 theme = "light"
 background = "#A8EDE9"
 accent = "000000"
