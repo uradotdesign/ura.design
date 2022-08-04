@@ -8,7 +8,7 @@ summary = "We helped Stackspin, previously known as OpenAppStack, build their ne
 date = "2022-03-25 12:00:00 +0200"
 image = "stackspin.svg"
 tags = []
-categories = ["Branding", "UX Research", "Illustrations"]
+categories = ["Branding", "UX Research", "Illustrations", "Interaction Design"]
 [links]
     "Brand Book" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A3&node-id=504%3A495&viewport=241%2C48%2C0.06&scaling=scale-down"
     "User Research" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A2&node-id=504%3A4&viewport=241%2C48%2C0.33&scaling=contain"

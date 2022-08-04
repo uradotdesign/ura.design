@@ -8,7 +8,7 @@ summary = "We provided a new visual style for CalyxOS, concretized into graphics
 date = "2022-03-24 12:00:00 +0200"
 image = "calyxos.svg"
 tags = []
-categories = ["Illustrations", "UX Research"]
+categories = ["Illustrations", "UX Research", "Accessibility"]
 [links]
     "Brand Book" = "https://www.figma.com/proto/m9gSaAYsqNVou9gmVdFwlj/Adapt?page-id=328%3A0&node-id=329%3A125&viewport=241%2C48%2C0.07&scaling=contain"
     "Website" = "https://adapt.internews.org"
