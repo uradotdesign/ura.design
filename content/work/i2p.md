@@ -13,9 +13,9 @@ categories = ["Branding", "UX Research"]
     "Brand Identity" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A3&node-id=504%3A495&viewport=241%2C48%2C0.06&scaling=scale-down"
     "Visual Identity" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A2&node-id=504%3A4&viewport=241%2C48%2C0.33&scaling=contain"
 [sources]
-    "Style Guide" = "#"
-    "Usability Studies" = "#"
-    "Brand Assets" = "#"
+    "Style Guide" = "https://uradotdesign.github.io/i2p-styleguide/"
+    "Usability Studies" = "https://raw.githubusercontent.com/uradotdesign/works/main/I2P/Usability%20Study/I2P%20Usability%20Study.pdf"
+    "Brand Assets" = "https://uradotdesign.github.io/i2p-styleguide/brand/"
 +++
 
 _“ The internet is unable to ensure privacy for those who need it the most.<br />

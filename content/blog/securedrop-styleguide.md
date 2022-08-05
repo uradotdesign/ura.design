@@ -1,5 +1,6 @@
 +++
 title = "SecureDrop Style Guide"
+draft = true
 authors = ["anxhelo"]
 date = "2018-12-25 12:00:00 +0200"
 image = "/img/projects/securedrop_overview.png"
@@ -28,6 +29,6 @@ Considering the fact that we work with projects related to privacy and security,
 ![Style Guide website](/images/projects/securedrop_image_alerts.png)
 
 The repo has been transferred to the Freedom of Press GitHub [organization](https://github.com/freedomofpress/securedrop/).
-However, we keep a static archive for the time being where you can preview the live site of the [style guide](https://uracreative.github.io/securedrop-styleguide/) and the portfolio [project](../../../projects/securedrop) on our website.
+However, we keep a static archive for the time being where you can preview the live site of the [style guide](https://uradotdesign.github.io/securedrop-styleguide/) and the portfolio [project](../../../projects/securedrop) on our website.
 
 We would like to thank [OpenTechFund](https://opentech.fund) for their support on providing resources for privacy and security related open source projects to thrive and receive help where they need the most.

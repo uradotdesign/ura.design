@@ -1,5 +1,6 @@
 +++
 title = "Style Guides go Beyond Aesthetics"
+draft = true
 authors = ["elio"]
 date = "2018-07-02 12:00:00 +0200"
 image = "/img/blog/osd_event.png"

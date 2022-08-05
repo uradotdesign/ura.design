@@ -159,6 +159,7 @@ nav .nav-link {
   font-weight: 500;
   display: inline-block;
   position: relative;
+  font-feature-settings: "cv11" 1;
 
   &:after {
     content: "";

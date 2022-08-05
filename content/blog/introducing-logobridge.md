@@ -1,5 +1,6 @@
 +++
 title = "Introducing Logobridge"
+draft = true
 authors = ["anxhelo"]
 date = "2019-05-07 18:00:00 +0200"
 image = "/img/blog/logobridge-post.png"
@@ -17,6 +18,6 @@ All logos are available in their glyph form and you can tweak or adapt them to y
 
 We hope to add new logos every month and grow the collection of public domain logos. With the amount of unappreciated logo drafts we have lying on our hard drives, we don't think that's going to be hard to pull through. We worked on Logobridge since 2016 but never got it off the ground properly like now. We hope that it will prove more useful to people now. Logobridge is also available in [German](https://logobridge.co/de) as of now.
 
-Of course Logobridge itself is open source and powered by [Jekyll](https://jekyllrb.com). You can find the repo on [GitHub]( https://github.com/uracreative/logobridge).
+Of course Logobridge itself is open source and powered by [Jekyll](https://jekyllrb.com). You can find the repo on [GitHub]( https://github.com/uradotdesign/logobridge).
 
-Want to contribute with a logo one of your past clients didn't appreciate enough? File a Pull Request or an [Issue](https://github.com/uracreative/logobridge/issues/new) on GitHub and we can include it in the upcoming month.
+Want to contribute with a logo one of your past clients didn't appreciate enough? File a Pull Request or an [Issue](https://github.com/uradotdesign/logobridge/issues/new) on GitHub and we can include it in the upcoming month.

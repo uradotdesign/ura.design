@@ -1,5 +1,6 @@
 +++
 title = "I2P Style Guide and Usability Study"
+draft = true
 authors = ["anxhelo"]
 date = "2018-12-03 12:00:00 +0200"
 image = "/img/projects/i2p_overview.png"
@@ -17,7 +18,7 @@ During this process we were brought closer with the [I2P Project](https://geti2p
 
 After our first Usability Study for Thunderbird, we put these lessons into use and optimized the process in which we would conduct Usability Research for I2P. Renata, our Usability Researcher interviewed ten (10) I2P Users (that's twice as many as in our [Thunderbird Study](/2018/07/05/thunderbird-style-guide)) throughout local events in Albania and Kosovo. The study focused on I2P for Windows and Linux operating systems, asking users to complete 5 major tasks in I2P and additionally also another optional task. 
 
-You can read the final I2P Usability Study [here](https://github.com/uracreative/works/raw/main/I2P/Usability%20Study/I2P%20Usability%20Study.pdf).
+You can read the final I2P Usability Study [here](https://github.com/uradotdesign/works/raw/main/I2P/Usability%20Study/I2P%20Usability%20Study.pdf).
 
 ## Style Guide
 
@@ -27,6 +28,6 @@ Considering the fact that we work with projects related to privacy and security,
 
 ![Style Guide website](/images/projects/i2p_image_1.png)
 
-You can see a demo of the style guide website [here](https://uracreative.github.io/i2p-styleguide) and the portfolio [project](../../../projects/i2p) on our website.
+You can see a demo of the style guide website [here](https://uradotdesign.github.io/i2p-styleguide) and the portfolio [project](../../../projects/i2p) on our website.
 
 We would like to thank [OpenTechFund](https://opentech.fund) for their support on providing resources for privacy and security related open source projects to thrive and receive help where they need the most.

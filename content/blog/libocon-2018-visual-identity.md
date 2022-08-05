@@ -1,5 +1,6 @@
 +++
 title = "LibreOffice Conference 2018"
+draft = true
 author = "Kristi Çunga"
 link = "http://kristicunga.com/"
 date = "2018-10-20 08:00:00 +0200"

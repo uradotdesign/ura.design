@@ -1,5 +1,6 @@
 +++
 title = "Reproducible Builds Style Guide"
+draft = true
 authors = ["anxhelo"]
 date = "2018-06-13 12:00:00 +0200"
 image = "/img/blog/ReproducibleBuilds_thumbnail.png"
@@ -23,7 +24,7 @@ With the logo being decided upon, we had a clear path going forward, implementin
 
 The style guide itself features visuals, assets and components ready to be used in Reproducible Builds projects. Additionally, the style guide is free of any 3rd party trackers (including Google Fonts), external libraries and works also with JavaScript disabled / Tor High Security Mode. We even made sure that the style guide is responsive and should work fine on all resolutions.
 
-The style guide is now migrated to [Debian infrastructure](https://salsa.debian.org/reproducible-builds/reproducible-styleguide), but you can view a [live version on GitHub pages](https://uracreative.github.io/reproducible-builds-styleguide/).
+The style guide is now migrated to [Debian infrastructure](https://salsa.debian.org/reproducible-builds/reproducible-styleguide), but you can view a [live version on GitHub pages](https://uradotdesign.github.io/reproducible-builds-styleguide/).
 
 In the coming weeks, the official version will live on [https://reproducible-builds.org/style](https://reproducible-builds.org/style)
 

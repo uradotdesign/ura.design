@@ -1,5 +1,6 @@
 +++
 title = "Inkscape Workshop in Tirana"
+draft = true
 author = "Mariana Balla"
 link = "https://twitter.com/marianaballa1"
 date = "2018-02-23 12:00:00 +0200"

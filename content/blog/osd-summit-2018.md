@@ -1,5 +1,6 @@
 +++
 title = "Open Source Design Summit 2018"
+draft = true
 authors = ["anxhelo"]
 date = "2018-11-16 08:00:00 +0200"
 image = "/img/blog/thumb_osd.png"

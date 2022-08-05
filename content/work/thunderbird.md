@@ -10,13 +10,12 @@ image = "thunderbird.svg"
 tags = []
 categories = ["Branding", "UX Research", "Web Development"]
 [links]
-    "Website" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A3&node-id=504%3A495&viewport=241%2C48%2C0.06&scaling=scale-down"
-    "Style Guide" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A2&node-id=504%3A4&viewport=241%2C48%2C0.33&scaling=contain"
-    "Blog post" = "https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-%7C-Branding?page-id=504%3A2&node-id=504%3A4&viewport=241%2C48%2C0.33&scaling=contain"
+    "Website" = "https://www.thunderbird.net/en-US/"
+    "Style Guide" = "https://style.thunderbird.net/visuals/product-identity-assets.html"
 [sources]
-    "Style Guide" = "#"
-    "Usability Studies" = "#"
-    "Brand Assets" = "#"
+    "Style Guide" = "https://style.thunderbird.net/visuals/product-identity-assets.html"
+    "Usability Studies" = "https://github.com/uradotdesign/works/tree/main/Thunderbird"
+    "Brand Assets" = "https://style.thunderbird.net/"
 +++
 
 Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped redesign the Thunderbird Conversations add-on and even now our email infrastructure is powered by ProtonMail and ProtonMail Bridge via Thunderbird.

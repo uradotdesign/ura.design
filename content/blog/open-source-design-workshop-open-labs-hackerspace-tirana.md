@@ -1,5 +1,6 @@
 +++
 title = "Hosting the first Open Source Design Workshop in Tirana"
+draft = true
 author = "Redon Skikuli"
 link = "https://twitter.com/rskikuli"
 date = "2017-02-11 12:00:00 +0200"
