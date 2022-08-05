@@ -35,7 +35,7 @@ During our visual explorations for the default wallpapers which ship with CalyxO
 
 Due to the low contrast among the wallpaper colours, they offer splendid contrast levels with icons and text on the screen, while preserving the Calyx visual style.
 
-{{< figure src="/img/work/calyxos-wallpapers.png" alt="Mockups of phones with CalyxOS wallpapers" >}}
+{{< figure src="/img/work/calyxos-wallpapers.webp" alt="Mockups of phones with CalyxOS wallpapers" >}}
 
 ## Accessibility Audit
 
@@ -45,7 +45,7 @@ As part of our accessibility audit we reviewed various apps shipped by default i
 
 Common accessibility errors discovered were missing alt= tags as well as inconsistent focus orders. We summarized our findings in a FigJam whiteboard project which we relayed to the CalyxOS lead developer.
 
-{{< figure src="/img/work/calyxos-audit.png" alt="CalyxOS Datura Firewall and OpenKeychain screenshots" >}}
+{{< figure src="/img/work/calyxos-audit.webp" alt="CalyxOS Datura Firewall and OpenKeychain screenshots" >}}
 
 Many of the buttons were labeled as "unleveled button". For screenreader users this creates an enormous accessibility issue which can be easily mitigated by adding a concise description to the interactive element.
 

@@ -42,7 +42,7 @@ After setting the visual identity, we prepared and provided the brand guidelines
 
 Link: [Stackspin - Brand Book](https://www.figma.com/proto/upxHYnkoc9x4bKSXlCvsdv/Branding?page-id=77%3A62&node-id=81%3A100&viewport=241%2C48%2C0.19&scaling=contain)
 
-{{< figure src="/img/work/stackspin-mockup.png" alt="Stackspin brand book mockup" >}}
+{{< figure src="/img/work/stackspin-mockup.webp" alt="Stackspin brand book mockup" >}}
 
 ## How we helped
 

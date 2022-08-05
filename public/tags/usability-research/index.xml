@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usability Research on Ura Design</title>
+    <link>http://test.ura.design/tags/usability-research/</link>
+    <description>Recent content in Usability Research on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sun, 08 Sep 2019 19:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/usability-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTPS Everywhere Redesign</title>
+      <link>http://test.ura.design/blog/https-everywhere-redesign/</link>
+      <pubDate>Sun, 08 Sep 2019 19:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/https-everywhere-redesign/</guid>
+      <description>HTTPS Everywhere is a free and open-source browser extension for Google Chrome, Mozilla Firefox, Opera, Brave, and Firefox for Android, which is developed collaboratively by The Tor Project and the Electronic Frontier Foundation (EFF).
+It automatically makes websites use a more secure HTTPS connection instead of HTTP if they support it. HTTPS Everywhere makes it possible to block and unblock all non-HTTPS browser connections with one click.
+In an effort to improve the user experience, we worked with the EFF team to reimagine HTTPS Everywhere.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,7 +4,7 @@ draft = true
 author = "Mariana Balla"
 link = "https://twitter.com/marianaballa1"
 date = "2018-03-12 12:00:00 +0200"
-image = "/img/blog/home-banner.jpg"
+image = "/img/blog/home-banner.webp"
 categories = []
 tags = ["Open Tech Fund", "Usability", "UX Design", "Internet Freedom"]
 +++
@@ -12,7 +12,7 @@ tags = ["Open Tech Fund", "Usability", "UX Design", "Internet Freedom"]
 <p>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of <a href="https://www.opentech.fund/lab/usability-lab" target="_blank">Open Tech Fund’s Usability Lab</a>.</p>
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/blog/OTF.jpg" alt="OTF logo"><br />
+<img src="/images/blog/OTF.webp" alt="OTF logo"><br />
 </div>
 <div class="two spacing"></div>
 

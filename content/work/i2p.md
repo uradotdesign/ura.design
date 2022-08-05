@@ -32,7 +32,7 @@ This project has the ambition to help I2P define their aspiration and the missio
 
 By understanding the purpose of I2P, starting with the “Why?”, after several discussions and research, we helped define the voice and personality of the I2P identity. Visually moving away from the dark hacker aestethetics, we made I2P’s look approachable look, potentially making it easier to reach a larger audience of people who have not been familiar with I2P before. By eliminating inconsistencies in its brand identity, the purpose of I2P becomes more clear and it reinforces the others, creating a virtuous circle of definition and confirmation of their identity.
 
-{{< figure src="/img/work/i2p-large.png" alt="I2P brand overview" >}}
+{{< figure src="/img/work/i2p-large.webp" alt="I2P brand overview" >}}
 
 ## Shaping the Identity
 
@@ -40,7 +40,7 @@ After our research, we concluded I2P’s identity in collaboration with the core
 
 I2P has a rational personality, with an open and simple voice, making it friendly and approachable for a diversity of people. I2P should be usable by everyone. Its ideological and futuristic characteristics are and will continue to be a very important part of I2P personality, avoiding exaggerated claims and over-promises but staying true to what it aspires.
 
-{{< figure src="/img/work/i2p-book.png" alt="I2P brand book mockup" >}}
+{{< figure src="/img/work/i2p-book.webp" alt="I2P brand book mockup" >}}
 
 ## New Identity, New Looks
 
@@ -50,7 +50,7 @@ The new logo has a modern and approachable glyph with elements that symbolize I2
 
 Link: [I2P - Brand & Visual Identity: Graphic Assets](https://www.figma.com/proto/P8JOnCnyoX4I4t2M0ltbDZ/I2P-Branding?page-id=504%3A2&node-id=504%3A4&viewport=241%2C48%2C0.33&scaling=contain)
 
-{{< figure src="/img/work/i2p-logo.png" alt="I2P logo composition" >}}
+{{< figure src="/img/work/i2p-logo.webp" alt="I2P logo composition" >}}
 
 ## Browser Extension Ideation
 
@@ -59,7 +59,7 @@ From previous research, we conducted for the I2P installation and setup process,
 
 We quickly realized that anything reducing the number of steps required to get started would go toward wider adoption of I2P. New users should only have to install a browser extension. That way, users would have all the network control settings, I2P apps and services in one place, easily accessible with a simplified setup process.
 
-![i2p explorations](/img/work/i2p-explorations.png)
+![i2p explorations](/img/work/i2p-explorations.webp)
 
 ## Browser Extension Experience
 
@@ -71,7 +71,7 @@ As always, knowing the whys and hows represent the core of our design process, s
 ### For who are we designing
 -- A power user, privacy advocate, journalist, censored user, activist...
 
-![i2p extension](/img/work/i2p-extension.png)
+![i2p extension](/img/work/i2p-extension.webp)
 
 ## Challenges and Decisions
 
@@ -82,7 +82,7 @@ The state of the current console and the relationship between the console and th
 Functionalities vs space
 Considering the current console implementation and all the features I2P offers through it, it was quite challenging to compress all the content into a limited space that the extension offers. Together with users and stakeholders we carefully curated the content to make sure the users can access all core features directly from the console without compromise.
 
-![i2p browser](/img/work/i2p-browser.png)
+![i2p browser](/img/work/i2p-browser.webp)
 
 
 ## How we helped I2P

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identihub on Ura Design</title>
+    <link>http://test.ura.design/tags/identihub/</link>
+    <description>Recent content in Identihub on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 09 Feb 2018 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/identihub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ura at FOSDEM 2018</title>
+      <link>http://test.ura.design/blog/ura-fosdem-2018/</link>
+      <pubDate>Fri, 09 Feb 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/ura-fosdem-2018/</guid>
+      <description>During last weekend the Ura team traveled to Brussels, Belgium to attend FOSDEM. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one). Just like at CCC, we strive to be at events which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source Design on Ura Design</title>
+    <link>http://test.ura.design/tags/open-source-design/</link>
+    <description>Recent content in Open Source Design on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sun, 08 Sep 2019 19:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/open-source-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTPS Everywhere Redesign</title>
+      <link>http://test.ura.design/blog/https-everywhere-redesign/</link>
+      <pubDate>Sun, 08 Sep 2019 19:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/https-everywhere-redesign/</guid>
+      <description>HTTPS Everywhere is a free and open-source browser extension for Google Chrome, Mozilla Firefox, Opera, Brave, and Firefox for Android, which is developed collaboratively by The Tor Project and the Electronic Frontier Foundation (EFF).
+It automatically makes websites use a more secure HTTPS connection instead of HTTP if they support it. HTTPS Everywhere makes it possible to block and unblock all non-HTTPS browser connections with one click.
+In an effort to improve the user experience, we worked with the EFF team to reimagine HTTPS Everywhere.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Logobridge</title>
+      <link>http://test.ura.design/blog/introducing-logobridge/</link>
+      <pubDate>Tue, 07 May 2019 18:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/introducing-logobridge/</guid>
+      <description>At Ura we have been constantly working with open source projects to get their branding up to speed. While we love working on fully fledged visual identities for projects, we are aware that some projects simply need a logo to get started and focus on the actual software features. This motivated us to build Logobridge, an open source collection of public domain logos anyone can use for their projects for free: https://logobridge.</description>
+    </item>
+    
+    <item>
+      <title>Underexposed 2019</title>
+      <link>http://test.ura.design/blog/underexposed-2019/</link>
+      <pubDate>Mon, 11 Feb 2019 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/underexposed-2019/</guid>
+      <description>During early January (7-11) Elio and Anxhelo from our team participated as mentors in the Underexposed event organized by Simply Secure in Berlin, Germany. Simply Secure
+Underexposed Collective is a loosely-knit group of designers, researchers, writers, advocates, and users who reject the current trajectory of mainstream technology development. They support people by providing funding, education, mentorship, design support, research, testing, and a community for collaboration.
+This was the first time Underexposed took place in the form of a residency.</description>
+    </item>
+    
+    <item>
+      <title>SecureDrop Style Guide</title>
+      <link>http://test.ura.design/blog/securedrop-styleguide/</link>
+      <pubDate>Tue, 25 Dec 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/securedrop-styleguide/</guid>
+      <description>Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources.
+During this process we were brought closer with the Project, getting to know the developers and designers behind it that help create a secure system for whistleblowers. The work we conducted with SecureDrop was part of the OTF Usability Lab, as have been previous ones before.</description>
+    </item>
+    
+    <item>
+      <title>I2P Style Guide and Usability Study</title>
+      <link>http://test.ura.design/blog/i2p-usability-study-and-styleguide/</link>
+      <pubDate>Mon, 03 Dec 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/i2p-usability-study-and-styleguide/</guid>
+      <description>Back when Ura was founded in 2016 we only had a small landing page and a Patreon to help fund the time we help Open Source projects. It was very little but the thought that people would support us kept us fueled. During that time we were also approached by I2P for helping them with updating their website and some branding. We resided to simplify the logo to something which would offer more flexibility and be already an improvement of the former logo.</description>
+    </item>
+    
+    <item>
+      <title>Open Source Design Summit 2018</title>
+      <link>http://test.ura.design/blog/osd-summit-2018/</link>
+      <pubDate>Fri, 16 Nov 2018 08:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/osd-summit-2018/</guid>
+      <description>During the first weekend of November we had the pleasure to facilitate the annual Open Source Design Summit in the city we are based in, Tirana.
+Open Source Design (short OSD) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a job board, puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.</description>
+    </item>
+    
+    <item>
+      <title>LibreOffice Conference 2018</title>
+      <link>http://test.ura.design/blog/libocon-2018-visual-identity/</link>
+      <pubDate>Sat, 20 Oct 2018 08:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/libocon-2018-visual-identity/</guid>
+      <description>As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the LibreOffice Conference (short LibOCon). The conference is organized by the local Open Labs Hackerspace community, with which we share a lot of values and goals together.
+We were particularly excited to support this year&amp;rsquo;s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania.</description>
+    </item>
+    
+    <item>
+      <title>Thunderbird Style Guide and Usability Study</title>
+      <link>http://test.ura.design/blog/thunderbird-style-guide/</link>
+      <pubDate>Thu, 05 Jul 2018 08:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/thunderbird-style-guide/</guid>
+      <description>Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped redesign the Thunderbird Conversations add-on and even now our email infrastructure is powered by ProtonMail and ProtonMail Bridge via Thunderbird.
+Unfortunately, Mozilla moving away from Thunderbird created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird.</description>
+    </item>
+    
+    <item>
+      <title>Style Guides go Beyond Aesthetics</title>
+      <link>http://test.ura.design/blog/style-guides-go-beyond-aesthetics/</link>
+      <pubDate>Mon, 02 Jul 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/style-guides-go-beyond-aesthetics/</guid>
+      <description>Oftentimes we witness the results of elitist practices upon users, usually worded in the form of the acronym RTFM or &amp;ldquo;Read The Freaking Manual&amp;rdquo;. User manuals have their place, but up to which point can we expect users to learn by reading instead of doing?
+A similar stigma often appears in Free Software / Open Source projects as well. The alternative &amp;ldquo;Read the Documentation&amp;rdquo; certainly would ensure that people would give a little more effort before repeating questions.</description>
+    </item>
+    
+    <item>
+      <title>Inkscape Workshop in Tirana</title>
+      <link>http://test.ura.design/blog/inkscape-workshop-tirana/</link>
+      <pubDate>Fri, 23 Feb 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/inkscape-workshop-tirana/</guid>
+      <description>Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania.</description>
+    </item>
+    
+    <item>
+      <title>Ura at FOSDEM 2018</title>
+      <link>http://test.ura.design/blog/ura-fosdem-2018/</link>
+      <pubDate>Fri, 09 Feb 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/ura-fosdem-2018/</guid>
+      <description>During last weekend the Ura team traveled to Brussels, Belgium to attend FOSDEM. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one). Just like at CCC, we strive to be at events which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</description>
+    </item>
+    
+    <item>
+      <title>Hosting the first Open Source Design Workshop in Tirana</title>
+      <link>http://test.ura.design/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</link>
+      <pubDate>Sat, 11 Feb 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</guid>
+      <description>When we started our Patreon campaign we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field.</description>
+    </item>
+    
+  </channel>
+</rss>

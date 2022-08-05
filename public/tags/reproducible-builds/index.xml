@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reproducible Builds on Ura Design</title>
+    <link>http://test.ura.design/tags/reproducible-builds/</link>
+    <description>Recent content in Reproducible Builds on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 13 Jun 2018 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/reproducible-builds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reproducible Builds Style Guide</title>
+      <link>http://test.ura.design/blog/reproducible-builds-styleguide/</link>
+      <pubDate>Wed, 13 Jun 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/reproducible-builds-styleguide/</guid>
+      <description>Earlier this year, we announced our involvement with Open Tech Fund&amp;rsquo;s Usability Lab, providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the announcement on our blog.
+Reproducible Builds has been the first project we supported as part of the Usability Lab. Reproducible Builds represents a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</description>
+    </item>
+    
+  </channel>
+</rss>

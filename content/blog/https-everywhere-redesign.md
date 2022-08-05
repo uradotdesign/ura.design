@@ -3,7 +3,7 @@ title = "HTTPS Everywhere Redesign"
 draft = true
 authors = ["renata"]
 date = "2019-09-08 19:00:00 +0200"
-image = "/img/blog/httpse-post.png"
+image = "/img/blog/httpse-post.webp"
 categories = []
 tags = ["Usability Research", "UX Research", "Open Source Design"]
 +++
@@ -43,16 +43,16 @@ After completing the research phase, we started shaping the design. We decided t
 
 #### Original
 
-![HTTPSE Old Interface](/images/blog/httpse-old.png)
+![HTTPSE Old Interface](/images/blog/httpse-old.webp)
 
 #### Iteration
 
-![HTTPSE Iteration 1 Interface](/images/blog/httpse-iteration.png)
+![HTTPSE Iteration 1 Interface](/images/blog/httpse-iteration.webp)
 
 #### Iteration 2 & 3
 
-![HTTPSE New Interface](/images/blog/httpse-iteration2.png)
-![HTTPSE New Interface](/images/blog/httpse-iteration3.png)
+![HTTPSE New Interface](/images/blog/httpse-iteration2.webp)
+![HTTPSE New Interface](/images/blog/httpse-iteration3.webp)
 
 ### Conclusion
 

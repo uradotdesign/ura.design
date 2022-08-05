@@ -31,7 +31,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. D
 
 Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
 
-{{< figure src="/img/work/censoredplanet-brand.png" >}}
+{{< figure src="/img/work/censoredplanet-brand.webp" >}}
 
 ## Highlighting internet censorship
 
@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. D
 
 Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
 
-{{< figure src="/img/work/censoredplanet-time.png" >}}
+{{< figure src="/img/work/censoredplanet-time.webp" >}}
 
 ## Empowering users to contribute results
 
@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget arcu turpis. D
 
 Praesent ut posuere dolor, eget imperdiet orci. Curabitur imperdiet scelerisque sapien, ut mollis libero tempus ut. Nullam elementum pharetra erat, non egestas purus laoreet in. Aliquam erat volutpat.
 
-{{< figure src="/img/work/censoredplanet-app.png" >}}
+{{< figure src="/img/work/censoredplanet-app.webp" >}}
 
 ## How we helped
 

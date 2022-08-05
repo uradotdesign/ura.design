@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inkscape on Ura Design</title>
+    <link>http://test.ura.design/tags/inkscape/</link>
+    <description>Recent content in Inkscape on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 23 Feb 2018 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/inkscape/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inkscape Workshop in Tirana</title>
+      <link>http://test.ura.design/blog/inkscape-workshop-tirana/</link>
+      <pubDate>Fri, 23 Feb 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/inkscape-workshop-tirana/</guid>
+      <description>Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania.</description>
+    </item>
+    
+  </channel>
+</rss>

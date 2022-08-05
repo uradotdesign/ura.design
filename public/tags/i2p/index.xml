@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I2P on Ura Design</title>
+    <link>http://test.ura.design/tags/i2p/</link>
+    <description>Recent content in I2P on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 03 Dec 2018 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/i2p/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I2P Style Guide and Usability Study</title>
+      <link>http://test.ura.design/blog/i2p-usability-study-and-styleguide/</link>
+      <pubDate>Mon, 03 Dec 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/i2p-usability-study-and-styleguide/</guid>
+      <description>Back when Ura was founded in 2016 we only had a small landing page and a Patreon to help fund the time we help Open Source projects. It was very little but the thought that people would support us kept us fueled. During that time we were also approached by I2P for helping them with updating their website and some branding. We resided to simplify the logo to something which would offer more flexibility and be already an improvement of the former logo.</description>
+    </item>
+    
+  </channel>
+</rss>

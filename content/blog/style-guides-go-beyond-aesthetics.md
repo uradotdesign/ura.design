@@ -3,7 +3,7 @@ title = "Style Guides go Beyond Aesthetics"
 draft = true
 authors = ["elio"]
 date = "2018-07-02 12:00:00 +0200"
-image = "/img/blog/osd_event.png"
+image = "/img/blog/osd_event.webp"
 categories = []
 tags = ["Style Guides", "Brand Guidelines", "Open Source Design"]
 +++
@@ -38,7 +38,7 @@ Facilitating consistency can be done via a range of tools, including Brand Guide
 
 [Sketch](https://www.sketchapp.com/) revolutionized Prototyping and UX Design years ago. Nowadays [Figma](https://www.figma.com/) is gaining popularity, being praised by its focus on unified design systems accessible by all members of a project without reinventing components. Figma emphasized the need for consistency and streamlined the design process by integrating it within a powerful design system. It's one of the primary reasons designers are so excited about it.
 
-![Icon Grid Display](/images/blog/IconGridBlurry.jpg)
+![Icon Grid Display](/images/blog/IconGridBlurry.webp)
 
 At the end of the day, style guides serve as a playbook for software creators. They go beyond the debate whether design decisions are justified or not, as long as it's covered within it. They are a single source of truth to help create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page.
 

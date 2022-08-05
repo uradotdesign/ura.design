@@ -4,7 +4,7 @@ draft = true
 author = "Kristi Çunga"
 link = "http://kristicunga.com/"
 date = "2018-10-20 08:00:00 +0200"
-image = "/img/blog/thumb_libocon.png"
+image = "/img/blog/thumb_libocon.webp"
 categories = []
 tags = ["Visual Identity", "Conference", "Open Source Design", "LibreOffice"]
 +++
@@ -19,13 +19,13 @@ To create a visual identity for LibOCon 2018, we had to consider two main elemen
 
 Let's start it with the logo. For this year conference, we sketched a monoline icon of the clock tower of the city, inside a hexagonal frame as the logo. The clock tower is one of the most popular and most recognizable symbols of Tirana. It is a part of old buildings ensemble of the city center, and it belongs to the city since the beginning of the 19th century.
 
-![LibOCon Main Logo](/images/blog/post_libocon_logo.png)
+![LibOCon Main Logo](/images/blog/post_libocon_logo.webp)
 
 For the logotype, we used [Zilla Slab](https://www.fontsquirrel.com/fonts/zilla-slab) [bold] al la [Aaron Draplin](https://en.wikipedia.org/wiki/Aaron_Draplin) style. We also picked the LibreOffice green and composed it with black and white, to keep the connection with the umbrella brand clear. The [template for the] logo is also easily adapted to next conferences: *we can change the city, the year below and replace Tirana clock tower with a certain symbol from the host city*.
 
 Stamps are always closely connected with a certain place and manifest a big event for that place. The idea of the stamp tower came after a brainstorm “how to make an event big”. We see the LibOCon with the importance of a big event not only for the LibreOffice community but even for the city of Tirana. We are working at the local level to make LibreOffice accessible and useful for everyone who works in the public sector. LibOCon 2018 is a big opportunity to show off the benefits of LibreOffice to the actors we are working with.
 
-![LibOCon Poster](/images/blog/libocon_poster_totebag.jpg)
+![LibOCon Poster](/images/blog/libocon_poster_totebag.webp)
 
 The dates and the venue of the conference are composed in a seal, as they stay for real in postcards. The stamp with the clock tower, the seal of the venue and posters vintage texture make the participants feel like they’re a postcard, as a souvenir from Tirana. The green color of the brand guidelines makes the poster easily identifiable for the community. 
 

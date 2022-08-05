@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on Ura Design</title>
+    <link>http://test.ura.design/categories/web-development/</link>
+    <description>Recent content in Web Development on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 25 Mar 2022 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Censored Planet</title>
+      <link>http://test.ura.design/work/censoredplanet/</link>
+      <pubDate>Fri, 25 Mar 2022 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/work/censoredplanet/</guid>
+      <description>We helped Censored Planet establish their brand identity and provide insights on internet censorship in understandable ways.</description>
+    </item>
+    
+    <item>
+      <title>Internews’ ADAPT</title>
+      <link>http://test.ura.design/work/adapt/</link>
+      <pubDate>Mon, 24 Jan 2022 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/work/adapt/</guid>
+      <description>We designed the full visual identity for Internews’ ADAPT, creating a style to graphically represent ADAPT everywhere.</description>
+    </item>
+    
+    <item>
+      <title>Oxidize - The Conference of embedded Rust</title>
+      <link>http://test.ura.design/work/oxizide/</link>
+      <pubDate>Tue, 24 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/work/oxizide/</guid>
+      <description>We created the brand and visual identity for Oxidize, designing every digital and print asset for the conference and providing a long-term design solution.</description>
+    </item>
+    
+    <item>
+      <title>Thunderbird</title>
+      <link>http://test.ura.design/work/thunderbird/</link>
+      <pubDate>Thu, 24 Jan 2019 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/work/thunderbird/</guid>
+      <description>We created the new Thunderbird brand and helped the project with extensive usability research.</description>
+    </item>
+    
+  </channel>
+</rss>

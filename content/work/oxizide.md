@@ -60,7 +60,7 @@ The Oxidize logo wordmark is inspired from the binary system which is made from 
 
 After setting the visual identity, everything else was done step-by-step. With variations of the logo shapes and the primary colors of the brand, the print deliverables were designed, including T-shirts, Badges, Posters, Stickers, etc.
 
-{{< figure src="/img/work/oxidize-swag.png" alt="Oxidize print mockups (Tshirt, badge, poster)" >}}
+{{< figure src="/img/work/oxidize-swag.webp" alt="Oxidize print mockups (Tshirt, badge, poster)" >}}
 
 
 ## How we helped

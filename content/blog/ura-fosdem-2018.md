@@ -4,7 +4,7 @@ draft = true
 author = "Mariana Balla"
 link = "https://twitter.com/marianaballa1"
 date = "2018-02-09 12:00:00 +0200"
-image = "/img/blog/Elio-FOSDEM2018-thumb.jpg"
+image = "/img/blog/Elio-FOSDEM2018-thumb.webp"
 categories = []
 tags = ["FOSDEM", "FOSDEM2018", "Identihub", "Open Source Design"]
 +++
@@ -12,7 +12,7 @@ tags = ["FOSDEM", "FOSDEM2018", "Identihub", "Open Source Design"]
 <p>During last weekend the Ura team traveled to Brussels, Belgium to attend <a href="https://fosdem.org/2018/" target="_blank">FOSDEM</a>. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one).  Just like at <a href="https://dev.ura.design/blogposts/2018/01/15/chaos-communication-congress-2017.html" target="_blank">CCC</a>, we strive to be at events  which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</p>
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/blog/OSD.jpg" alt="OSD booth at FOSDEM"><br />
+<img src="/images/blog/OSD.webp" alt="OSD booth at FOSDEM"><br />
 <i>Open Source Design infobooth – By Mariana Balla (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 </div>
 <div class="two spacing"></div>
@@ -22,7 +22,7 @@ tags = ["FOSDEM", "FOSDEM2018", "Identihub", "Open Source Design"]
 <p>At the Open Source Design booth, apart talking about our Design philosophy, we also had the chance to tell people about the way we operate and why we are focused on Free and Open Source Software,  We were also happy to introduce “Logobridge” our side-project which helps us contribute back to the community as a whole.</p>
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/blog/Elio-FOSDEM2018.jpg" alt="Elio during his presentation at FOSDEM 2018"><br />
+<img src="/images/blog/Elio-FOSDEM2018.webp" alt="Elio during his presentation at FOSDEM 2018"><br />
 <i>During the presentation – By Mariana Balla (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 </div>
 <div class="two spacing"></div>
@@ -32,7 +32,7 @@ tags = ["FOSDEM", "FOSDEM2018", "Identihub", "Open Source Design"]
 <p>Further the attendees were introduced to more technical details of the project. Identihub development and discussion happen on GitHub and contributions from everyone are welcomed. Having said that, everyone who is willing to contribute to the project can do so by either contributing with patches, reporting bugs, suggesting usability improvements or creating mockups. Last but not least you can support the Identihub development financially by signing up for a monthly contribution at our dedicated Patreon.</p>
 
 <div class="large-10 large-centered centered-text columns">
-<img src="/images/blog/Elio-Identihub.jpg" alt="Elio during his presentation about Identihub"><br />
+<img src="/images/blog/Elio-Identihub.webp" alt="Elio during his presentation about Identihub"><br />
 <i>During the presentation – By Mariana Balla (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
 </div>
 <div class="two spacing"></div>

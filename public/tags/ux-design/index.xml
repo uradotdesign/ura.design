@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ux design on Ura Design</title>
+    <link>http://test.ura.design/tags/ux-design/</link>
+    <description>Recent content in ux design on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 12 Mar 2018 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/ux-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ura is now part of Open Tech Fund’s Usability Lab</title>
+      <link>http://test.ura.design/blog/ura-now-part-open-tech-funds-usability-lab/</link>
+      <pubDate>Mon, 12 Mar 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/ura-now-part-open-tech-funds-usability-lab/</guid>
+      <description>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of Open Tech Fund’s Usability Lab.
+The Usability Lab aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security tools. There are many open ­source software projects that aim to help people around the world – activists, journalists, and everyday citizens – communicate in privacy and security.</description>
+    </item>
+    
+    <item>
+      <title>Hosting the first Open Source Design Workshop in Tirana</title>
+      <link>http://test.ura.design/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</link>
+      <pubDate>Sat, 11 Feb 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</guid>
+      <description>When we started our Patreon campaign we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field.</description>
+    </item>
+    
+  </channel>
+</rss>

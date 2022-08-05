@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop on Ura Design</title>
+    <link>http://test.ura.design/tags/workshop/</link>
+    <description>Recent content in Workshop on Ura Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 23 Feb 2018 12:00:00 +0200</lastBuildDate><atom:link href="http://test.ura.design/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inkscape Workshop in Tirana</title>
+      <link>http://test.ura.design/blog/inkscape-workshop-tirana/</link>
+      <pubDate>Fri, 23 Feb 2018 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/inkscape-workshop-tirana/</guid>
+      <description>Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania.</description>
+    </item>
+    
+    <item>
+      <title>Hosting the first Open Source Design Workshop in Tirana</title>
+      <link>http://test.ura.design/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</link>
+      <pubDate>Sat, 11 Feb 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://test.ura.design/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</guid>
+      <description>When we started our Patreon campaign we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field.</description>
+    </item>
+    
+  </channel>
+</rss>

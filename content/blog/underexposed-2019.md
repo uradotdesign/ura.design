@@ -3,14 +3,14 @@ title = "Underexposed 2019"
 draft = true
 authors = ["anxhelo"]
 date = "2019-02-11 12:00:00 +0200"
-image = "/img/blog/underexposed-post.jpg"
+image = "/img/blog/underexposed-post.webp"
 categories = []
 tags = ["Security", "Style Guide", "Open Source Design", "Event"]
 +++
 
 During early January (7-11) Elio and Anxhelo from our team participated as mentors in the [Underexposed](https://simplysecure.org/underexposed/) event organized by [Simply Secure](https://simplysecure.org/) in Berlin, Germany. Simply Secure
 
-![Underexposed Logo](/images/blog/underexposed.png)
+![Underexposed Logo](/images/blog/underexposed.webp)
 
 [Underexposed Collective](https://simplysecure.org/underexposed/) is a loosely-knit group of designers, researchers, writers, advocates, and users who reject the current trajectory of mainstream technology development. They support people by providing funding, education, mentorship, design support, research, testing, and a community for collaboration.
 
@@ -22,7 +22,7 @@ This was the first time Underexposed took place in the form of a residency. Fell
 The first day started with an introduction by Simply Secure over at the [WikiBär](https://www.openstreetmap.org/node/4842883021). [Georgia Bullen](https://twitter.com/georgiamoon), the Simply Secure Executive Director, quickly introduced the gist of the week.
 We had a chance to get to know all fellows and their projects better, which helped us have a better grasp of their needs and motivations.
 
-![Sticky notes schedule photo](/images/blog/underexposed-schedule.jpg)
+![Sticky notes schedule photo](/images/blog/underexposed-schedule.webp)
 
 ### Tuesday (8 January)
 
@@ -46,7 +46,7 @@ Elio's presentation was on Friday, about [Style Guides](https://en.wikipedia.org
 
 This was the final day of the event and the fellows worked during the day to prepare their presentations, on what they learned during the week and what they worked on. The presentations were held at the [Mozilla Offices](https://www.openstreetmap.org/node/4996803917#map=19/52.49947/13.44914) in Berlin. Many people had registered for the event and the fellows presented one by one their projects and conclusions. We were happy that our mockups were present in their slides and hope that the process continues to turn them into reality soon.
 
-![Sarah Fox presenting at the Mozilla Offices in front of the audience](/images/blog/underexposed-presentations.jpg)
+![Sarah Fox presenting at the Mozilla Offices in front of the audience](/images/blog/underexposed-presentations.webp)
 
 After the presentations, we got to discuss with each other and then head over for drinks somewhere close the venue.
 
