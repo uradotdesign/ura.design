@@ -89,6 +89,10 @@ html[data-theme="dark"] {
   & a:after {
     color: $contrast !important;
   }
+
+  details summary:after {
+    color: $contrast;
+  }
 }
 
 // Body
