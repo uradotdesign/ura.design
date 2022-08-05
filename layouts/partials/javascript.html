@@ -1,6 +1,5 @@
-{{ $main := resources.Get "js/main.js" }}
 {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{ $secureJS := slice $main $bootstrap | resources.Concat "bundle.js" | resources.Minify }}
+{{ $secureJS := slice $bootstrap | resources.Concat "bundle.js" | resources.Minify }}
 <script src="{{ $secureJS.RelPermalink }}"></script>
 
 {{ range $val := $.Site.Params.customJS }}
