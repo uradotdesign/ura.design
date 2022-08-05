@@ -44,8 +44,8 @@ We use [HedgeDoc](https://pad.ura.design) as our real-time editor, allowing auth
 
 We use social media accounts to share our work. We occasionally use the analytics tools provided by these platforms to understand how we can use these services better. Our social media accounts are:
 
-- [Ura Design on Twitter](https://twitter.com/uradotdesign> "Twitter Link") | [Privacy policy](https://twitter.com/en/privacy#update>)
-- [Ura Design on Instagram](https://www.instagram.com/uradotdesign/) | [Privacy policy](https://help.instagram.com/519522125107875/?helpref=uf_share>)
+- [Ura Design on Twitter](https://twitter.com/uradotdesign "Twitter Link") | [Privacy policy](https://twitter.com/en/privacy#update)
+- [Ura Design on Instagram](https://www.instagram.com/uradotdesign/) | [Privacy policy](https://help.instagram.com/519522125107875/?helpref=uf_share)
 
 If you’d like content about you removed from any of our social media profiles, please contact us at https://chat.ura.design/.
 
