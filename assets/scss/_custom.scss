@@ -93,12 +93,18 @@ html[data-theme="dark"] {
 
 // Body
 body {
+  line-height: 1.5;
   font-family: "Inter", sans-serif;
   font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1,
     "ss02" 1, "ss03" 1, "zero" 1;
-  line-height: 1.5;
   overflow-y: scroll;
   color: $gray-800;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 @keyframes fadeInAnimation {

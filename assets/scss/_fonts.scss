@@ -51,3 +51,22 @@
   src: local(""), url("../fonts/inter/inter-800.woff2") format("woff2"),
     url("../fonts/inter/inter-800.woff") format("woff");
 }
+
+/* inter variable - latin */
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("../fonts/inter/inter.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url("../fonts/inter/inter.var.woff2") format("woff2");
+}
