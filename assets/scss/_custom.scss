@@ -144,7 +144,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1;
+  font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1, "cv11" 1;
+  font-weight: 600;
+  letter-spacing: -0.025em;
 }
 
 // Navbar
@@ -411,8 +413,7 @@ footer {
   h4,
   h5,
   h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem;
   }
 
   & a {
@@ -535,6 +536,10 @@ article.first {
       background-color: $blue-600;
     }
   }
+}
+
+address {
+  margin-bottom: 0;
 }
 
 // Work

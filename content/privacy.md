@@ -20,38 +20,34 @@ We use the following services to run our websites and understand how people are 
 
 Our website uses [Plausible](https://plausible.io/) for simple and privacy-friendly web analytics. We collect information about how people are using our sites to allow us to improve their experience. Our traffic data is not used for any other purposes. Plausible does not use cookies and is fully compliant with GDPR, CCPA, PECR and other privacy regulations out of the box.
 
-## GitHub
-
-We use GitHub to host our website. Find out more about how Github uses data in their privacy statement.
-
 ## Presentator
 
-We host our work presentations using Presentator for its robust and scalable infrastructure. Find out more about how they use data in their privacy statement.
+We host our work presentations using [Presentator](https://show.ura.design) for its robust and scalable infrastructure. Find out more about how they use data in their [privacy statement](https://presentator.io/terms-and-conditions).
 
 ## ProtonMail
 
-We currently use ProtonMail for our email, calendaring, and document storage. Individual members of the team use PGP and are happy to correspond via encrypted email, or honor requests to have files shared with us be not stored in Google Drive. We respect diverse threat models and work to accommodate our partners’ needs and concerns.
+We currently use [ProtonMail](https://proton.me) for our email, calendaring, and document storage. Individual members of the team use PGP and are happy to correspond via encrypted email, or honor requests to have files shared with us be not stored in Google Drive. We respect diverse threat models and work to accommodate our partners’ needs and concerns.
 
 ## Mattermost
 
-We host Mattermost chat service for internal communication and community organizing. Mattermost stores your account information and usage data, and our administrators have access to all public channels. Please refer to Mattermost’s privacy policy before you sign on.
+We host [Mattermost](https://chat.ura.design) chat service for internal communication and community organizing. Mattermost stores your account information and usage data, and our administrators have access to all public channels. Please refer to [Mattermost’s privacy policy](https://mattermost.com/privacy-policy/) before you sign on.
 
 ## Nextcloud
 
-We host a Nextcloud server to store every work project, documentations and photographies from conferences we have participated and organized. We also use Nextcloud for surveys and forms needed for the testing and research.
+We host a [Nextcloud](https://cloud.ura.design) server to store every work project, documentations and photographies from conferences we have participated and organized. We also use Nextcloud for surveys and forms needed for the testing and research.
 
 ## HedgeDoc
 
-We use HedgeDoc as our real-time editor, allowing authors and users to edit a text document and see their edits instantly and simultaneously.
+We use [HedgeDoc](https://pad.ura.design) as our real-time editor, allowing authors and users to edit a text document and see their edits instantly and simultaneously.
 
 ## Our social media accounts
 
 We use social media accounts to share our work. We occasionally use the analytics tools provided by these platforms to understand how we can use these services better. Our social media accounts are:
 
-- [Ura Design on Twitter](<https://twitter.com/uradotdesign> "Twitter Link") | [Privacy policy](<https://twitter.com/en/privacy#update>)
-- [Ura Design on Instagram](<https://www.instagram.com/uradotdesign/>) | [Privacy policy](<https://help.instagram.com/519522125107875/?helpref=uf_share>)
+- [Ura Design on Twitter](https://twitter.com/uradotdesign> "Twitter Link") | [Privacy policy](https://twitter.com/en/privacy#update>)
+- [Ura Design on Instagram](https://www.instagram.com/uradotdesign/) | [Privacy policy](https://help.instagram.com/519522125107875/?helpref=uf_share>)
 
-If you’d like content about you removed from any of our social media profiles, please contact us at <https://chat.ura.design/>.
+If you’d like content about you removed from any of our social media profiles, please contact us at https://chat.ura.design/.
 
 ## Research participants
 
@@ -63,8 +59,6 @@ All research participants are given a consent form that outlines what the resear
 
 At the moment, we do not conduct any research with people under the age of 18. We do not give incentives for the participants.
 
-You can view an example of our participant Bill of Rights on GitHub. *link here*
-
 ## Using information from research
 
 Research material is separated from any identifiable information, such as consent forms, while we are working with it.
@@ -75,11 +69,11 @@ Sometimes we may publish quotes from research sessions. We only do this if we ha
 
 ## Survey
 
-We use Nextcloud for gathering and processing information from survey participants. See their privacy policy for more information.
+We use Nextcloud for gathering and processing information from survey participants. See [their privacy policy](https://nextcloud.com/privacy/) for more information.
 
 ## Withdrawing your consent
 
-Participants are able to withdraw their information from a project at any time. To do this, contact 
+Participants are able to withdraw their information from a project at any time. To do this, contact hello@ura.design.
 
 ## Working at Ura
 
@@ -103,11 +97,11 @@ We don’t use “soft opt-in”, meaning you won’t receive any marketing comm
 
 We carefully choose our services and tools at Ura Design. It’s important that they follow good security practices, like HTTPS, two-factor authentication and the ability to set a strong password. We’ve reviewed the privacy policies and security practices of everything we use.
 
-When a new team member joins Ura Design, we explain best practices for keeping their devices secure, maintaining the security of their online accounts including the usage of a new Yubikey provided by [Yubico](<https://www.yubico.com/>).
+When a new team member joins Ura Design, we explain best practices for keeping their devices secure, maintaining the security of their online accounts including the usage of a new Yubikey provided by [Yubico](https://www.yubico.com/).
 
 ## Data breaches
 
-In the event of a data breach, we are required to notify the Information Commissioner’s Office. We will do so following their [guidance](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/>).
+In the event of a data breach, we are required to notify the Information Commissioner’s Office. We will do so following their [guidance](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/).
 
 ## Data transfer outside the EEA
 
@@ -121,16 +115,16 @@ Every quarter, we review our documentation of the data we handle and third party
 
 The General Data Protection Regulation gives EU citizens the following rights:
 
-- [Right to be informed](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-be-informed/>)
-- [Right of access](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-of-access/>)
-- [Right to rectification](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-rectification/>)
-- [Right to erasure](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/>)
-- [Right to restrict processing](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-restrict-processing/>)
-- [Right to data portability](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-data-portability/>)
-- [Right to object](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-object/>)
-- [Rights related to automated decision-making, including profiling](<https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/rights-related-to-automated-decision-making-including-profiling/>)
+- [Right to be informed](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-be-informed/)
+- [Right of access](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-of-access/)
+- [Right to rectification](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-rectification/)
+- [Right to erasure](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/)
+- [Right to restrict processing](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-restrict-processing/)
+- [Right to data portability](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-data-portability/)
+- [Right to object](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-object/)
+- [Rights related to automated decision-making, including profiling](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/rights-related-to-automated-decision-making-including-profiling/)
 
-To exercise any of these rights, please contact us at link. You can find information specific to the services we use or our activities in the relevant sections of this document. If you are located in the EU and aren’t satisfied by our response, you can contact the EU [Information Commissioner’s Office](<https://ico.org.uk/make-a-complaint/>).
+To exercise any of these rights, please contact us at link. You can find information specific to the services we use or our activities in the relevant sections of this document. If you are located in the EU and aren’t satisfied by our response, you can contact the EU [Information Commissioner’s Office](https://ico.org.uk/make-a-complaint/).
 
 ## Acknowledgements
 

@@ -124,8 +124,8 @@ paginate = 8
     url        = "/source"
     weight     = "1"
   [[languages.en.menu.footer]]
-    identifier = "data-privacy"
-    name       = "Data Privacy"
+    identifier = "privacy-policy"
+    name       = "Privacy Policy"
     url        = "/privacy"
     weight     = "2"
   [[languages.en.menu.footer]]
@@ -164,8 +164,8 @@ paginate = 8
     url        = "/source"
     weight     = "1"
   [[languages.de.menu.footer]]
-    identifier = "data-privacy"
-    name       = "Data Privacy"
+    identifier = "privacy-policy"
+    name       = "Privacy Policy"
     url        = "/privacy"
     weight     = "2"
   [[languages.de.menu.footer]]
