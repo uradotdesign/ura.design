@@ -725,7 +725,7 @@ details[open] summary::after {
 }
 
 .testimonial {
-  animation: fadeInAnimation 0.35s;
+  animation: fadeInAnimation 0.25s;
 
   &-name {
     font-size: 1.25rem;
@@ -757,6 +757,8 @@ details[open] summary::after {
 #testimonials {
   min-height: 22rem;
 }
+
+$carousel-transition-duration: 0.4s;
 
 .carousel-indicators {
   justify-content: start;
