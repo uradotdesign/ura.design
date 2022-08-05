@@ -1,8 +1,7 @@
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta charset="UTF-8" />
 <meta name="author"
-  content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }} {{ end }}{{ end }}" />
+  content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }} {{ end }}{{ else }}Ura Design{{ end }}" />
 <meta name="description"
   content="{{ if .IsHome }}{{ .Description }}{{ else }}{{ .Description | default ( .Summary | plainify | truncate 100 ) }}{{ end }}" />
 <meta name="keywords"
@@ -28,7 +27,7 @@
 {{ end }}
 
 <!-- Icons -->
-{{- partial "favicons.html" . }} {{- template "_internal/schema.html" . }} {{- template "_internal/twitter_cards.html" . }} {{ range .Params.categories }}
+{{- partial "favicons.html" . }} {{- template "_internal/schema.html" . }} {{- template "_internal/opengraph.html" . }} {{- template "_internal/twitter_cards.html" . }} {{ range .Params.categories }}
 <meta property="article:section" content="{{ . }}" />
 {{ end }} 
 {{ if isset .Params "date" }}
