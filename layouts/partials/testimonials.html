@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center py-4">
             <div class="col-xl-10 col-12">
-            <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true">
+            <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true" data-bs-pause="false">
                 {{ $testimonial := (where .Site.RegularPages "Type" "testimonials") }}
                 <div class="carousel-indicators">
                     {{ range first 1 $testimonial }}
