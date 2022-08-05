@@ -21,13 +21,13 @@ CalyxOS is an Android mobile operating system that puts privacy and security int
 
 CalyxOS needs to be the obvious alternative to the big mobile duopoly Google and Apple are controlling, so we prioritized making CalyxOS more approachable by improving various visual identity shortcoming. We aimed to bring an easy-going and fun note to the privacy values CalyxOS embodies. At the end of the day, this should be a phone available to the every-day person.
 
-{{< figure src="/img/work/calyxos-flower.png" alt="CalyxOS illustration preview" >}}
+{{< figure src="/img/work/calyxos-flower.svg" alt="CalyxOS illustration preview" >}}
 
 ## Illustrations
 
 We helped CalyxOS by offering a new set of Illustrations to replace the current ones, giving a unique and modern look, also setting a flexible and scalable graphic style. These graphics are bright, fun, abstract, vivid, with elements of privacy and security integrated into them. We wanted to move away from the overexposed approach of shady metaphors when it comes to privacy and instead settled for a visual approach which normalized privacy features.
 
-{{< figure src="/img/work/calyxos-illustrations.png" alt="CalyxOS overview of 5 illustrations on dark mode" >}}
+{{< figure src="/img/work/calyxos-illustrations.svg" alt="CalyxOS overview of 5 illustrations on dark mode" >}}
 
 ## Wallpapers
 

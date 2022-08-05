@@ -39,7 +39,7 @@ The abstract supportive graphics of ADAPT's visual identity are created using Ti
 
 With the right color palette, each graphic visualizes one tagline ADAPT wants to express. Graphics with organic curves add life and vibration and the more geometrical ones give the right amount of sharpness to the messages.
 
-{{< figure src="/img/work/adapt-art.svg" alt="Adapt generative art" alt="Generative art mockup" >}}
+{{< figure src="/img/work/adapt-art.png" alt="Adapt generative art" alt="Generative art mockup" >}}
 
 ## Too many colors?
 

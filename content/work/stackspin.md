@@ -22,19 +22,19 @@ Working with Stackpin consisted in creating a modern and relevant brand identity
 
 We created the entire brand design and implemented the new identity in the X pages. To ensure the visual consistency, we provided a guideline manual so Stackspin’s visual identity will presented correctly in their future activity.
 
-{{< figure src="/img/work/stackspin-cover.png" alt="Stackspin Logo cover image" >}}
+{{< figure src="/img/work/stackspin-cover.svg" alt="Stackspin Logo cover image" >}}
 
 ## S as Stack / S as Spin,
 
 The icon of the new logo symbolizes the stacked blocks while forming the letter S. (something about the colorr and the Greenhost connection).
 
-{{< figure src="/img/work/stackspin-icon.png" alt="Stackspin logo composition" >}}
+{{< figure src="/img/work/stackspin-icon.svg" alt="Stackspin logo composition" >}}
 
 ## Typography and Colors
 
-{{< figure src="/img/work/stackspin-typography.png" alt="Typeface preview (Space Grotesk & Inter)" >}}
+{{< figure src="/img/work/stackspin-typography.svg" alt="Typeface preview (Space Grotesk & Inter)" >}}
 
-{{< figure src="/img/work/stackspin-colors.png" alt="Color palette preview (teal)" >}}
+{{< figure src="/img/work/stackspin-colors.svg" alt="Color palette preview (teal)" >}}
 
 ## Brand Book
 
