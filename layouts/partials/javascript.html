@@ -1,5 +1,5 @@
 {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{ $secureJS := slice $bootstrap | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $secureJS := slice $bootstrap | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha256" }}
 <script src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
 {{ range $val := $.Site.Params.customJS }}
