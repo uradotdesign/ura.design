@@ -6,7 +6,7 @@ module.exports = {
         "./content/*.md",
         "./layouts/**/*.html",
       ],
-      safelist: ["arrow", "tooltip", "tooltip-arrow", "tooltip-inner"],
+      safelist: [""],
       blocklist: [""],
     },
   },

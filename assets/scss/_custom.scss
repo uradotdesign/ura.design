@@ -5,6 +5,11 @@ html {
 }
 
 html[data-theme="dark"] {
+
+  & #fader {
+    background: #121212;
+  }
+
   & * {
     background: #121212 !important;
     color: hsla(0, 0%, 100%, 0.87) !important;
