@@ -31,7 +31,7 @@
                     <div id="{{ .Page.Params.id }}" class="tabcontentservice">
                         <p class="mb-0">{{ .Content }}
                         <p>
-                            <a class="see-more mt-3" href="/categories/{{ .Page.Params.id }}">See our {{ .Page.Params.title }} Work</a>
+                            <a class="see-more mt-3" href="/categories/{{ .Page.Params.id }}">See our {{ .Page.Params.title }} Work {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
                     </div>
                     {{ end }}
                     <script>
@@ -66,7 +66,7 @@
                     <h2 class="mb-5">Our Expertise</h2>
                     {{ range (where .Site.RegularPages "Type" "services") }}
                     <details>
-                        <summary>{{ .Page.Params.title }}</summary>
+                        <summary>{{ .Page.Params.title }} {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
                         <p class="mb-0">{{ .Content }}
                         <p>
                             <a class="see-more w-100 justify-content-center my-3"

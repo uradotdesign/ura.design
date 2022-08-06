@@ -12,19 +12,19 @@
                         <h2>{{ .Page.Params.name }}</h2>
                         <p>{{ .Page.Params.position }}</p>
                         {{ if .Page.Params.website }}
-                            <a href="{{ .Page.Params.website }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
+                            <a href="{{ .Page.Params.website }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Website">{{ partial "fontawesome.html" "solid/globe" }}</a>
                         {{ end }}
                         {{ if .Page.Params.twitter }}
-                            <a href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Twitter">{{ partial "fontawesome.html" "brands/twitter" }}</a>
                         {{ end }}
                         {{ if .Page.Params.github }}
-                            <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub">{{ partial "fontawesome.html" "brands/github" }}</a>
                         {{ end }}
                         {{ if .Page.Params.email }}
-                            <a href="mailto:{{ .Page.Params.email }}" aria-label="{{ .Page.Params.name }}'s email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+                            <a href="mailto:{{ .Page.Params.email }}" aria-label="{{ .Page.Params.name }}'s email">{{ partial "fontawesome.html" "solid/envelope" }}</a>
                         {{ end }}
                         {{ if .Page.Params.gpg }}
-                            <a href="{{ .Page.Params.gpg }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GPG key"><i class="fa-solid fa-key" aria-hidden="true"></i></a>
+                            <a href="{{ .Page.Params.gpg }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GPG key">{{ partial "fontawesome.html" "solid/key" }}</a>
                         {{ end }}
                     </div>
                 </div>

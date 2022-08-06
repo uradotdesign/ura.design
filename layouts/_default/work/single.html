@@ -8,7 +8,7 @@
 <body class="d-flex flex-column min-vh-100" style="background-color: {{ .Params.background }};">
     <a class="screen-reader-text" href="#content">Skip to content</a>
 
-    <button aria-label="Toggle High Contrast" id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Toggle High Contrast" class="acctoggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <button aria-label="Toggle High Contrast" id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Toggle High Contrast" class="acctoggle">{{ partial "fontawesome.html" "solid/circle-half-stroke" }}</button>
 
     <script>
         let theme = localStorage.getItem("data-theme");
@@ -101,7 +101,7 @@
     <section aria-label="Return to all items page">
         <div class="container-fluid py-5 background-white">
             <div class="container">
-                <a class="back-overview" href="/work">Back to overview</a>
+                <a class="back-overview" href="/work">{{ partial "fontawesome.html" "solid/arrow-left" }} Back to overview</a>
             </div>
         </div>
     </section>

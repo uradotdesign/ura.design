@@ -14,10 +14,6 @@ html[data-theme="dark"] {
     text-decoration: underline;
   }
 
-  & .back-overview:before {
-    color: $contrast !important;
-  }
-
   & .logo {
     fill: $contrast !important;
   }
@@ -27,8 +23,7 @@ html[data-theme="dark"] {
     border-color: $contrast;
   }
 
-  & .fa-grip-lines,
-  .fa-xmark {
+  & .inline-svg svg path {
     color: $contrast !important;
   }
 
@@ -73,26 +68,6 @@ html[data-theme="dark"] {
   & .home a {
     text-decoration: none !important;
   }
-
-  & .circle-icons i {
-    &:hover,
-    &:focus-visible,
-    &:focus {
-      outline-color: $contrast;
-    }
-  }
-
-  & footer a i:hover:before {
-    color: $contrast;
-  }
-
-  & a:after {
-    color: $contrast !important;
-  }
-
-  details summary:after {
-    color: $contrast;
-  }
 }
 
 // Body
@@ -102,7 +77,6 @@ body {
   font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1,
     "ss02" 1, "ss03" 1, "zero" 1;
   overflow-y: scroll;
-  color: $gray-800;
 }
 
 @supports (font-variation-settings: normal) {
@@ -157,6 +131,16 @@ h6 {
   font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1, "cv11" 1;
   font-weight: 600;
   letter-spacing: -0.025em;
+}
+
+// SVG
+.inline-svg {
+  display: inline-flex;
+  align-self: center;
+  height: 1em;
+  width: 1em;
+  top: 0.1em;
+  position: relative;
 }
 
 // Navbar
@@ -247,18 +231,6 @@ nav .nav-link {
   padding: 0.25rem 0.75rem;
 }
 
-.wordmark {
-  opacity: 0;
-  transition: transform 0.3s ease-in-out;
-  position: absolute;
-  left: 40px;
-}
-
-.navbar-brand:hover .wordmark {
-  opacity: 1;
-  transform: translateX(15px);
-}
-
 // Home
 .home {
   & h1 {
@@ -279,13 +251,8 @@ nav .nav-link {
     text-decoration: none;
     transition: 0.25s ease-in-out;
 
-    &:after {
-      content: "\f061";
-      font-family: "Font Awesome 6 Free";
-      font-weight: 700;
-      color: $white;
-      margin-left: 0.75rem;
-      transition: 0.25s ease-in-out;
+    & span {
+      margin-left: 0.25rem;
     }
 
     &:hover,
@@ -293,20 +260,12 @@ nav .nav-link {
     &:focus {
       color: $blue-500;
       background-color: $white;
-
-      &:after {
-        color: $blue-500;
-      }
     }
   }
 }
 
 .dim {
   opacity: 0.5;
-}
-
-main h3 {
-  font-size: 1.25rem;
 }
 
 // Footer
@@ -328,33 +287,36 @@ footer {
   color: $blue-600;
   text-decoration: none;
 
-  &:hover {
-    text-decoration: underline;
+  & span {
+    margin-left: 0.25rem;
+    transition: 0.25s ease-in-out;
   }
 
-  &:after {
-    content: "\f061";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 700;
-    font-size: 2rem;
-    display: inline-block;
-    color: $blue-600;
-    margin-left: 0.75rem;
-    transition: 0.25s ease-in-out;
-    text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+
+    & span {
+      margin-left: 0.65rem;
+    }
   }
 
   &:hover,
   &:focus-visible,
   &:focus {
-    &:after {
-      margin-left: 1rem;
+    & span {
+      margin-left: 0.65rem;
     }
   }
 }
 
-.cta i {
+.cta .inline-svg {
   color: $blue-600;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+
+  &:hover {
+    color: $blue-700;
+  }
 }
 
 #footerNav .nav-link {
@@ -652,14 +614,14 @@ address {
   display: inline-flex;
   align-items: center;
 
-  &:after {
-    content: "\f061";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 700;
-    color: $blue-500;
+  & span {
     margin-left: 0.5rem;
-    font-size: 1.25rem;
-    transition: 0.25s ease-in-out;
+
+    &.inline-svg {
+      height: 1.2em;
+      width: 1.2em;
+      top: 0;
+    }
   }
 
   &:hover,
@@ -667,10 +629,6 @@ address {
   &:focus {
     color: $white;
     background-color: $blue-500;
-
-    &:after {
-      color: $white;
-    }
   }
 }
 
@@ -686,41 +644,31 @@ details summary {
   color: $blue-500;
   cursor: pointer;
   margin-block: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+
+  & .inline-svg {
+    top: 0;
+  }
 }
 
 details:not(:last-of-type) {
   border-bottom: 1px solid $gray-300;
 }
 
-details summary::after {
-  position: absolute;
-  right: 20px;
-  content: "\f078";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 600;
-  color: $gray-900;
-  transition: 0.2s ease-in-out;
+details[open] summary svg {
+   transform: rotate(180deg);
 }
 
-details[open] summary::after {
-  transform: rotate(180deg);
-}
-
-.circle-icons i {
+.circle-icons span {
   color: $blue-500;
-  background: $gray-50;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  outline: 2px solid transparent;
-  text-align: center;
-  line-height: 2rem;
-  vertical-align: middle;
+  font-size: 1.25rem;
+  margin-right: 0.35rem;
 
   &:hover,
   &:focus-visible,
   &:focus {
-    outline: 2px solid $blue-500;
+    color: $blue-700;
   }
 }
 
@@ -758,8 +706,6 @@ details[open] summary::after {
   min-height: 22rem;
 }
 
-$carousel-transition-duration: 0.4s;
-
 .carousel-indicators {
   justify-content: start;
   margin-bottom: 0.5rem;
@@ -778,7 +724,7 @@ $carousel-transition-duration: 0.4s;
   }
 }
 
-svg path {
+svg, svg path {
   transition: 0.25s ease-in-out;
 }
 
@@ -869,23 +815,16 @@ svg path {
     text-decoration: underline;
   }
 
-  &:before {
-    content: "\f060";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 700;
-    font-size: 1.85rem;
-    display: inline-block;
-    color: $blue-500;
-    margin-right: 0.75rem;
+  & span {
+    margin-right: 0.25rem;
     transition: 0.25s ease-in-out;
   }
 
   &:hover,
   &:focus-visible,
   &.selected {
-    &:before {
-      color: $blue-600;
-      margin-right: 1rem;
+    & span {
+      margin-right: 0.65rem;
     }
   }
 }
@@ -1039,25 +978,21 @@ svg path {
     color: $white;
     text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
+    & span {
+      margin-left: 0.25rem;
+      transition: 0.25s ease-in-out;
+      top: 0.2em;
     }
 
-    &:after {
-      content: "\f061";
-      font-family: "Font Awesome 6 Free";
-      font-weight: 700;
-      color: $white;
-      display: inline-block;
-      margin-left: 0.75rem;
-      transition: 0.25s ease-in-out;
+    &:hover {
+      text-decoration: underline;
     }
 
     &:hover,
     &:focus-visible,
     &:focus {
-      &:after {
-        margin-left: 1rem;
+      & span {
+        margin-left: 0.65rem;
       }
     }
   }
