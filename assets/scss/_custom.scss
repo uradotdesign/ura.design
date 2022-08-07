@@ -45,13 +45,21 @@ html[data-theme="dark"] {
     border-left-color: $contrast;
   }
 
-  & .tablinkservice.active {
+  & .tablinkservice:focus-visible {
+    border-left: 0.2rem solid $contrast !important;
+  }
+
+  & .active {
     color: $contrast !important;
     border-left-color: $contrast;
   }
 
   & .carousel-dark .carousel-indicators [data-bs-target] {
     border-color: $contrast;
+
+    &:hover {
+      background-color: $contrast !important;
+    }
 
     &.active {
       background-color: $contrast !important;
@@ -766,7 +774,7 @@ svg, svg path {
   opacity: 1;
   transition: background-color 0.25s ease-in-out;
 
-  &.active {
+  &.active, &:hover {
     background-color: $blue-500;
   }
 }
