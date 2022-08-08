@@ -36,11 +36,12 @@ html[data-theme="dark"] {
   }
 
   & .acctoggle {
-    &:hover,
-    &:focus-visible,
-    &:focus {
-      border: 2px solid $contrast;
-    }
+    color: $contrast;
+    border: 2px solid $contrast;
+  }
+
+  & .tooltip {
+    background: transparent !important;
   }
 
   & .tablinkservice:hover {
@@ -114,19 +115,31 @@ body {
 // Accessibility
 .acctoggle {
   background: $white;
+  color: $blue-600;
   outline: none;
-  border: 2px solid $gray-700;
+  border: 2px solid $blue-600;
   border-radius: 0 6px 6px 0;
   padding: 0.5rem 0.75rem;
   font-size: 1.25rem;
   position: fixed;
   bottom: auto;
-  top: 85vh;
+  top: 80vh;
   left: 0;
   right: auto;
   z-index: 10;
   transition: 0.2s;
   will-change: border;
+
+  &:hover,
+  &:focus-visible,
+  &:focus {
+    color: $blue-800;
+    border: 2px solid $blue-800;
+  }
+}
+
+.tooltip {
+  font-size: 1rem;
 }
 
 // Backgrounds
