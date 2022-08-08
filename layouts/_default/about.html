@@ -4,7 +4,7 @@
     <div class="container-fluid services">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-12 pt-5 pe-0 background-gray-50 d-none d-lg-block">
+                <div id="services" class="col-xl-3 col-lg-4 col-12 pt-5 pe-0 background-gray-50 d-none d-lg-block">
 
                     {{ if .IsTranslated }}
                     | {{ i18n "postAvailable" }}
@@ -62,7 +62,7 @@
                     </script>
                 </div>
 
-                <div class="col-12 pt-5 d-block d-lg-none">
+                <div id="expertise" class="col-12 pt-5 d-block d-lg-none">
                     <h2 class="mb-5">Our Expertise</h2>
                     {{ range (where .Site.RegularPages "Type" "services") }}
                     <details>
