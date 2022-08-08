@@ -33,6 +33,10 @@ paginate = 8
 [permalinks]
   blog = "/blog/:filename/"
 
+[author]
+  name = "Ura Design"
+  email = "hello@ura.design"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

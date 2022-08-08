@@ -149,7 +149,7 @@ h6 {
 // SVG
 .inline-svg {
   display: inline-flex;
-  align-self: center;
+  justify-content: center;
   height: 1em;
   width: 1em;
   top: 0.1em;
@@ -325,7 +325,7 @@ footer {
 .cta .inline-svg {
   color: $blue-600;
   font-size: 2rem;
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
 
   &:hover {
     color: $blue-700;
