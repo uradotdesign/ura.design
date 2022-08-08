@@ -5,7 +5,6 @@ html {
 }
 
 html[data-theme="dark"] {
-
   & #fader {
     background: #121212;
   }
@@ -285,7 +284,7 @@ nav .nav-link {
 .custom-text {
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.150em;
+  letter-spacing: 0.15em;
   line-height: 1.2;
 }
 
@@ -685,7 +684,7 @@ details:not(:last-of-type) {
 }
 
 details[open] summary svg {
-   transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .circle-icons span {
@@ -752,7 +751,8 @@ details[open] summary svg {
   }
 }
 
-svg, svg path {
+svg,
+svg path {
   transition: 0.25s ease-in-out;
 }
 
@@ -789,7 +789,8 @@ svg, svg path {
   opacity: 1;
   transition: background-color 0.25s ease-in-out;
 
-  &.active, &:hover {
+  &.active,
+  &:hover {
     background-color: $blue-500;
   }
 }
