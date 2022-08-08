@@ -125,7 +125,7 @@ body {
   top: 85vh;
   left: 0;
   right: auto;
-  z-index: 100;
+  z-index: 10;
   transition: 0.2s;
   will-change: border;
 }
@@ -212,7 +212,7 @@ nav .nav-link {
   height: 0;
   width: 100%;
   position: fixed;
-  z-index: 1000;
+  z-index: 20;
   top: 0;
   left: 0;
   background-color: $blue-500;
@@ -1148,7 +1148,7 @@ svg, svg path {
     bottom: 5vh;
     right: 0;
     left: auto;
-    z-index: 100;
+    z-index: 10;
     transition: 0.2s;
   }
 }
@@ -1196,5 +1196,5 @@ svg, svg path {
   line-height: normal;
   padding: 1rem;
   text-decoration: none;
-  z-index: 100000;
+  z-index: 25;
 }
