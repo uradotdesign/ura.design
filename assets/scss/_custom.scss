@@ -582,6 +582,9 @@ address {
       text-decoration: underline;
     }
   }
+  & .sticky-xl-top {
+    font-feature-settings: "cv08" 0, "cv05" 1;
+  }
   & p img {
     max-width: 100%;
     margin-block: 2rem;
