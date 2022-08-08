@@ -2,41 +2,51 @@
     <div class="container">
         <div class="row justify-content-center py-4">
             <div class="col-xl-10 col-12">
-            <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true" data-bs-pause="false">
-                {{ $testimonial := (where .Site.RegularPages "Type" "testimonials") }}
-                <div class="carousel-indicators">
-                    {{ range first 1 $testimonial }}
-                    <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" class="active" aria-current="true" aria-label="Testimonial by {{.Page.Params.name }}"></button>
-                    {{ end }}
-                    {{ range after 1 $testimonial }}
-                    <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" aria-label="Testimonial by {{.Page.Params.name }}"></button>
-                    {{ end }}
-                </div>
-                <div class="carousel-inner">
-                    {{ range first 1 $testimonial }}
-                    <div class="carousel-item testimonial py-5 active">
-                        <blockquote>{{ .Content }}</blockquote>
-                        <h2 class="testimonial-name"><a class="testimonial-link" href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer">{{ .Page.Params.name }}</a></h2>
-                        <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                <div id="testimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true" data-bs-pause="false">
+                    {{ $testimonial := (where .Site.RegularPages "Type" "testimonials") }}
+                    <div class="carousel-indicators">
+                        {{ range first 1 $testimonial }}
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" class="active" aria-current="true" aria-label="Testimonial by {{.Page.Params.name }}"></button>
+                        {{ end }}
+                        {{ range after 1 $testimonial }}
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="{{ sub .Page.Params.weight 1 }}" aria-label="Testimonial by {{.Page.Params.name }}"></button>
+                        {{ end }}
                     </div>
-                    {{ end }}
-                    {{ range after 1 $testimonial }}
-                    <div class="carousel-item testimonial py-5">
+                    <div class="carousel-inner">
+                        {{ range first 1 $testimonial }}
+                        <div class="carousel-item testimonial py-5 active">
+                            <blockquote>{{ .Content }}</blockquote>
+                            <h2 class="testimonial-name"><a class="testimonial-link" href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer">{{ .Page.Params.name }}</a></h2>
+                            <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                        </div>
+                        {{ end }}
+                        {{ range after 1 $testimonial }}
+                        <div class="carousel-item testimonial py-5">
+                            <blockquote>{{ .Content | markdownify }}</blockquote>
+                            <h2 class="testimonial-name"><a class="testimonial-link" href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer">{{ .Page.Params.name }}</a></h2>
+                            <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <button class="carousel-control-next" type="button" aria-label="Next slide" data-bs-target="#testimonials" data-bs-slide="next">
+                    <span aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="55" height="33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 14.018h22.938L12.817 3.758 16.216.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.774z" fill="#1b69b6"/>
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div id="testimonials-nojs">
+                    {{ range (where .Site.RegularPages "Type" "testimonials") }}
+                    <article>
                         <blockquote>{{ .Content | markdownify }}</blockquote>
                         <h2 class="testimonial-name"><a class="testimonial-link" href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer">{{ .Page.Params.name }}</a></h2>
                         <p class="testimonial-organization">{{ .Page.Params.organization }}</p>
-                    </div>
+                    </article>
                     {{ end }}
                 </div>
-                <button class="carousel-control-next" type="button" aria-label="Next slide" data-bs-target="#testimonials" data-bs-slide="next">
-                  <span aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M0 14.018h22.938L12.817 3.758 16.216.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.774z" fill="#1b69b6"/>
-                    </svg>
-                  </span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
             </div>
         </div>
     </div>

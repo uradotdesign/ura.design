@@ -733,6 +733,30 @@ details[open] summary svg {
   min-height: 22rem;
 }
 
+#testimonials-nojs {
+  padding-top: 2rem;
+  display: none;
+
+  & article {
+    padding-bottom: 2rem;
+
+    & blockquote {
+      margin-bottom: 0.5rem;
+      color: $gray-700;
+      font-size: 2rem;
+      font-weight: 300;
+
+      & p {
+        margin-bottom: 0;
+      }
+    }
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+}
+
 .carousel-indicators {
   justify-content: start;
   margin-bottom: 0.5rem;
