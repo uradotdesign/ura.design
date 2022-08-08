@@ -11,7 +11,7 @@ image = "totem.svg"
 tags = []
 categories = ["Branding", "Illustrations", "Layout Design"]
 [links]
-    "Website" = "https://totem-project.org/"
+    "Totem Project Website" = "https://totem-project.org/"
     "Brand Book" = "https://www.figma.com/proto/kEOzFgxt5JcoUUsoHstwBV/Totem-%7C-Brand-%26-Visual-Identity?node-id=101%3A999&scaling=min-zoom&page-id=101%3A2"
     "Figma Community" = "https://www.figma.com/community/file/1075833658628793680"
 +++
