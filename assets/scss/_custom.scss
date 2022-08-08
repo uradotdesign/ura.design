@@ -1180,7 +1180,8 @@ svg, svg path {
   border-radius: 0.25rem;
   box-shadow: 0 0 0.125rem 0.125rem rgba(0, 0, 0, 0.6);
   clip-path: none;
-  color: black;
+  color: $black;
+  background-color: $white;
   display: block;
   font-size: 0.875rem;
   font-weight: bold;
