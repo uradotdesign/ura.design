@@ -4,23 +4,27 @@
     {{ end }}
 
     {{ if .IsHome }}
-    <div class="container py-5 my-4 text-white">
-        <div class="row home justify-content-lg-center justify-content-start py-lg-5 py-0">
-            <div class="col-xl-6 col-lg-11 col-10">
-                <h1>We help open source projects succeed.</h1>
-            </div>
-            <div class="col-xl-4 col-11 py-3">
-                <p>Ura is the design studio dedicated to make open source software more usable, accessible and competitive.</p>
-                <a href="/work">Our Work {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+    <div class="container-fluid py-5 my-4 text-white">
+        <div class="container">
+            <div class="row home justify-content-lg-center justify-content-start py-lg-5 py-0">
+                <div class="col-xl-6 col-lg-11 col-10">
+                    <h1>We help open source projects succeed.</h1>
+                </div>
+                <div class="col-xl-4 col-11 py-3">
+                    <p>Ura is the design studio dedicated to make open source software more usable, accessible and competitive.</p>
+                    <a href="/work">Our Work {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                </div>
             </div>
         </div>
     </div>
     {{ else if eq .Page.Type "about" }}
-    <div class="container about background-blue-500 text-white py-5 mb-5">
-        <div class="row">
-            <div class="col-xl-7 offset-xl-1 col-lg-8 col-12">
-                <h1 class="fw-light">Open Source and Usability belong together</h1>
-                <p class="mb-0 fw-normal">Ura is a design agency working on open source and privacy-preserving software. We've been supporting software projects since 2016 to be the best they can be. Our team is based in Tirana (Albania), Prishtina (Kosovo) and Berlin (Germany).</p>
+    <div class="container-fluid about background-blue-500 text-white py-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-1 col-lg-8 col-12">
+                    <h1 class="fw-light">Open Source and Usability belong together</h1>
+                    <p class="mb-0 fw-normal">Ura is a design agency working on open source and privacy-preserving software. We've been supporting software projects since 2016 to be the best they can be. Our team is based in Tirana (Albania), Prishtina (Kosovo) and Berlin (Germany).</p>
+                </div>
             </div>
         </div>
     </div>
