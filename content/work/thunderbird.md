@@ -1,5 +1,6 @@
 +++
 layout = "work/single"
+featured = true
 theme = "dark"
 background = "#002275"
 secondary = "#7EE4E8"
