@@ -21,7 +21,7 @@ The Advocating for Data Accountability, Protection, and Transparency (ADAPT) Pro
 
 The visual identity design for ADAPT consisted in creating a modern and vivid look for the program and it’s community. We created the entire brand design, implementing the style in each deliverable, providing a guideline manual to ensure that the identity of ADAPT is displayed correctly in their future activity.
 
-{{< figure src="/img/work/adapt-brand.webp" alt="Adapt brand pattern" alt="Adapt branding moodboard" >}}
+{{< figure src="/img/work/adapt-brand.webp" alt="Adapt branding moodboard" >}}
 
 ## “Adapting” the logo
 
@@ -31,7 +31,7 @@ The logo aims to be minimal, monochrome, and flexible.
 
 The glyph is made of rectangular shapes, which metaphorically are willing to adapt depending on the circumstances, filling the empty spaces.
 
-{{< figure src="/img/work/adapt-logo.webp" alt="Adapt project logo" alt="Adapt logo composition" >}}
+{{< figure src="/img/work/adapt-logo.webp" alt="Adapt logo composition" >}}
 
 ## Generative art
 
@@ -39,7 +39,7 @@ The abstract supportive graphics of ADAPT's visual identity are created using Ti
 
 With the right color palette, each graphic visualizes one tagline ADAPT wants to express. Graphics with organic curves add life and vibration and the more geometrical ones give the right amount of sharpness to the messages.
 
-{{< figure src="/img/work/adapt-art.webp" alt="Adapt generative art" alt="Generative art mockup" >}}
+{{< figure src="/img/work/adapt-art.webp" alt="Generative art mockup" >}}
 
 ## Too many colors?
 
@@ -47,7 +47,7 @@ While experimenting with the colors and providing different options, we decided 
 
 Playing with the contrast and the tones, we provided two palettes for the dark mode and two for the light mode. The fifth one is a mixed palette to be used only on white background as the primary color palette for Internews’ ADAPT.
 
-{{< figure src="/img/work/adapt-typography.webp" alt="Adapt brand typography" alt="Typography and color combination preview" >}}
+{{< figure src="/img/work/adapt-typography.webp" alt="Typography and color combination preview" >}}
 
 ## Brand Book
 
