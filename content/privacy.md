@@ -124,7 +124,7 @@ The General Data Protection Regulation gives EU citizens the following rights:
 - [Right to object](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-object/)
 - [Rights related to automated decision-making, including profiling](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/rights-related-to-automated-decision-making-including-profiling/)
 
-To exercise any of these rights, please contact us at link. You can find information specific to the services we use or our activities in the relevant sections of this document. If you are located in the EU and aren’t satisfied by our response, you can contact the EU [Information Commissioner’s Office](https://ico.org.uk/make-a-complaint/).
+To exercise any of these rights, please contact us at [our chat](https://chat.ura.design) or via email at [hello@ura.design](mailto:hello@ura.design). You can find information specific to the services we use or our activities in the relevant sections of this document. If you are located in the EU and aren’t satisfied by our response, you can contact the EU [Information Commissioner’s Office](https://ico.org.uk/make-a-complaint/).
 
 ## Acknowledgements
 
