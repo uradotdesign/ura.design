@@ -59,7 +59,7 @@ paginate = 8
   # Metadata mostly used in document's head
   description = "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects."
   keywords = "design, ux, ui, public, developer, privacy, security, foss, floss"
-  images = ["img/default.svg"]
+  images = ["img/default.webp"]
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/uradotdesign/ura.design/commit/"
