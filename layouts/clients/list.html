@@ -16,7 +16,7 @@
               {{ range where .Site.RegularPages "Type" "clients" }}
                 <div class="col-xl-4 col-md-6 col-12 pb-md-4 pb-3 px-lg-4 px-2">
                     <p class="client-title">{{ .Page.Params.name }}</p>
-                    <p class="client-description">{{ .Content }}</p>
+                    <p class="client-description">{{ .Content | plainify }}</p>
                 </div>
               {{ end }}
             </div>
