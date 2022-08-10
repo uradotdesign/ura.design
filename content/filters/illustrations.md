@@ -1,4 +1,0 @@
-+++
-id = "illustrations"
-title = "Illustrations"
-+++

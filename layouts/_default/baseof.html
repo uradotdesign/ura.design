@@ -10,9 +10,9 @@
     <svg id="fader" class="fade-out"></svg>
     <script>fadeInPage()</script>
 
-    <a class="screen-reader-text" href="#content">Skip to content</a>
+    <a class="screen-reader-text" href="#content">{{ i18n "skipLink" }}</a>
 
-    <button aria-label="Toggle High Contrast" id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Toggle High Contrast"
+    <button aria-label="{{ i18n "toggle" }}" id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="{{ i18n "toggle" }}"
         class="acctoggle">{{ partial "fontawesome.html" "solid/circle-half-stroke" }}</button>
 
     <script>

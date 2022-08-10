@@ -1,4 +1,0 @@
-+++
-id = "accessibility"
-title = "Accessibility"
-+++

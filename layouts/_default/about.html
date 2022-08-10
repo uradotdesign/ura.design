@@ -6,14 +6,7 @@
             <div class="row">
                 <div id="services" class="col-xl-3 col-lg-4 col-12 pt-5 pe-0 background-gray-50 d-none d-lg-block">
 
-                    {{ if .IsTranslated }}
-                    | {{ i18n "postAvailable" }}
-                    {{ range .Translations }}
-                    <a href="{{ .Permalink }}"><span>{{ index $.Site.Data.langFlags (.Lang) }}</span></a>
-                    {{ end }}
-                    {{ end }}
-
-                    <h2>Our Expertise</h2>
+                    <h2>{{ i18n "expertise" }}</h2>
 
                     <div class="tab pb-4" role="tablist" aria-multiselectable="true">
                         {{ range (where .Site.RegularPages "Type" "services") }}
@@ -31,7 +24,7 @@
                     <div id="{{ .Page.Params.id }}" class="tabcontentservice">
                         <p class="mb-0">{{ .Content }}
                         <p>
-                            <a class="see-more mt-3" href="/categories/{{ .Page.Params.id }}">See our {{ .Page.Params.title }} Work {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                            <a class="see-more mt-3" href="{{ "/categories/" | absLangURL }}{{ .Page.Params.id }}">{{ i18n "seeOur" }} {{ .Page.Params.title }} {{ i18n "work" }} {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
                     </div>
                     {{ end }}
                     <script>
@@ -63,7 +56,7 @@
                 </div>
 
                 <div id="expertise" class="col-12 pt-5 d-block d-lg-none">
-                    <h2 class="mb-5">Our Expertise</h2>
+                    <h2 class="mb-5">{{ i18n "expertise" }}</h2>
                     {{ range (where .Site.RegularPages "Type" "services") }}
                     <details>
                         <summary>{{ .Page.Params.title }} {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>

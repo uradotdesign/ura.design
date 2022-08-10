@@ -8,8 +8,8 @@
               {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
               {{- range .Site.Menus.main -}}
               <li class="nav-item">
-                <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
-                  ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{
+                <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{ end }}" {{ if eq
+                  ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{ end }} href="{{ .URL | absLangURL }}">{{
                   .Name
                   }}</a>
               </li>
@@ -20,16 +20,16 @@
       </div>
       <div class="row py-0 py-lg-5 pt-lg-5 cta">
         <div class="col-xxl-5 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
-          <h2>Let's talk:</h2>
-          <a class="arrow-link" href="/contact">Contact {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+          <h2>{{ i18n "letsTalk" }}:</h2>
+          <a class="arrow-link" href="/contact">{{ i18n "contact" }} {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
         </div>
         <div class="col-xxl-5 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
           <h2>Subscribe:</h2>
           <a class="arrow-link" href="https://tinyletter.com/uracreative" target="_blank"
-            rel="noopener noreferrer">Newsletter {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+            rel="noopener noreferrer">{{ i18n "newsletter" }} {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
         </div>
         <div class="col-xxl-2 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
-          <h2>We are on:</h2>
+          <h2>{{ i18n "weareOn" }}:</h2>
           <div class="pt-2">
             {{- with .Site.Params.social }}
             {{ partial "social-icons.html" . }}
@@ -46,8 +46,8 @@
                 {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
                 {{- range .Site.Menus.footer -}}
                 <li class="nav-item">
-                  <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
-                    ($firstUrlElement|lower) (.URL|lower) }}aria-current="page"{{end}} href="{{ .URL | absLangURL }}">{{
+                  <a class="nav-link {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{ end }}" {{ if eq
+                    ($firstUrlElement|lower) (.URL|lower) }}aria-current="page"{{ end }} href="{{ .URL | absLangURL }}">{{
                     .Name
                     }}</a>
                 </li>

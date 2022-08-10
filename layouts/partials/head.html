@@ -10,6 +10,12 @@
 <meta name="theme-color" content="{{ if .Params.background }}{{ .Params.background }}{{ else }}#1F78D1{{ end }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 
+{{ if .IsTranslated }}
+	{{ range .Translations }}
+	<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+	{{ end }}
+{{ end }}
+
 {{ block "title" . }}
 <title>
   {{ if .IsHome }} {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }} {{ end }} {{ else }} {{ .Title }} :: {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }} {{ end }}
@@ -32,7 +38,6 @@
 {{ end }}
 
 {{ partial "noscript.html" . }}
-
 {{ partial "animation.html" . }}
 
 <!-- Icons -->

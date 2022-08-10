@@ -2,15 +2,109 @@
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # Generic
-#
 [translations]
 other = "Translations"
 
 [postAvailable]
 other = "Also available in"
 
+[skipLink]
+other = "Skip to content"
+
+[next]
+other = "Next"
+
+[contact]
+other = "Contact"
+
+[newsletter]
+other = "Newsletter"
+
+[toggle]
+other = "Toggle High Contrast"
+
+[seeOur]
+other = "See our"
+
+[work]
+other = "Work"
+
+[clients]
+other = "Clients"
+
+# Homepage
+[homeTitle]
+other = "We help open source projects succeed."
+[homeSubtitle]
+other = "Ura is the design studio dedicated to making open source software more usable, accessible and competitive."
+[featuredStudies]
+other = "Featured Case Studies"
+[moreStudies]
+other = "More Case Studies"
+
+# About
+[expertise]
+other = "Our Expertise"
+[aboutTitle]
+other = "Open Source and Usability belong together"
+[aboutSubtitle]
+other = "Ura is a design agency working on open source and privacy-preserving software. We've been supporting software projects since 2016 to be the best they can be. Our team is based in Tirana (Albania), Prishtina (Kosovo) and Berlin (Germany)."
+[whoareWe]
+other = "Who are we?"
+
+# Contact
+[getinTouch]
+other = "Get in touch"
+[contactTeam]
+other = "Have a challenge? Get in touch with our team to discuss how we can help."
+[preferCall]
+other = "Prefer to talk over a call?"
+[scheduleCall]
+other = "Schedule a call"
+[helpProject]
+other = "Can we help on your project?"
+[contactUs]
+other = "Contact us"
+[weareOn]
+other = "We are on"
+
+# Footer
+[letsTalk]
+other = "Let's talk"
+
+# Works
+[allWorks]
+other = "All Works"
+[ourWork]
+other = "Our Work"
+[workTagged]
+other = "Work tagged as"
+
+[Branding]
+other = "Branding"
+[Illustrations]
+other = "Illustrations"
+[InteractionDesign]
+other = "Interaction Design"
+[UXResearch]
+other = "UX Research"
+[WebDevelopment]
+other = "Web Development"
+[Accessibility]
+other = "Accessibility"
+[LayoutDesign]
+other = "Layout Design"
+
+[services]
+other = "Services"
+[links]
+other = "Links"
+[sources]
+other = "Sources"
+[overview]
+other = "Back to overview"
+
 # 404.html
-#
 [archives]
 other = "Posts"
 
@@ -20,9 +114,13 @@ other = "Home"
 [notFound]
 other = "Oops, page not found…"
 
+# Blog 
+[newerPosts]
+other = "Newer posts"
+[olderPosts]
+other = "Older posts"
 
 # posts/single.html
-#
 [readingTime]
 one   = "One minute"
 other = "{{ .Count }} minutes"

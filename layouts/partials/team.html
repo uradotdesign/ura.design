@@ -1,6 +1,6 @@
 <div class="container-fluid py-5">
     <div class="container">
-        <h2>Who are we?</h2>
+        <h2>{{ i18n "whoareWe" }}</h2>
         <div class="row pt-lg-4 pt-0">
         {{ range (where .Site.RegularPages "Type" "authors") }}
             <div class="col-xl-4 col-lg-6 col-12">
