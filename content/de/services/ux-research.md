@@ -4,7 +4,7 @@ title = "UX-Forschung"
 weight = 3
 +++
 
-Von der Informationsarchitektur bis zum Usability-Testing bieten wir Ihnen die richtigen Werkzeuge und Fähigkeiten, die Sie für einen menschenzentrierten Designansatz benötigen. Wir wenden unsere Branchenerfahrung auf Ihr Projekt an, indem wir die 10 Heuristiken für Benutzererfahrung von Nielsen Norman anwenden. Wir möchten Ihnen dabei helfen, von Anfang an das Richtige zu entwickeln, anstatt Dinge im Nachhinein zu korrigieren. Wenn es um Benutzertests geht, bieten wir interne Rekrutierungs- und Testdienste an, einschließlich Benutzerinterviews und Usability-Tests.
+Von der Informationsarchitektur bis zum Usability-Testing bieten wir Dir die richtigen Werkzeuge und Erfahrungen, die Du für einen menschenzentrierten Designansatz benötigst. Wir wenden unsere Branchenerfahrung auf Dein Projekt an, indem wir die 10 Heuristiken für UX von Nielsen Norman anwenden. Wir möchten Dir dabei helfen, von Anfang an das Richtige zu entwickeln, anstatt Dinge im Nachhinein zu korrigieren. Wenn es um User Tests geht, bieten wir auch interne Rekrutierungs- und Testdienste an, einschließlich Benutzerinterviews und Usability-Tests.
 
 ---
 
