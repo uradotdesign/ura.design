@@ -35,7 +35,7 @@
             {{ if .IsTranslated }}
             {{ range .Translations }}
             <li class="nav-item ms-4">
-              <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ partial "fontawesome.html" "solid/language" }} {{ .Lang }}</a>
+              <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ .Lang }}</a>
             </li>
             {{ end }}
             {{ end }} 
