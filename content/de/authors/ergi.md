@@ -1,6 +1,6 @@
 +++
 name = "Ergi Shkëlzeni"
-position = "Visuelle Gestaltung"
+position = "Visual Designer"
 bio = "Ergi"
 website = ""
 github = "ergish"
