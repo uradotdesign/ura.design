@@ -6,7 +6,7 @@
 other = "Übersetzungen"
 
 [postAvailable]
-other = "Auch erhältlich in"
+other = "Wechsle auf"
 
 [skipLink]
 other = "Zum Inhalt springen"
@@ -27,28 +27,28 @@ other = "Hohen Kontrast umschalten"
 other = "Siehe unser"
 
 [work]
-other = "Arbeit"
+other = "Arbeiten"
 
 [clients]
 other = "Kunden"
 
 # Homepage
 [homeTitle]
-other = "Wir verhelfen Open-Source-Projekten zum Erfolg."
+other = "Wir helfen Open-Source erfolgreich zu sein"
 [homeSubtitle]
-other = "Ura ist das Designstudio, das sich dafür einsetzt, Open-Source-Software benutzerfreundlicher, zugänglicher und wettbewerbsfähiger zu machen."
+other = "Ura ist das Designstudio, das sich dafür einsetzt, Open-Source-Software benutzerfreundlicher, barrierefreier und erfolgreicher zu gestalten."
 [featuredStudies]
-other = "Ausgewählte Fallstudien"
+other = "Ausgewählte Case Studies"
 [moreStudies]
-other = "Weitere Fallstudien"
+other = "Weitere Case Studies"
 
 # About
 [expertise]
 other = "Unser Fachwissen"
 [aboutTitle]
-other = "Open Source und Benutzerfreundlichkeit gehören zusammen"
+other = "Open Source und UX gehören zusammen"
 [aboutSubtitle]
-other = "Ura ist eine Design-Agentur, die an Open-Source- und datenschutzfreundlicher Software arbeitet. Seit 2016 unterstützen wir Software-Projekte dabei, das Beste aus ihnen zu machen, was möglich ist. Unser Team sitzt in Tirana (Albanien), Prishtina (Kosovo) und Berlin (Deutschland)."
+other = "Ura ist eine Design-Agentur, die an Open-Source- und datenschutzfreundlicher Software arbeitet. Seit 2016 unterstützen wir Software-Projekte dabei sich bestens zu präsentieren. Unser Team sitzt in Tirana, Prishtina und Berlin."
 [whoareWe]
 other = "Wer sind wir?"
 
@@ -56,13 +56,13 @@ other = "Wer sind wir?"
 [getinTouch]
 other = "Kontakt aufnehmen"
 [contactTeam]
-other = "Haben Sie eine Herausforderung? Setzen Sie sich mit unserem Team in Verbindung, um zu besprechen, wie wir helfen können."
+other = "Hast Du eine Herausforderung für uns? Setze Dich mit unserem Team in Verbindung, um zu sehen, wie wir helfen können."
 [preferCall]
-other = "Möchten Sie lieber über einen Anruf sprechen?"
+other = "Möchtest Du lieber ein persönliches Gespräch?"
 [scheduleCall]
 other = "Einen Anruf vereinbaren"
 [helpProject]
-other = "Können wir Ihnen bei Ihrem Projekt helfen?"
+other = "Können wir Dir bei Deinem Projekt helfen?"
 [contactUs]
 other = "Kontakt"
 [weareOn]
@@ -70,33 +70,33 @@ other = "Wir sind auf"
 
 # Footer
 [letsTalk]
-other = "Lassen Sie uns reden"
+other = "Lass uns reden"
 
 # Works
 [allWorks]
-other = "Alle Werke"
+other = "Alle Arbeiten"
 [ourWork]
-other = "Unsere Arbeit"
+other = "Unsere Arbeiten"
 [workTagged]
-other = "Arbeit getaggt als"
+other = "Arbeiten getaggt als"
 
 [Branding]
 other = "Branding"
 [Illustrations]
 other = "Illustrationen"
 [InteractionDesign]
-other = "Interaktionsdesign"
+other = "Interaction Design"
 [UXResearch]
-other = "UX-Forschung"
+other = "UX Research"
 [WebDevelopment]
 other = "Web Entwicklung"
 [Accessibility]
 other = "Barrierefreiheit"
 [LayoutDesign]
-other = "Layout Gestaltung"
+other = "Layout Design"
 
 [services]
-other = "Dienstleistungen"
+other = "Services"
 [links]
 other = "Links"
 [sources]
