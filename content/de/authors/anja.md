@@ -1,6 +1,6 @@
 +++
 name = "Anja Xhakani"
-position = "UX-Forscher"
+position = "UX Researcherin"
 bio = "Anja"
 website = "https://axhakani.github.io/"
 github = "axhakani"
