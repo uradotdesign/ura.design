@@ -31,13 +31,15 @@
                 ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
+
             {{ if .IsTranslated }}
             {{ range .Translations }}
             <li class="nav-item ms-4">
               <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ partial "fontawesome.html" "solid/language" }} {{ .Lang }}</a>
             </li>
             {{ end }}
-            {{ end }}
+            {{ end }} 
+            
           </ul>
         </div>
       </nav>
