@@ -4,7 +4,7 @@ title = "Interaktionsdesign"
 weight = 4
 +++
 
-Wir entwerfen und erstellen datenschutzgerechte Benutzeroberflächen und Designsysteme, um Ihre Vision zum Leben zu erwecken. Von der Skizze bis zum High-Fidelity-Prototyp decken wir den gesamten Designprozess Ihrer Website, Web-App oder mobilen App ab, einschließlich der Übergabe an die Entwickler, Animationen und Interaktionen.
+Wir entwerfen und erstellen datenschutzgerechte Benutzeroberflächen und Designsysteme, um Deine Vision zum Leben zu erwecken. Von der Skizze bis zum High-Fidelity-Prototyp decken wir den gesamten Designprozess Deiner Webesite oder Mobile App ab. Das natürlich einschließlich der Dokumentation von Animationen und Interaktionen, wie auch der Übergabe an die Entwickler.
 
 ---
 
