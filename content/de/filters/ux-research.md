@@ -1,4 +1,4 @@
 +++
 id = "ux research"
-title = "UX-Forschung"
+title = "UX Research"
 +++
