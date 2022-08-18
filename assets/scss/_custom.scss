@@ -18,12 +18,25 @@ html[data-theme="dark"] {
     text-decoration: underline;
   }
 
+  & .nav-link.active.language {
+    color: #121212 !important;
+    background-color: $contrast !important;
+  }
+
+  & .nav-link.language {
+    color: $contrast !important;
+  }
+
   & .screen-reader-text:focus {
     background-color: $contrast;
   }
 
   & .logo {
     fill: $contrast !important;
+  }
+
+  & .vr {
+    background-color: $contrast !important;
   }
 
   & a {
@@ -149,6 +162,14 @@ body {
 
 .background-black {
   background-color: $black;
+}
+
+.txt-dark {
+  color: #212529;
+}
+
+.txt-white {
+  color: $white !important;
 }
 
 // Headings
