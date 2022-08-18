@@ -2,6 +2,7 @@
 title = "Imprint"
 subtitle = ""
 theme = "dark"
+text = "#FFFFFF"
 +++
 
 Ura Design is operated by (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):

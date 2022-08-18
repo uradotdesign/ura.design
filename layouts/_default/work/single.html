@@ -47,7 +47,7 @@
     </header>
 
     <div id="content" class="content">
-        <main class="project {{ with .Params.theme }}{{ if eq . "dark" }}text-white{{ else }}{{ end }}{{ end }}">
+        <main class="project" {{ if isset .Params "text" }}style="color: {{ .Params.text }};"{{ end }}>
             <div class="container-fluid py-5 mb-5">
                 <div class="container">
                     <div class="row justify-content-start">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
 
-                        <div class="offset-xl-1 col-xl-7 col-lg-7 col-12 pt-5 project-content">
+                        <div class="offset-xl-1 col-xl-8 col-lg-8 col-12 pt-5 project-content" {{ if isset .Params "text" }}style="color: {{ .Params.text }};"{{ end }}>
                             {{ .Content | safeHTML }}
                         </div>
                     </div>

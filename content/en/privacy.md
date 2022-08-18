@@ -2,6 +2,7 @@
 title = "Privacy Policy"
 subtitle = "We strive for the lowest amount of data retention as possible. In fact even this website uses no cookies! Learn here how you interact with our services."
 theme = "dark"
+text = "#FFFFFF"
 +++
 
 Ura Design adheres to the highest ethical standards in all of our operations and is dedicated to protecting the privacy of everyone who interacts with us. We don’t sell, barter, give away, rent, or permit anyone outside of Ura Design, and project-scoped contractors to use or access information about our partners, collaborators, research participants, or website visitors.

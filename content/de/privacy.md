@@ -2,6 +2,7 @@
 title = "Datenschutz"
 subtitle = "Wir bemühen uns, so wenig Daten wie möglich zu speichern. Sogar diese Website verwendet keine Cookies! Erfahren Sie hier, wie Sie mit unseren Diensten interagieren."
 theme = "dark"
+text = "#FFFFFF"
 +++
 
 Ura Design hält sich bei all seinen Tätigkeiten an die höchsten ethischen Standards und ist bestrebt, die Privatsphäre aller Personen zu schützen, die mit uns in Kontakt treten. Wir verkaufen, tauschen, verschenken, vermieten oder erlauben niemandem außerhalb von Ura Design und projektbezogenen Auftragnehmern, Informationen über unsere Partner, Mitarbeiter, Forschungsteilnehmer oder Website-Besucher zu verwenden oder darauf zuzugreifen.

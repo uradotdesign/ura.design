@@ -3,6 +3,7 @@ layout = "work/single"
 theme = "light"
 background = "#D2F4FD"
 accent = "#196D80"
+text = "#194954"
 title = "AsciiDoc"
 summary = "AsciiDoc is a plain text markup language for writing technical content. We were approached by the AsciiDoc working group to create a coherent brand identity and website to serve as the home for the AsciiDoc language."
 date = "2022-08-15 12:00:00 +0200"
@@ -32,11 +33,78 @@ In projects like these, we like to organize a brand workshop with all the stakeh
 
 Due to the constant dynamic of discussions and equal participation among the participants, the byproduct of achieving AsciiDoc’s tone of voice was a more transparent and trusting relationship with the people involved at AsciiDoc. As designers we need to listen more than we speak. While doing that brings us closer to the desired solution, it brings us closer to the people involved as well.
 
-{{< figure src="/img/work/asciidoc-notes.svg" alt="AsciiDoc sticky notes" >}}
+
+<div class="row my-5">
+
+<div class="col-xl-4 col-12 mb-xl-0 mb-4">
+
+### Culture
+
+How does our community describe us?
+
+{{< note bg="#B1D0FF" color="#333333" text="Open" >}}
+
+</div>
+
+<div class="col-xl-4 col-12 mb-xl-0 mb-4">
+
+### Customers
+
+How do we describe who they are?
+
+{{< note bg="#EAC287" color="#333333" text="Communicators" >}}
+
+</div>
+
+<div class="col-xl-4 col-12">
+
+### Voice
+
+How do we sound?
+
+{{< note bg="#93E396" color="#333333" text="Approachable" >}}
+
+</div>
+
+</div>
+
+<div class="row mb-5">
+
+<div class="col-xl-4 col-12 mb-xl-0 mb-4">
+
+### Benefit
+
+How do others feel after interacting with us?
+
+{{< note bg="#EABFFF" color="#333333" text="Empowered" >}}
+
+</div>
+
+<div class="col-xl-4 col-12 mb-xl-0 mb-4">
+
+### Value
+
+What is our tangible impact?
+
+{{< note bg="#FFBDAE" color="#333333" text="Interoperable" >}}
+
+</div>
+
+<div class="col-xl-4 col-12 mb-xl-0 mb-4">
+
+### X-Factor
+
+What is it that makes us radically different?
+
+{{< note bg="#FFEA79" color="#333333" text="Pragmatic" >}}
+
+</div>
+
+</div>
+
+<!-- {{< figure src="/img/work/asciidoc-notes.svg" alt="AsciiDoc sticky notes" >}} -->
 
 Soon we were able to pinpoint the tone of voice of AsciiDoc and how to present it to to the world. Beyond the tone of voice however, we also asked the workshop participants to tell us how the AsciiDoc brand should feel like, using a set of sliders representing different values determining the personality and look and feel of the brand.
-
-### What is your gut feeling for the look and feel of the brand?
 
 {{< figure src="/img/work/asciidoc-personality.svg" alt="AsciiDoc personality" >}}
 
