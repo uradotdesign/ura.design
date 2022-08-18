@@ -100,6 +100,7 @@ paginate = 8
 
 [languages]
   [languages.en]
+    languageName = "English"
     contentDir = "content/en"
     subtitle  = ""
     weight    = 1
@@ -141,6 +142,7 @@ paginate = 8
     weight     = "3"
 
   [languages.de]
+    languageName = "Deutsch"
     contentDir = "content/de"
     subtitle  = ""
     weight    = 2

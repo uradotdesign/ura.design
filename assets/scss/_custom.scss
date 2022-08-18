@@ -261,10 +261,6 @@ nav .nav-link {
   padding: 0.25rem 0.75rem;
 }
 
-.language .inline-svg {
-  top: 0.15em;
-}
-
 // Home
 .home {
   & h1 {
@@ -329,7 +325,7 @@ footer {
   text-decoration: none;
 
   & span {
-    margin-left: 0.25rem;
+    margin-left: 0.5rem;
     transition: 0.25s ease-in-out;
   }
 
@@ -337,7 +333,7 @@ footer {
     text-decoration: underline;
 
     & span {
-      margin-left: 0.65rem;
+      margin-left: 0.75rem;
     }
   }
 
@@ -345,7 +341,7 @@ footer {
   &:focus-visible,
   &:focus {
     & span {
-      margin-left: 0.65rem;
+      margin-left: 0.75rem;
     }
   }
 }
@@ -886,7 +882,7 @@ svg path {
   }
 
   & span {
-    margin-right: 0.25rem;
+    margin-right: 0.35rem;
     transition: 0.25s ease-in-out;
   }
 
@@ -894,7 +890,7 @@ svg path {
   &:focus-visible,
   &.selected {
     & span {
-      margin-right: 0.65rem;
+      margin-right: 0.75rem;
     }
   }
 }
@@ -1051,7 +1047,7 @@ svg path {
     text-decoration: none;
 
     & span {
-      margin-left: 0.25rem;
+      margin-left: 0.45rem;
       transition: 0.25s ease-in-out;
       top: 0.2em;
     }
@@ -1064,7 +1060,7 @@ svg path {
     &:focus-visible,
     &:focus {
       & span {
-        margin-left: 0.65rem;
+        margin-left: 0.75rem;
       }
     }
   }

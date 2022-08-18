@@ -31,18 +31,29 @@
                 ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
-
-            {{ if .IsTranslated }}
-            {{ range .Translations }}
-            <li class="nav-item ms-4">
-              <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ .Lang }}</a>
-            </li>
-            {{ end }}
-            {{ end }} 
             
+            {{ if .Site.IsMultiLingual }}
+            <div class="ms-4 d-flex">
+              {{ range .Site.Languages }}
+                {{ if eq . $.Site.Language }}
+                <li class="nav-item ms-2">
+                  <p class="nav-link active language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}">{{ .Lang }}</p>
+                </li>
+                {{ else }}
+                  {{ range $.Translations }}
+                  <li class="nav-item ms-2">
+                    <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ .Lang }}</a>
+                  </li>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+                </div>
+            {{ end }}
+
           </ul>
         </div>
       </nav>
+
       <div id="navbar-mobile" class="overlay d-block d-lg-none" {{ if .Params.background }}style="background-color: {{ .Params.background }};"{{ else }}{{ end }}>
         <div class="container-fluid">
           <div class="container">
@@ -74,7 +85,7 @@
               {{ end }}
               {{ if .IsTranslated }}
               {{ range .Translations }}
-              <a class="language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ partial "fontawesome.html" "solid/language" }} {{ .Lang }}</a>
+              <a class="language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}" href ="{{ .Permalink }}">{{ .Lang }}</a>
               {{ end }}
               {{ end }}
             </div>
