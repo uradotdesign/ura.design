@@ -209,6 +209,21 @@ nav .nav-link {
       background: currentColor;
     }
   }
+
+  &.language {
+    padding-block: 0.25rem;
+  }
+
+  &.active.language {
+    &:hover,
+    &:focus-visible,
+    &:active,
+    &.active {
+      &:after {
+        width: 0;
+      }
+    }
+  }
 }
 
 .navbar-toggler {
@@ -218,6 +233,17 @@ nav .nav-link {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.vr {
+  display: inline-block;
+  align-self: stretch;
+  width: 3px;
+  height: 2em;
+  background-color: currentColor;
+  opacity: 0.8;
+  position: absolute;
+  top: 26%;
 }
 
 .overlay {

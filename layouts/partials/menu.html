@@ -31,13 +31,17 @@
                 ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
+
+            <li class="nav-item ms-4 {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}">
+                <div class="vr"></div>
+            </li>
             
             {{ if .Site.IsMultiLingual }}
-            <div class="ms-4 d-flex">
+            <div class="ms-4 d-flex align-items-center">
               {{ range .Site.Languages }}
                 {{ if eq . $.Site.Language }}
                 <li class="nav-item ms-2">
-                  <p class="nav-link active language text-uppercase {{ if eq $theme "dark" }}text-white{{ else if eq $theme "light" }}text-dark{{ else if $home }}text-white{{ else if eq $type "about" }}text-white{{ else }}{{ end }}">{{ .Lang }}</p>
+                  <p class="nav-link active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}text-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else }}text-white background-blue-500{{ end }}" {{ if $.Params.background }}style="color: {{ $.Params.background }};"{{ else }}{{ end }}>{{ .Lang }}</p>
                 </li>
                 {{ else }}
                   {{ range $.Translations }}
