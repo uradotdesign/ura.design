@@ -149,12 +149,12 @@ paginate = 8
     copyright = 'Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative-Commons-Lizenz</a>.'
   [[languages.de.menu.main]]
     identifier = "about"
-    name       = "Über"
+    name       = "Über uns"
     url        = "/about/"
     weight     = "1"
   [[languages.de.menu.main]]
     identifier = "Work"
-    name       = "Arbeit"
+    name       = "Arbeiten"
     url        = "/work/"
     weight     = "2"
   [[languages.de.menu.main]]
