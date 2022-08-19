@@ -5,14 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-6 col-md-8 col-12 pt-5">
-                    {{ if .IsTranslated }}
-                    {{ i18n "postAvailable" }}
-                    {{ range .Translations }}
-                    <a href="{{ .Permalink }}"><span>{{ index $.Site.Data.langFlags (.Lang) }}</span></a>
-                    {{ end}}
-                    {{ end }}
-                    <h1 class="post-title">Get in touch</h1>
-                    <p class="contact">Have a challenge? Get in touch with our team to discuss how we can help.</p>
+                    <h1 class="post-title">{{ i18n "getinTouch" }}</h1>
+                    <p class="contact">{{ i18n "contactTeam" }}</p>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -67,8 +61,8 @@
             <div class="row pt-lg-5 pt-0 justify-content-end">
                 <div class="col-xl-5 col-lg-7 col-12 px-lg-3 px-0">
                     <div class="cta-card py-5">
-                        <h2>Prefer to talk over a call?</h2>
-                        <a class="arrow-link" href="https://cal.com/uradotdesign" rel="noopener noreferrer" target="_blank">Schedule a call {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                        <h2>{{ i18n "preferCall" }}</h2>
+                        <a class="arrow-link" href="https://cal.ura.design/uradotdesign" rel="noopener noreferrer" target="_blank">{{ i18n "scheduleCall" }}{{ partial "fontawesome.html" "solid/arrow-right" }}</a>
                     </div>
                 </div>
             </div>

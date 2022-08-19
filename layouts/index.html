@@ -2,7 +2,7 @@
 <main>
     <div class="container-fluid py-5">
         <div class="container">
-            <h2 class="text-center text-uppercase custom-text">Clients</h2>
+            <h2 class="text-center text-uppercase custom-text">{{ i18n "clients" }}</h2>
             <div class="row justify-content-between align-items-center">
                 {{ range where (where .Site.RegularPages "Type" "clients") "Params.home" true }}
                 <div class="col-xl-2 col-lg-4 col-6 text-center">
@@ -13,7 +13,7 @@
 
             <hr />
 
-            <h3 class="pt-3 text-xl-start text-center text-uppercase custom-text">Featured Case Studies</h3>
+            <h3 class="pt-3 text-xl-start text-center text-uppercase custom-text">{{ i18n "featuredStudies" }}</h3>
 
             <div class="row pt-3 pb-3">
                 {{ range first 2 (where (where .Site.RegularPages "Type" "work") "Params.featured" "=" true) }}
@@ -23,7 +23,8 @@
                     <p class="mb-0">
                         {{ range $i, $e := .Params.categories -}}
                             {{- if $i -}}, {{ end -}}
-                            <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="Work tagged as {{ $e }}">{{ $e }}</a>
+                            {{ $value := substr (replace $e " " "") 0 }}
+                            <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="{{ i18n "workTagged" }} {{ i18n . }}">{{ i18n $value }}</a>
                         {{- end -}}
                     </p>
                 </div>
@@ -32,7 +33,7 @@
 
             <div class="row justify-content-xl-end justify-content-start">
                 <div class="col-xl-4 col-12 d-flex justify-content-xl-end justify-content-start">
-                    <a class="see-more" href="/work">More Case Studies {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                    <a class="see-more" href="{{ "/work/" | absLangURL }}">{{ i18n "moreStudies" }} {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
                 </div>
             </div>
 

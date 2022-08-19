@@ -18,12 +18,25 @@ html[data-theme="dark"] {
     text-decoration: underline;
   }
 
+  & .nav-link.active.language {
+    color: #121212 !important;
+    background-color: $contrast !important;
+  }
+
+  & .nav-link.language {
+    color: $contrast !important;
+  }
+
   & .screen-reader-text:focus {
     background-color: $contrast;
   }
 
   & .logo {
     fill: $contrast !important;
+  }
+
+  & .vr {
+    background-color: $contrast !important;
   }
 
   & a {
@@ -151,6 +164,14 @@ body {
   background-color: $black;
 }
 
+.txt-dark {
+  color: #212529;
+}
+
+.txt-white {
+  color: $white !important;
+}
+
 // Headings
 h1,
 h2,
@@ -209,6 +230,21 @@ nav .nav-link {
       background: currentColor;
     }
   }
+
+  &.language {
+    padding-block: 0.25rem;
+  }
+
+  &.active.language {
+    &:hover,
+    &:focus-visible,
+    &:active,
+    &.active {
+      &:after {
+        width: 0;
+      }
+    }
+  }
 }
 
 .navbar-toggler {
@@ -218,6 +254,17 @@ nav .nav-link {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.vr {
+  display: inline-block;
+  align-self: stretch;
+  width: 3px;
+  height: 2em;
+  background-color: currentColor;
+  opacity: 0.8;
+  position: absolute;
+  top: 26%;
 }
 
 .overlay {
@@ -325,7 +372,7 @@ footer {
   text-decoration: none;
 
   & span {
-    margin-left: 0.25rem;
+    margin-left: 0.5rem;
     transition: 0.25s ease-in-out;
   }
 
@@ -333,7 +380,7 @@ footer {
     text-decoration: underline;
 
     & span {
-      margin-left: 0.65rem;
+      margin-left: 0.75rem;
     }
   }
 
@@ -341,7 +388,7 @@ footer {
   &:focus-visible,
   &:focus {
     & span {
-      margin-left: 0.65rem;
+      margin-left: 0.75rem;
     }
   }
 }
@@ -616,6 +663,12 @@ address {
   & h2 {
     margin-top: 3rem;
   }
+  & .colored-card {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 1rem 4rem 1rem;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08), 0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
+  }
 }
 
 // About
@@ -882,7 +935,7 @@ svg path {
   }
 
   & span {
-    margin-right: 0.25rem;
+    margin-right: 0.35rem;
     transition: 0.25s ease-in-out;
   }
 
@@ -890,7 +943,7 @@ svg path {
   &:focus-visible,
   &.selected {
     & span {
-      margin-right: 0.65rem;
+      margin-right: 0.75rem;
     }
   }
 }
@@ -1047,7 +1100,7 @@ svg path {
     text-decoration: none;
 
     & span {
-      margin-left: 0.25rem;
+      margin-left: 0.45rem;
       transition: 0.25s ease-in-out;
       top: 0.2em;
     }
@@ -1060,7 +1113,7 @@ svg path {
     &:focus-visible,
     &:focus {
       & span {
-        margin-left: 0.65rem;
+        margin-left: 0.75rem;
       }
     }
   }

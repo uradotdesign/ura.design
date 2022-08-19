@@ -2,27 +2,125 @@
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # Generic
-#
 [translations]
-other = "Translations"
+other = "Übersetzungen"
 
 [postAvailable]
-other = "Also available in"
+other = "Wechsle auf"
+
+[skipLink]
+other = "Zum Inhalt springen"
+
+[next]
+other = "Weiter"
+
+[contact]
+other = "Kontakt"
+
+[newsletter]
+other = "Newsletter"
+
+[toggle]
+other = "Hohen Kontrast umschalten"
+
+[seeOur]
+other = "Siehe unser"
+
+[work]
+other = "Arbeiten"
+
+[clients]
+other = "Kunden"
+
+# Homepage
+[homeTitle]
+other = "Wir helfen Open-Source erfolgreich zu sein"
+[homeSubtitle]
+other = "Ura ist das Designstudio, das sich dafür einsetzt, Open-Source-Software benutzerfreundlicher, barrierefreier und erfolgreicher zu gestalten."
+[featuredStudies]
+other = "Ausgewählte Case Studies"
+[moreStudies]
+other = "Weitere Case Studies"
+
+# About
+[expertise]
+other = "Unser Fachwissen"
+[aboutTitle]
+other = "Open Source und UX gehören zusammen"
+[aboutSubtitle]
+other = "Ura ist eine Design-Agentur, die an Open-Source- und datenschutzfreundlicher Software arbeitet. Seit 2016 unterstützen wir Software-Projekte dabei sich bestens zu präsentieren. Unser Team sitzt in Tirana, Prishtina und Berlin."
+[whoareWe]
+other = "Wer sind wir?"
+
+# Contact
+[getinTouch]
+other = "Kontakt aufnehmen"
+[contactTeam]
+other = "Hast Du eine Herausforderung für uns? Setze Dich mit unserem Team in Verbindung, um zu sehen, wie wir helfen können."
+[preferCall]
+other = "Möchtest Du lieber ein persönliches Gespräch?"
+[scheduleCall]
+other = "Einen Anruf vereinbaren"
+[helpProject]
+other = "Können wir Dir bei Deinem Projekt helfen?"
+[contactUs]
+other = "Kontakt"
+[weareOn]
+other = "Wir sind auf"
+
+# Footer
+[letsTalk]
+other = "Lass uns reden"
+
+# Works
+[allWorks]
+other = "Alle Arbeiten"
+[ourWork]
+other = "Unsere Arbeiten"
+[workTagged]
+other = "Arbeiten getaggt als"
+
+[Branding]
+other = "Branding"
+[Illustrations]
+other = "Illustrationen"
+[InteractionDesign]
+other = "Interaction Design"
+[UXResearch]
+other = "UX Research"
+[WebDevelopment]
+other = "Web Entwicklung"
+[Accessibility]
+other = "Barrierefreiheit"
+[LayoutDesign]
+other = "Layout Design"
+
+[services]
+other = "Services"
+[links]
+other = "Links"
+[sources]
+other = "Quellen"
+[overview]
+other = "Zurück zur Übersicht"
 
 # 404.html
-#
 [archives]
 other = "Posts"
 
 [home]
-other = "Home"
+other = "Startseite"
 
 [notFound]
-other = "dammmm…"
+other = "Ups, Seite nicht gefunden..."
 
+# Blog 
+[newerPosts]
+other = "Neuere Beiträge"
+[olderPosts]
+other = "Ältere Beiträge"
 
 # posts/single.html
-#
 [readingTime]
 one   = "One minute"
 other = "{{ .Count }} minutes"

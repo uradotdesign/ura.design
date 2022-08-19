@@ -1,4 +1,0 @@
-+++
-id = "branding"
-title = "Branding"
-+++

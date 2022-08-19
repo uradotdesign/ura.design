@@ -3,6 +3,7 @@ title = "Ura Design"
 
 defaultContentLanguage = "en"
 languageCode = "en-us"
+defaultContentLanguageInSubdir = true
 
 rssLimit  = 300
 copyright = "Some rights reserved. Unless otherwise noted, content on this page is under a Creative Commons license."
@@ -99,6 +100,8 @@ paginate = 8
 
 [languages]
   [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
     subtitle  = ""
     weight    = 1
     copyright = 'Some rights reserved. Unless otherwise noted, content on this page is under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative Commons license</a>.'
@@ -123,7 +126,7 @@ paginate = 8
     url        = "/clients/"
     weight     = "4"
   [[languages.en.menu.footer]]
-    identifier = "source-code"
+    identifier = "source"
     name       = "Source Code"
     url        = "/source"
     weight     = "1"
@@ -139,42 +142,44 @@ paginate = 8
     weight     = "3"
 
   [languages.de]
+    languageName = "Deutsch"
+    contentDir = "content/de"
     subtitle  = ""
     weight    = 2
-    copyright = 'Some rights reserved. Unless otherwise noted, content on this page is under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative Commons license</a>.'
+    copyright = 'Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative-Commons-Lizenz</a>.'
   [[languages.de.menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "Über"
     url        = "/about/"
     weight     = "1"
   [[languages.de.menu.main]]
     identifier = "Work"
-    name       = "Work"
+    name       = "Arbeit"
     url        = "/work/"
     weight     = "2"
   [[languages.de.menu.main]]
     identifier = "contact"
-    name       = "Contact"
+    name       = "Kontakt"
     url        = "/contact/"
     weight     = "3"
-  [[languages.en.menu.main]]
+  [[languages.de.menu.main]]
     identifier = "clients"
-    name       = "Clients"
+    name       = "Kunden"
     url        = "/clients/"
     weight     = "4"
   [[languages.de.menu.footer]]
-    identifier = "source-code"
-    name       = "Source Code"
+    identifier = "source"
+    name       = "Quellcode"
     url        = "/source"
     weight     = "1"
   [[languages.de.menu.footer]]
-    identifier = "privacy-policy"
-    name       = "Privacy Policy"
+    identifier = "datenschutz"
+    name       = "Datenschutz"
     url        = "/privacy"
     weight     = "2"
   [[languages.de.menu.footer]]
-    identifier = "imprint"
-    name       = "Imprint"
+    identifier = "impressum"
+    name       = "Impressum"
     url        = "/imprint"
     weight     = "3"
 

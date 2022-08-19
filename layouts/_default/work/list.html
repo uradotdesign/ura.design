@@ -13,7 +13,7 @@
           <div id="work-filter" class="row mb-5">
               <div class="d-lg-flex d-block justify-content-between mb-4">
                   <div id="category-filter">
-                      <button type="button" class="button-filter selected mb-lg-0 mb-2" onclick="filterSelection('all')">All Works</button>
+                      <button type="button" class="button-filter selected mb-lg-0 mb-2" onclick="filterSelection('all')">{{ i18n "allWorks" }}</button>
                       {{ range (where .Site.RegularPages "Type" "filters") }}
                       <button type="button" class="button-filter mb-lg-0 mb-2" onclick="filterSelection('{{ .Page.Params.id }}')">{{ .Page.Params.title }}</button>
                       {{ end }}
@@ -35,7 +35,8 @@
                   <p class="mb-0">
                       {{ range $i, $e := .Params.categories -}}
                           {{- if $i -}}, {{ end -}}
-                          <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="Work tagged as {{ $e }}">{{ $e }}</a>
+                          {{ $category := substr (replace $e " " "") 0 }}
+                          <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="{{ i18n "workTagged" }} {{ i18n . }}">{{ i18n $category }}</a>
                       {{- end -}}
                   </p>
               </div>
@@ -51,7 +52,8 @@
                   <p class="mb-0">
                       {{ range $i, $e := .Params.categories -}}
                           {{- if $i -}}, {{ end -}}
-                          <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="Work tagged as {{ $e }}">{{ $e }}</a>
+                          {{ $category := substr (replace $e " " "") 0 }}
+                          <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="{{ i18n "workTagged" }} {{ i18n . }}">{{ i18n $category }}</a>
                       {{- end -}}
                   </p>
               </div>
