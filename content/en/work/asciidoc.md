@@ -112,7 +112,7 @@ Using that information led to interesting discussions among the participants, sp
 
 {{< figure src="/img/work/asciidoc-safespace.svg" alt="AsciiDoc logo safe spacing" >}}
 
-Through various stages of feedback processes, determining visual directions preferred by the working group, we concluded finally with the current AsciiDoc logo. The logomark resembles a D and A crossed out on its negative space; a simple yet effective interpretation of the AsciiDoc brand. Using freely licensed fonts Outfit and Inter rounded up the visual identity as well, bringing a unique personality to AsciiDoc, paired with splendid readability, which was quite crucial for a markup language such as AsciiDoc.
+Through various stages of feedback processes, determining visual directions preferred by the working group, we concluded finally with the current AsciiDoc logo. The logomark resembles a D and A crossed out on its negative space; a simple yet effective interpretation of the AsciiDoc brand. Using freely licensed fonts Urbanist and Inter rounded up the visual identity as well, bringing a unique personality to AsciiDoc, paired with splendid readability, which was quite crucial for a markup language such as AsciiDoc.
 
 {{< figure src="/img/work/asciidoc-font.svg" alt="AsciiDoc font" >}}
 
