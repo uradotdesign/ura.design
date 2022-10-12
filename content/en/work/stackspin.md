@@ -50,4 +50,3 @@ Link: [Stackspin - Brand Book](https://www.figma.com/proto/upxHYnkoc9x4bKSXlCvsd
 - We helped OpenAppStack become Stackspin.
 - We offered our expertise to create their new brand and visual identity.
 - We designed the book of style guides so the brand is visually consistent.
-- (UX?)
