@@ -1,6 +1,7 @@
 +++
 layout = "work/single"
 featured = true
+lab = true
 theme = "dark"
 background = "#002275"
 accent = "#7EE4E8"

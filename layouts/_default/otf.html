@@ -1,0 +1,105 @@
+{{ define "main" }}
+<main class="post">
+
+    <div class="container-fluid background-gray-50">
+        <div class="container otf py-5">
+            <div class="row py-0 py-xl-5 px-2 px-xl-5 mx-xl-5 justify-content-between">
+                {{ range (where .Site.RegularPages "Type" "opentechfund") }}
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 mb-4 mb-xl-0 pe-5">
+
+                    {{ with .Page.Params.icon }}
+                    <p class="mb-4 svg-bg">{{ partial "fontawesome.html" . }}</p>
+                    {{ end }}
+
+                    <p class="client-title">{{ .Page.Params.title }}</p>
+                    <p class="mb-0 color-gray-600">{{ .Content | markdownify }}<p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row py-3 px-2 px-xl-5 mx-xl-5">
+                <div class="col-lg-9 col-12">
+
+                    <h1 class="color-blue-800 fw-normal">{{ i18n "otfHelpTitle" }}</h1>
+                    <p class="mb-5 color-gray-600">{{ i18n "otfHelpDescription" }}</p>
+
+                    {{ range (where .Site.RegularPages "Type" "otfhelp") }}
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">{{ .Page.Params.title }}</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-0 color-gray-600">{{ .Content | markdownify }}</p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row px-2 px-xl-5 mx-xl-5">
+                <div class="col-lg-9 col-12">
+                    <h1 class="color-blue-800 fw-normal">{{ i18n "otfPastProjects" }}</h1>
+                    <p class="mb-5 color-gray-600">{{ i18n "otfPastProjectsDescription" }}</p>
+                </div>
+            </div>
+            <div class="row pt-3 pb-5">
+                {{ range first 3 (where (where .Site.RegularPages "Type" "work") "Params.lab" "=" true) }}
+                <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
+                    <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study"><img class="img-fluid w-100" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}" alt=""></a>
+                    <a class="title mt-3 mb-0" href="{{ .Permalink }}">{{ .Title }}</a>
+                    <p class="mb-0">
+                        {{ range $i, $e := .Params.categories -}}
+                            {{- if $i -}}, {{ end -}}
+                            {{ $value := substr (replace $e " " "") 0 }}
+                            <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="{{ i18n "workTagged" }} {{ i18n . }}">{{ i18n $value }}</a>
+                        {{- end -}}
+                    </p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid background-gray-50">
+        <div class="container otf py-5">
+            <div class="row px-2 px-xl-5 mx-xl-5">
+                <div class="col-lg-9 col-12 py-5">
+
+                    {{ partial "otfura.html" . }}
+
+                    <h1 class="color-blue-800 fw-normal mt-5">{{ i18n "otfSupportedBy" }}</h1>
+                    <p class="mb-5 color-gray-600">{{ i18n "otfSupportedByDescription" }}</p>
+
+                    {{ range (where .Site.RegularPages "Type" "labs") }}
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">{{ .Title }}</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-3 color-gray-600">{{ .Content | markdownify }}</p>
+                            
+                            <a href="{{ .Page.Params.link }}" class="arrow-link" target="_blank" rel="noopener noreferrer">{{ i18n "otfDetails"}} {{ .Page.Params.id }}{{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    <h1 class="color-blue-800 fw-normal pt-5 my-3">{{ i18n "otfRequestSupport" }}</h1>
+                    <p class="mb-4 color-gray-600">{{ i18n "otfRequestSupportDescription" }}</p>
+                    <a class="link-arrow" href="mailto:otf@ura.design">otf@ura.design{{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+{{ end }}

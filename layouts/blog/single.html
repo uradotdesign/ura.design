@@ -2,9 +2,6 @@
 <main class="post">
 
     <div class="container-fluid header px-0">
-    {{ with .Params.Image }}
-    <img class="post-cover" src="{{ . }}" />
-    {{ end }}
     <div class="white-block"></div>
     </div>
 
@@ -14,7 +11,7 @@
                 <div class="col-xl-7 col-lg-7 col-md-12 col-12 pt-5 cutoff">
 
         <article>
-            <p class="mb-0">{{ .Params.categories }}</p>
+            <p class="mb-0 text-uppercase">{{ .Params.categories }}</p>
 
             <h1 class="post-title">{{ .Title | markdownify }}</h1>
 
@@ -23,11 +20,11 @@
                 {{ $name := . }}
                 {{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
                 {{ with $.Site.GetPage $path }}
-                <a href="{{ .Params.website }}" target="_blank" rel="noopener noreferrer">{{ .Params.name }}</a>
+                <span class="mb-0">{{ .Params.name }}</span>
                 {{ end }}
                 {{ end }}
-                <span class="ms-5"><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></span>
-                <span class="ms-5">{{ i18n "readingTime" .Page.ReadingTime }}</span><span class="ms-5">{{ i18n "wordCount" .Page.WordCount }}</span>
+                <span id="reading-date" class="ms-5"><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></span>
+                <span id="reading-time" class="ms-5">{{ i18n "readingTime" .Page.ReadingTime }}</span>
             </p>
 
             {{- if .Params.toc }}
@@ -55,7 +52,8 @@
             </p>
             {{- end }}
     
-    
+            <span>{{ i18n "wordCount" .Page.WordCount }}</span>
+
             <p>{{ i18n "publishDate" . }}
                 {{ if .Site.Params.dateformNumTime }}<time datetime="{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}">{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}</time>{{ else }}<time datetime="{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}">{{ dateFormat "2006-01-02 15:04" .Date.Local }}</time>{{ end }}
                 {{ if ne .PublishDate .Lastmod }}, {{ i18n "updatedOn" . }}

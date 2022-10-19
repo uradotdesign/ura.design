@@ -1,7 +1,7 @@
 +++
-title = "Unsere Arbeit"
+title = "Our work"
 layout = "work/list"
 +++
 
-Die Organisationen und Projekte, mit denen wir zusammenarbeiten, bewegen sich an der Schnittstelle von Datenschutz, Sicherheit und Technologie.<br />
-Deshalb konzentrieren wir uns auf Open-Source-Projekte mit gesellschaftlicher Bedeutung. und Open Source.
+Technology implicates our everyday life.<br />
+That’s why we have a focus on open source projects with a societal impact.

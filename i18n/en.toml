@@ -52,6 +52,32 @@ other = "Ura is a design agency working on open source and privacy-preserving so
 [whoareWe]
 other = "Who are we?"
 
+# OTF
+[otf]
+other = "Get sponsored"
+[otfTitle]
+other = "Design sponsorship for open source"
+[otfSubtitle]
+other = "As a service provider for Open Technology Fund we support open source tools focused on internet freedom with pro-bono design & research services."
+[otfHelpTitle]
+other = "When can we help?"
+[otfHelpDescription]
+other = "While projects can be diverse and in different parts of the development cycle, we are happy to help in any situation and have helped various project in past stage."
+[otfPastProjects]
+other = "Past Projects"
+[otfPastProjectsDescription]
+other = "Some of our past work supported by the Open Technology Fund."
+[otfSupportedBy]
+other = "Supported by the Open Technology Fund"
+[otfSupportedByDescription]
+other = "As part of OTF Lab programs, Ura is supporting internet freedom and digital security tools with in-kind design support, including but not limited to Visual Design, UX/UI, Accessibility and Research."
+[otfRequestSupport]
+other = "Apply for Sponsorship"
+[otfRequestSupportDescription]
+other = "We welcome applications from all open source tools dedicated to internet freedom. Send us a short description of your project and what kind of design support you are looking for."
+[otfDetails]
+other = "Details about"
+
 # Contact
 [getinTouch]
 other = "Get in touch"
@@ -122,8 +148,8 @@ other = "Older posts"
 
 # posts/single.html
 [readingTime]
-one   = "One minute"
-other = "{{ .Count }} minutes"
+one   = "1 min read"
+other = "{{ .Count }} min read"
 
 [tableOfContents]
 other = "Table of Contents"

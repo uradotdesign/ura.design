@@ -1,4 +1,4 @@
-<header {{ if or (.IsHome) (eq .Page.Type "about") }}class="background-blue-500"{{ end }}>
+<header {{ if or (.IsHome) (eq .Page.Type "about") (eq .Page.Type "otf") }}class="background-blue-500"{{ end }}>
     {{ if len .Site.Menus }}
     {{ partial "menu.html" . }}
     {{ end }}
@@ -18,12 +18,23 @@
         </div>
     </div>
     {{ else if eq .Page.Type "about" }}
-    <div class="container-fluid about background-blue-500 text-white py-5 mb-5">
+    <div class="container-fluid about background-blue-500 text-white py-5 mb-3">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-1 col-lg-8 col-12">
-                    <h1 class="fw-light">{{ i18n "aboutTitle" }}</h1>
+                    <h1 class="fw-light mb-4">{{ i18n "aboutTitle" }}</h1>
                     <p class="mb-0 fw-normal">{{ i18n "aboutSubtitle" }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ else if eq .Page.Type "otf" }}
+    <div class="container-fluid about background-blue-500 text-white py-5 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 offset-xl-1 col-lg-8 col-12">
+                    <h1 class="fw-light mb-4">{{ i18n "otfTitle" }}</h1>
+                    <p class="mb-0 fw-normal">{{ i18n "otfSubtitle" }}</p>
                 </div>
             </div>
         </div>

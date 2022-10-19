@@ -1,6 +1,7 @@
 +++
 layout = "work/single"
 theme = "dark"
+lab = true
 background = "#333333"
 accent = "#A4C954"
 text = "#FFFFFF"
