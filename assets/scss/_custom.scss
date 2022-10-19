@@ -636,6 +636,10 @@ article.first {
   padding: 4rem 5rem;
 
   & a {
+    color: $blue-800;
+  }
+
+  & a.design {
     background-color: $blue-500;
     color: $white;
     padding: 1rem 3rem;
@@ -645,6 +649,19 @@ article.first {
 
     &:hover {
       background-color: $blue-600;
+    }
+
+    & span {
+      margin-left: 0.5rem;
+      transition: 0.25s ease-in-out;
+    }
+  
+    &:hover,
+    &:focus-visible,
+    &:focus {
+      & span {
+        margin-left: 0.75rem;
+      }
     }
   }
 }

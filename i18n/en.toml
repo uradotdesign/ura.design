@@ -49,6 +49,12 @@ other = "Our Expertise"
 other = "Open Source and Usability belong together"
 [aboutSubtitle]
 other = "Ura is a design agency working on open source and privacy-preserving software. We've been supporting software projects since 2016 to be the best they can be. Our team is based in Tirana (Albania), Prishtina (Kosovo) and Berlin (Germany)."
+[aboutDesignSponsorship]
+other = "Design Sponsorship"
+[aboutDesignSponsorshipDescription]
+other = "In partnership with the [Open Technology Fund](https://opentech.fund) we are supporting internet freedom and digital security tools with in-kind design support."
+[aboutDesignSponsorshipCTA]
+other = "Get Support"
 [whoareWe]
 other = "Who are we?"
 
