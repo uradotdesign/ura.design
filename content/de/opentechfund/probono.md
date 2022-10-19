@@ -5,4 +5,4 @@ icon = "solid/heart"
 weight = 1
 +++
 
-We partner with Open Tech Fund who funds our work so we are able to provide pro bono services to critical open source projects.
+Wir arbeiten mit dem Open Tech Fund zusammen, der unsere Arbeit finanziert, damit wir kritischen Open-Source-Projekten Pro-Bono-Dienste anbieten können.

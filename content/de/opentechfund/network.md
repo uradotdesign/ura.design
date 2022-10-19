@@ -1,8 +1,8 @@
 +++
 id = "network"
-title = "Community Network"
+title = "Community Netzwerk"
 icon = "solid/globe"
 weight = 3
 +++
 
-We would love to introduce you to the privacy-focused tech community at OTF so you can gain from the experience of our peers.
+Wir würden dich gerne in die datenschutzorientierte Tech-Community bei OTF einführen, damit du von den Erfahrungen unserer Kolleginnen und Kollegen profitieren kannst.

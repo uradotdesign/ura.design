@@ -1,7 +1,7 @@
 +++
 id = "discovering"
-title = "Discovering"
+title = "Entdecken"
 weight = 1
 +++
 
-At the start of the project we can help explore with you the problem space and find potential pathways to help you ask the right questions. This can include understanding your audience, designing for the right audience or figuring out potential user journeys for new features.
+Zu Beginn des Projekts können wir gemeinsam mit dir den Problembereich erkunden und mögliche Wege finden, um dir zu helfen, die richtigen Fragen zu stellen. Dazu kann gehören, dass du deine Zielgruppe verstehst, für die richtige Zielgruppe entwirfst oder mögliche User Journeys für neue Funktionen herausfindest.

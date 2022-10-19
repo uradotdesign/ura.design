@@ -1,7 +1,7 @@
 +++
 id = "implementing"
-title = "Implementing"
+title = "Implementierung"
 weight = 5
 +++
 
-We specialize in supporting to shape your product with frontend implementation, accessibility considerations, as well quality assurance.
+Wir sind darauf spezialisiert, dein Produkt mit der Frontend-Implementierung, den Überlegungen zur Barrierefreiheit und der Qualitätssicherung zu unterstützen.

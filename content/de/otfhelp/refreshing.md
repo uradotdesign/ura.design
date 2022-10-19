@@ -1,7 +1,7 @@
 +++
 id = "refreshing"
-title = "Refreshing"
+title = "Aktualisierung"
 weight = 4
 +++
 
-Communicating technical feasibility as part of a visual identity can prove to be difficult. We work with you to ensure your project can communicate its values efficiently.
+Die Kommunikation der technischen Machbarkeit im Rahmen einer visuellen Identität kann sich als schwierig erweisen. Wir arbeiten mit dir zusammen, um sicherzustellen, dass dein Projekt seine Werte effizient vermitteln kann.

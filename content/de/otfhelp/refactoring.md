@@ -1,7 +1,7 @@
 +++
 id = "refactoring"
-title = "Refactoring"
+title = "Umstrukturierung"
 weight = 2
 +++
 
-You have a technically working solution but need some support with tidying up, regardless if it’s information architecture or layout. We can support you with some design housekeeping without relying on major design changes.
+Du hast eine technisch funktionierende Lösung, brauchst aber etwas Unterstützung beim Aufräumen, egal ob es um die Informationsarchitektur oder das Layout geht. Wir können dich beim Design-Housekeeping unterstützen, ohne dass du große Designänderungen vornehmen musst.

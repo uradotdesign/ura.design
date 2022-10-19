@@ -1,8 +1,8 @@
 +++
 id = "overhead"
-title = "No Overhead"
+title = "Null Gemeinkosten"
 icon = "solid/sparkles"
 weight = 2
 +++
 
-As a part of the OTF community, we already have processes in place so we can go from idea to the drawing board as quickly as possible. No paperwork or fiscal processes required.
+Als Teil der OTF Community verfügen wir bereits über Verfahren, mit denen wir so schnell wie möglich von der Idee zur Umsetzung kommen können. Kein Papierkram oder steuerliche Verfahren erforderlich.
