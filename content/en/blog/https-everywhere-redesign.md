@@ -2,9 +2,8 @@
 title = "HTTPS Everywhere Redesign"
 authors = ["renata"]
 date = "2019-09-08 19:00:00 +0200"
-image = "/img/blog/httpse-post.webp"
+image = "/img/blog/httpse-thumbnail.webp"
 categories = ["Projects"]
-tags = ["Usability Research", "UX Research", "Open Source Design"]
 +++
 
 **HTTPS Everywhere** is a free and open-source browser extension for Google Chrome, Mozilla Firefox, Opera, Brave, and Firefox for Android, which is developed collaboratively by The Tor Project and the Electronic Frontier Foundation (EFF).
@@ -42,18 +41,18 @@ After completing the research phase, we started shaping the design. We decided t
 
 #### Original
 
-![HTTPSE Old Interface](/img/blog/httpse-old.webp)
+{{% figure src="/img/blog/httpse-old.webp" alt="HTTPSE Old Interface" %}}
 
 #### Iteration
 
-![HTTPSE Iteration 1 Interface](/img/blog/httpse-iteration.webp)
+{{% figure src="/img/blog/httpse-iteration.webp" alt="HTTPSE Iteration 1 Interface" %}}
 
 #### Iteration 2 & 3
 
-![HTTPSE New Interface](/img/blog/httpse-iteration2.webp)
-![HTTPSE New Interface](/img/blog/httpse-iteration3.webp)
+{{% figure src="/img/blog/httpse-iteration2.webp" alt="HTTPSE New Interface" %}}
+{{% figure src="/img/blog/httpse-iteration3.webp" alt="HTTPSE New Interface" %}}
 
 ### Conclusion
 
 Designing for a browser extension is quite challenging considering the limited space they offer but we managed to use the space wisely while being mindful to not overcrowd it. 
-You can view our HTTPS Everywhere case study and all source files on [our portfolio page](https://ura.design/projects/https-everywhere).
+You can view our HTTPS Everywhere case study and all source files on [our portfolio page](/en/work/https-everywhere).

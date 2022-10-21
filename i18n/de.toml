@@ -50,39 +50,39 @@ other = "Open Source und UX gehören zusammen"
 [aboutSubtitle]
 other = "Ura ist eine Design-Agentur, die an Open-Source- und datenschutzfreundlicher Software arbeitet. Seit 2016 unterstützen wir Software-Projekte dabei sich bestens zu präsentieren. Unser Team sitzt in Tirana, Prishtina und Berlin."
 [aboutDesignSponsorship]
-other = "Design Sponsorship"
+other = "Pro Bono Design-Unterstützung"
 [aboutDesignSponsorshipDescription]
-other = "In partnership with the [Open Technology Fund](https://opentech.fund) we are supporting internet freedom and digital security tools with in-kind design support."
+other = "Wir unterstützen die Freiheit des Internets und digitale Sicherheitstools mit Design-Sachleistungen.<br />Finden Sie heraus, wie wir Ihnen bei Ihrem Projekt helfen können; kostenlos."
 [aboutDesignSponsorshipCTA]
-other = "Get Support"
+other = "Unterstützung erhalten"
 [whoareWe]
 other = "Wer sind wir?"
 
 # OTF
 [otf]
-other = "Get sponsored"
+other = "Unterstützung erhalten"
 [otfTitle]
-other = "Design sponsorship for open source"
+other = "Pro Bono Design-Unterstützung"
 [otfSubtitle]
-other = "As a service provider for Open Technology Fund we support open source tools focused on internet freedom with pro-bono design & research services."
+other = "Als Dienstleister für den Open Technology Fund unterstützen wir Open-Source-Tools, die sich für die Freiheit des Internets einsetzen, mit kostenlosen Design- und Forschungsdienstleistungen."
 [otfHelpTitle]
-other = "When can we help?"
+other = "Wann können wir helfen?"
 [otfHelpDescription]
-other = "While projects can be diverse and in different parts of the development cycle, we are happy to help in any situation and have helped various project in past stage."
+other = "Obwohl Projekte sehr unterschiedlich sein können und sich in verschiedenen Phasen des Entwicklungszyklus befinden, sind wir gerne bereit, in jeder Situation zu helfen, und haben in der Vergangenheit bei verschiedenen Projekten geholfen."
 [otfPastProjects]
-other = "Past Projects"
+other = "Vergangene Projekte"
 [otfPastProjectsDescription]
-other = "Some of our past work supported by the Open Technology Fund."
+other = "Einige unserer bisherigen Arbeiten, die durch den Open Technology Fund unterstützt wurden."
 [otfSupportedBy]
-other = "Supported by the Open Technology Fund"
+other = "Unterstützt vom Open Technology Fund"
 [otfSupportedByDescription]
-other = "As part of OTF Lab programs, Ura is supporting internet freedom and digital security tools with in-kind design support, including but not limited to Visual Design, UX/UI, Accessibility and Research."
+other = "Im Rahmen der OTF-Lab-Programme unterstützt Ura die Freiheit des Internets und digitale Sicherheitstools mit Sachleistungen in den Bereichen visuelles Design, UX/UI, Barrierefreiheit und Forschung, ohne darauf beschränkt zu sein."
 [otfRequestSupport]
-other = "Apply for Sponsorship"
+other = "Patenschaft beantragen"
 [otfRequestSupportDescription]
-other = "We welcome applications from all open source tools dedicated to internet freedom. Send us a short description of your project and what kind of design support you are looking for."
+other = "Wir freuen uns über Bewerbungen von allen Open-Source-Tools, die sich für die Freiheit des Internets einsetzen. Schicken Sie uns eine kurze Beschreibung Ihres Projekts und welche Art von Design-Unterstützung Sie suchen."
 [otfDetails]
-other = "Details about"
+other = "Details über"
 
 # Contact
 [getinTouch]
@@ -151,6 +151,8 @@ other = "Ups, Seite nicht gefunden..."
 other = "Neuere Beiträge"
 [olderPosts]
 other = "Ältere Beiträge"
+[allPosts]
+other = "Alle Beiträge"
 
 # posts/single.html
 [readingTime]

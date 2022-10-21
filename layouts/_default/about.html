@@ -22,8 +22,7 @@
                 <div class="offset-xl-1 col-xl-8 offset-lg-1 col-lg-7 col-12 pt-lg-5 pt-0 d-none d-lg-block">
                     {{ range (where .Site.RegularPages "Type" "services") }}
                     <div id="{{ .Page.Params.id }}" class="tabcontentservice">
-                        <p class="mb-0">{{ .Content }}
-                        <p>
+                        <p>{{ .Content | markdownify }}</p>
                             <a class="see-more mt-3" href="{{ "/categories/" | absLangURL }}{{ .Page.Params.id }}">{{ i18n "seeOur" }} {{ .Page.Params.title }} {{ i18n "work" }} {{ partial "fontawesome.html" "solid/arrow-right" }}</a>
                     </div>
                     {{ end }}
@@ -79,13 +78,11 @@
                     <p class="mb-0">{{ i18n "aboutDesignSponsorshipDescription" | markdownify }}</p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-12 d-flex justify-content-center mt-lg-0 mt-2 mb-lg-0 mb-3">
-                    <a class="design" href="{{ "/otf/" | absLangURL }}">{{ i18n "aboutDesignSponsorshipCTA" }}{{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                    <a class="design" href="{{ "/probono/" | absLangURL }}">{{ i18n "aboutDesignSponsorshipCTA" }}{{ partial "fontawesome.html" "solid/arrow-right" }}</a>
                 </div>
             </div>
         </div>
     </div>
-
-
 
     {{ partial "team" . }}
     {{ partial "testimonials" . }}

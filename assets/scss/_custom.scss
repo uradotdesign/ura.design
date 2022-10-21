@@ -6,20 +6,20 @@ html {
 
 html[data-theme="dark"] {
   & #fader {
-    background: #121212;
+    background: $gray-900;
   }
 
   & * {
-    background: #121212 !important;
+    background: $gray-900 !important;
     color: hsla(0, 0%, 100%, 0.87) !important;
   }
 
-  & a:not(.nav-link, .see-more) {
+  & a:not(.nav-link, .see-more):hover {
     text-decoration: underline;
   }
 
   & .nav-link.active.language {
-    color: #121212 !important;
+    color: $gray-900 !important;
     background-color: $contrast !important;
   }
 
@@ -27,8 +27,35 @@ html[data-theme="dark"] {
     color: $contrast !important;
   }
 
+  & .schedule a.design {
+    border: 2px solid currentColor;
+  }
+
   & .screen-reader-text:focus {
     background-color: $contrast;
+  }
+
+  & .cta-card {
+    background-color: $gray-800 !important;
+    & * {
+      background-color: $gray-800 !important;
+    }
+  }
+
+  & article.first {
+    background-color: $gray-800 !important;
+
+    & * {
+      background-color: $gray-800 !important;
+    }
+  }
+
+  & article.card {
+    background-color: $gray-800 !important;
+
+    & * {
+      background-color: $gray-800 !important;
+    }
   }
 
   & .logo {
@@ -106,7 +133,7 @@ html[data-theme="dark"] {
 
 // Body
 body {
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: "Inter", sans-serif;
   font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1,
     "ss02" 1, "ss03" 1, "zero" 1;
@@ -388,34 +415,6 @@ footer {
   color: $gray-700;
 }
 
-.cta .arrow-link {
-  font-size: 2.25rem;
-  font-weight: 600;
-  color: $blue-600;
-  text-decoration: none;
-
-  & span {
-    margin-left: 0.5rem;
-    transition: 0.25s ease-in-out;
-  }
-
-  &:hover {
-    text-decoration: underline;
-
-    & span {
-      margin-left: 0.75rem;
-    }
-  }
-
-  &:hover,
-  &:focus-visible,
-  &:focus {
-    & span {
-      margin-left: 0.75rem;
-    }
-  }
-}
-
 .cta .inline-svg {
   color: $blue-600;
   font-size: 2rem;
@@ -491,7 +490,7 @@ footer {
     background-color: $white;
     right: 0;
     bottom: 0;
-    width: 75%;
+    width: 77%;
     height: 40%;
   }
 }
@@ -505,6 +504,16 @@ footer {
   mix-blend-mode: multiply;
 }
 
+.post a {
+  color: $blue-600;
+
+  &:hover,
+  &:active,
+  &:focus-visible {
+    color: $blue-700;
+  }
+}
+
 .post-content {
   & h1,
   h2,
@@ -515,18 +524,32 @@ footer {
     margin-top: 2.5rem;
   }
 
-  & a {
-    color: $blue-600;
+  & .anchor-tag {
+    margin-left: 0.5rem;
+    text-decoration: none;
 
     &:hover,
-    :active,
-    :focus-visible {
-      color: $blue-700;
+    &:focus-visible,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+
+  & figure {
+    text-align: center;
+    padding-block: 1.5rem;
+
+    &.wide {
+      left: 50%;
+      margin-left: -32.5vw;
+      margin-right: -32.5vw;
+      max-width: 65vw;
+      position: relative;
+      right: 50%;
     }
   }
 
   & img {
-    width: 100%;
     max-width: 100%;
   }
 }
@@ -548,6 +571,42 @@ footer {
   font-size: 3rem;
   font-weight: 500;
   color: $gray-950;
+}
+
+.post .post-category {
+  font-weight: 700;
+  color: $blue-600;
+  text-transform: uppercase;
+}
+
+.paginate {
+  position: relative;
+  
+  & p.text-uppercase {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  & a {
+    text-decoration: none;
+
+    &:hover {
+      background-color: $blue-50;
+    }
+  }
+}
+
+.pagination__buttons {
+  //display: flex;
+  //align-items: center;
+  //justify-content: space-between;
+}
+
+.button {
+  &.previous p, &.next p {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
 }
 
 article.card {
@@ -582,11 +641,17 @@ article.card {
     font-weight: 800;
     color: $blue-700;
     text-decoration: none;
+    line-height: 1.1;
   }
 
   & .description {
     color: $blue-800;
   }
+}
+
+article .inline-svg {
+  color: $gray-600;
+  margin-right: 0.25rem;
 }
 
 article.first {
@@ -624,9 +689,18 @@ article.first {
 
   & .title {
     font-size: 1.5rem;
+    line-height: 1.2;
     font-weight: 800;
     color: $white;
     text-decoration: none;
+  }
+}
+
+#supportNeeded {
+  display: none;
+
+  &.shown {
+    display: flex;
   }
 }
 
@@ -655,7 +729,7 @@ article.first {
       margin-left: 0.5rem;
       transition: 0.25s ease-in-out;
     }
-  
+
     &:hover,
     &:focus-visible,
     &:focus {
@@ -724,9 +798,17 @@ address {
     margin-block: 2rem;
   }
   & figure {
-    max-width: 100%;
-    margin-block: 2rem;
     text-align: center;
+    padding-block: 1.5rem;
+
+    &.wide {
+      left: 50%;
+      margin-left: -32.5vw;
+      margin-right: -32.5vw;
+      max-width: 65vw;
+      position: relative;
+      right: 50%;
+    }
   }
   & figure img {
     max-width: 100%;
@@ -793,12 +875,40 @@ address {
   &:hover,
   &:focus-visible,
   &:focus {
-    color: $white;
+    color: $white !important;
     background-color: $blue-500;
   }
 }
 
 .otfhelp .arrow-link {
+  color: $blue-600;
+  text-decoration: none;
+
+  & span {
+    margin-left: 0.5rem;
+    transition: 0.25s ease-in-out;
+  }
+
+  &:hover {
+    text-decoration: underline;
+
+    & span {
+      margin-left: 0.75rem;
+    }
+  }
+
+  &:hover,
+  &:focus-visible,
+  &:focus {
+    & span {
+      margin-left: 0.75rem;
+    }
+  }
+}
+
+.cta .arrow-link {
+  font-size: 2.25rem;
+  font-weight: 600;
   color: $blue-600;
   text-decoration: none;
 
@@ -974,12 +1084,23 @@ svg path {
   transition: 0.25s ease-in-out;
 }
 
-.carousel-control-next {
+.carousel-control-next, .olderposts {
   &:hover,
   &:focus-visible {
     & path {
       d: path(
         "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
+      );
+    }
+  }
+}
+
+.newerposts {
+  &:hover,
+  &:focus-visible {
+    & path {
+      d: path(
+        "M55 18.6658L9.91329 18.6658L20.0344 28.9255L16.6355 32.2785L0.851634 16.2786L16.6355 0.278808L20.0344 3.63184L9.91333 13.8914L55 13.8913L55 18.6658Z"
       );
     }
   }
@@ -1139,8 +1260,6 @@ svg path {
 }
 
 .work {
-  display: none;
-
   &.visible {
     animation: fadeInAnimation 1s;
     display: block !important;
@@ -1285,6 +1404,23 @@ svg path {
     &.active {
       background-color: $blue-500;
     }
+  }
+
+  .button-filter {
+    margin-bottom: 0.5rem;
+  }
+
+  .post .header {
+    margin-top: -5rem;
+    min-height: 5rem;
+  }
+
+  .post .header .white-block {
+    display: none;
+  }
+
+  .post .move-up {
+    margin-top: 0;
   }
 
   .carousel-control-next {

@@ -1,4 +1,4 @@
-<header {{ if or (.IsHome) (eq .Page.Type "about") (eq .Page.Type "otf") }}class="background-blue-500"{{ end }}>
+<header {{ if or (.IsHome) (eq .Page.Type "about") (eq .Page.Type "probono") }}class="background-blue-500"{{ end }}>
     {{ if len .Site.Menus }}
     {{ partial "menu.html" . }}
     {{ end }}
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    {{ else if eq .Page.Type "otf" }}
+    {{ else if eq .Page.Type "probono" }}
     <div class="container-fluid about background-blue-500 text-white py-5 mb-3">
         <div class="container">
             <div class="row">

@@ -1,4 +1,4 @@
 +++
-id = "web development"
+id = "web-development"
 title = "Web-Entwicklung"
 +++

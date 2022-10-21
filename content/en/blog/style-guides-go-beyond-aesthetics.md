@@ -4,9 +4,7 @@ authors = ["elio"]
 date = "2018-07-02 12:00:00 +0200"
 image = "/img/blog/osd_event.webp"
 categories = ["Culture"]
-tags = ["Style Guides", "Brand Guidelines", "Open Source Design"]
 +++
-
 
 Oftentimes we witness the results of elitist practices upon users, usually worded in the form of the acronym **RTFM** or "*Read The Freaking Manual"*. User manuals have their place, but up to which point can we expect users to learn by reading instead of doing?
 
@@ -43,7 +41,7 @@ At the end of the day, style guides serve as a playbook for software creators. T
 
 ## Examples
 
-In the past we have implemented style guides for various projects, including [The Tor Project](https://ura.design/projects/tor-style-guide), Thunderbird and [Reproducible Builds](https://ura.design/projects/reproducible-builds). If you want to know more, we also suggest to read Simply Secure's blog entry on [Why Open-Source projects need Style Guides](https://simplysecure.org/blog/style-guide).
+In the past we have implemented style guides for various projects, including [The Tor Project](/en/work/tor-style-guide), Thunderbird and [Reproducible Builds](/en/work/reproducible-builds). If you want to know more, we also suggest to read Simply Secure's blog entry on [Why Open-Source projects need Style Guides](https://simplysecure.org/blog/style-guide).
 
 Last but not least, the points touched upon in this article is the very reason we started building [Identihub](https://identihub.co). Have a look and try it out yourself! 
 

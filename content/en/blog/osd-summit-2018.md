@@ -4,7 +4,6 @@ authors = ["anxhelo"]
 date = "2018-11-16 08:00:00 +0200"
 image = "/img/blog/thumb_osd.webp"
 categories = ["Events"]
-tags = ["Meeting", "Unconference", "Open Source Design", "Software"]
 +++
 
 During the first weekend of November we had the pleasure to facilitate the annual [Open Source Design Summit](https://opensourcedesign.net/summit) in the city we are based in, Tirana.
@@ -15,14 +14,14 @@ During the first weekend of November we had the pleasure to facilitate the annua
 
 Open Source Design Summit itself is an annual event where designers, developers and more join to discuss and work towards internal and external Open Source Design related topics. This includes how to improve our involvement in various projects, improve feedback processes, and work in the open
 
-Together with the Open Source Design community, we at [Ura Design](https://ura.design) [initiated the discussion](https://github.com/opensourcedesign/organization/issues/103) on the [Open Source Design organization repo on GitHub](https://github.com/opensourcedesign) regarding the location of the upcoming Summit and proposed Tirana. While the last edition was held in Berlin, we were convinced it would be a healthy step to have a moving Summit which would not necessarily happen in the usual suspect cities of Europe. Tirana was a good compromise to try this out (we might have been a bit biased though!)
+Together with the Open Source Design community, we at [Ura Design](https://ura.design/en/) [initiated the discussion](https://github.com/opensourcedesign/organization/issues/103) on the [Open Source Design organization repo on GitHub](https://github.com/opensourcedesign) regarding the location of the upcoming Summit and proposed Tirana. While the last edition was held in Berlin, we were convinced it would be a healthy step to have a moving Summit which would not necessarily happen in the usual suspect cities of Europe. Tirana was a good compromise to try this out (we might have been a bit biased though!)
 In the following months, we coordinated our efforts through monthly calls and [Discourse](https://discourse.opensourcedesign.net/).
  
 ### Overview
 
 #### November 2nd (Reception)
 
-We started on the Friday afternoon with a reception gathering at [Ofiçina](http://oficina.al), the venue fwe know and love for so many other past events we were involved in, including [LibreOffice Conference](https://ura.design/2018/10/20/libocon-2018-visual-identity). The OSD Summit is not close to any big [conference](https://en.wikipedia.org/wiki/Conference) (yet at least)  but more of a small [unconference](https://en.wikipedia.org/wiki/Unconference).
+We started on the Friday afternoon with a reception gathering at [Ofiçina](https://oficina.al), the venue fwe know and love for so many other past events we were involved in, including [LibreOffice Conference](/en/blog/libocon-2018-visual-identity). The OSD Summit is not close to any big [conference](https://en.wikipedia.org/wiki/Conference) (yet at least)  but more of a small [unconference](https://en.wikipedia.org/wiki/Unconference).
 
 There were participants from countries as far as [New Zealand](https://en.wikipedia.org/wiki/New_Zealand), [Czech Republic](https://en.wikipedia.org/wiki/Czech_Republic), [Germany](https://en.wikipedia.org/wiki/Germany), [Kosovo](https://en.wikipedia.org/wiki/Kosovo). 
  
@@ -48,7 +47,7 @@ The following topic was about our upcoming events and where should Open Source D
 
 ![Discussing about events](/img/blog/osd-events.webp)
 
-The next topic was a sharing round where we shared our knowledge and skills. [Renata](https://twitter.com/RenataGegaj) from our team shared her Research workflow and showcased Usability Studies we accomplished before, such as [Thunderbird](https://ura.design/projects/thunderbird) and [I2P](https://ura.design/projects/i2p). Later, Sam shared some info about the issue of Diffing SVG-s and how difficult it is to process it correctly and with consistent results, because each software tries to do it in their own way. 
+The next topic was a sharing round where we shared our knowledge and skills. [Renata](https://twitter.com/RenataGegaj) from our team shared her Research workflow and showcased Usability Studies we accomplished before, such as [Thunderbird](/en/work/thunderbird) and [I2P](/en/work/i2p). Later, Sam shared some info about the issue of Diffing SVG-s and how difficult it is to process it correctly and with consistent results, because each software tries to do it in their own way. 
 
 #### November 4th (Last Meeting Day)
 
@@ -63,7 +62,7 @@ We continued talking about ways to build up a budget that Open Source Design can
 
 Of course we didn't forget to take a group photo from the Summit!
 
-[![OSD Summit group photo](/img/blog/osd-group-photo.webp)](https://upload.wikimedia.org/wikipedia/commons/5/54/Open_Source_Design_Summit_2018_-_95.webp)
+[![OSD Summit group photo](/img/blog/osd-group-photo.webp)](https://upload.wikimedia.org/wikipedia/commons/5/54/Open_Source_Design_Summit_2018_-_95.jpg)
  
 Thanks to the support from [Stickermule](https://stickermule.com), [Mozilla](https://mozilla.org), [phpList](https://phplist.com), [Open Tech Fund](https://opentech.fund), [Red Hat](https://redhat.com) & [Nextcloud](https://nextcloud.com) we were able to bring the Summit to Tirana.
 

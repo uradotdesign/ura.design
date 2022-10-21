@@ -4,10 +4,9 @@ authors = ["anxhelo"]
 date = "2018-06-13 12:00:00 +0200"
 image = "/img/blog/ReproducibleBuilds_thumbnail.webp"
 categories = ["Projects"]
-tags = ["Reproducible Builds", "Open Tech Fund", "Usability Lab", "Style Guide"]
 +++
 
-Earlier this year, we announced our involvement with [Open Tech Fund's Usability Lab](http://opentech.fund/lab/usability-lab), providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the [announcement on our blog.](https://ura.design/2018/03/12/ura-now-part-open-tech-funds-usability-lab)
+Earlier this year, we announced our involvement with [Open Tech Fund's Usability Lab](http://opentech.fund/lab/usability-lab), providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the [announcement on our blog.](https://ura.design/en/blog/ura-now-part-open-tech-funds-usability-lab)
 
 ![Reproducible Builds Logo](/img/blog/rb_header.webp)
 
@@ -33,4 +32,4 @@ While a live style guide is an ideal solution to offer powerful guidelines in on
 
 There you can also find the [style guide assets](https://demo.identihub.co/project/reproducible-builds) where Identihub should make it easier to link, share and convert them.
 
- Also head over to our [portfolio page](https://ura.design/projects/reproducible-builds) of Reproducible Builds!
+Also head over to our [portfolio page](/en/work/reproducible-builds) of Reproducible Builds!

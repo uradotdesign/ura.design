@@ -1,55 +1,30 @@
 +++
 title = "Hosting the first Open Source Design Workshop in Tirana"
-author = "Redon Skikuli"
-link = "https://twitter.com/rskikuli"
+authors = ["elio"]
 date = "2017-02-11 12:00:00 +0200"
 image = "/img/blog/osd_event.webp"
 categories = ["Events"]
-tags = ["open source design", "workshop", "ux design"]
 +++
 
-<p>When we started our <a href="https://www.patreon.com/ura" target="blank">Patreon campaign</a> we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field. We quickly understood that they have many questions about the usage of free open source tools in the process of designing for their needs.<br /> With this in mind it was clear that that we definitely need to educate the new generation of designers through workshops and talks about our philosophy. Without further delay we started organizing the first Open Source Design workshop at <a href="https://openlabs.cc/" target="blank">Open Labs hackerspace in Tirana</a>, home of the open source community in Albania.</p>
+When we started our [Patreon campaign](https://www.patreon.com/ura) we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field. We quickly understood that they have many questions about the usage of free open source tools in the process of designing for their needs.  
+With this in mind it was clear that that we definitely need to educate the new generation of designers through workshops and talks about our philosophy. Without further delay we started organizing the first Open Source Design workshop at [Open Labs hackerspace in Tirana](https://openlabs.cc/), home of the open source community in Albania.
 
-<div class="large-12 large-centered centered-text columns">
-<img src="/img/blog/workshop-1.webp" alt="workshop">
-</div>
-<div class="two spacing"></div>
+![workshop](/img/blog/workshop-1.webp)
 
-<p>A room full of young designers was the best first positive feedback from the initiative. Youngsters are the best audience for us since we hope to find the next designer(s) in the room that will work based on the open source design ethics and not the way the proprietary market imposes.
-During the presentation the participants had the opportunity to:
-<ul>
-<li>learn the definition of open source design;</li>
-<li>understand the importance of working with open source tools;</li>
-<li>ways to use GIMP and Inkscape, two of the most used free open source design tools, in an effective and productive way;</li>
-<li>preparation of print-ready files using open source tools.</li>
-</ul>
-</p>
+A room full of young designers was the best first positive feedback from the initiative. Youngsters are the best audience for us since we hope to find the next designer(s) in the room that will work based on the open source design ethics and not the way the proprietary market imposes. During the presentation the participants had the opportunity to:
 
-<div class="large-12 large-centered centered-text columns">
-<img src="/img/blog/workshop-2.webp" alt="workshop">
-</div>
-<div class="two spacing"></div>
+*   learn the definition of open source design;
+*   understand the importance of working with open source tools;
+*   ways to use GIMP and Inkscape, two of the most used free open source design tools, in an effective and productive way;
+*   preparation of print-ready files using open source tools.
 
-<p>In conclusion: it was a great first step in educating the next generation of visual designers about the values designing in the open. We definitely need more of your <a href="https://www.patreon.com/ura" target="blank">support though Patreon</a> to host even more workshops not only in Albania, but also other countries.<br /> Interested in the next events? Visit <a href="/events" target="blank">this dedicated page</a> from time to time, or follow us on Twitter.
+<!-- ![workshop](/img/blog/workshop-2.webp) -->
 
-<div class="large-12 large-centered centered-text columns">
-<img src="/img/blog/workshop-3.webp" alt="workshop">
-</div>
-<div class="two spacing"></div>
+In conclusion: it was a great first step in educating the next generation of visual designers about the values designing in the open. We definitely need more of your [support though Patreon](https://www.patreon.com/ura) to host even more workshops not only in Albania, but also other countries.  
+Interested in the next events? Follow us on Twitter.
 
-<div class="large-12 large-centered centered-text columns">
-<img src="/img/blog/workshop-4.webp" alt="workshop">
-</div>
-<div class="two spacing"></div>
+![workshop](/img/blog/workshop-3.webp)
 
-<div class="large-12 large-centered centered-text columns">
-<img src="/img/blog/workshop-5.webp" alt="workshop">
-</div>
-<div class="two spacing"></div>
+![workshop](/img/blog/workshop-5.webp)
 
-<div class="large-12 large-centered centered-text columns">
-<img src="/img/blog/workshop-7.webp" alt="workshop">
-</div>
-<div class="two spacing"></div>
-
-<i>Photos: <a href="http://andisrado.com" target="blank">Andis Rado</a>, (Creative Commons – Attribution-ShareAlike 4.0 International)</i>
+_Photos: [Andis Rado](http://andisrado.com) (Creative Commons – Attribution-ShareAlike 4.0 International)_

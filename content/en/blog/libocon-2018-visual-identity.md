@@ -1,16 +1,14 @@
 +++
 title = "LibreOffice Conference 2018"
-author = "Kristi Çunga"
-link = "http://kristicunga.com/"
+authors = ["elio"]
 date = "2018-10-20 08:00:00 +0200"
 image = "/img/blog/thumb_libocon.webp"
 categories = ["Projects"]
-tags = ["Visual Identity", "Conference", "Open Source Design", "LibreOffice"]
 +++
 
 As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the [LibreOffice Conference](https://libocon.org) (short LibOCon). The conference is organized by the local [Open Labs Hackerspace](https://openlabs.cc) community, with which we share a lot of values and goals together. 
 
-We were particularly excited to support this year's edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania. We hope to see more happening outside the usual western spots like Berlin, London and welcome more projects to contribute locally. With [LibreOffice](https://libreoffice.org) being the most used alternative to proprietary Office software, we were eager to chime in and help out. With more than 130 contributors coming together for 4 days, Tirana became the focus point of everything LibreOffice and Document Freedom related, even the Mayor of Tirana attended. Further, LibOCon was also a great opportunity to invite friends at the [Open Source Design Summit](https://opensourcedesign.net/summit) in November, held at the same Venue ([Ofiçina](http://www.oficina.al/)).
+We were particularly excited to support this year's edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania. We hope to see more happening outside the usual western spots like Berlin, London and welcome more projects to contribute locally. With [LibreOffice](https://libreoffice.org) being the most used alternative to proprietary Office software, we were eager to chime in and help out. With more than 130 contributors coming together for 4 days, Tirana became the focus point of everything LibreOffice and Document Freedom related, even the Mayor of Tirana attended. Further, LibOCon was also a great opportunity to invite friends at the [Open Source Design Summit](https://opensourcedesign.net/summit) in November, held at the same Venue ([Ofiçina](https://www.oficina.al/)).
 
 ## Creative Process
 
@@ -34,5 +32,5 @@ As always, you are free to explore and remix the designs of our work. In fact, d
 
 We look forward to the next year's LibreOffice Conference in Almería, Spain!
 
-[Explore this work on our portfolio](https://ura.design/projects/libocon)
+[Explore this work on our portfolio](/en/work/libocon)
 

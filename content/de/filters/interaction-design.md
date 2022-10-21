@@ -1,4 +1,4 @@
 +++
-id = "interaction design"
+id = "interaction-design"
 title = "Interaction Design"
 +++

@@ -2,12 +2,11 @@
 title = "Underexposed 2019"
 authors = ["anxhelo"]
 date = "2019-02-11 12:00:00 +0200"
-image = "/img/blog/underexposed-post.webp"
+image = "/img/blog/underexposed-thumbnail.webp"
 categories = ["Events"]
-tags = ["Security", "Style Guide", "Open Source Design", "Event"]
 +++
 
-During early January (7-11) Elio and Anxhelo from our team participated as mentors in the [Underexposed](https://simplysecure.org/underexposed/) event organized by [Simply Secure](https://simplysecure.org/) in Berlin, Germany. Simply Secure
+During early January (7-11) Elio and Anxhelo from our team participated as mentors in the [Underexposed](https://simplysecure.org/underexposed/) event organized by [Simply Secure](https://simplysecure.org/) in Berlin, Germany.
 
 ![Underexposed Logo](/img/blog/underexposed.webp)
 

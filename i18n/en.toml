@@ -50,9 +50,9 @@ other = "Open Source and Usability belong together"
 [aboutSubtitle]
 other = "Ura is a design agency working on open source and privacy-preserving software. We've been supporting software projects since 2016 to be the best they can be. Our team is based in Tirana (Albania), Prishtina (Kosovo) and Berlin (Germany)."
 [aboutDesignSponsorship]
-other = "Design Sponsorship"
+other = "Pro Bono Design Support"
 [aboutDesignSponsorshipDescription]
-other = "In partnership with the [Open Technology Fund](https://opentech.fund) we are supporting internet freedom and digital security tools with in-kind design support."
+other = "We are supporting internet freedom and digital security tools with in-kind design support.<br />Find out how we can help you with your project; free of charge."
 [aboutDesignSponsorshipCTA]
 other = "Get Support"
 [whoareWe]
@@ -62,9 +62,9 @@ other = "Who are we?"
 [otf]
 other = "Get sponsored"
 [otfTitle]
-other = "Design sponsorship for open source"
+other = "Design support for your project, free of charge"
 [otfSubtitle]
-other = "As a service provider for Open Technology Fund we support open source tools focused on internet freedom with pro-bono design & research services."
+other = "We support tools and libraries focused on internet freedom and digital rights with pro-bono services, including usability, accessibility & visual design."
 [otfHelpTitle]
 other = "When can we help?"
 [otfHelpDescription]
@@ -72,7 +72,7 @@ other = "While projects can be diverse and in different parts of the development
 [otfPastProjects]
 other = "Past Projects"
 [otfPastProjectsDescription]
-other = "Some of our past work supported by the Open Technology Fund."
+other = "Some of the past work we have provided pro bono."
 [otfSupportedBy]
 other = "Supported by the Open Technology Fund"
 [otfSupportedByDescription]
@@ -148,9 +148,11 @@ other = "Oops, page not found…"
 
 # Blog 
 [newerPosts]
-other = "Newer posts"
+other = "Newer post"
 [olderPosts]
-other = "Older posts"
+other = "Older post"
+[allPosts]
+other = "All Posts"
 
 # posts/single.html
 [readingTime]

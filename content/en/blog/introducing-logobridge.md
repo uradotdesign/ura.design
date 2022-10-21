@@ -2,9 +2,8 @@
 title = "Introducing Logobridge"
 authors = ["anxhelo"]
 date = "2019-05-07 18:00:00 +0200"
-image = "/img/blog/logobridge-post.webp"
+image = "/img/blog/logobridge-thumbnail.webp"
 categories = ["News"]
-tags = ["Logo", "Public Domain", "Open Source Design", "Service"]
 +++
 
 At Ura we have been constantly working with open source projects to get their branding up to speed. While we love working on fully fledged visual identities for projects, we are aware that some projects simply need a logo to get started and focus on the actual software features. This motivated us to build [Logobridge](https://logobridge.co), an open source collection of public domain logos anyone can use for their projects for free: [https://logobridge.co](https://logobridge.co)

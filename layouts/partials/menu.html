@@ -7,11 +7,14 @@
           {{ $text := .Page.Params.text }}
           {{ $type := .Page.Type }}
           {{ $home := .IsHome }}
+          {{ $page := .IsPage }}
           {{ if .IsHome }}
           {{ partial "logo.html" "white" }}
           {{ else if eq .Page.Type "about" }}
           {{ partial "logo.html" "white" }}
-          {{ else if eq .Page.Type "otf" }}
+          {{ else if eq .Page.Type "probono" }}
+          {{ partial "logo.html" "white" }}
+          {{ else if and (eq .IsPage true) (eq .Page.Type "blog") }}
           {{ partial "logo.html" "white" }}
           {{ else if isset .Page.Params "text" }}
           {{ partial "logo.html" $.Page.Params.text }}
@@ -21,7 +24,7 @@
         </a>
         <button class="navbar-toggler" type="button" aria-label="Toggle navigation" onclick="openNav()">
           <span class="inline-svg">
-            <svg class="{{ if .IsHome }}txt-white{{ else if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if eq $type "about" }}txt-white{{ else if eq $type "otf" }}txt-white{{ else }}color-blue-500{{ end }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" {{ if isset .Page.Params "text" }}style="color: {{ .Page.Params.text }} !important;"{{ end }}><path fill="currentColor" d="M416 288C433.7 288 448 302.3 448 320C448 337.7 433.7 352 416 352H32C14.33 352 0 337.7 0 320C0 302.3 14.33 288 32 288H416zM416 160C433.7 160 448 174.3 448 192C448 209.7 433.7 224 416 224H32C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H416z"></path></svg>
+            <svg class="{{ if .IsHome }}txt-white{{ else if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}color-blue-500{{ end }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" {{ if isset .Page.Params "text" }}style="color: {{ .Page.Params.text }} !important;"{{ end }}><path fill="currentColor" d="M416 288C433.7 288 448 302.3 448 320C448 337.7 433.7 352 416 352H32C14.33 352 0 337.7 0 320C0 302.3 14.33 288 32 288H416zM416 160C433.7 160 448 174.3 448 192C448 209.7 433.7 224 416 224H32C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H416z"></path></svg>
           </span>
         </button>
         <div class="collapse navbar-collapse flex-grow-0">
@@ -29,12 +32,12 @@
             {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 2) "/" -}}
             {{- range .Site.Menus.main -}}
             <li class="nav-item ms-4">
-              <a class="nav-link {{  if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "otf" }}txt-white{{ else }}{{ end }} {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
+              <a class="nav-link {{  if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}{{ end }} {{ if eq ($firstUrlElement|lower) (.URL|lower) }}active{{end}}" {{ if eq
                 ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
 
-            <li class="nav-item ms-4 {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "otf" }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }} !important;"{{ end }}>
+            <li class="nav-item ms-4 {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }} !important;"{{ end }}>
                 <div class="vr"></div>
             </li>
             
@@ -43,12 +46,12 @@
                 {{ range .Site.Languages }}
                   {{ if eq . $.Site.Language }}
                   <li class="nav-item ms-2">
-                    <p class="nav-link active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "otf" }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if eq $.Params.text "#FFFFFF" }}style="color: {{ $.Params.background }} !important;"{{ else }}{{ if isset $param "text" }}style="color: {{ $text }};"{{ end }}{{ end }}>{{ .Lang }}</p>
+                    <p class="nav-link active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if eq $.Params.text "#FFFFFF" }}style="color: {{ $.Params.background }} !important;"{{ else }}{{ if isset $param "text" }}style="color: {{ $text }};"{{ end }}{{ end }}>{{ .Lang }}</p>
                   </li>
                   {{ else }}
                     {{ range $.Translations }}
                     <li class="nav-item ms-2">
-                      <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "otf" }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a>
+                      <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a>
                     </li>
                     {{ end }}
                   {{ end }}
@@ -92,12 +95,12 @@
                   ($firstUrlElement|lower) (.URL|lower) }}aria-current="page" {{end}} {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href="{{ .URL | absLangURL }}">{{ .Name }}</a>
               {{ end }}
 
-              <hr class="{{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}background-white{{ else if eq $type "about" }}background-white{{ else if eq $type "otf" }}background-white{{ else }}background-white{{ end }}" {{ if isset $param "text" }}style="background-color: {{ $text }} !important;"{{ end }}>
+              <hr class="{{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}background-white{{ else if eq $type "about" }}background-white{{ else if eq $type "probono" }}background-white{{ else if and (eq $page true) (eq $type "blog") }}background-white{{ else }}background-white{{ end }}" {{ if isset $param "text" }}style="background-color: {{ $text }} !important;"{{ end }}>
 
               {{ if .Site.IsMultiLingual }}
                 {{ range .Site.Languages }}
                   {{ if eq . $.Site.Language }}
-                    <p class="language text-uppercase active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "otf" }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if isset $param "text" }}style="background-color: {{ $text }} !important;"{{ else }}{{ end }}>{{ .Lang }}</p>
+                    <p class="language text-uppercase active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if isset $param "text" }}style="background-color: {{ $text }} !important;"{{ else }}{{ end }}>{{ .Lang }}</p>
                   {{ else }}
                     {{ range $.Translations }}
                     <p class="mb-0"><a class="language text-uppercase" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a></p>
@@ -105,13 +108,6 @@
                   {{ end }}
                 {{ end }}
               {{ end }}
-
-
-              <!-- {{ if .IsTranslated }}
-              {{ range .Translations }}
-              <a class="language text-uppercase" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a>
-              {{ end }}
-              {{ end }} -->
             </div>
         </div>
       </div>

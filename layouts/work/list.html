@@ -4,30 +4,35 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-10 col-lg-10 col-md-12 col-12">
-          <h1 class="post-title mb-3">{{ .Title }}</h1>
+            <h1 class="post-title mb-3">{{ .Title }}</h1>
 
-          {{- if .Content }}
-          <div class="content mb-5">{{ .Content }}</div>
-          {{- end }}
+            {{- if .Content }}
+            <div class="content mb-5">{{ .Content }}</div>
+            {{- end }}
 
-          <div id="work-filter" class="row mb-5">
-              <div class="d-lg-flex d-block justify-content-between mb-4">
-                  <div id="category-filter">
-                      <button type="button" class="button-filter selected mb-lg-0 mb-2" onclick="filterSelection('all')">{{ i18n "allWorks" }}</button>
-                      {{ range (where .Site.RegularPages "Type" "filters") }}
-                      <button type="button" class="button-filter mb-lg-0 mb-2" onclick="filterSelection('{{ .Page.Params.id }}')">{{ .Page.Params.title }}</button>
-                      {{ end }}
-                  </div>
-              </div>
-          </div>
+            <div id="work-filter" class="tab pb-4" role="tablist" aria-multiselectable="true">
+              <button type="button" role="tab" class="button-filter" aria-controls="allworks"
+                  onclick="service(event, 'allworks')" id="firstopen" aria-selected="true">
+                  {{ i18n "allWorks" }}</button>
+              {{ range (where .Site.RegularPages "Type" "filters") }}
+              <button type="button" role="tab" class="button-filter" aria-controls="{{ .Page.Params.id }}"
+                  onclick="service(event, '{{ .Page.Params.id }}')" aria-selected="false">{{
+                  .Page.Params.title }}</button>
+              {{ end }}
+            </div>
+
           </div>
         </div>
       </div>
-        <div class="container">
-          {{ $work := where .Pages "Type" "work" }}
+
+      <div class="container">
+        {{ $work := where .Pages "Type" "work" }}
+
+        <div class="allworks tabcontentservice mt-5">
+
           <div class="row">
               {{ range first 2 ($work) }}
-              <div class="col-xl-6 col-lg-12 col-12 pb-xl-0 pb-5 work {{ range $i, $e := .Params.categories }}{{ if $i }} {{ end }}{{ $e | lower }}{{- end -}}">
+              <div class="col-xl-6 col-lg-12 col-12 pb-xl-0 pb-5 work">
                   <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
                     <img class="img-fluid w-100" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}" alt="">
                   </a>
@@ -45,7 +50,7 @@
 
           <div class="row pt-lg-5 pt-0 pb-5">
               {{ range after 2 ($work) }}
-              <div class="col-xl-4 col-lg-12 col-12 pb-5 work {{ range $i, $e := .Params.categories }}{{ if $i }} {{ end }}{{ $e | lower }}{{- end -}}">
+              <div class="col-xl-4 col-lg-12 col-12 pb-5 work">
                   <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
                     <img class="img-fluid w-100" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}" alt=""></a>
                   <a class="title mt-3 mb-0" href="{{ .Permalink }}" aria-label="Project name: {{ .Title }}">{{ .Title }}</a>
@@ -59,55 +64,58 @@
               </div>
               {{ end }}
           </div>
+        </div>
 
-          <script>
-              filterSelection("all");
-              function filterSelection(c) {
-                var x, i;
-                x = document.getElementsByClassName("work");
-                if (c == "all") c = "";
-                for (i = 0; i < x.length; i++) {
-                  RemoveClass(x[i], "visible");
-                  if (x[i].className.indexOf(c) > -1) AddClass(x[i], "visible");
-                }
-              }
-      
-              // Show filtered elements
-              function AddClass(element, name) {
-                var i, arr1, arr2;
-                arr1 = element.className.split(" ");
-                arr2 = name.split(" ");
-                for (i = 0; i < arr2.length; i++) {
-                  if (arr1.indexOf(arr2[i]) == -1) {
-                    element.className += " " + arr2[i];
-                  }
-                }
-              }
-              
-              // Hide elements that are not selected
-              function RemoveClass(element, name) {
-                var i, arr1, arr2;
-                arr1 = element.className.split(" ");
-                arr2 = name.split(" ");
-                for (i = 0; i < arr2.length; i++) {
-                  while (arr1.indexOf(arr2[i]) > -1) {
-                    arr1.splice(arr1.indexOf(arr2[i]), 1);
-                  }
-                }
-                element.className = arr1.join(" ");
+        <div class="row py-5">
+          {{ range ($work) }}
+            <div class="col-xl-4 col-lg-12 col-12 mb-4 mt-0 work tabcontentservice {{ range $i, $e := .Params.categories }}{{ if $i }} {{ end }}{{ replaceRE " " "-" $e | lower }}{{- end -}}">
+                <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
+                  <img class="img-fluid w-100" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}" alt=""></a>
+                <a class="title mt-3 mb-0" href="{{ .Permalink }}" aria-label="Project name: {{ .Title }}">{{ .Title }}</a>
+                <p class="mb-0">
+                    {{ range $i, $e := .Params.categories -}}
+                        {{- if $i -}}, {{ end -}}
+                        {{ $category := substr (replace $e " " "") 0 }}
+                        <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="{{ i18n "workTagged" }} {{ i18n . }}">{{ i18n $category }}</a>
+                    {{- end -}}
+                </p>
+            </div>
+          {{ end }}
+
+        <script>
+          document.getElementById("firstopen").click();
+
+          function service(evt, type) {
+              // Declare all variables
+              var i, tabcontentservice, tablinkservice;
+
+              // Get all elements with class="tabcontentservice" and hide them
+              tabcontentservice = document.getElementsByClassName("tabcontentservice");
+              for (i = 0; i < tabcontentservice.length; i++) {
+                  tabcontentservice[i].style.display = "none";
               }
 
-              var filterContainer = document.getElementById("category-filter");
-              var filters = filterContainer.getElementsByClassName("button-filter");
-              for (var i = 0; i < filters.length; i++) {
-                filters[i].addEventListener("click", function() {
-                  var current = document.getElementsByClassName("selected");
-                  current[0].className = current[0].className.replace(" selected", "");
-                  this.className += " selected";
-                });
+              // Get all elements with class="button-filter" and remove the class "active"
+              tablinkservice = document.getElementsByClassName("button-filter");
+              for (i = 0; i < tablinkservice.length; i++) {
+                  tablinkservice[i].className = tablinkservice[i].className.replace(" selected", "");
+                  tablinkservice[i].setAttribute("aria-selected", "false");
               }
-          </script>
 
+              // Show the current tab, and add an "active" class to the button that opened the tab
+              // document.dataset(type).style.display = "block";
+              const className = "" + '.' + type +  "";
+              const selectedItems = document.querySelectorAll(className);
+              console.log(selectedItems);
+              selectedItems.forEach(selectedItem => {
+                  selectedItem.style.display = "block"
+              });
+
+              evt.currentTarget.className += " selected";
+              evt.currentTarget.setAttribute("aria-selected", "true");
+          }
+        </script>
+        </div>
       </div>
   </div>
 </main>

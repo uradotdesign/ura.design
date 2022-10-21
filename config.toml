@@ -46,7 +46,6 @@ pluralizeListTitles = false
       footnote = true
 
 [taxonomies]
-  tag      = "tags"
   category = "categories"
   author   = "authors"
 
@@ -128,11 +127,11 @@ pluralizeListTitles = false
     name       = "Clients"
     url        = "/clients/"
     weight     = "4"
-#  [[languages.en.menu.main]]
-#    identifier = "blog"
-#    name       = "Blog"
-#    url        = "/blog/"
-#    weight     = "5"
+  [[languages.en.menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = "5"
   [[languages.en.menu.footer]]
     identifier = "source"
     name       = "Source Code"
@@ -175,11 +174,11 @@ pluralizeListTitles = false
     name       = "Kunden"
     url        = "/clients/"
     weight     = "4"
-#  [[languages.de.menu.main]]
-#    identifier = "blog"
-#    name       = "Blog"
-#    url        = "/blog/"
-#    weight     = "5"
+  [[languages.de.menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/blog/"
+    weight     = "5"
   [[languages.de.menu.footer]]
     identifier = "source"
     name       = "Quellcode"
