@@ -38,7 +38,7 @@
                 {{ range first 1 (after 1 (where .Site.RegularPages "Type" "blog")) }}
                 <div class="col-xl-4 col-lg-12 col-12">
                     <article class="card">
-                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}">
+                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" width="368px" height="276px" alt="{{ .Title }}">
                         <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                         <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
                         <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
@@ -51,7 +51,7 @@
                 {{- range first 3 (after 2 (where .Site.RegularPages "Type" "blog")) }}
                 <div class="col-xl-4 col-lg-12 col-12">
                     <article class="card">
-                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                        <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" width="368px" height="276px" alt="{{ .Title }}" loading="lazy">
                         <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                         <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
                         <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
