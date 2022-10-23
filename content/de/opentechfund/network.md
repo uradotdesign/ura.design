@@ -5,4 +5,4 @@ icon = "solid/globe"
 weight = 3
 +++
 
-Wir würden dich gerne in die datenschutzorientierte Tech-Community bei OTF einführen, damit du von den Erfahrungen unserer Kolleginnen und Kollegen profitieren kannst.
+Wir würden Sie gerne in die Gemeinschaft der Datenschutzbeauftragten für Internetfreiheit einführen, damit Sie von den Erfahrungen unserer Kollegen profitieren können.

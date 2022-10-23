@@ -60,23 +60,23 @@ other = "Wer sind wir?"
 
 # OTF
 [otf]
-other = "Unterstützung erhalten"
+other = "Gesponsert werden"
 [otfTitle]
-other = "Pro Bono Design-Unterstützung"
+other = "Kostenlose Designunterstützung für Ihr Projekt"
 [otfSubtitle]
-other = "Als Dienstleister für den Open Technology Fund unterstützen wir Open-Source-Tools, die sich für die Freiheit des Internets einsetzen, mit kostenlosen Design- und Forschungsdienstleistungen."
+other = "Wir unterstützen Tools und Bibliotheken, die sich mit Internetfreiheit und digitalen Rechten befassen, mit unentgeltlichen Dienstleistungen, einschließlich Benutzerfreundlichkeit, Zugänglichkeit und visuellem Design."
 [otfHelpTitle]
 other = "Wann können wir helfen?"
 [otfHelpDescription]
 other = "Obwohl Projekte sehr unterschiedlich sein können und sich in verschiedenen Phasen des Entwicklungszyklus befinden, sind wir gerne bereit, in jeder Situation zu helfen, und haben in der Vergangenheit bei verschiedenen Projekten geholfen."
 [otfPastProjects]
-other = "Vergangene Projekte"
+other = "Frühere Projekte"
 [otfPastProjectsDescription]
-other = "Einige unserer bisherigen Arbeiten, die durch den Open Technology Fund unterstützt wurden."
+other = "Einige der Arbeiten, die wir in der Vergangenheit pro bono geleistet haben."
 [otfSupportedBy]
-other = "Unterstützt vom Open Technology Fund"
+other = "Unterstützt durch den Open Technology Fund"
 [otfSupportedByDescription]
-other = "Im Rahmen der OTF-Lab-Programme unterstützt Ura die Freiheit des Internets und digitale Sicherheitstools mit Sachleistungen in den Bereichen visuelles Design, UX/UI, Barrierefreiheit und Forschung, ohne darauf beschränkt zu sein."
+other = "Im Rahmen der OTF Lab-Programme unterstützt Ura die Freiheit des Internets und digitale Sicherheitstools mit Sachleistungen in den Bereichen visuelles Design, UX/UI, Barrierefreiheit und Forschung."
 [otfRequestSupport]
 other = "Patenschaft beantragen"
 [otfRequestSupportDescription]
