@@ -37,5 +37,6 @@ We are working to release these illustrations licensed under a Creative Commons 
 ## An illustrious future
 
 We have been working with Briar for over 4 years now. During this time we constantly added new features and designed new experiences. Over time a bit of design debt has been collected, mostly noticeable in the different style and incoherent usage of illustrations, iconography and UI elements. With this we are doing the first step of creating a system for illustrations coherent across the app as well as having the needed ingredients for new illustrations when new features are added in the future
-
 We hope that this will be the first step in refreshing Briar’s GUI and with more tweaks coming along in the future.
+
+You can find the source files of the new Briar illustration system on our GitHub repos and [Figma Community](https://www.figma.com/community/file/1169212217112991383).
