@@ -40,4 +40,4 @@ We have been working with Briar for over 4 years now. During this time we consta
 
 We hope that this will be the first step in refreshing Briar’s GUI and with more tweaks coming along in the future.
 
-You can find the source files of the new Briar illustration system on our GitHub repos and Figma community profile.
+You can find the source files of the new Briar illustration system on our GitHub repos and [Figma Community](https://www.figma.com/community/file/1169212217112991383).
