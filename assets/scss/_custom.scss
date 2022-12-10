@@ -625,6 +625,7 @@ article.card {
     transition: 0.3s ease-in-out;
     max-height: 20rem;
     object-fit: cover;
+    width: 100%;
 
     &:hover {
       filter: none;
