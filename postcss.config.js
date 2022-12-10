@@ -3,7 +3,7 @@ module.exports = {
     "@fullhuman/postcss-purgecss": {
       content: [
         "./assets/js/*.js",
-        "./content/*.md",
+        "./content/**/*.md",
         "./layouts/**/*.html",
       ],
       safelist: [""],
