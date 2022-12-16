@@ -100,7 +100,7 @@
               {{ if .Site.IsMultiLingual }}
                 {{ range .Site.Languages }}
                   {{ if eq . $.Site.Language }}
-                    <p class="language text-uppercase active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if isset $param "text" }}style="background-color: {{ $text }} !important;"{{ else }}{{ end }}>{{ .Lang }}</p>
+                    <p class="language text-uppercase active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if eq $.Params.text "#FFFFFF" }}style="color: {{ $.Params.background }} !important;"{{ else }}{{ if isset $param "text" }}style="color: {{ $text }};"{{ end }}{{ end }}>{{ .Lang }}</p>
                   {{ else }}
                     {{ range $.Translations }}
                     <p class="mb-0"><a class="language text-uppercase" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a></p>
