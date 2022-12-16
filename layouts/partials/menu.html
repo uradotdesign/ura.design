@@ -40,26 +40,26 @@
             <li class="nav-item ms-4 {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }} !important;"{{ end }}>
                 <div class="vr"></div>
             </li>
-            
-              {{ if .Site.IsMultiLingual }}
-              <div class="ms-4 d-flex align-items-center">
-                {{ range .Site.Languages }}
-                  {{ if eq . $.Site.Language }}
-                  <li class="nav-item ms-2">
-                    <p class="nav-link active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if eq $.Params.text "#FFFFFF" }}style="color: {{ $.Params.background }} !important;"{{ else }}{{ if isset $param "text" }}style="color: {{ $text }};"{{ end }}{{ end }}>{{ .Lang }}</p>
-                  </li>
-                  {{ else }}
-                    {{ range $.Translations }}
-                    <li class="nav-item ms-2">
-                      <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a>
-                    </li>
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-                  </div>
-              {{ end }}
-
           </ul>
+
+          {{ if .Site.IsMultiLingual }}
+            <ul class="ms-4 navbar-nav">
+            {{ range .Site.Languages }}
+              {{ if eq . $.Site.Language }}
+              <li class="nav-item ms-2">
+                <p class="nav-link active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if eq $.Params.text "#FFFFFF" }}style="color: {{ $.Params.background }} !important;"{{ else }}{{ if isset $param "text" }}style="color: {{ $text }};"{{ end }}{{ end }}>{{ .Lang }}</p>
+              </li>
+              {{ else }}
+                {{ range $.Translations }}
+                <li class="nav-item ms-2">
+                  <a class="nav-link language text-uppercase {{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}txt-white{{ else if eq $type "about" }}txt-white{{ else if eq $type "probono" }}txt-white{{ else if and (eq $page true) (eq $type "blog") }}txt-white{{ else }}{{ end }}" {{ if isset $param "text" }}style="color: {{ $text }};"{{ end }} href ="{{ .Permalink }}">{{ .Lang }}</a>
+                </li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            </ul>
+          {{ end }}
+
         </div>
       </nav>
 
