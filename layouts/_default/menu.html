@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="{{ .Site.Language }}" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <a class="screen-reader-text" href="#content">{{ i18n "skipLink" }}</a>
+
+    <div id="navbar-mobile" class="overlay h-100 d-block">
+        <div class="container-fluid">
+          <div class="container pt-2">
+            <div class="navbar align-items-center justify-content-between">
+              <a aria-label="Ura Logo" class="brand" href="{{ .Site.BaseURL }}">
+                {{ partial "logo.html" "white" }}
+              </a>
+          </div>
+        </div>
+        <div class="overlay-content">
+            <div class="container pt-4">
+              {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
+              {{- range .Site.Menus.main -}}
+                <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              {{ end }}
+
+              <hr class="background-white">
+
+              {{ if .Site.IsMultiLingual }}
+                {{ range .Site.Languages }}
+                  {{ if eq . $.Site.Language }}
+                    <p class="language text-uppercase active language text-uppercase mb-0 color-blue-500 background-white">{{ .Lang }}</p>
+                  {{ else }}
+                    {{ range $.Translations }}
+                    <p class="mb-0"><a class="language text-uppercase" href ="{{ .Permalink }}">{{ .Lang }}</a></p>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
