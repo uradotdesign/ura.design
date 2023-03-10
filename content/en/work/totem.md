@@ -8,7 +8,7 @@ text = "#064E3B"
 title = "Totem Project"
 summary = "Totem is an online learning platform that offers educational courses about digital security and privacy in a safe, online classroom environment. We helped them refresh their visual identity and explain technical concepts in a more visual way."
 date = "2022-08-08 12:00:00 +0200"
-image = "totem.svg"
+image = "totem"
 tags = []
 categories = ["Branding", "Illustrations", "Layout Design"]
 [links]
@@ -25,13 +25,15 @@ Although it can be very effective and extremely useful, face-to-face, offline tr
 
 Totem currently offers over 57 courses including various languages. Each course is represented by a visual image, which often has been duplicated over various courses. Due to this, various courses have duplicated imagery, offering little visual coordination across the site. Additionally, the current illustrations used are generic freely licensed illustrations which don’t represent the look and feel of Totem and could confuse viewers.
 
-{{< figure src="/img/work/totem-brand.svg" alt="Totem branding moodboard" >}}
+{{< figure class="with-js" src="/img/work/totem-brand.svg" alt="Totem branding moodboard" >}}
+{{< figure class="no-js" src="/img/work/totem-brand.webp" alt="Totem branding moodboard" >}}
 
 ## Same old turtle, new shell
 
 But before taking on the illustration system, we updated the Totem logo, together with its turtle mascot, offering a friendly refreshed logo with a new typeface (Maven Pro) moving away from the old typeface (Ubuntu). While Ubuntu is a beautiful and versatile typeface, it’s characteristic to Canonical’s Linux distribution. We wanted for Totem to establish its own character with time.
 
-{{< figure src="/img/work/totem-safespace.svg" alt="Totem logo safe spacing" >}}
+{{< figure class="with-js" src="/img/work/totem-safespace.svg" alt="Totem logo safe spacing" >}}
+{{< figure class="no-js" src="/img/work/totem-safespace.webp" alt="Totem logo safe spacing" >}}
 
 ## Illustrations
 
@@ -41,7 +43,8 @@ Our objective was to create a modular illustration system that is expandable, op
 
 With Totem being a platform where independent educators can create and submit courses, they should be empowered to create their own illustrations. The illustration system should make it easier for them to create covers which is close to the Totem identity, even if they are not professional designers.
 
-{{< figure src="/img/work/totem-illustrations.svg" alt="Totem illustrations" >}}
+{{< figure class="with-js" src="/img/work/totem-illustrations.svg" alt="Totem illustrations" >}}
+{{< figure class="no-js" src="/img/work/totem-illustrations.webp" alt="Totem illustrations" >}}
 
 ## Figma Community
 
@@ -61,4 +64,5 @@ We were very excited to open-source the illustration system under Creative Commo
 
 While talking to the Totem team, they were looking forward to build up this story arch further with the aquatic theme in Totem. The world of the turtle mascot is versatile and offers a wide range of metaphors we can explore visually. Protagonists (like the turtle) and antagonists (trolls, bugs) are included and offer a way to explain complex topics in a more simplistic visual explanation, especially tailored for beginners.
 
-{{< figure src="/img/work/totem-turtle.svg" alt="Totem turtle" >}}
+{{< figure class="with-js" src="/img/work/totem-turtle.svg" alt="Totem turtle" >}}
+{{< figure class="no-js" src="/img/work/totem-turtle.webp" alt="Totem turtle" >}}

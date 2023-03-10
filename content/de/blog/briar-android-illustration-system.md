@@ -18,13 +18,15 @@ As part of the Open Tech Fund Secure Usability and Accessibility Lab, we support
 
 We started by exploring several visual style directions for Briar’s Illustration System, basing the creative process on Briar’s brand identity and communicating with the project leads to better understand the needs and determine the best direction. After refreshing the UI color system, we proposed two main directions for the style of the illustrations, all scalable, having the possibility to create a consistent illustration system out of them.
 
-{{% figure class="wide" src="/img/blog/briar-illustration-phone.svg" alt="Briar phone illustration" %}}
+{{% figure class="wide with-js" src="/img/blog/briar-illustration-phone.svg" alt="Briar phone illustration" %}}
+{{% figure class="wide no-js" src="/img/blog/briar-illustration-phone.webp" alt="Briar phone illustration" %}}
 
 ----
 
 After presenting the visual styles and receiving feedback from the Briar team, we decided to keep elements from both and work on a new direction to replace the current Briar’s App illustrations. We recreated five of the current images for the third visual style using the updated color system and visual style.
 
-{{% figure class="wide" src="/img/blog/briar-illustrations.svg" alt="Briar device illustrations" %}}
+{{% figure class="wide with-js" src="/img/blog/briar-illustrations.svg" alt="Briar device illustrations" %}}
+{{% figure class="wide no-js" src="/img/blog/briar-illustrations.webp" alt="Briar device illustrations" %}}
 
 ## Illustration System
 
@@ -32,7 +34,8 @@ After deciding on the visual direction, we built an Open source variant-based il
 
 We are working to release these illustrations licensed under a Creative Commons license on Figma community as well.
 
-{{% figure src="/img/blog/briar-illustration-components.svg" alt="Briar device illustrations" %}}
+{{% figure class="with-js" src="/img/blog/briar-illustration-components.svg" alt="Briar device illustrations" %}}
+{{% figure class="no-js" src="/img/blog/briar-illustration-components.webp" alt="Briar device illustrations" %}}
 
 ## An illustrious future
 

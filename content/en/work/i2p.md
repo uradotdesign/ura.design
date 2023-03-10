@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "I2P - The Invisible Internet Project"
 summary = "We helped I2P create their new brand strategy, visual identity and shape the user experience of their browser extension for Firefox."
 date = "2017-01-24 12:00:00 +0200"
-image = "i2p.svg"
+image = "i2p"
 tags = []
 categories = ["Branding", "UX Research"]
 [links]
@@ -84,7 +84,6 @@ Functionalities vs space
 Considering the current console implementation and all the features I2P offers through it, it was quite challenging to compress all the content into a limited space that the extension offers. Together with users and stakeholders we carefully curated the content to make sure the users can access all core features directly from the console without compromise.
 
 ![i2p browser](/img/work/i2p-browser.webp)
-
 
 ## How we helped I2P
 

@@ -6,7 +6,10 @@
             <div class="row justify-content-between align-items-center">
                 {{ range where (where .Site.RegularPages "Type" "clients") "Params.home" true }}
                 <div class="col-xl-2 col-lg-4 col-6 text-center">
-                    <a href="{{ .Page.Params.link }}" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="/img/clients/{{ .Page.Params.image }}.svg" alt="{{ .Page.Params.name }}"></a>
+                    <a href="{{ .Page.Params.link }}" target="_blank" rel="noopener noreferrer">
+                        <img class="img-fluid with-js" src="/img/clients/{{ .Page.Params.image }}.svg" alt="{{ .Page.Params.name }}">
+                        <img class="img-fluid no-js" src="/img/clients/{{ .Params.image }}.webp" alt="{{ .Page.Params.name }}">
+                    </a>
                 </div>
                 {{ end }}
             </div>
@@ -18,7 +21,11 @@
             <div class="row pt-3 pb-3">
                 {{ range first 2 (where (where .Site.RegularPages "Type" "work") "Params.featured" "=" true) }}
                 <div class="col-xl-6 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
-                    <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study"><img class="img-fluid w-100" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}" width="636px" height="357px" alt=""></a>
+                    <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">                            
+                        <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.svg" width="636px" height="357px" alt="">
+                        <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.webp" alt="">
+                    </a>
+                    {{ $path := printf "/%s/%s" "img/work" .Params.image }}
                     <a class="title mt-3 mb-0" href="{{ .Permalink }}">{{ .Title }}</a>
                     <p class="mb-0">
                         {{ range $i, $e := .Params.categories -}}

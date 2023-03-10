@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Oxidize - The Conference of embedded Rust"
 summary = "We created the brand and visual identity for Oxidize, designing every digital and print asset for the conference and providing a long-term design solution."
 date = "2020-03-24 12:00:00 +0200"
-image = "oxidize.svg"
+image = "oxidize"
 tags = []
 categories = ["Branding", "Web Development"]
 [links]
@@ -25,7 +25,8 @@ They needed a visual brand to be in alignment with what they communicate and to 
 
 Combining the concept of circuits and chemistry helped me design this logo. It is simple, monochrome, and symbolically based on the atomic structure of Oxygen and the role of embedded systems in technology. The open spaces between the rounded shapes represent the open-source.
 
-{{< figure src="/img/work/oxidize-brand.svg" alt="Oxidize logo composition" >}}
+{{< figure class="with-js" src="/img/work/oxidize-brand.svg" alt="Oxidize logo composition" >}}
+{{< figure class="no-js" src="/img/work/oxidize-brand.webp" alt="Oxidize logo composition" >}}
 
 ## Words to graphics
 
@@ -49,20 +50,21 @@ The identity of Oxidize Conference comes with characteristics as:
 
 </div>
 
-{{< figure src="/img/work/oxidize-pattern.svg" alt="Oxidize branding overview" >}}
+{{< figure class="with-js" src="/img/work/oxidize-pattern.svg" alt="Oxidize branding overview" >}}
+{{< figure class="no-js" src="/img/work/oxidize-pattern.webp" alt="Oxidize branding overview" >}}
 
 ## Wordmark in binary
 
 The Oxidize logo wordmark is inspired from the binary system which is made from  “0” and “1”. Using a simple minimal design for the “i” and the “o”, applying the same style on the other letters, we designed a unique wordmark for Oxidize, which is modern and stable.
 
-{{< figure src="/img/work/oxidize-watermark.svg" alt="Oxidize logo wordmark preview" >}}
+{{< figure class="with-js" src="/img/work/oxidize-watermark.svg" alt="Oxidize logo wordmark preview" >}}
+{{< figure class="no-js" src="/img/work/oxidize-watermark.webp" alt="Oxidize logo wordmark preview" >}}
 
 ## Consistency
 
 After setting the visual identity, everything else was done step-by-step. With variations of the logo shapes and the primary colors of the brand, the print deliverables were designed, including T-shirts, Badges, Posters, Stickers, etc.
 
 {{< figure src="/img/work/oxidize-swag.webp" alt="Oxidize print mockups (Tshirt, badge, poster)" >}}
-
 
 ## How we helped
 

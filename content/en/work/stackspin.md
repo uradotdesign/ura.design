@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Stackspin"
 summary = "We helped Stackspin, previously known as OpenAppStack, build their new brand personality and visual identity conducting user experience research to provide relevant experience to their users."
 date = "2022-03-25 12:00:00 +0200"
-image = "stackspin.svg"
+image = "stackspin"
 tags = []
 categories = ["Branding", "UX Research", "Illustrations", "Interaction Design"]
 [links]
@@ -23,19 +23,24 @@ Working with Stackpin consisted in creating a modern and relevant brand identity
 
 We created the entire brand design and implemented the new identity in the X pages. To ensure the visual consistency, we provided a guideline manual so Stackspin’s visual identity will presented correctly in their future activity.
 
-{{< figure src="/img/work/stackspin-cover.svg" alt="Stackspin Logo cover image" >}}
+{{< figure class="with-js" src="/img/work/stackspin-cover.svg" alt="Stackspin Logo cover image" >}}
+{{< figure class="no-js" src="/img/work/stackspin-cover.webp" alt="Stackspin Logo cover image" >}}
 
 ## S as Stack / S as Spin,
 
 The icon of the new logo symbolizes the stacked blocks while forming the letter S. (something about the colorr and the Greenhost connection).
 
-{{< figure src="/img/work/stackspin-icon.svg" alt="Stackspin logo composition" >}}
+{{< figure class="with-js" src="/img/work/stackspin-icon.svg" alt="Stackspin logo composition" >}}
+{{< figure class="no-js" src="/img/work/stackspin-icon.webp" alt="Stackspin logo composition" >}}
+
 
 ## Typography and Colors
 
-{{< figure src="/img/work/stackspin-typography.svg" alt="Typeface preview (Space Grotesk & Inter)" >}}
+{{< figure class="with-js" src="/img/work/stackspin-typography.svg" alt="Typeface preview (Space Grotesk & Inter)" >}}
+{{< figure class="no-js" src="/img/work/stackspin-typography.webp" alt="Typeface preview (Space Grotesk & Inter)" >}}
 
-{{< figure src="/img/work/stackspin-colors.svg" alt="Color palette preview (teal)" >}}
+{{< figure class="with-js" src="/img/work/stackspin-colors.svg" alt="Color palette preview (teal)" >}}
+{{< figure class="no-js" src="/img/work/stackspin-colors.webp" alt="Color palette preview (teal)" >}}
 
 ## Brand Book
 

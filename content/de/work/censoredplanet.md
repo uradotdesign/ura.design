@@ -8,7 +8,7 @@ accent = "#000000"
 title = "Censored Planet"
 summary = "We helped Censored Planet establish their brand identity and provide insights on internet censorship in understandable ways."
 date = "2022-03-25 12:00:00 +0200"
-image = "censoredplanet.svg"
+image = "censoredplanet"
 tags = []
 categories = ["Branding", "UX Research", "Web Development"]
 [links]

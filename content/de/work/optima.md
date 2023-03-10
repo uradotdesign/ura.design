@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Internews’ OPTIMA"
 summary = "We designed the brand and visual identity for OPTIMA, creating a visual language which emphasizes their motive, principles and style. "
 date = "2021-01-24 12:00:00 +0200"
-image = "optima.svg"
+image = "optima"
 tags = []
 categories = ["Branding", "Illustrations"]
 [links]
@@ -21,13 +21,16 @@ Internews’ OPTIMA program is designed to build resources and advocacy capacity
 
 The visual design for Internews’ OPTIMA aims to create a modern, approachable, and friendly identity for the program and its mission. As part of this scope we created a set of design deliverables, as well as accompanying brand guidelines to ensure coherent application of the OPTIMA brand across different channels.
 
-{{< figure src="/img/work/optima-brand.svg" alt="Optima brand preview" >}}
+{{< figure class="with-js" src="/img/work/optima-brand.svg" alt="Optima brand preview" >}}
+{{< figure class="no-js" src="/img/work/optima-brand.webp" alt="Optima brand preview" >}}
+
 
 ## About the Logo
 
 As part of the logo, the rectangles represent censorship, while the divided OPTIMA stands for the obstacles in communication. The logo of Internews' OPTIMA aims to represent the idea of being able to communicate and understand through distance, division, and censorship. 
 
-{{< figure src="/img/work/optima-text.svg" alt="Optima logo composition" >}}
+{{< figure class="with-js" src="/img/work/optima-text.svg" alt="Optima logo composition" >}}
+{{< figure class="no-js" src="/img/work/optima-text.webp" alt="Optima logo composition" >}}
 
 ## Visual Style
 
@@ -37,7 +40,8 @@ We designed the visual components in a modular way in order to compliment the en
 
 The illustrations set is flexible and open for changes. Any icon can be added, as long as it is designed in this specific style.
 
-{{< figure src="/img/work/optima-icons.svg" alt="Optima brand elements preview" >}}
+{{< figure class="with-js" src="/img/work/optima-icons.svg" alt="Optima brand elements preview" >}}
+{{< figure class="no-js" src="/img/work/optima-icons.webp" alt="Optima brand elements preview" >}}
 
 ## Independent Slogan
 
@@ -47,7 +51,8 @@ It stands in the middle of the two graphic styles, creating a bridge between the
 
 There is no constraint regarding the logo and slogan relationship. The slogan is independent. It may be shown with the logo or just part of the illustrated artworks.
 
-{{< figure src="/img/work/optima-slogan.svg" alt="Optima brand elements 'Defending the Internet with Data'">}}
+{{< figure class="with-js" src="/img/work/optima-slogan.svg" alt="Optima brand elements 'Defending the Internet with Data'">}}
+{{< figure class="no-js" src="/img/work/optima-slogan.webp" alt="Optima brand elements 'Defending the Internet with Data'">}}
 
 ## Brand Book
 
@@ -55,7 +60,8 @@ The brand book is an important addition and documentation of the visual identity
 
 Link: [Internews’ OPTIMA - Brand Book](https://www.figma.com/proto/sf5rhrK9a6tS7yEomiNwmr/Optima?page-id=248%3A1754&node-id=248%3A1755&viewport=241%2C48%2C0.13&scaling=contain)
 
-{{< figure src="/img/work/optima-typography.svg" alt="Optima Typeface and color palette preview" >}}
+{{< figure class="with-js" src="/img/work/optima-typography.svg" alt="Optima Typeface and color palette preview" >}}
+{{< figure class="no-js" src="/img/work/optima-typography.webp" alt="Optima Typeface and color palette preview" >}}
 
 ## Needs Assessment Report
 
