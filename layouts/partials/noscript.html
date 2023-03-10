@@ -88,7 +88,7 @@
       display: none;
     }
 
-    .overlay {
+    .overlay .h-100 {
       height: 100%;
     }
 
@@ -130,6 +130,12 @@
 
     #testimonials-nojs {
       display: block !important;
+    }
+
+    @media (min-width: 992px) {
+      .navbar-toggler.no-js {
+        display: none !important;
+      }
     }
   </style>
 </noscript>
