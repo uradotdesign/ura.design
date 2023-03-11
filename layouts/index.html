@@ -6,7 +6,7 @@
             <div class="row justify-content-between align-items-center">
                 {{ range where (where .Site.RegularPages "Type" "clients") "Params.home" true }}
                 <div class="col-xl-2 col-lg-4 col-6 text-center">
-                    <a href="{{ .Page.Params.link }}" target="_blank" rel="noopener noreferrer">
+                    <a class="d-flex justify-content-center" href="{{ .Page.Params.link }}" target="_blank" rel="noopener noreferrer">
                         <img class="img-fluid with-js" src="/img/clients/{{ .Page.Params.image }}.svg" alt="{{ .Page.Params.name }}">
                         <img class="img-fluid no-js" src="/img/clients/{{ .Params.image }}.webp" alt="{{ .Page.Params.name }}">
                     </a>
