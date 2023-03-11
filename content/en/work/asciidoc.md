@@ -24,7 +24,8 @@ We were approached by the AsciiDoc Working Group, part of the Eclipse Foundation
 
 More often than not we work on grassroot open source projects and help them establish their own identity. Here however we were working with an Eclipse Foundation project, a major organization in the open source world, owning various Trademarks, including AsciiDoc. We had to ensure we delivered everything necessary for the brand to work as part of the Working Group, website, trademark and file type icon.
 
-{{< figure class="with-js" src="/img/work/asciidoc-brand.svg" alt="AsciiDoc branding moodboard" >}}
+{{< figure class="with-js on-light" src="/img/work/asciidoc-brand.svg" alt="AsciiDoc branding moodboard" >}}
+{{< figure class="with-js on-dark" src="/img/work/asciidoc-brand-dark.svg" alt="AsciiDoc branding moodboard" >}}
 {{< figure class="no-js" src="/img/work/asciidoc-brand.webp" alt="AsciiDoc branding moodboard" >}}
 
 ## Crafting the new brand
@@ -104,23 +105,23 @@ What is it that makes us radically different?
 
 </div>
 
-<!-- {{< figure src="/img/work/asciidoc-notes.svg" alt="AsciiDoc sticky notes" >}} -->
-
 Soon we were able to pinpoint the tone of voice of AsciiDoc and how to present it to to the world. Beyond the tone of voice however, we also asked the workshop participants to tell us how the AsciiDoc brand should feel like, using a set of sliders representing different values determining the personality and look and feel of the brand.
 
-{{< figure class="with-js" src="/img/work/asciidoc-personality.svg" alt="AsciiDoc personality" >}}
+{{< figure class="with-js on-light" src="/img/work/asciidoc-personality.svg" alt="AsciiDoc personality" >}}
+{{< figure class="with-js on-dark" src="/img/work/asciidoc-personality-dark.svg" alt="AsciiDoc personality" >}}
 {{< figure class="no-js" src="/img/work/asciidoc-personality.webp" alt="AsciiDoc personality" >}}
-
 
 Using that information led to interesting discussions among the participants, sparking thoughtful conversations and leading us through the visual exploration of the brand, most importantly its logo.
 
-{{< figure class="with-js" src="/img/work/asciidoc-safespace.svg" alt="AsciiDoc logo safe spacing" >}}
+{{< figure class="with-js on-light" src="/img/work/asciidoc-safespace.svg" alt="AsciiDoc logo safe spacing" >}}
+{{< figure class="with-js on-dark" src="/img/work/asciidoc-safespace-dark.svg" alt="AsciiDoc logo safe spacing" >}}
 {{< figure class="no-js" src="/img/work/asciidoc-safespace.webp" alt="AsciiDoc logo safe spacing" >}}
 
 
 Through various stages of feedback processes, determining visual directions preferred by the working group, we concluded finally with the current AsciiDoc logo. The logomark resembles a D and A crossed out on its negative space; a simple yet effective interpretation of the AsciiDoc brand. Using freely licensed fonts Urbanist and Inter rounded up the visual identity as well, bringing a unique personality to AsciiDoc, paired with splendid readability, which was quite crucial for a markup language such as AsciiDoc.
 
-{{< figure class="with-js" src="/img/work/asciidoc-font.svg" alt="AsciiDoc font" >}}
+{{< figure class="with-js on-light" src="/img/work/asciidoc-font.svg" alt="AsciiDoc font" >}}
+{{< figure class="with-js on-dark" src="/img/work/asciidoc-font-dark.svg" alt="AsciiDoc font" >}}
 {{< figure class="no-js" src="/img/work/asciidoc-font.webp" alt="AsciiDoc font" >}}
 
 ## Website
