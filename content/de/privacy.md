@@ -27,7 +27,7 @@ Wir hosten unsere Arbeitspräsentationen mit [Presentator](https://show.ura.desi
 
 ## ProtonMail
 
-Wir verwenden derzeit [ProtonMail] (https://proton.me) für unsere E-Mail-, Kalender- und Dokumentenspeicherung. Einzelne Teammitglieder verwenden PGP und korrespondieren gerne über verschlüsselte E-Mails oder erfüllen die Bitte, mit uns geteilte Dateien nicht in Google Drive zu speichern. Wir respektieren verschiedene Bedrohungsmodelle und arbeiten daran, die Bedürfnisse und Bedenken unserer Partner zu berücksichtigen.
+Wir verwenden derzeit [ProtonMail](https://proton.me) für unsere E-Mail-, Kalender- und Dokumentenspeicherung. Einzelne Teammitglieder verwenden PGP und korrespondieren gerne über verschlüsselte E-Mails oder erfüllen die Bitte, mit uns geteilte Dateien nicht in Google Drive zu speichern. Wir respektieren verschiedene Bedrohungsmodelle und arbeiten daran, die Bedürfnisse und Bedenken unserer Partner zu berücksichtigen.
 
 ## Mattermost
 
@@ -39,7 +39,7 @@ Wir hosten einen [Nextcloud](https://cloud.ura.design) Server, um alle Arbeitspr
 
 ## HedgeDoc
 
-Wir verwenden [HedgeDoc] (https://pad.ura.design) als Echtzeit-Editor, der es Autoren und Benutzern ermöglicht, ein Textdokument zu bearbeiten und ihre Änderungen sofort und gleichzeitig zu sehen.
+Wir verwenden [HedgeDoc](https://pad.ura.design) als Echtzeit-Editor, der es Autoren und Benutzern ermöglicht, ein Textdokument zu bearbeiten und ihre Änderungen sofort und gleichzeitig zu sehen.
 
 ## Unsere Konten in den sozialen Medien
 
@@ -70,7 +70,7 @@ Manchmal veröffentlichen wir Zitate aus Forschungssitzungen. Wir tun dies nur, 
 
 ## Umfrage
 
-Wir verwenden Nextcloud, um Informationen von Umfrageteilnehmern zu sammeln und zu verarbeiten. Weitere Informationen finden Sie unter [Datenschutzbestimmungen] (https://nextcloud.com/privacy/).
+Wir verwenden Nextcloud, um Informationen von Umfrageteilnehmern zu sammeln und zu verarbeiten. Weitere Informationen finden Sie unter [Datenschutzbestimmungen](https://nextcloud.com/privacy/).
 
 ## Rücknahme der Zustimmung
 
@@ -98,11 +98,11 @@ Wir verwenden kein "Soft Opt-in", d. h. Sie erhalten keine Marketingmitteilungen
 
 Wir bei Ura Design wählen unsere Dienste und Tools sorgfältig aus. Es ist wichtig, dass sie guten Sicherheitspraktiken folgen, wie HTTPS, Zwei-Faktor-Authentifizierung und die Möglichkeit, ein sicheres Passwort festzulegen. Wir haben die Datenschutzrichtlinien und Sicherheitspraktiken aller von uns verwendeten Tools überprüft.
 
-Wenn ein neues Teammitglied zu Ura Design kommt, erklären wir ihm die besten Praktiken, um seine Geräte zu schützen und die Sicherheit seiner Online-Konten aufrechtzuerhalten, einschließlich der Verwendung eines neuen Yubikey von [Yubico] (https://www.yubico.com/).
+Wenn ein neues Teammitglied zu Ura Design kommt, erklären wir ihm die besten Praktiken, um seine Geräte zu schützen und die Sicherheit seiner Online-Konten aufrechtzuerhalten, einschließlich der Verwendung eines neuen Yubikey von [Yubico](https://www.yubico.com/).
 
 ## Datenschutzverletzungen
 
-Im Falle einer Datenschutzverletzung sind wir verpflichtet, das Information Commissioner's Office zu benachrichtigen. Wir werden dies gemäß den [Leitlinien] (https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/) tun.
+Im Falle einer Datenschutzverletzung sind wir verpflichtet, das Information Commissioner's Office zu benachrichtigen. Wir werden dies gemäß den [Leitlinien](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/) tun.
 
 ## Datenübermittlung außerhalb des EWR
 
