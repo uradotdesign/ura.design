@@ -1,0 +1,52 @@
+{{ define "main" }}
+<main>
+  <div class="container-fluid error_page-container">
+    <div class="offset-xl-1">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="offset-xl-1 col-xl-8 col-lg-11 col-12">
+            <div class="pb-5">
+              <h1 class="fw-light color-blue-800 my-5">{{ i18n "404Title" }}</h1>
+              <p class="color-gray-800 mb-5 with-js">{{ i18n "404Description" | markdownify }}</p>
+              <noscript>
+                <p class="color-gray-800 mb-5">{{ i18n "404DescriptionNoJS" | markdownify }}</p>
+              </noscript>
+            </div>
+            <svg class="mt-5 with-js" viewBox="0 0 721 302" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M317.072 294.944C314.824 292.856 312.671 290.591 310.614 288.149L420.612 66.148C424.867 73.8998 428.499 82.7672 431.509 92.7502C438.045 113.966 441.313 139.575 441.313 169.577C441.313 214.688 434.188 249.672 419.937 274.531C412.955 286.658 404.635 295.815 394.978 302H435.802C444.525 290.707 451.666 276.997 457.225 260.87C466.012 235.582 470.405 205.151 470.405 169.577C470.405 134.218 466.012 103.947 457.225 78.767C448.546 53.4795 435.956 34.1388 419.455 20.7449C403.061 7.24396 383.398 0.493469 360.468 0.493469C337.538 0.493469 317.822 7.24396 301.321 20.7449C284.927 34.1388 272.337 53.4795 263.55 78.767C254.871 103.947 250.532 134.218 250.532 169.577C250.532 205.151 254.871 235.582 263.55 260.87C269.178 276.997 276.344 290.707 285.048 302H326.191C323.016 299.968 319.976 297.616 317.072 294.944ZM403.704 44.0502C404.818 45.0761 405.909 46.145 406.975 47.2571L297.69 267.979C294.504 261.484 291.697 254.292 289.267 246.404C282.838 225.188 279.623 199.579 279.623 169.577C279.623 124.574 286.802 89.5893 301.16 64.6232C315.519 39.6571 335.288 27.174 360.468 27.174C377.291 27.174 391.703 32.7994 403.704 44.0502Z"
+                fill="#1F78D1"
+              />
+              <path d="M183.033 302V263.281H226.751V236.279H183.033V128.271H154.424V236.279H33.8796V234.189L168.889 4.83307H138.673L0.77002 238.85V263.281H154.424V302H183.033Z" fill="#1F78D1" />
+              <path d="M676.489 302V263.281H720.207V236.279H676.489V128.271H647.88V236.279H527.335V234.189L662.345 4.83307H632.129L494.226 238.85V263.281H647.88V302H676.489Z" fill="#1F78D1" />
+            </svg>
+            <noscript>
+              <img src="/img/404.webp" alt="" />
+            </noscript>
+            <ul class="d-none works-list">
+              {{ range where .RegularPages "Type" "work" }}
+              <li>{{ .RelPermalink }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script>
+  addEventListener('DOMContentLoaded', (event) => {
+    var randomLinkElement = document.querySelector('.random-link');
+    var worksListElement = document.querySelector('.works-list');
+    var worksLinks = worksListElement.getElementsByTagName('li');
+    var worksList = [];
+    for (var i = 0; i < worksLinks.length; i++) {
+      worksList.push(worksLinks[i].textContent);
+    }
+    var randomLink = worksList[Math.floor(Math.random() * worksList.length)];
+    randomLinkElement.setAttribute('href', randomLink);
+  });
+</script>
+{{ end }}

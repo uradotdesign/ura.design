@@ -11,6 +11,15 @@ other = "Wechsle auf"
 [skipLink]
 other = "Zum Inhalt springen"
 
+[404Title]
+other = "Hier gibt es nichts zu sehen. Noch nicht."
+
+[404Description]
+other = "Diese Seite scheint zu fehlen. Während wir sie suchen, können Sie sich gerne <a class='random-link'>ein cooles Projekt</a> ansehen, das wir gemacht haben."
+
+[404DescriptionNoJS]
+other = "Diese Seite scheint zu fehlen. Während wir sie suchen, können Sie sich gerne <a href='/de/work'>ein cooles Projekt</a> ansehen, das wir gemacht haben."
+
 [next]
 other = "Weiter"
 

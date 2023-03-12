@@ -4,7 +4,7 @@ html {
   height: 100%;
 }
 
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   & #fader {
     background: $gray-900;
   }
@@ -142,16 +142,15 @@ html[data-theme="dark"] {
 // Body
 body {
   line-height: 1.6;
-  font-family: "Inter", sans-serif;
-  font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1,
-    "ss02" 1, "ss03" 1, "zero" 1;
+  font-family: 'Inter', sans-serif;
+  font-feature-settings: 'calt' 1, 'frac' 1, 'case' 1, 'ccmp' 1, 'ss01' 1, 'ss02' 1, 'ss03' 1, 'zero' 1;
   overflow-y: scroll;
   color: $gray-800;
 }
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: "Inter var", sans-serif;
+    font-family: 'Inter var', sans-serif;
   }
 }
 
@@ -218,7 +217,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1, "cv11" 1;
+  font-feature-settings: 'ss01' 1, 'ss03' 1, 'zero' 1, 'cv02' 1, 'cv11' 1;
   font-weight: 600;
   letter-spacing: -0.025em;
 }
@@ -243,10 +242,10 @@ nav .nav-link {
   font-weight: 500;
   display: inline-block;
   position: relative;
-  font-feature-settings: "cv11" 1;
+  font-feature-settings: 'cv11' 1;
 
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
@@ -813,7 +812,7 @@ address {
     }
   }
   & .sticky-xl-top {
-    font-feature-settings: "cv08" 0, "cv05" 1;
+    font-feature-settings: 'cv08' 0, 'cv05' 1;
   }
   & p img {
     max-width: 100%;
@@ -842,8 +841,7 @@ address {
     font-size: 1.5rem;
     font-weight: 500;
     padding: 1rem 1rem 4rem 1rem;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08),
-      0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08), 0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
     & p {
       color: #333 !important;
       background-color: transparent !important;
@@ -1115,9 +1113,7 @@ svg path {
   &:hover,
   &:focus-visible {
     & path {
-      d: path(
-        "M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z"
-      );
+      d: path('M0 14.018h45.021L34.899 3.758 38.298.405l15.784 16-15.784 16-3.399-3.353 10.121-10.26H0v-4.775z');
     }
   }
 }
@@ -1127,7 +1123,7 @@ svg path {
   &:focus-visible {
     & path {
       d: path(
-        "M55 18.6658L9.91329 18.6658L20.0344 28.9255L16.6355 32.2785L0.851634 16.2786L16.6355 0.278808L20.0344 3.63184L9.91333 13.8914L55 13.8913L55 18.6658Z"
+        'M55 18.6658L9.91329 18.6658L20.0344 28.9255L16.6355 32.2785L0.851634 16.2786L16.6355 0.278808L20.0344 3.63184L9.91333 13.8914L55 13.8913L55 18.6658Z'
       );
     }
   }
@@ -1304,7 +1300,7 @@ svg path {
   position: relative;
 
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
@@ -1555,7 +1551,7 @@ svg path {
       position: relative;
 
       &:not(:last-of-type):after {
-        content: "";
+        content: '';
         position: absolute;
         left: 0.75rem;
         bottom: -1.5rem;
@@ -1665,4 +1661,14 @@ svg path {
   padding: 1rem;
   text-decoration: none;
   z-index: 25;
+}
+
+.error_page-container {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
