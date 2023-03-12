@@ -1,6 +1,7 @@
 +++
 layout = "work/single"
 theme = "dark"
+featured = true
 background = "#000067"
 accent = "#009ACE"
 text = "#FFFFFF"
