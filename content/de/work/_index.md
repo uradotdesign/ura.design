@@ -1,7 +1,7 @@
 +++
-title = "Our work"
+title = "Unsere Arbeiten"
 layout = "work/list"
 +++
 
-Technology implicates our everyday life.<br />
-That’s why we have a focus on open source projects with a societal impact.
+Technologie hat Auswirkungen auf unser tägliches Leben.\
+Deshalb konzentrieren wir uns auf Open-Source-Projekte mit gesellschaftlicher Wirkung.
