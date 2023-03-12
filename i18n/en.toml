@@ -11,6 +11,16 @@ other = "Also available in"
 [skipLink]
 other = "Skip to content"
 
+[404Title]
+other = "Nothing to see here. Yet."
+
+[404Description]
+other = "This page seems to be missing. While we look for it, feel free to explore <a class='random-link'>some cool project</a> we have done."
+
+[404DescriptionNoJS]
+other = "This page seems to be missing. While we look for it, feel free to explore <a href='/en/work'>some cool project</a> we have done."
+
+
 [next]
 other = "Next"
 
