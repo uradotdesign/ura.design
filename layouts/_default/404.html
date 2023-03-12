@@ -26,8 +26,8 @@
               <img src="/img/404.webp" alt="" />
             </noscript>
             <ul class="d-none works-list">
-              {{ range where .RegularPages "Type" "work" }}
-              <li>{{ .RelPermalink }}</li>
+              {{ range where .Site.RegularPages "Type" "work" }}
+                <li>{{ .RelPermalink }}</li>
               {{ end }}
             </ul>
           </div>
