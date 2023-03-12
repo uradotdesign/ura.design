@@ -1353,7 +1353,7 @@ svg path {
   line-height: 4.75rem;
   flex: 1;
   text-transform: uppercase;
-  background-color: #009ace !important;
+  background-color: #009ace;
   animation-name: blendAnimationBlue;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -1365,17 +1365,16 @@ svg path {
 
   & div {
     mix-blend-mode: multiply;
-    background: none !important;
   }
 
   & :nth-child(1) {
-    color: #ff0080 !important;
+    color: #ff0080;
     position: absolute;
     left: 20%;
   }
 
   & :nth-child(2) {
-    color: #009acf !important;
+    color: #009acf;
   }
 }
 
@@ -1386,7 +1385,7 @@ svg path {
   line-height: 4.75rem;
   flex: 1;
   text-transform: uppercase;
-  background-color: #ff0080 !important;
+  background-color: #ff0080;
   animation-name: blendAnimationPink;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -1398,17 +1397,16 @@ svg path {
 
   & div {
     mix-blend-mode: multiply;
-    background: none !important;
   }
 
   & :nth-child(1) {
     color: #ff0080;
-    position: absolute !important;
+    position: absolute;
     left: 20%;
   }
 
   & :nth-child(2) {
-    color: #009acf !important;
+    color: #009acf;
   }
 }
 
