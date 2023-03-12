@@ -1346,6 +1346,88 @@ svg path {
   }
 }
 
+.demoweek-blue-banner {
+  padding: 2rem;
+  font-size: 4.75rem;
+  line-height: 4.75rem;
+  flex: 1;
+  text-transform: uppercase;
+  background-color: #009ace;
+  animation-name: blendAnimationBlue;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+  & div {
+    mix-blend-mode: multiply;
+  }
+
+  & :nth-child(1) {
+    color: #ff0080;
+    position: absolute;
+  }
+
+  & :nth-child(2) {
+    color: #009acf;
+    margin-left: 1.5rem;
+  }
+}
+
+.demoweek-pink-banner {
+  padding: 2rem;
+  font-size: 4.75rem;
+  line-height: 4.75rem;
+  flex: 1;
+  text-transform: uppercase;
+  background-color: #ff0080;
+  animation-name: blendAnimationPink;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+  & div {
+    mix-blend-mode: multiply;
+  }
+
+  & :nth-child(1) {
+    color: #ff0080;
+    position: absolute;
+  }
+
+  & :nth-child(2) {
+    color: #009acf;
+    margin-left: 1.5rem;
+  }
+}
+
+@keyframes blendAnimationPink {
+  0% {
+    background-color: #ff0080;
+  }
+
+  100% {
+    background-color: #009ace;
+  }
+}
+
+@keyframes blendAnimationBlue {
+  0% {
+    background-color: #009ace;
+  }
+
+  100% {
+    background-color: #ff0080;
+  }
+}
+
 .contact {
   font-size: 1.5rem;
   margin-top: 1rem;
