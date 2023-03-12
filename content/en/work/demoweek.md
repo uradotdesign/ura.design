@@ -11,8 +11,9 @@ image = "demoweek"
 tags = []
 categories = ["Branding", "Interaction Design", "Web Development"]
 [links]
-    "Brand Book" = "https://www.figma.com/proto/m9gSaAYsqNVou9gmVdFwlj/Adapt?page-id=328%3A0&node-id=329%3A125&viewport=241%2C48%2C0.07&scaling=contain"
-    "Website" = "https://adapt.internews.org"
+    "Website" = "https://demoweek.prototypefund.de"
+[sources]
+    "GitHub repository" = "https://github.com/prototypefund/demoweek-archive"
 +++
 
 At the height of the Covid pandemic in 2020, we were approached by Prototype Fund to help them with shaping their traditional Demo Week virtually. Usually Projects would meet in Berlin for a day and present their work. As in-person events were not an option anymore, we needed to come up with an alternative.

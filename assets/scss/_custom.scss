@@ -1347,12 +1347,13 @@ svg path {
 }
 
 .demoweek-blue-banner {
+  position: relative;
   padding: 2rem;
   font-size: 4.75rem;
   line-height: 4.75rem;
   flex: 1;
   text-transform: uppercase;
-  background-color: #009ace;
+  background-color: #009ace !important;
   animation-name: blendAnimationBlue;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -1364,26 +1365,28 @@ svg path {
 
   & div {
     mix-blend-mode: multiply;
+    background: none !important;
   }
 
   & :nth-child(1) {
-    color: #ff0080;
+    color: #ff0080 !important;
     position: absolute;
+    left: 20%;
   }
 
   & :nth-child(2) {
-    color: #009acf;
-    margin-left: 1.5rem;
+    color: #009acf !important;
   }
 }
 
 .demoweek-pink-banner {
+  position: relative;
   padding: 2rem;
   font-size: 4.75rem;
   line-height: 4.75rem;
   flex: 1;
   text-transform: uppercase;
-  background-color: #ff0080;
+  background-color: #ff0080 !important;
   animation-name: blendAnimationPink;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -1395,16 +1398,17 @@ svg path {
 
   & div {
     mix-blend-mode: multiply;
+    background: none !important;
   }
 
   & :nth-child(1) {
     color: #ff0080;
-    position: absolute;
+    position: absolute !important;
+    left: 20%;
   }
 
   & :nth-child(2) {
-    color: #009acf;
-    margin-left: 1.5rem;
+    color: #009acf !important;
   }
 }
 
