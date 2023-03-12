@@ -601,7 +601,7 @@ footer {
 
 .paginate {
   position: relative;
-  
+
   & p.text-uppercase {
     font-weight: 600;
     font-size: 0.85rem;
@@ -623,7 +623,8 @@ footer {
 }
 
 .button {
-  &.previous p, &.next p {
+  &.previous p,
+  &.next p {
     font-weight: 600;
     font-size: 0.85rem;
   }
@@ -843,10 +844,10 @@ address {
     padding: 1rem 1rem 4rem 1rem;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08),
       0px 3px 5px rgba(0, 0, 0, 0.04), 0px 2.5px 2px rgba(0, 0, 0, 0.02);
-      & p {
-        color: #333 !important;
-        background-color: transparent !important;
-      }
+    & p {
+      color: #333 !important;
+      background-color: transparent !important;
+    }
   }
 }
 
@@ -1109,7 +1110,8 @@ svg path {
   transition: 0.25s ease-in-out;
 }
 
-.carousel-control-next, .olderposts {
+.carousel-control-next,
+.olderposts {
   &:hover,
   &:focus-visible {
     & path {
@@ -1345,6 +1347,88 @@ svg path {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.demoweek-blue-banner {
+  padding: 2rem;
+  font-size: 4.75rem;
+  line-height: 4.75rem;
+  flex: 1;
+  text-transform: uppercase;
+  background-color: #009ace;
+  animation-name: blendAnimationBlue;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+  & div {
+    mix-blend-mode: multiply;
+  }
+
+  & :nth-child(1) {
+    color: #ff0080;
+    position: absolute;
+  }
+
+  & :nth-child(2) {
+    color: #009acf;
+    margin-left: 1.5rem;
+  }
+}
+
+.demoweek-pink-banner {
+  padding: 2rem;
+  font-size: 4.75rem;
+  line-height: 4.75rem;
+  flex: 1;
+  text-transform: uppercase;
+  background-color: #ff0080;
+  animation-name: blendAnimationPink;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+  & div {
+    mix-blend-mode: multiply;
+  }
+
+  & :nth-child(1) {
+    color: #ff0080;
+    position: absolute;
+  }
+
+  & :nth-child(2) {
+    color: #009acf;
+    margin-left: 1.5rem;
+  }
+}
+
+@keyframes blendAnimationPink {
+  0% {
+    background-color: #ff0080;
+  }
+
+  100% {
+    background-color: #009ace;
+  }
+}
+
+@keyframes blendAnimationBlue {
+  0% {
+    background-color: #009ace;
+  }
+
+  100% {
+    background-color: #ff0080;
   }
 }
 
