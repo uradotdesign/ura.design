@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Internews’ ADAPT"
 summary = "We designed the full visual identity for Internews’ ADAPT, creating a style to graphically represent ADAPT everywhere. "
 date = "2022-01-24 12:00:00 +0200"
-images = ["adapt"]
+images = ["img/work/adapt.webp", "adapt"]
 tags = []
 categories = ["Branding", "Web Development", "Illustrations"]
 [links]

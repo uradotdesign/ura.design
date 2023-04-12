@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "I2P - The Invisible Internet Project"
 summary = "We helped I2P create their new brand strategy, visual identity and shape the user experience of their browser extension for Firefox."
 date = "2017-01-24 12:00:00 +0200"
-images = ["i2p"]
+images = ["img/work/i2p.webp", "i2p"]
 tags = []
 categories = ["Branding", "UX Research"]
 [links]

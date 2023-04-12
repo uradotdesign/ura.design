@@ -8,7 +8,7 @@ text = "#194954"
 title = "AsciiDoc"
 summary = "AsciiDoc is a plain text markup language for writing technical content. We were approached by the AsciiDoc working group to create a coherent brand identity and website to serve as the home for the AsciiDoc language."
 date = "2022-08-15 12:00:00 +0200"
-images = ["asciidoc"]
+images = ["img/work/asciidoc.webp", "asciidoc"]
 tags = []
 categories = ["Branding", "Interaction Design", "Layout Design"]
 [links]

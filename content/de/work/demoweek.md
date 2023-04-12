@@ -8,7 +8,7 @@ text = "#FFFFFF"
 title = "PrototypeFund - Virtual Demo Week"
 summary = "Wir haben eine virtuelle Demo-Woche entwickelt, um Projekte aus den Runden 7-10 des deutschen Prototype Fund die Möglichkeit zu geben, ihre Arbeit in einer virtuellen Umgebung zu präsentieren."
 date = "2023-03-11 18:45:00 +0200"
-images = ["demoweek"]
+images = ["img/work/demoweek.webp", "demoweek"]
 tags = []
 categories = ["Branding", "Interaction Design", "Web Development"]
 [links]

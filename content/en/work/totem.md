@@ -8,7 +8,7 @@ text = "#064E3B"
 title = "Totem Project"
 summary = "Totem is an online learning platform that offers educational courses about digital security and privacy in a safe, online classroom environment. We helped them refresh their visual identity and explain technical concepts in a more visual way."
 date = "2022-08-08 12:00:00 +0200"
-images = ["totem"]
+images = ["img/work/totem.webp", "totem"]
 tags = []
 categories = ["Branding", "Illustrations", "Layout Design"]
 [links]
