@@ -6,7 +6,7 @@ website = "https://renatagegaj.wordpress.com/"
 github = ""
 twitter = "RenataGegaj"
 email = "renata@ura.design"
-gpg = ""
+gpg = "renata"
 image = "Renata.webp"
 weight = 3
 +++

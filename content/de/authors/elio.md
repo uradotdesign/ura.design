@@ -5,7 +5,7 @@ bio = "Elio"
 website = "https://elioqoshi.me/"
 twitter = "elioqoshi"
 email = "elio@ura.design"
-gpg = ""
+gpg = "elio"
 image = "Elio.webp"
 weight = 1
 +++

@@ -6,7 +6,7 @@ website = "https://axhakani.github.io/"
 github = "axhakani"
 twitter = "anjaxhakani"
 email = "anja@ura.design"
-gpg = ""
+gpg = "anja"
 image = "Anja.webp"
 weight = 5
 +++

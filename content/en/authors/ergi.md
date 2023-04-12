@@ -6,7 +6,7 @@ website = ""
 github = "ergish"
 twitter = ""
 email = "ergi@ura.design"
-gpg = ""
+gpg = "ergi"
 image = "Ergi.webp"
 weight = 4
 +++
