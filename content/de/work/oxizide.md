@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Oxidize - The Conference of embedded Rust"
 summary = "We created the brand and visual identity for Oxidize, designing every digital and print asset for the conference and providing a long-term design solution."
 date = "2020-03-24 12:00:00 +0200"
-image = "oxidize"
+images = ["oxidize"]
 tags = []
 categories = ["Branding", "Web Development"]
 [links]

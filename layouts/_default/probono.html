@@ -55,8 +55,8 @@
                 {{ range first 3 (where (where .Site.RegularPages "Type" "work") "Params.lab" "=" true) }}
                 <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
                     <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
-                        <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.svg" alt="">
-                        <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.webp" alt="">
+                        <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.svg" alt="">
+                        <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.webp" alt="">
                     </a>
                     <a class="title mt-3 mb-0" href="{{ .Permalink }}">{{ .Title }}</a>
                     <p class="mb-0">

@@ -41,7 +41,11 @@
 {{ partial "animation.html" . }}
 
 <!-- Icons -->
-{{- partial "favicons.html" . }} {{- template "_internal/schema.html" . }} {{- template "_internal/opengraph.html" . }} {{- template "_internal/twitter_cards.html" . }} {{ range .Params.categories }}
+{{- partial "favicons.html" . }} 
+{{- template "_internal/schema.html" . }}
+{{- template "_internal/opengraph.html" . }}
+{{- template "_internal/twitter_cards.html" . }}
+{{ range .Params.categories }}
 <meta property="article:section" content="{{ . }}" />
 {{ end }} 
 {{ if isset .Params "date" }}

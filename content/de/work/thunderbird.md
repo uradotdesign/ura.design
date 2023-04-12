@@ -8,7 +8,7 @@ text = "#FFFFFF"
 title = "Thunderbird"
 summary = "We created the new Thunderbird brand and helped the project with extensive usability research."
 date = "2019-01-24 12:00:00 +0200"
-image = "thunderbird"
+images = ["thunderbird"]
 tags = []
 categories = ["Branding", "UX Research", "Web Development"]
 [links]

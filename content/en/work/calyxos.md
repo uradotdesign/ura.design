@@ -8,7 +8,7 @@ text = "#FFFFFF"
 title = "CalyxOS"
 summary = "We provided a new visual style for CalyxOS, concretized into graphics to illustrate their main concepts and new wallpaper images for the Operating System."
 date = "2022-03-24 12:00:00 +0200"
-image = "calyxos"
+images = ["calyxos"]
 tags = []
 categories = ["Illustrations", "UX Research", "Accessibility"]
 [links]

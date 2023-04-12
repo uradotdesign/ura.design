@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Stackspin"
 summary = "We helped Stackspin, previously known as OpenAppStack, build their new brand personality and visual identity conducting user experience research to provide relevant experience to their users."
 date = "2022-03-25 12:00:00 +0200"
-image = "stackspin"
+images = ["stackspin"]
 tags = []
 categories = ["Branding", "UX Research", "Illustrations", "Interaction Design"]
 [links]

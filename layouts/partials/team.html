@@ -24,7 +24,7 @@
                             <a href="mailto:{{ .Page.Params.email }}" aria-label="{{ .Page.Params.name }}'s email">{{ partial "fontawesome.html" "solid/envelope" }}</a>
                         {{ end }}
                         {{ if .Page.Params.gpg }}
-                            <a href="{{ .Site.BaseURL }}/pgp/publickey.{{ .Page.Params.gpg }}@ura.design.asc" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GPG key">{{ partial "fontawesome.html" "solid/key" }}</a>
+                            <a href="{{ .Site.BaseURL }}/pgp/publickey.{{ .Page.Params.gpg }}@ura.design.asc" aria-label="{{ .Page.Params.name }}'s GPG key">{{ partial "fontawesome.html" "solid/key" }}</a>
                         {{ end }}
                     </div>
                 </div>

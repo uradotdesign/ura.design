@@ -7,7 +7,7 @@ text = "#FFFFFF"
 title = "Internews’ OPTIMA"
 summary = "We designed the brand and visual identity for OPTIMA, creating a visual language which emphasizes their motive, principles and style. "
 date = "2021-01-24 12:00:00 +0200"
-image = "optima"
+images = ["optima"]
 tags = []
 categories = ["Branding", "Illustrations"]
 [links]

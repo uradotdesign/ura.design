@@ -34,8 +34,8 @@
               {{ range first 2 ($work) }}
               <div class="col-xl-6 col-lg-12 col-12 pb-xl-0 pb-5 work">
                   <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
-                    <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.svg" width="636px" height="357px" alt="">
-                    <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.webp" alt="">
+                    <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.svg" width="636px" height="357px" alt="">
+                    <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.webp" alt="">
                   </a>
                   <a class="title mt-3 mb-0" href="{{ .Permalink }}" aria-label="Project name: {{ .Title }}">{{ .Title }}</a>
                   <p class="mb-0">
@@ -53,8 +53,8 @@
               {{ range after 2 ($work) }}
               <div class="col-xl-4 col-lg-12 col-12 pb-5 work">
                   <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
-                    <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.svg" width="416px" height="234px" alt="">
-                    <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.webp" alt="">
+                    <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.svg" width="416px" height="234px" alt="">
+                    <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.webp" alt="">
                   </a>
                   <a class="title mt-3 mb-0" href="{{ .Permalink }}" aria-label="Project name: {{ .Title }}">{{ .Title }}</a>
                   <p class="mb-0">
@@ -73,8 +73,8 @@
           {{ range ($work) }}
             <div class="col-xl-4 col-lg-12 col-12 mb-4 mt-0 work tabcontentservice {{ range $i, $e := .Params.categories }}{{ if $i }} {{ end }}{{ replaceRE " " "-" $e | lower }}{{- end -}}">
                 <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
-                  <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.svg" width="416px" height="234px" alt="">
-                  <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{ .Params.image }}.webp" alt="">
+                  <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.svg" width="416px" height="234px" alt="">
+                  <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 0 }}{{ end -}}.webp" alt="">
                 </a>
                 <a class="title mt-3 mb-0" href="{{ .Permalink }}" aria-label="Project name: {{ .Title }}">{{ .Title }}</a>
                 <p class="mb-0">
