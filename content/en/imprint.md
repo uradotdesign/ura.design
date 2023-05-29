@@ -12,7 +12,7 @@ c/o Cultivation Space\
 Aufgang 4\
 Gottschedstraße 4\
 13357 Berlin\
-Tax Number: 34/481/01445
+VAT: DE357155567
 
 Email: hello@ura.design\
 Website: https://ura.design
