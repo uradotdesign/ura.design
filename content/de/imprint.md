@@ -12,7 +12,7 @@ c/o Cultivation Space\
 Aufgang 4\
 Gottschedstraße 4\
 13357 Berlin\
-Steuernummer: 34/481/01445
+Steuernummer: 34/481/01445\
 USt.-IDNr: DE357155567
 
 Email: hello@ura.design\
