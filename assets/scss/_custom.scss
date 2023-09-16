@@ -1103,13 +1103,11 @@ details[open] summary svg {
   }
 }
 
-svg,
-svg path {
-  transition: 0.25s ease-in-out;
-}
-
 .carousel-control-next,
 .olderposts {
+  & path {
+    transition: 0.25s ease-in-out;
+  }
   &:hover,
   &:focus-visible {
     & path {
@@ -1119,6 +1117,9 @@ svg path {
 }
 
 .newerposts {
+  & path {
+    transition: 0.25s ease-in-out;
+  }
   &:hover,
   &:focus-visible {
     & path {
