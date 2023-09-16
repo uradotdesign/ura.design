@@ -1451,7 +1451,7 @@ details[open] summary svg {
   & .arrow-link {
     font-size: 1.125rem;
     font-weight: 600;
-    color: $white;
+    color: $white !important;
     text-decoration: none;
 
     & span {
