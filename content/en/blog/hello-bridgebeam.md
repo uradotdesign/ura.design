@@ -36,4 +36,4 @@ Navigating the digital landscape is no easy task, especially for organizations i
 
 Are you curious about how we can collaborate? Subscriptions start from as low as 400 EUR (excl. VAT). You can upgrade, downgrade or cancel your plan as needed. Find out more about our service offerings and see if we might be a good fit.
 
-[Bridgebeam link](https://bridgebeam.design)
+[Visit Bridgebeam](https://bridgebeam.design)
