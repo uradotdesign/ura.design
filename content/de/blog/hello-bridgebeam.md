@@ -3,7 +3,6 @@ title = "Bridgebeam - ongoing design support for any budget"
 authors = ["ergi"]
 date = "2023-09-16 13:30:00 +0200"
 image = "/img/blog/bridgebeam-thumbnail.webp"
-images = ["/img/blog/bridgebeam-thumbnail.webp"]
 categories = ["News"]
 +++
 
