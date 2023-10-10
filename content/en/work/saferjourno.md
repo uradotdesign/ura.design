@@ -23,11 +23,11 @@ Started in 2014, SaferJourno's goal was simple: help those teaching journalists 
 
 At Ura, we've teamed up with Internews on several projects in the past, mainly around design. With SaferJourno, our task was to provide them with a new visual identity starting with a logo and followed by visual assets and also designing and developing their website which serves as a guide dedicated to Digital Security Resources for Trainers of Journalists.
 
-{{< figure class="with-js d-none d-sm-block" src="/img/work/saferjourno-brand.svg" alt="SaferJourno Brand" >}}
-{{< figure class="no-js d-none d-sm-block" src="/img/work/saferjourno-brand.webp" alt="SaferJourno Brand" >}}
+{{< figure class="with-js d-block d-sm-none" src="/img/work/saferjourno-brand.svg" alt="SaferJourno Brand" >}}
+{{< figure class="no-js d-block d-sm-none" src="/img/work/saferjourno-brand.webp" alt="SaferJourno Brand" >}}
 
-{{< figure class="with-js d-block d-sm-none" src="/img/work/saferjourno-brand-mobile.svg" alt="SaferJourno Brand" >}}
-{{< figure class="no-js d-block d-sm-none" src="/img/work/saferjourno-brand-mobile.webp" alt="SaferJourno Brand" >}}
+{{< figure class="with-js d-none d-sm-block" src="/img/work/saferjourno-brand-mobile.svg" alt="SaferJourno Brand" >}}
+{{< figure class="no-js d-none d-sm-block" src="/img/work/saferjourno-brand-mobile.webp" alt="SaferJourno Brand" >}}
 
 ## Logo
 
@@ -66,8 +66,8 @@ This option offers a visually appealing and accessible reading experience that c
 - Collapse Table of Contents
 With this feature, users can optimize their reading experience by collapsing the Table of Contents sidebar. With a single click, users can declutter their screen, maximize available space for content, and enhance reading focus. When needed, the sidebar expands again with a click to provide quick access to the Table of Contents.
 
-{{< figure class="d-none d-sm-block" src="/img/work/saferjourno-features.webp" alt="SaferJourno Features" >}}
-{{< figure class="d-block d-sm-none" src="/img/work/saferjourno-features-mobile.webp" alt="SaferJourno Features" >}}
+{{< figure class="d-block d-sm-none" src="/img/work/saferjourno-features.webp" alt="SaferJourno Features" >}}
+{{< figure class="d-none d-sm-block" src="/img/work/saferjourno-features-mobile.webp" alt="SaferJourno Features" >}}
 
 ## How We Helped
 
