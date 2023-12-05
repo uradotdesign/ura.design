@@ -1,12 +1,11 @@
 +++
 name = "Anja Xhakani"
-position = "UX Researcherin"
+position = "Associate UX Researcher"
 bio = "Anja"
-website = "https://axhakani.github.io/"
+linkedin = "anja-xhakani-0a78b718a"
 github = "axhakani"
-twitter = "anjaxhakani"
 email = "anja@ura.design"
 gpg = "anja"
 image = "Anja.webp"
-weight = 5
+weight = 4
 +++

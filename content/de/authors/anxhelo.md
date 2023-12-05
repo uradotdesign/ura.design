@@ -1,10 +1,9 @@
 +++
 name = "Anxhelo Lushka"
-position = "Web-Entwickler"
+position = "Lead Frontend Developer"
 bio = "Anxhelo"
-website = "https://lushka.al/"
+linkedin = "anxhelo-lushka"
 github = "AnXh3L0"
-twitter = "anxhelolushka"
 email = "anxhelo@ura.design"
 gpg = "anxhelo"
 image = "Anxhelo.webp"

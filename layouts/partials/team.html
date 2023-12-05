@@ -2,20 +2,17 @@
     <div class="container">
         <h2>{{ i18n "whoareWe" }}</h2>
         <div class="row pt-lg-4 pt-0">
-        {{ range (where .Site.RegularPages "Type" "authors") }}
+        {{ range where (where .Site.RegularPages "Type" "authors") "Params.alumni" "!=" true }}
             <div class="col-xl-4 col-lg-6 col-12">
                 <div class="row mb-3 mb-lg-5">
                     <div class="col-xxl-5 col-xl-12 col-5">
                         <img class="img-fluid pb-3" src="/img/authors/{{ .Page.Params.image }}" alt="">
                     </div>
                     <div class="col-xxl-7 col-xl-12 col-7 circle-icons">
-                        <h2>{{ .Page.Params.name }}</h2>
+                        <h3>{{ .Page.Params.name }}</h3>
                         <p>{{ .Page.Params.position }}</p>
-                        {{ if .Page.Params.website }}
-                            <a href="{{ .Page.Params.website }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Website">{{ partial "fontawesome.html" "solid/globe" }}</a>
-                        {{ end }}
-                        {{ if .Page.Params.twitter }}
-                            <a href="https://twitter.com/{{ .Page.Params.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s Twitter">{{ partial "fontawesome.html" "brands/twitter" }}</a>
+                        {{ if .Page.Params.linkedin }}
+                            <a href="https://www.linkedin.com/in/{{ .Page.Params.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s LinkedIn">{{ partial "fontawesome.html" "brands/linkedin" }}</a>
                         {{ end }}
                         {{ if .Page.Params.github }}
                             <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub">{{ partial "fontawesome.html" "brands/github" }}</a>
@@ -31,5 +28,19 @@
             </div>
         {{ end }}
         </div>
+        <h2 class="mb-4">{{ i18n "alumni" }}</h2>
+        {{ range where (where .Site.RegularPages "Type" "authors") "Params.alumni" "=" true }}
+            <h3>{{ .Page.Params.name }}</h3>
+            <p>{{ .Page.Params.position }}</p>
+            {{ if .Page.Params.github }}
+                <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub">{{ partial "fontawesome.html" "brands/github" }}</a>
+            {{ end }}
+            {{ if .Page.Params.email }}
+                <a href="mailto:{{ .Page.Params.email }}" aria-label="{{ .Page.Params.name }}'s email">{{ partial "fontawesome.html" "solid/envelope" }}</a>
+            {{ end }}
+            {{ if .Page.Params.gpg }}
+                <a href="{{ .Site.BaseURL }}/pgp/publickey.{{ .Page.Params.gpg }}@ura.design.asc" aria-label="{{ .Page.Params.name }}'s GPG key">{{ partial "fontawesome.html" "solid/key" }}</a>
+            {{ end }}
+        {{ end }}
     </div>
 </div>

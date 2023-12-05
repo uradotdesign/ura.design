@@ -1,12 +1,11 @@
 +++
 name = "Ergi Shkëlzeni"
-position = "Visual Designer"
+position = "Lead Visual Designer"
 bio = "Ergi"
-website = ""
+linkedin = "ergishkëlzeni"
 github = "ergish"
-twitter = ""
 email = "ergi@ura.design"
 gpg = "ergi"
 image = "Ergi.webp"
-weight = 4
+weight = 3
 +++

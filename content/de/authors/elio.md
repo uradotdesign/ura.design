@@ -1,9 +1,9 @@
 +++
 name = "Elio Qoshi"
-position = "Gründer"
+position = "Founder"
 bio = "Elio"
-website = "https://elioqoshi.me/"
-twitter = "elioqoshi"
+linkedin = "elioqoshi"
+github = "elioqoshi"
 email = "elio@ura.design"
 gpg = "elio"
 image = "Elio.webp"
