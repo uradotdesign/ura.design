@@ -36,7 +36,8 @@ When I started working in this field, I used to spend a lot of time just researc
 **Ergi**: Abandoning in this context is a part of the design process. I’m not sure if I can describe it, but it is there when you're designing or creating, regardless if it is music or illustrations because I have explored all of them. You just get lost in there. You are working on something, you realize that you don't like it, then maybe you take something from here, duplicate it, and you explore more, you change stuff.
 It is as if it was in the back of your head, like all the creative thinking. Of course, I would like to explore a lot more all the time, but the role of experience of course is to take a limited budget into account, and it helps to understand and to abandon what you're doing.
 Somehow, this part of the process is not motivational in a way. Depending on the allocated time with certain projects, we don't explore very deeply.
-Flows and Limits
+
+## Flows and Limits
 
 **Marit**: The flow that you describe, how do you manage to develop it while being careful not to spend too much time, and to respect the budget? How do you negotiate with yourself?
 
