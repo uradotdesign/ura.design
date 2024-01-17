@@ -1,5 +1,6 @@
 +++
 title = "Ergi sharing the Process of Open Source Designing"
+draft = true
 authors = ["marit"]
 date = "2024-01-17 14:35:00 +0200"
 image = "/img/blog/design-process-thumbnail.webp"
