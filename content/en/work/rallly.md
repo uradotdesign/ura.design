@@ -111,71 +111,40 @@ We conducted five remote 1:1 usability tests via video calls, each lasting appro
 
 </div>
 
-<div class="d-block d-lg-none">
+<div class="card rounded-3 p-4 d-block d-lg-none">
 
-**Person 1**:\
-**Event Creation Frequency**
-- Less than once a day
-
-**Method of Choice**
-- Google Workspace
-- Google Calender
-- Doodle
-
-**Familiar with Rally**: 
-- No
+**Person 1**:
+- Schedules calls less than once a day
+- Uses Google Workspace, Google Calendar, and Doodle for scheduling meetings
+- Not familiar with Rally
 
 --- 
 
-**Person 2**:\
-**Event Creation Frequency**
-- At least 5 times daily
-
-**Method of Choice**
-- Internal: Google Calender
-- External: Email
-
-**Familiar with Rally**: 
-- Yes
+**Person 2**:
+- Schedules at least 5 times per day
+- Uses Google Calendar and email for scheduling meetings
+- Familiar with Rallly
 
 ---
 
-**Person 3**:\
-**Event Creation Frequency**
-- At least 5 times daily
-
-**Method of Choice**
-- Internal: Company Calender
-- External: Rallly
-
-**Familiar with Rally**: 
-- Yes
+**Person 3**:
+- Schedules calls at least 5 times per day
+- Uses company calender and Rallly for scheduling meetings
+- Familiar with Rallly
 
 ---
 
-**Person 4**:\
-**Event Creation Frequency**
-- Once a day
-
-**Method of Choice**
-- Hubspot
-- Calendly
-
-**Familiar with Rally**: 
-- Yes
+**Person 4**:
+- Schedules calls once per day
+- Uses Hubspot and Calendly for scheduling meetings
+- Familiar with Rallly
 
 ---
 
-**Person 5**:\
-**Event Creation Frequency**
-- Once a week
-
-**Method of Choice**
-- When2Meet
-- Email
-
-**Familiar with Rally**: 
-- Yes
+**Person 5**:
+- Schedules calls at least once time per week
+- Uses When2Meet and emai for scheduling meetings
+- Familiar with Rallly
 
 </div>
 
@@ -193,7 +162,7 @@ We conducted five remote 1:1 usability tests via video calls, each lasting appro
 
 </div>
 
-<div class="d-block d-lg-none">
+<div class="card rounded-3 p-4 my-3 d-block d-lg-none">
 
 1. **Create a poll for the 27th of November that will last a full day**.
 How are users interacting with the UI?
