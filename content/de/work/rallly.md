@@ -12,7 +12,9 @@ images = ["img/work/koolee.webp", "koolee"]
 tags = []
 categories = ["Accessibility", "Interaction Design", "Branding", "UX Research"]
 [links]
-    "Website" = "https://rallly.co/"
+    "Rallly Website" = "https://rallly.co/"
+    "Research Report" = "https://cloud.ura.design/s/L8j5MjJYdkkGo7R"
+    "Visual Guidelines" = "https://cloud.ura.design/s/8EWzD3N2mnMEw75"
 [sources]
 +++
 
