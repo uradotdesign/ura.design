@@ -210,12 +210,12 @@ Are users understanding the function of the menu button?
 5. **Create a poll over different days with different time lengths for colleagues to choose from.**
 How are users interacting with week view?
 
+</div>
+
 For every task, we identified if users were able to complete the task and the level of difficulty they had:
 
 {{< figure class="with-js text-start" src="/img/work/rallly-testing-legend.svg" alt="Rallly testing difficulty legend" >}}
 {{< figure class="no-js text-start" src="/img/work/rallly-testing-legend.webp" alt="Rallly testing difficulty legend" >}}
-
-</div>
 
 ## Key Findings
 
