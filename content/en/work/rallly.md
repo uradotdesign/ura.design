@@ -36,24 +36,20 @@ Our focus was a threefold objective: rebranding the product, introducing a fresh
 {{< figure class="with-js" src="/img/work/koolee-brand.svg" alt="Kolee Logo" >}}
 {{< figure class="no-js" src="/img/work/koolee-brand.webp" alt="Kolee Logo" >}}
 
-### Brand Transformation
+## Brand Transformation
 
-##### Renaming Rallly
-
+**Renaming Rallly**\
 When we engaged with Rallly, it became evident that a name change was on the horizon. The existing name posed challenges with its triple "L" introducing a potential stumbling block in communication and discoverability. Acknowledging the significance of overcoming these challenges and aligning the name with the envisioned identity, we decided to conduct a branding workshop specifically addressing these naming concerns. This initiative aimed not only to rectify potential issues but also to ensure that the chosen name resonates with the desired identity and expression of Rallly.
 
-##### Branding Workshop
-
+**Branding Workshop**\
 We started by preparing a branding workshop where Luke Vella, the founder of Rallly, collaborated with our team to brainstorm and select a new name using FigJam. The workshop was divided into two sessions dedicated to exploring various name options. As a result, we successfully identified promising directions for the brand's new name.
 
-##### Koolee
-
+**Koolee**\
 Following extensive discussions regarding the new name, we arrived at a fresh direction: Koolee, a derivative option inspired by Kooley.
 
-### Revamping Rallly’s Visual Identity
+## Revamping Rallly’s Visual Identity
 
-##### Logo Exploration
-
+**Logo Exploration**\
 We kicked off the visual identity exploration by introducing logo concepts. Our goal was to provide Koolee with a fresh logo that would set the tone for the broader visual identity update.
 
 The name Koolee draws inspiration from a breed of Australian cattle dog (Koolie). This choice is closely aligned with the product's purpose, primarily geared towards facilitating the organization of group meetings. In our initial exploration phase, we leaned into this concept, emphasizing the cattle dog motif.
@@ -64,8 +60,7 @@ The name Koolee draws inspiration from a breed of Australian cattle dog (Koolie)
 {{< figure class="with-js d-block d-lg-none text-start" src="/img/work/koolee-exploration-mobile.svg" alt="Kolee Logo explorations" >}}
 {{< figure class="no-js d-block d-lg-none text-start" src="/img/work/koolee-exploration-mobile.webp" alt="SKolee Logo explorations" >}}
 
-##### Logo Exploration: Final Proposals
-
+**Logo Exploration: Final Proposals**\
 After receiving feedback on the initial designs, the stakeholder requested that we move in another direction and explore the possibility of a wordmark as a logo. We offered another round of proposals, now including wordmarks. Following minor edits based on feedback, we refined two directions from the previous proposal, resulting in the final logo for Koolee, as illustrated below.
 
 {{< figure class="with-js d-lg-block d-none" src="/img/work/koolee-final-exploration.svg" alt="Kolee final logo explorations" >}}
@@ -74,7 +69,7 @@ After receiving feedback on the initial designs, the stakeholder requested that 
 {{< figure class="with-js d-block d-lg-none text-start" src="/img/work/koolee-final-exploration-mobile.svg" alt="Kolee final logo explorations" >}}
 {{< figure class="no-js d-block d-lg-none text-start" src="/img/work/koolee-final-exploration-mobile.webp" alt="SKolee final logo explorations" >}}
 
-### Visual Guidelines
+## Visual Guidelines
 
 The Visual Identity Guidelines document serves as the go-to resource for all visual elements representing Koolee. It provides a documentation of the visual assets such as the correct versions of the logo, the extended color scheme and typography, ensuring consistency across various platforms, be it a website, printed materials, or promotional content.
 
@@ -82,7 +77,7 @@ Link: **[Visual Identity Guidelines](https://cloud.ura.design/s/8EWzD3N2mnMEw75)
 
 {{< figure src="/img/work/koolee-visual-guidelines.webp" alt="Kolee visual guidelines" >}}
 
-### User Research
+## User Research
 
 The goal of our research project was to understand how people used Rallly to make polls for their events, with a focus on finding ways to make the process better. Users  choose between a monthly and a weekly view when scheduling a poll for an event. When creating polls to find a common meeting time, users considered factors such as scheduling preferences, availability, and ease of use.
 
@@ -90,8 +85,7 @@ To delve deeper into user experiences and preferences, we conducted user intervi
 
 Link: **[Research Report](https://cloud.ura.design/s/L8j5MjJYdkkGo7R)**
 
-##### User Testing
-
+**User Testing**\
 Our user testing aimed to understand how people used Rallly to create event polls. Rallly offers users the choice between monthly and weekly views for scheduling polls, with options for selecting narrower time slots. The main objective of performing the poll creation usability test is to measure:
 
 - Users' understanding of the purpose of Rallly.
@@ -102,8 +96,7 @@ Our user testing aimed to understand how people used Rallly to create event poll
 {{< figure class="with-js" src="/img/work/rallly-testing.svg" alt="Rallly user testing" >}}
 {{< figure class="no-js" src="/img/work/rallly-testing.webp" alt="Rallly user testing" >}}
 
-##### Participant Profiles
-
+**Participant Profiles**\
 We conducted five remote 1:1 usability tests via video calls, each lasting approximately 30 minutes. Participants performed 5 common tasks, with a few also testing additional cases beyond the original tasks.
 
 <div class="d-none d-lg-block">
@@ -186,7 +179,7 @@ We conducted five remote 1:1 usability tests via video calls, each lasting appro
 
 </div>
 
-### Research Questions & User Tasks
+## Research Questions & User Tasks
 
 <div class="d-none d-lg-block">
 
@@ -224,7 +217,7 @@ For every task, we identified if users were able to complete the task and the le
 
 </div>
 
-### Key Findings
+## Key Findings
 
 The purpose of Rallly was easy to understand for all participants. The participant pool was diverse with users knowing Rallly but also new users who did not know Rallly. Any future studies should feature a diverse participant pool to reduce bias.
 
@@ -238,7 +231,7 @@ Besides understanding the app's purpose, the participants understood the instruc
 
 Participants found the app helpful and they could see themselves using it in the near future, including self-hosting.
 
-### UX Recommendations
+## UX Recommendations
 
 While participants generally found the app intuitive, our research insights enabled us to pinpoint specific areas for design enhancement. This allowed us to offer targeted recommendations for improving the user experience.
 
