@@ -14,7 +14,7 @@ html[data-theme="dark"] {
     color: hsla(0, 0%, 100%, 0.87) !important;
   }
 
-  & a:not(.nav-link, .see-more):hover {
+  & a:not(.nav-link, .see-more, .book-button):hover {
     text-decoration: underline;
   }
 
@@ -945,6 +945,35 @@ address {
   &:focus {
     color: $white !important;
     background-color: $blue-500;
+  }
+}
+
+.book-button {
+  color: $gray-800 !important;
+  border: 2px solid $gray-800;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+
+  & span {
+    margin-left: 0.5rem;
+    color: currentColor;
+
+    &.inline-svg {
+      height: 1.2em;
+      width: 1.2em;
+      top: 0;
+    }
+  }
+
+  &:hover,
+  &:focus-visible,
+  &:focus {
+    color: $white !important;
+    background-color: $gray-800;
   }
 }
 
