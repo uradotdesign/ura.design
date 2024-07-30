@@ -37,6 +37,25 @@
   </div>
 </main>
 <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var path = window.location.pathname;
+    var redirects = {
+      '/work': '/en/work',
+      '/about': '/en/about',
+      '/imprint': '/en/imprint',
+      '/blog': '/en/blog',
+      '/privacy': '/en/privacy',
+      '/contact': '/en/contact',
+      '/clients': '/en/clients',
+      '/probono': '/en/probono'
+    };
+
+    if (redirects[path]) {
+      window.location.href = redirects[path];
+    }
+  });
+</script>
+<script>
   addEventListener('DOMContentLoaded', (event) => {
     var randomLinkElement = document.querySelector('.random-link');
     var worksListElement = document.querySelector('.works-list');
