@@ -1,0 +1,1222 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog on Ura Design</title>
+        <link>https://ura.design/de/blog/</link>
+        <description>Recent content in Blog on Ura Design</description>
+        
+        <language>de</language>
+        <managingEditor>hello@ura.design (Ura Design)</managingEditor>
+        <webMaster>hello@ura.design (Ura Design)</webMaster>
+        <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
+        <atom:link href="https://ura.design/de/blog/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Get ready for the European Accessibility Act (EAA)</title>
+            <link>https://ura.design/de/blog/european-accessibility-act/</link>
+            <pubDate>Thu, 11 Apr 2024 16:30:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/european-accessibility-act/</guid>
+            <description>In today&amp;rsquo;s digital age where our lives are increasingly intertwined with technology, the importance of digital accessibility has never been clearer. Web accessibility is crucial for ensuring that websites and applications are usable by everyone. It addresses various aspects such as presentation, functionality, navigation, and interaction methods to accommodate users of all abilities.
+“The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.</description>
+            <content type="html"><![CDATA[<p>In today&rsquo;s digital age where our lives are increasingly intertwined with technology, the importance of digital accessibility has never been clearer. Web accessibility is crucial for ensuring that websites and applications are usable by everyone. It addresses various aspects such as presentation, functionality, navigation, and interaction methods to accommodate users of all abilities.</p>
+<blockquote>
+<p><strong>“The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.”</strong><br>
+Tim Berners-Lee, W3C Director and inventor of the World Wide Web</p>
+</blockquote>
+<p>This imperative extends beyond ethical considerations; it is also increasingly mandated by law. Legislation such as the <a href=https://www.ada.gov/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Americans with Disabilities Act (ADA)</a> in the United States establishes standards and guidelines to ensure accessibility across diverse digital platforms, thus safeguarding equal access to digital content for all users.</p>
+<h2 id="european-accessibility-act-eaa">European Accessibility Act (EAA)</h2>
+<p><a href=https://ec.europa.eu/social/main.jsp?catId&#61;1202
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>The European Accessibility Act (EAA)</a> mandates that companies achieve web accessibility standards by 2025, marking a significant leap towards inclusivity. This innovative legislation prioritizes digital accessibility, extending its reach to cover websites, e-commerce applications, e-books, and even ATMs, ensuring universal access for people with disabilities. This initiative serves a wide range of individuals, including seniors and those experiencing temporary or situational disabilities. As we all may encounter special needs at various points in our lives, this action aims to benefit everyone, ensuring accessibility for all.</p>
+<p>The legislative framework aims to enhance the accessibility of European products and services, guaranteeing equal access for people with disabilities across member states. Building upon the <a href=https://www.w3.org/WAI/standards-guidelines/wcag/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>WCAG framework</a>, the EAA prioritizes four accessibility principles—Perceivable, Operable, Understandable, and Robust <a href=https://www.w3.org/WAI/WCAG22/Understanding/intro#understanding-the-four-principles-of-accessibility
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>(POUR)</a>—to ensure content accessibility across digital platforms.</p>
+<p>The mission is for organizations across various sectors to adopt a <a href=https://www.washington.edu/doit/what-universal-design-0#:~:text&#61;Universal%20design%20is%20the%20process,%2C%20disabilities%2C%20and%20other%20characteristics.
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>universal design</a> approach for their products or services, in alignment with the UN Convention on the Rights of Persons with Disabilities.</p>
+<hr>
+<h2 id="how-will-the-european-accessibility-act-affect-your-business">How will the European Accessibility Act affect your business?</h2>
+<p>The European Accessibility Act isn&rsquo;t just another piece of legislation; it&rsquo;s a shift for businesses operating within or targeting the European market. With its introduction of new standards, the EAA ensures that individuals with disabilities have equal access to products and services. But what does this mean for your business?</p>
+<h3 id="compliance-requirements">Compliance Requirements:</h3>
+<ul>
+<li>Applies to businesses operating within the EU or targeting EU audiences.</li>
+<li>Mandates alignment with Web Content Accessibility Guidelines (WCAG) for web content.</li>
+<li>Requires meeting accessibility standards for physical products and digital devices intended for the EU market.</li>
+</ul>
+<h3 id="benefits-for-businesses">Benefits for Businesses:</h3>
+<ul>
+<li>Access to a larger market of 135 million individuals with disabilities in the EU.</li>
+<li>Promotes streamlined cross-border trading and reduced costs.</li>
+<li>Enhances brand reputation through <a href=https://www.ibm.com/topics/corporate-social-responsibility
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Corporate Social Responsibility</a> initiatives.</li>
+<li>Improves user experience and customer satisfaction.</li>
+<li>Encourages inclusive hiring practices, contributing to a diverse and inclusive workplace culture.</li>
+</ul>
+<h3 id="how-to-become-compliant">How to become compliant?</h3>
+<p>The European Accessibility Act (EAA) aims to meet the functional needs of people with disabilities. However, it doesn&rsquo;t provide specific rules on how to achieve this. Instead, it refers to a standard called <a href=https://www.etsi.org/human-factors-accessibility/en-301-549-v3-the-harmonized-european-standard-for-ict-accessibility
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>EN 301 549</a>. To adhere to the EAA effectively, it&rsquo;s crucial to demonstrate alignment with this standard.</p>
+<p>This standard includes the Web Content Accessibility Guidelines (WCAG) 2.1. with plans to update to WCAG 2.2 in the future. These guidelines provide a solid framework for making digital things accessible within the EU. Organizations are encouraged to aim for compliance at the &ldquo;AA&rdquo; level as it covers a wide range of accessibility criteria, including both &ldquo;A&rdquo; and &ldquo;AA&rdquo; standards.</p>
+<h3 id="are-there-exceptions">Are there exceptions?</h3>
+<p>Exceptions are made for organizations that have fewer than 10 employees and an annual revenue under two million euros. Additionally, some products or services might be exempt if adhering to the EAA would constitute an undue burden, specifically if it would substantially alter the nature of the products or services offered. Some examples of exceptions would be certain time-based media and third-party content.</p>
+<hr>
+<h3 id="when-is-the-deadline-for-complying-with-the-european-accessibility-act">When is the deadline for complying with the European Accessibility Act?</h3>
+<p>The EU member states must enforce their accessibility laws by <strong>June 8, 2025</strong>. As this deadline approaches, businesses and projects need to take proactive steps toward compliance. Here are actionable steps to consider:</p>
+<ol>
+<li>Seek guidance from experienced web accessibility experts to ensure comprehensive compliance tailored to your specific needs.</li>
+<li>Educate your staff on the best practices for web accessibility to cultivate an inclusive digital environment.</li>
+<li>Allocate sufficient budget and resources for necessary upgrades aimed at enhancing web accessibility.</li>
+<li>Stay informed about the ongoing progress of implementing the European Accessibility Act (EAA) to remain adaptable to any regulatory changes or updates.</li>
+</ol>
+<p>By taking these proactive measures, your business can navigate the evolving landscape of accessibility regulations with confidence and ensure inclusivity for all users.</p>
+<p>Building upon previous iterations, WCAG 2.2 introduces new success criteria to address evolving technological landscapes and the diverse needs of users. These guidelines emphasize mobile accessibility, improved support for users with low vision, and enhanced provisions for users with cognitive and learning disabilities.
+By following WCAG 2.2, organizations can ensure that their digital offerings are inclusive, empowering all individuals to access and interact with content effectively and independently.</p>
+<hr>
+<h3 id="how-can-ura-design-help">How can Ura Design help?</h3>
+<p>Ura Design has long been an advocate for web accessibility, dedicated to fostering inclusive digital experiences. Through our collaborative efforts with organizations like <a href=https://ura.design/en/work/saferjourno/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Internews</a> and <a href=https://ura.design/en/work/calyxos/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Calyx OS</a>, we&rsquo;ve demonstrated our ability to integrate accessibility seamlessly into digital platforms. Given the wide-ranging implications of the EAA, it&rsquo;s clear that organizations, including many open-source projects, need a trusted partner to assist them in achieving compliance.</p>
+<p>We offer support in integrating accessibility principles into your processes, backed by our team of researchers, designers, and web developers. Whether you require assistance in understanding accessibility guidelines, navigating the impact of new laws, or ensuring EAA compliance, we&rsquo;re here to support you!</p>
+<div class="text-center mb-5">
+<a href="mailto:hello@ura.design?subject=European%20Accessibility%20Act" class="book-button">Book a free consultation <span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+</div>]]></content>
+        </item>
+        
+        <item>
+            <title>Ergi sharing the Process of Open Source Designing</title>
+            <link>https://ura.design/de/blog/ergi-sharing-design-process/</link>
+            <pubDate>Wed, 17 Jan 2024 14:35:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/ergi-sharing-design-process/</guid>
+            <description>Right before the end of 2023, I spoke with our Visual Design Lead Ergi. Anything from unforgettable logos, to compelling visual storytelling to creating a unique visual identity, you can be sure it bears Ergi’s handwriting. He has been with Ura for more than 5 years. In the following conversation, he introduces us to his creative process, sheds light onto the myths of logo design, and what design collaboration looks like.</description>
+            <content type="html"><![CDATA[<div class="row">
+<div class="col-lg-8 col-12">
+Right before the end of 2023, I spoke with our Visual Design Lead Ergi. Anything from unforgettable logos, to compelling visual storytelling to creating a unique visual identity, you can be sure it bears Ergi’s handwriting. He has been with Ura for more than 5 years. In the following conversation, he introduces us to his creative process, sheds light onto the myths of logo design, and what design collaboration looks like. Finally, he explains why we at Ura should integrate the Open Source Community more systematically into that process.
+</div>
+<div class="col-lg-3 col-12 mt-lg-0 mt-4">
+<p><a href=https://ura.design/img/blog/ergi-interview.webp
+    
+    
+    
+><img alt="Ergi" src="/img/blog/ergi-interview.webp" title="Ergi Shkelzeni"></a></p>
+</div>
+</div>
+<h2 id="creating-something-out-of-nothing">Creating Something out of Nothing</h2>
+<p><strong>Marit</strong>: Do you find yourself in moments where you explore something out of nothing, and how does that work for you?</p>
+<p><strong>Ergi</strong>: For me, it&rsquo;s tough to start from nothing. I don&rsquo;t think it&rsquo;s a good start to start working when you have nothing to work with, no material, no requirements and no first ideas.</p>
+<p><strong>Marit</strong>: What would you do then?</p>
+<p><strong>Ergi</strong>: In this case, I&rsquo;d gather lots of materials and talk to the stakeholders especially if we&rsquo;re working for a client. If it&rsquo;s an internal project, it&rsquo;s a different process.</p>
+<p>That&rsquo;s why for me it&rsquo;s easier to work with a client. I have a point to start from. So in this case the process would start with asking as many questions as I can, by conducting a video call, or we at Ura now use a Visual Identity Form. This would be a questionnaire where we list all the questions that we have, and send it to the client for them to fill out. Based on their answers, we gather all the information and build a creative brief.</p>
+<p><strong>Marit</strong>: Besides the creative brief that you described, what other materials do you gather to start off from something?</p>
+<p><strong>Ergi</strong>: Sometimes, it’s a good idea to ask for examples that they visually like or to mention similar initiatives so we can get a good idea of what they&rsquo;re expecting as it’s hard for many people to find the right words of what they are looking for. After that, we start the research phase, building mood boards, gathering images, collecting various materials, and researching competitors/similar projects.</p>
+<h2 id="from-gathering-to-preparing-to-trying-out">From Gathering to Preparing to Trying Out</h2>
+<p><strong>Marit</strong>: How do you know when to stop gathering?</p>
+<p><strong>Ergi</strong>: You should stop somewhere. You recognise patterns when you have worked with clients for many years. You know that sometimes you need to stop the exploration phase because your time is limited.</p>
+<p>When I started working in this field, I used to spend a lot of time just researching, creating different mood boards, and designing different directions that may not work. But I needed to see them until the end, designing more and more logos within one direction, only to find out that the direction did not work. But now with experience, I understand when one direction is not a good direction to explore further, I reevaluate it and start exploring another direction.</p>
+<p><strong>Marit</strong>: How does this moment of knowing and changing, or abandoning feel for you? Can you describe that?</p>
+<p><strong>Ergi</strong>: Abandoning, in this context, is a part of the design process. I’m not sure if I can describe it, but it is always part of the creative process, regardless if it is illustrations or even music, which I do in my free time. When designing, I realize it&rsquo;s not heading in the right direction, duplicate it, and keep exploring until I find that sweet spot, adjusting things along the way.</p>
+<p>It is as if it was in the back of your head where all creative thinking is at work. Of course, I would like to explore a lot more all the time, but with experience, I started taking other factors like a limited timeline or budget into account, and it helps to understand and to abandon the current direction.</p>
+<p>This part of the process is sometimes not motivational. We are often limited and unable to do deeper explorations based on the allocated time the projects have.</p>
+<h2 id="flows-and-limits">Flows and Limits</h2>
+<p><strong>Marit</strong>: The flow that you describe, how do you manage to develop it while being careful not to spend too much time, and to respect the allocated time? How do you negotiate with yourself?</p>
+<p><strong>Ergi</strong>: It’s difficult to be precise on that, of course. But one thing that helps is keeping this in mind when I start exploring. I can see that there might be some different design paths and I know that some of these paths will take more time to explore than the others. So I focus on being selective and start with the directions that are simpler, and easier to explore.</p>
+<p>For example, when I am designing a logo, we brainstorm three to five concepts that may be related to the project. These concepts will be translated into visual elements that can be part of the logo. For new initiatives, we recommend the logo to be visually representative of the project, literally or in an abstract way. I gather these elements and start to explore different visual combinations of them, always with the intent to design a logo that works.</p>
+<h2 id="what-makes-a-good-logo">What makes a good logo</h2>
+<p><strong>Marit</strong>: What makes a logo a logo actually?</p>
+<p><strong>Ergi</strong>: I think that when designing a logo, there are two sides to accommodate: the creative part, and the functional part. The functional part is what really, really matters. It&rsquo;s fundamental. Regarding the creativity and the creative concepts behind them, sometimes they&rsquo;re not very creative, or not very original. Sometimes you hit the jackpot. You might have a combination of elements in such a way, and you create something that&rsquo;s very original. And you start wondering, has somebody created this logo before?</p>
+<p><strong>Marit</strong>: So I&rsquo;m wondering if I understood you well regarding the <strong>functional aspects</strong> of the logo. Would it be correct to say that you start with the functional aspects of the logo first?</p>
+<p><strong>Ergi</strong>: I think every logo should be <strong>scalable</strong>, <strong>flexible</strong> and <strong>recognisable</strong>. Usually, when a logo is original, it is recognisable. With that in mind, you can design logos that “work”. A logo doesn’t need to be „wow“, it just needs to work as a logo. I think this is the most important part because it is often mistaken for art. It is not art. It should be functional and achieve its goal, which is to visually represent a project. It is a challenge in the open source community with many people volunteering on one hand and without a design background or the ability to financially support an agency on the other hand.</p>
+<p>Most projects start with only one person and they do the logo by themselves or with the help of someone from the community. Usually, they want logos to be very descriptive. I agree that it&rsquo;s a good idea to be descriptive because they need to give users some information about what it is about. I have seen logos that have too many visual elements, then they become cluttered and fail the logo principles. At that point, it becomes an illustration, rather than fulfilling the <strong>functional aspects</strong> I mentioned.</p>
+<h2 id="making-cocktails-of-symbols">Making Cocktails of Symbols</h2>
+<p><strong>Marit</strong>: Coming back to the elements of the logo that represent the function of the software product. Who decides which elements should make it into the logo, and which not?</p>
+<p><strong>Ergi</strong>: Sometimes the client might mention it in the very first conversation, usually they are concepts they want to include. It is our duty to translate them into visuals. For example, it might be concepts like “Humans“, „Technology“, and „Sustainability“. We would attempt to translate them into visual language, looking for various symbols used for these keywords. When we talk about sustainability or recycling, we know what elements are usually used to translate these concepts. So we start from there. Of course, I would not like to use them as they are as it wouldn&rsquo;t make the logo very original. But you can get one shape from a symbol, one color from the other, and you can translate the combination of these concepts into an original logo mark. You start merging, in a sense making cocktails of symbols to see what fits well.</p>
+<h2 id="trying-out-directions-and-sending-proposals">Trying out Directions, and Sending Proposals</h2>
+<p><strong>Marit</strong>: So you prepare yourself to work on a logo by looking at existing representations for „Sustainability“ or „Recycling“ to inspire yourself, then make something new, and with growing experience, this exploration has become much shorter?</p>
+<p><strong>Ergi</strong>: Correct.</p>
+<p><strong>Marit</strong>: What happens then?</p>
+<p><strong>Ergi</strong>: At Ura, we have a process that we can adapt based on what the project needs. After gathering information, building a creative brief, building mood boards, and exploring logos, we usually propose between three to five designs. We try to be selective, that is, even if we have developed more concepts, we still send out the ones we think work best. We have had this problem before where we would send logo directions, including one that we believed didn&rsquo;t work quite well, but could resonate with the client, and then the client ended up choosing exactly that one. We would have to convince the client about another direction. So after proposing the first logo directions, we usually need to do a second iteration and continue exploring again. Only now we are more focused on the direction chosen by the client.</p>
+<p>The ideal case: we send three directions, and we call them directions because in a way they&rsquo;re paths. They do work as logo proposals but with the probability to make changes and offer more iterations later, working as a filter which helps us on what style to focus.</p>
+<p><strong>Marit</strong>: So once you are not questioning the whole direction anymore, what does that mean for your working process?</p>
+<p><strong>Ergi</strong>: Usually there are elements like the colors, the shapes, small refinements, changes in the typography, etc. I remember designing a logo for a browser focused on censorship-resistant browsing: We sent five logo proposals and they selected two as their favorites. So after that, we sent two for each, so four other proposals, based on these two directions. One direction had the shape and the element inside, the other direction did not. Small variations to see what works better.</p>
+<h2 id="retrieving-client-feedback">Retrieving Client Feedback</h2>
+<p><strong>Marit</strong>: When you send out directions or proposals, do you also consult the client as to why a proposal would work better than another one? Are you making a design critique of your own creation, making that transparent to the client so that they can make more informed decisions?</p>
+<p><strong>Ergi</strong>: We don&rsquo;t have a fixed approach for that for every client. When presented in a meeting, we usually explain the proposals and the thought process behind them. As we send our proposals, the template that we have designed for the presentation includes a logo breakdown for each proposal that would describe the elements that have been used in this logo.</p>
+<h2 id="retrieving-community-feedback">Retrieving Community Feedback</h2>
+<p><strong>Marit</strong>: By now, we went through your creation process of the visual design. What is still missing from your perspective?</p>
+<p><strong>Ergi</strong>: For final logo decisions, we should consider involving the open-source community more systematically. We have done it before sporadically.</p>
+<p><strong>Marit</strong>: Do you know how we should do that?</p>
+<p><strong>Ergi</strong>: Where do we find this community? And how do we gather their feedback? I&rsquo;ve never done it personally. But similar to any other feature or product ideas, there are several ways of getting feedback and the question is to find the right users and apply the right method.</p>
+<p>We should consider that even when we are formulating the tasks that we will list in an application to funders such as the Open Technology Fund. We should consider that as an extra step and remember to not underestimate how unpredictable visual design can be.</p>
+<p>In that sense, the feedback of the community could become part of the material that constitutes the gathering and preparation step of the design process. I think it is the way that it should be done in fact when we talk about open source design projects.</p>
+<p>Then it is truly open-source design.</p>
+<p><strong>Marit</strong>: Thank you very much for this insightful conversation, Ergi.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Bridgebeam - ongoing design support for any budget</title>
+            <link>https://ura.design/de/blog/hello-bridgebeam/</link>
+            <pubDate>Sat, 16 Sep 2023 13:30:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/hello-bridgebeam/</guid>
+            <description>Over our years immersed in the open source community, we’ve forged invaluable relationships. This spans both commercial and non-profit open source projects. Many of these collaborations entailed continuous projects that often involved paperwork and, for organizations, even procurement processes.
+From our interactions, a recurring sentiment emerged: many clients expressed a preference for a more structured engagement with us. They desired a support contract model, where they could allocate a set monthly budget.</description>
+            <content type="html"><![CDATA[<p>Over our years immersed in the open source community, we’ve forged invaluable relationships. This spans both commercial and non-profit open source projects. Many of these collaborations entailed continuous projects that often involved paperwork and, for organizations, even procurement processes.</p>
+<p>From our interactions, a recurring sentiment emerged: many clients expressed a preference for a more structured engagement with us. They desired a support contract model, where they could allocate a set monthly budget. In return, we’d reserve dedicated time for them consistently each month.</p>
+<p>Navigating the digital landscape is no easy task, especially for organizations in the open source and non-profit sectors. These sectors have unique challenges that can sometimes feel overwhelming. With this understanding, we’re delighted to introduce Bridgebeam, a SaaS-like design subscription site powered by Ura.</p>
+<p><figure class="with-js on-light"><img src="/img/blog/bridgebeam-logo.svg"
+         alt="Bridgebeam logo"loading="lazy"
+    />
+</figure>
+<figure class="with-js on-dark"><img src="/img/blog/bridgebeam-logo-dark.svg"
+         alt="Bridgebeam logo"loading="lazy"
+    />
+</figure>
+<figure class="no-js"><img src="/img/blog/bridgebeam-logo.webp"
+         alt="Bridgebeam logo"loading="lazy"
+    />
+</figure></p>
+<h2 id="why-bridgebeam">Why Bridgebeam?</h2>
+<p><strong>Genuine Understanding</strong>: We&rsquo;ve specifically focused on the open source and non-profit sectors. We&rsquo;re not just here to make things pretty; we&rsquo;re here to understand and solve real problems.</p>
+<p><strong>Straightforward</strong>: There’s no fine print. You subscribe when our services align with your needs and there&rsquo;s no obligation to continue. We value our relationship more than a contract.</p>
+<p><strong>360 degrees support</strong>: Whether it’s improving user experience, establishing a memorable brand, or developing a website, we’re here to guide and support.</p>
+<h2 id="benefits">Benefits</h2>
+<p><strong>Practical Insights</strong>: We&rsquo;ll work with you to find tangible ways to improve your online presence and user experience.</p>
+<p><strong>Inclusive Design</strong>: We&rsquo;re committed to ensuring your digital platforms are accessible to everyone, a fundamental principle we deeply care about.</p>
+<p><strong>Effective Designs &amp; Reliable Development:</strong> We focus on creating interfaces and sites that not only look good but also work seamlessly.</p>
+<p><strong>Simple Design requests</strong>: Simply add a request via GitHub or Trello. Feedback and iterations are handled seamlessly there and you can have a simple overview over all your requests.</p>
+<p>Are you curious about how we can collaborate? Subscriptions start from as low as 400 EUR (excl. VAT). You can upgrade, downgrade or cancel your plan as needed. Find out more about our service offerings and see if we might be a good fit.</p>
+<p><a href=https://bridgebeam.design
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Visit Bridgebeam</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Introducing the Briar Android Illustration System</title>
+            <link>https://ura.design/de/blog/briar-android-illustration-system/</link>
+            <pubDate>Fri, 21 Oct 2022 15:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/briar-android-illustration-system/</guid>
+            <description>Ura has been working with Briar since 2018, namely on various UX features such as adding contacts remotely, SD card message sync, image attachments, mailbox features and more.
+As we have worked on various short engagements throughout the years which required certain educational or illustrative images, the image coherency of icons and illustrations deteriorated as Briar received more and more features and visual assets became an afterthought.
+This resulted in over 30 illustrations looking vastly different from each other and desperately in need for unification.</description>
+            <content type="html"><![CDATA[<p>Ura has been working with Briar since 2018, namely on various UX features such as adding contacts remotely, SD card message sync, image attachments, mailbox features and more.</p>
+<p>As we have worked on various short engagements throughout the years which required certain educational or illustrative images, the image coherency of icons and illustrations deteriorated as Briar received more and more features and visual assets became an afterthought.</p>
+<p>This resulted in over 30 illustrations looking vastly different from each other and desperately in need for unification. Beyond that, the current illustrations were not optimized for both dark theme and light theme creating some accessibility problems as well.</p>
+<p>As part of the Open Tech Fund Secure Usability and Accessibility Lab, we supported Briar with an illustration audit, redesigning a set of illustrations and iconography assets and documenting them for future usage across different platforms.</p>
+<h2 id="process">Process</h2>
+<p>We started by exploring several visual style directions for Briar’s Illustration System, basing the creative process on Briar’s brand identity and communicating with the project leads to better understand the needs and determine the best direction. After refreshing the UI color system, we proposed two main directions for the style of the illustrations, all scalable, having the possibility to create a consistent illustration system out of them.</p>
+<figure class="wide with-js"><img src="/img/blog/briar-illustration-phone.svg"
+         alt="Briar phone illustration"loading="lazy"
+    />
+</figure>
+<figure class="wide no-js"><img src="/img/blog/briar-illustration-phone.webp"
+         alt="Briar phone illustration"loading="lazy"
+    />
+</figure>
+<hr>
+<p>After presenting the visual styles and receiving feedback from the Briar team, we decided to keep elements from both and work on a new direction to replace the current Briar’s App illustrations. We recreated five of the current images for the third visual style using the updated color system and visual style.</p>
+<figure class="wide with-js"><img src="/img/blog/briar-illustrations.svg"
+         alt="Briar device illustrations"loading="lazy"
+    />
+</figure>
+<figure class="wide no-js"><img src="/img/blog/briar-illustrations.webp"
+         alt="Briar device illustrations"loading="lazy"
+    />
+</figure>
+<h2 id="illustration-system">Illustration System</h2>
+<p>After deciding on the visual direction, we built an Open source variant-based illustration system with over 368 unique elements, including variants for dark mode and light mode, offering a variety of possible combinations. This way, new illustrations can be created just by dragging &amp; dropping elements and playing with their variants on Figma while preserving the visual consistency.</p>
+<p>We are working to release these illustrations licensed under a Creative Commons license on Figma community as well.</p>
+<figure class="with-js"><img src="/img/blog/briar-illustration-components.svg"
+         alt="Briar device illustrations"loading="lazy"
+    />
+</figure>
+<figure class="no-js"><img src="/img/blog/briar-illustration-components.webp"
+         alt="Briar device illustrations"loading="lazy"
+    />
+</figure>
+<h2 id="an-illustrious-future">An illustrious future</h2>
+<p>We have been working with Briar for over 4 years now. During this time we constantly added new features and designed new experiences. Over time a bit of design debt has been collected, mostly noticeable in the different style and incoherent usage of illustrations, iconography and UI elements. With this we are doing the first step of creating a system for illustrations coherent across the app as well as having the needed ingredients for new illustrations when new features are added in the future
+We hope that this will be the first step in refreshing Briar’s GUI and with more tweaks coming along in the future.</p>
+<p>You can find the source files of the new Briar illustration system on our GitHub repos and <a href=https://www.figma.com/community/file/1169212217112991383
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Figma Community</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>HTTPS Everywhere Redesign</title>
+            <link>https://ura.design/de/blog/https-everywhere-redesign/</link>
+            <pubDate>Sun, 08 Sep 2019 19:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/https-everywhere-redesign/</guid>
+            <description>HTTPS Everywhere is a free and open-source browser extension for Google Chrome, Mozilla Firefox, Opera, Brave, and Firefox for Android, which is developed collaboratively by The Tor Project and the Electronic Frontier Foundation (EFF).
+It automatically makes websites use a more secure HTTPS connection instead of HTTP if they support it. HTTPS Everywhere makes it possible to block and unblock all non-HTTPS browser connections with one click.
+In an effort to improve the user experience, we worked with the EFF team to reimagine HTTPS Everywhere.</description>
+            <content type="html"><![CDATA[<p><strong>HTTPS Everywhere</strong> is a free and open-source browser extension for Google Chrome, Mozilla Firefox, Opera, Brave, and Firefox for Android, which is developed collaboratively by The Tor Project and the Electronic Frontier Foundation (EFF).</p>
+<p>It automatically makes websites use a more secure HTTPS connection instead of HTTP if they support it. HTTPS Everywhere makes it possible to block and unblock all non-HTTPS browser connections with one click.</p>
+<p>In an effort to improve the user experience, we worked with the EFF team to reimagine HTTPS Everywhere. From our initial user research, we identified issues related to information hierarchy,  interface copy, and usability.</p>
+<h3 id="challenges">Challenges</h3>
+<p>Considering the fact that security-focused software often targets tech-savvy people, it tends to be intimidating for “average” users. Although HTTPS Everywhere is a security tool, its purpose is to ensure a secure connection and protect all; therefore, it targets a wide range of users.</p>
+<p>Our challenge here was balancing out a simple interface with complex features.
+We needed to find a way to keep the design understandable for “the average user,” yet intuitive for the “advanced user.” We decided to channel all our efforts into making the extension inclusive to all people despite their computer expertise, professional background or disabilities.</p>
+<h3 id="research">Research</h3>
+<p>Throughout the redesign process, we used UX research as an instrument to get closer to users. We decided to start with qualitative research, to then continue on with a quantitative approach. We conducted a few iterations of usability tests and also ran accessibility audits to make sure the whole user experience ties in smoothly.</p>
+<p>The research phase helped us tremendously in getting to know the users and tracking down all the pain points they&rsquo;ve encountered while using HTTPS Everywhere. It also helped us get a feel for the overall experience users had when using the extension.
+Developing personas during this phase helped shape the design while keeping in mind our target users, which we had available to refer back to whenever we needed.</p>
+<h4 id="survey">Survey</h4>
+<p>The survey questions were mostly focused on web security. We wanted to know more about participants’ general understanding of security on the web and how the HTTPS Everywhere extension fits into it.
+The survey included 12 questions, a mix of open and closed questions. We shared it on a few different platforms to target a diverse range of users, 34 people in total filled out the survey.</p>
+<h4 id="usability-testing">Usability Testing</h4>
+<p>We conducted 1:1 traditional Usability Testing sessions. Participants were equipped with laptops and papers with the tasks that they needed to perform during the test. On traditional usability testing, typically only one participant at a time can enter the room and take the test. The test administrator was sitting next to the participant observing and taking notes. The session captured each participant’s navigational choices, task completion rates, comments, overall satisfaction ratings, questions, and feedback. We conducted 5 testing sessions per iteration.</p>
+<h3 id="shaping-the-design">Shaping the design</h3>
+<p>After completing the research phase, we started shaping the design. We decided to take an iterative approach. First, we did tentative design mockups and then tested them with participants’ matching profiles with users extracted from persona development.</p>
+<h4 id="original">Original</h4>
+<figure><img src="/img/blog/httpse-old.webp"
+         alt="HTTPSE Old Interface"loading="lazy"
+    />
+</figure>
+<h4 id="iteration">Iteration</h4>
+<figure><img src="/img/blog/httpse-iteration.webp"
+         alt="HTTPSE Iteration 1 Interface"loading="lazy"
+    />
+</figure>
+<h4 id="iteration-2--3">Iteration 2 &amp; 3</h4>
+<figure><img src="/img/blog/httpse-iteration2.webp"
+         alt="HTTPSE New Interface"loading="lazy"
+    />
+</figure>
+<figure><img src="/img/blog/httpse-iteration3.webp"
+         alt="HTTPSE New Interface"loading="lazy"
+    />
+</figure>
+<h3 id="conclusion">Conclusion</h3>
+<p>Designing for a browser extension is quite challenging considering the limited space they offer but we managed to use the space wisely while being mindful to not overcrowd it.
+You can view our HTTPS Everywhere case study and all source files on <a href=https://ura.design/en/work/https-everywhere
+    
+    
+    
+>our portfolio page</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Introducing Logobridge</title>
+            <link>https://ura.design/de/blog/introducing-logobridge/</link>
+            <pubDate>Tue, 07 May 2019 18:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/introducing-logobridge/</guid>
+            <description>At Ura we have been constantly working with open source projects to get their branding up to speed. While we love working on fully fledged visual identities for projects, we are aware that some projects simply need a logo to get started and focus on the actual software features. This motivated us to build Logobridge, an open source collection of public domain logos anyone can use for their projects for free: https://logobridge.</description>
+            <content type="html"><![CDATA[<p>At Ura we have been constantly working with open source projects to get their branding up to speed. While we love working on fully fledged visual identities for projects, we are aware that some projects simply need a logo to get started and focus on the actual software features. This motivated us to build <a href=https://logobridge.co
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Logobridge</a>, an open source collection of public domain logos anyone can use for their projects for free: <a href=https://logobridge.co
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>https://logobridge.co</a></p>
+<p><img alt="Logobridge" src="/img/blog/logobridge.webp"></p>
+<p>All logos are available in their glyph form and you can tweak or adapt them to your needs, as their <a href=https://creativecommons.org/share-your-work/public-domain/cc0/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>CC0 Public Domain</a> dedication allows basically any usage. Of course launching a product with a public domain logo might not be suitable for a product release so you can also specify a price you are willing to pay and we will design a logo for you, The great thing? From the proceeds we also will support the <a href=https://opencollective.com/opensourcedesign
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design collective</a>, going towards community outreach and fostering design initiatives in open source.</p>
+<p><img alt="Logobridge Logos" src="/img/blog/logobridge-scrot.webp"></p>
+<p>We hope to add new logos every month and grow the collection of public domain logos. With the amount of unappreciated logo drafts we have lying on our hard drives, we don&rsquo;t think that&rsquo;s going to be hard to pull through. We worked on Logobridge since 2016 but never got it off the ground properly like now. We hope that it will prove more useful to people now. Logobridge is also available in <a href=https://logobridge.co/de
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>German</a> as of now.</p>
+<p>Of course Logobridge itself is open source and powered by <a href=https://jekyllrb.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Jekyll</a>. You can find the repo on <a href=https://github.com/uradotdesign/logobridge
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>GitHub</a>.</p>
+<p>Want to contribute with a logo one of your past clients didn&rsquo;t appreciate enough? File a Pull Request or an <a href=https://github.com/uradotdesign/logobridge/issues/new
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Issue</a> on GitHub and we can include it in the upcoming month.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Underexposed 2019</title>
+            <link>https://ura.design/de/blog/underexposed-2019/</link>
+            <pubDate>Mon, 11 Feb 2019 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/underexposed-2019/</guid>
+            <description>During early January (7-11) Elio and Anxhelo from our team participated as mentors in the Underexposed event organized by Simply Secure in Berlin, Germany.
+Underexposed Collective is a loosely-knit group of designers, researchers, writers, advocates, and users who reject the current trajectory of mainstream technology development. They support people by providing funding, education, mentorship, design support, research, testing, and a community for collaboration.
+This was the first time Underexposed took place in the form of a residency.</description>
+            <content type="html"><![CDATA[<p>During early January (7-11) Elio and Anxhelo from our team participated as mentors in the <a href=https://simplysecure.org/underexposed/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Underexposed</a> event organized by <a href=https://simplysecure.org/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Simply Secure</a> in Berlin, Germany.</p>
+<p><img alt="Underexposed Logo" src="/img/blog/underexposed.webp"></p>
+<p><a href=https://simplysecure.org/underexposed/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Underexposed Collective</a> is a loosely-knit group of designers, researchers, writers, advocates, and users who reject the current trajectory of mainstream technology development. They support people by providing funding, education, mentorship, design support, research, testing, and a community for collaboration.</p>
+<p>This was the first time Underexposed took place in the form of a residency. Fellows from around the world spent one week with designers and developers focused to work on their projects, and help others with theirs. Together, the cohort used the residency as a place to ask questions, work on prototypes and circulate feedback quickly. Over the course of the week we had sessions about user research, design systems, prototyping, and wireframing Fellows also had  an opportunity to share their work with the public, specifically at the final presentations at the Mozilla Berlin offices</p>
+<h3 id="monday-7-january">Monday (7 January)</h3>
+<p>The first day started with an introduction by Simply Secure over at the <a href=https://www.openstreetmap.org/node/4842883021
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>WikiBär</a>. <a href=https://twitter.com/georgiamoon
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Georgia Bullen</a>, the Simply Secure Executive Director, quickly introduced the gist of the week.
+We had a chance to get to know all fellows and their projects better, which helped us have a better grasp of their needs and motivations.</p>
+<p><img alt="Sticky notes schedule photo" src="/img/blog/underexposed-schedule.webp"></p>
+<h3 id="tuesday-8-january">Tuesday (8 January)</h3>
+<p>Our first session covered the basics of <a href=https://en.wikipedia.org/wiki/Prototype
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Prototyping</a>. Participants began with pen and paper prototyping, something we are great fans of doing when having the privilege to be in the same room with people. Afterall, this approach has a lower entry level barrier than any design software, allowing everyone to move quickly and scrap ideas before investing a significant amount of time.</p>
+<p>The fellows had really interesting projects and for most of them, the main issue was related to the encryption key restore process. As these projects are security-and-privacy related, they are decentralized and offer users the option to create an encryption key in order to access their data if something bad happens in the future.</p>
+<p>Unfortunately, this process is often bypassed by users as it&rsquo;s (according to them) an extra step that slows down their workflow. As a result, they often lose access to their accounts and data, which could be avoided if they would have had created that key in the beginning.</p>
+<p>We helped the projects there by creating prototypes on paper, discussing UX problems and possible solutions for them, then digitally creating mockups using <a href=https://www.figma.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Figma</a>, a proprietary design collaboration tool.</p>
+<h3 id="wednesday-9-january">Wednesday (9 January)</h3>
+<p>Wednesday was one of the busiest days of the event. We got up early, ate breakfast and joined the others at the venue. We separated into two groups, one upstairs and one downstairs and worked on our personal projects or with others.</p>
+<p><a href=https://shiba.computer/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Cade</a>, a designer from Germany, gave a very interesting talk on <a href=https://shiba.computer/essay/on-weaponised-design/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Weaponized Design</a>, a process that allows for harm of users within the defined bounds of a designed system. You can read his essay in the link above.</p>
+<h3 id="friday-11-january">Friday (11 January)</h3>
+<p>Elio&rsquo;s presentation was on Friday, about <a href=https://en.wikipedia.org/wiki/Style_guide
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Style Guides</a> and the process of working in the open. He explained our latest projects, how we worked with <a href=https://ura.design/projects/securedrop
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>SecureDrop</a>, <a href=https://ura.design/projects/i2p
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>I2P</a>, <a href=https://ura.design/projects/reproducible-builds
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Reproducible Builds</a>, <a href=https://ura.design/projects/thunderbird
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Thunderbird</a> etc.</p>
+<p>This was the final day of the event and the fellows worked during the day to prepare their presentations, on what they learned during the week and what they worked on. The presentations were held at the <a href=https://www.openstreetmap.org/node/4996803917#map&#61;19/52.49947/13.44914
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Mozilla Offices</a> in Berlin. Many people had registered for the event and the fellows presented one by one their projects and conclusions. We were happy that our mockups were present in their slides and hope that the process continues to turn them into reality soon.</p>
+<p><img alt="Sarah Fox presenting at the Mozilla Offices in front of the audience" src="/img/blog/underexposed-presentations.webp"></p>
+<p>After the presentations, we got to discuss with each other and then head over for drinks somewhere close the venue.</p>
+<p>We would like to thank the entire Simply Secure team; Georgia, Ame, Eileen and Molly for being there and organizing a fantastic event. We had a really awesome time and hope to see you all again soon.</p>
+<p>All content is licensed under CC BY-NC-SA 4.0. (<a href=https://creativecommons.org/licenses/by-nc-sa/4.0/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Attribution-NonCommercial-ShareAlike 4.0 International</a>).</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>SecureDrop Style Guide</title>
+            <link>https://ura.design/de/blog/securedrop-styleguide/</link>
+            <pubDate>Tue, 25 Dec 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/securedrop-styleguide/</guid>
+            <description>Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources.
+During this process we were brought closer with the Project, getting to know the developers and designers behind it that help create a secure system for whistleblowers. The work we conducted with SecureDrop was part of the OTF Usability Lab, as have been previous ones before.</description>
+            <content type="html"><![CDATA[<p>Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources.</p>
+<p><img alt="SecureDrop Logo" src="/img/work/securedrop_logo.webp"></p>
+<p>During this process we were brought closer with the <a href=https://securedrop.org
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Project</a>, getting to know the developers and designers behind it that help create a secure system for whistleblowers. The work we conducted with SecureDrop was part of the OTF Usability Lab, as have been previous ones before.</p>
+<h2 id="style-guide">Style Guide</h2>
+<p>We have attended video meetings on Jitsi with the members of SecureDrop, discussing on the specifics of the portfolio, features required and the best way to implement them. Some of these features are as following.</p>
+<ol>
+<li>Code Snippets for every component in the Components section are expandable via a toggle, separated from the Bootstrap framework and easily reusable and deployable when needed; these snippets gracefully fallback to automatically show every snippet on the page when JavaScript is turned off.</li>
+<li>An Icons section, made with PNG icons in order to be viewable on Tor High Security Settings mode.</li>
+<li>Extra fallbacks of the page when JavaScript is disabled with a few components hidden (that only work with JavaScript enabled).</li>
+</ol>
+<p>The style guide contains all the necessary elements and assets that make up the SecureDrop brand, categorized in different sections, such as the logo, colors, typography, icons; furthermore components that can be used when designing systems related to SecureDrop and a standalone section about the language used when writing documents/articles/reports on the SecureDrop project.</p>
+<p>Considering the fact that we work with projects related to privacy and security, the style guide also adapts to these rules. The website itself works without problems in the Tor Browser high security settings mode (with JavaScript disabled), meaning the user experience will be the same no matter the browser and its settings.</p>
+<p><img alt="Style Guide website" src="/img/work/securedrop_image_alerts.webp"></p>
+<p>The repo has been transferred to the Freedom of Press GitHub <a href=https://github.com/freedomofpress/securedrop/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>organization</a>.
+However, we keep a static archive for the time being where you can preview the live site of the <a href=https://uradotdesign.github.io/securedrop-styleguide/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>style guide</a> and the portfolio <a href=https://ura.design/en/work/securedrop
+    
+    
+    
+>project</a> on our website.</p>
+<p>We would like to thank <a href=https://opentech.fund
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>OpenTechFund</a> for their support on providing resources for privacy and security related open source projects to thrive and receive help where they need the most.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>I2P Style Guide and Usability Study</title>
+            <link>https://ura.design/de/blog/i2p-usability-study-and-styleguide/</link>
+            <pubDate>Mon, 03 Dec 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/i2p-usability-study-and-styleguide/</guid>
+            <description>Back when Ura was founded in 2016 we only had a small landing page and a Patreon to help fund the time we help Open Source projects. It was very little but the thought that people would support us kept us fueled. During that time we were also approached by I2P for helping them with updating their website and some branding. We resided to simplify the logo to something which would offer more flexibility and be already an improvement of the former logo.</description>
+            <content type="html"><![CDATA[<p>Back when Ura was founded in 2016 we only had a small landing page and a <a href=https://patreon.com/ura
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Patreon</a> to help fund the time we help Open Source projects. It was very little but the thought that people would support us kept us fueled. During that time we were also approached by I2P for helping them with updating their website and some branding. We resided to simplify the logo to something which would offer more flexibility and be already an improvement of the former logo. Some months later we also helped with a logo for the I2P Summer Dev Initative.</p>
+<p><img alt="I2P New Logo" src="/img/work/i2p_logo.png"></p>
+<p>During this process we were brought closer with the <a href=https://geti2p.net
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>I2P Project</a>, meeting with str4d, one of the I2P developers at various occasions, such as Chaos Communication Congress and the Tor Meeting. Since then, we have been helping out I2P with various design tasks. The work we conducted with I2P as part of the OTF Usability Lab has been one of our largest projects however.</p>
+<h2 id="usability-study">Usability Study</h2>
+<p>After our first Usability Study for Thunderbird, we put these lessons into use and optimized the process in which we would conduct Usability Research for I2P. Renata, our Usability Researcher interviewed ten (10) I2P Users (that&rsquo;s twice as many as in our <a href=https://ura.design/2018/07/05/thunderbird-style-guide
+    
+    
+    
+>Thunderbird Study</a>) throughout local events in Albania and Kosovo. The study focused on I2P for Windows and Linux operating systems, asking users to complete 5 major tasks in I2P and additionally also another optional task.</p>
+<p>You can read the final I2P Usability Study <a href=https://github.com/uradotdesign/works/raw/main/I2P/Usability%20Study/I2P%20Usability%20Study.pdf
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>here</a>.</p>
+<h2 id="style-guide">Style Guide</h2>
+<p>As part of this project, we also created an interactive style guide for the I2P project, similar to our past works as part of the Usability Lab. The style guide contains all the necessary elements and assets that make up the I2P brand, categorized in different sections, such as the logo, colors, typography, icons; furthermore components that can be used when designing systems related to I2P and a standalone section about the language used when writing documents/articles/reports on the I2P project.</p>
+<p>Considering the fact that we work with projects related to privacy and security, the style guide also adapts to these rules. The website itself works without problems in the Tor Browser high security settings mode (with JavaScript disabled), meaning the user experience will be the same no matter the browser and its settings.</p>
+<p><img alt="Style Guide website" src="/img/work/i2p_image_1.png"></p>
+<p>You can see a demo of the style guide website <a href=https://uradotdesign.github.io/i2p-styleguide
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>here</a> and the portfolio <a href=https://ura.design/en/work/i2p
+    
+    
+    
+>project</a> on our website.</p>
+<p>We would like to thank <a href=https://opentech.fund
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>OpenTechFund</a> for their support on providing resources for privacy and security related open source projects to thrive and receive help where they need the most.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Open Source Design Summit 2018</title>
+            <link>https://ura.design/de/blog/osd-summit-2018/</link>
+            <pubDate>Fri, 16 Nov 2018 08:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/osd-summit-2018/</guid>
+            <description>During the first weekend of November we had the pleasure to facilitate the annual Open Source Design Summit in the city we are based in, Tirana.
+Open Source Design (short OSD) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a job board, puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.</description>
+            <content type="html"><![CDATA[<p>During the first weekend of November we had the pleasure to facilitate the annual <a href=https://opensourcedesign.net/summit
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design Summit</a> in the city we are based in, Tirana.</p>
+<p><a href=https://opensourcedesign.net/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design</a> (short OSD) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a <a href=https://opensourcedesign.net/jobs
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>job board</a>, puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.</p>
+<p><img alt="Open Source Design logo" src="/img/blog/osd-logo.webp"></p>
+<p>Open Source Design Summit itself is an annual event where designers, developers and more join to discuss and work towards internal and external Open Source Design related topics. This includes how to improve our involvement in various projects, improve feedback processes, and work in the open</p>
+<p>Together with the Open Source Design community, we at <a href=https://ura.design/en/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Ura Design</a> <a href=https://github.com/opensourcedesign/organization/issues/103
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>initiated the discussion</a> on the <a href=https://github.com/opensourcedesign
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design organization repo on GitHub</a> regarding the location of the upcoming Summit and proposed Tirana. While the last edition was held in Berlin, we were convinced it would be a healthy step to have a moving Summit which would not necessarily happen in the usual suspect cities of Europe. Tirana was a good compromise to try this out (we might have been a bit biased though!)
+In the following months, we coordinated our efforts through monthly calls and <a href=https://discourse.opensourcedesign.net/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Discourse</a>.</p>
+<h3 id="overview">Overview</h3>
+<h4 id="november-2nd-reception">November 2nd (Reception)</h4>
+<p>We started on the Friday afternoon with a reception gathering at <a href=https://oficina.al
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Ofiçina</a>, the venue fwe know and love for so many other past events we were involved in, including <a href=https://ura.design/en/blog/libocon-2018-visual-identity
+    
+    
+    
+>LibreOffice Conference</a>. The OSD Summit is not close to any big <a href=https://en.wikipedia.org/wiki/Conference
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>conference</a> (yet at least)  but more of a small <a href=https://en.wikipedia.org/wiki/Unconference
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>unconference</a>.</p>
+<p>There were participants from countries as far as <a href=https://en.wikipedia.org/wiki/New_Zealand
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>New Zealand</a>, <a href=https://en.wikipedia.org/wiki/Czech_Republic
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Czech Republic</a>, <a href=https://en.wikipedia.org/wiki/Germany
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Germany</a>, <a href=https://en.wikipedia.org/wiki/Kosovo
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Kosovo</a>.</p>
+<p>During the rather informal gaterhing we spontaneously put up a circle of chairs in the area outside. Did we mention that the weather was fantastic? We even ended up doing many sessions out in the open.</p>
+<p><img alt="Saturday agenda" src="/img/blog/osd-agenda-sat.webp"></p>
+<p>After a round of introductions, we began brainstorming the schedule for the next 2 days, something which has worked well for us in the past edition as well.</p>
+<h4 id="november-3rd-first-meeting-day">November 3rd (First Meeting Day)</h4>
+<p>We officially started the Summit by welcoming everyone and giving an intro to Open Source Design for newcomers that decided to join us in the Summit. Unlike the past Summit, we had a good mix of core contributors and newcomers, so it only made sense to adapt, following up with a short talk by <a href=https://twitter.com/halaszdavid
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>David</a> and <a href=https://twitter.com/terezanovotna_
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Tereza</a> from <a href=https://redhat.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Red Hat</a> about <a href=https://en.wikipedia.org/wiki/Systems_design
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Design Systems</a>, and specifically about <a href=https://www.patternfly.org/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>PatternFly</a>.</p>
+<p><a href=https://upload.wikimedia.org/wikipedia/commons/0/0a/Open_Source_Design_Summit_2018_-_79.webp
+    
+    target="_blank" rel="noopener noreferrer"
+    
+><img alt="David and Tereza talk" src="/img/blog/osd-david-tereza.webp"></a></p>
+<p>Next up we had a very interesting and involving workshop about Cut, Copy &amp; Paste from <a href=https://cameralibre.cc
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Sam</a>. The workshop was there to teach beginners about the concept of git as a version control system (as designers usually have to work with git too, which is a showstopper for many at first).</p>
+<p><img alt="Sam&rsquo;s workshop" src="/img/blog/osd-sam-workshop.webp"></p>
+<p>After the workshop, there was lunch at 1 PM and the sessions restarted at 2 PM. In the next sessions, we talked about finalizing our <a href=https://en.wikipedia.org/wiki/Manifesto
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Manifesto</a>, a topic we had been discussing for a long time <a href=https://discourse.opensourcedesign.net/t/open-source-design-manifesto/630
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>at our Discourse forum</a> and we think we finally have a ready-to-go version that will be published soon on the website.</p>
+<p>The following topic was about our upcoming events and where should Open Source Design focus on more, a nice discussion that happened outside, in the warm weather (really, Albania is warm even in November).</p>
+<p><img alt="Discussing about events" src="/img/blog/osd-events.webp"></p>
+<p>The next topic was a sharing round where we shared our knowledge and skills. <a href=https://twitter.com/RenataGegaj
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Renata</a> from our team shared her Research workflow and showcased Usability Studies we accomplished before, such as <a href=https://ura.design/en/work/thunderbird
+    
+    
+    
+>Thunderbird</a> and <a href=https://ura.design/en/work/i2p
+    
+    
+    
+>I2P</a>. Later, Sam shared some info about the issue of Diffing SVG-s and how difficult it is to process it correctly and with consistent results, because each software tries to do it in their own way.</p>
+<h4 id="november-4th-last-meeting-day">November 4th (Last Meeting Day)</h4>
+<p>The last day started a bit later, which is expected of a Sunday morning
+<img alt="Last day agenda" src="/img/blog/osd-agenda-sun.webp"></p>
+<p>We firstly discussed about the Summit itself and how we could build upon community building intiatives (via local meetups for example). Afterwards we split into two groups, where one worked on the new draft of the Manifesto while the other one discussed about the State of Open Source Design tools.</p>
+<p><img alt="Whiteboard" src="/img/blog/osd-whiteboard-sun.webp"></p>
+<p>We continued talking about ways to build up a budget that Open Source Design can use to extend its activity, changes we would be doing in the Open Source Design website, such as a new theme, the structure of the organisation, the platforms we would use, the politics we would follow, <a href=https://www.wordaz.com/adbusting.html
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Adbusting</a>, project outreach and how we could onboard new designers into the project.</p>
+<p>Of course we didn&rsquo;t forget to take a group photo from the Summit!</p>
+<p><a href=https://upload.wikimedia.org/wikipedia/commons/5/54/Open_Source_Design_Summit_2018_-_95.jpg
+    
+    target="_blank" rel="noopener noreferrer"
+    
+><img alt="OSD Summit group photo" src="/img/blog/osd-group-photo.webp"></a></p>
+<p>Thanks to the support from <a href=https://stickermule.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Stickermule</a>, <a href=https://mozilla.org
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Mozilla</a>, <a href=https://phplist.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>phpList</a>, <a href=https://opentech.fund
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Tech Fund</a>, <a href=https://redhat.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Red Hat</a> &amp; <a href=https://nextcloud.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Nextcloud</a> we were able to bring the Summit to Tirana.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>LibreOffice Conference 2018</title>
+            <link>https://ura.design/de/blog/libocon-2018-visual-identity/</link>
+            <pubDate>Sat, 20 Oct 2018 08:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/libocon-2018-visual-identity/</guid>
+            <description>As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the LibreOffice Conference (short LibOCon). The conference is organized by the local Open Labs Hackerspace community, with which we share a lot of values and goals together.
+We were particularly excited to support this year&amp;rsquo;s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania.</description>
+            <content type="html"><![CDATA[<p>As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the <a href=https://libocon.org
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>LibreOffice Conference</a> (short LibOCon). The conference is organized by the local <a href=https://openlabs.cc
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Labs Hackerspace</a> community, with which we share a lot of values and goals together.</p>
+<p>We were particularly excited to support this year&rsquo;s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania. We hope to see more happening outside the usual western spots like Berlin, London and welcome more projects to contribute locally. With <a href=https://libreoffice.org
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>LibreOffice</a> being the most used alternative to proprietary Office software, we were eager to chime in and help out. With more than 130 contributors coming together for 4 days, Tirana became the focus point of everything LibreOffice and Document Freedom related, even the Mayor of Tirana attended. Further, LibOCon was also a great opportunity to invite friends at the <a href=https://opensourcedesign.net/summit
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design Summit</a> in November, held at the same Venue (<a href=https://www.oficina.al/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Ofiçina</a>).</p>
+<h2 id="creative-process">Creative Process</h2>
+<p>To create a visual identity for LibOCon 2018, we had to consider two main elements: the <a href=https://en.wikipedia.org/wiki/Clock_Tower%2C_Tirana
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>clock tower</a>, a local element from Tirana, and an element of LibreOffice brand. The most difficult and interesting part of the whole creative process was finding a balance between those two elements.</p>
+<p>Let&rsquo;s start it with the logo. For this year conference, we sketched a monoline icon of the clock tower of the city, inside a hexagonal frame as the logo. The clock tower is one of the most popular and most recognizable symbols of Tirana. It is a part of old buildings ensemble of the city center, and it belongs to the city since the beginning of the 19th century.</p>
+<p><img alt="LibOCon Main Logo" src="/img/blog/post_libocon_logo.webp"></p>
+<p>For the logotype, we used <a href=https://www.fontsquirrel.com/fonts/zilla-slab
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Zilla Slab</a> [bold] al la <a href=https://en.wikipedia.org/wiki/Aaron_Draplin
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Aaron Draplin</a> style. We also picked the LibreOffice green and composed it with black and white, to keep the connection with the umbrella brand clear. The [template for the] logo is also easily adapted to next conferences: <em>we can change the city, the year below and replace Tirana clock tower with a certain symbol from the host city</em>.</p>
+<p>Stamps are always closely connected with a certain place and manifest a big event for that place. The idea of the stamp tower came after a brainstorm “how to make an event big”. We see the LibOCon with the importance of a big event not only for the LibreOffice community but even for the city of Tirana. We are working at the local level to make LibreOffice accessible and useful for everyone who works in the public sector. LibOCon 2018 is a big opportunity to show off the benefits of LibreOffice to the actors we are working with.</p>
+<p><img alt="LibOCon Poster" src="/img/blog/libocon_poster_totebag.webp"></p>
+<p>The dates and the venue of the conference are composed in a seal, as they stay for real in postcards. The stamp with the clock tower, the seal of the venue and posters vintage texture make the participants feel like they’re a postcard, as a souvenir from Tirana. The green color of the brand guidelines makes the poster easily identifiable for the community.</p>
+<h2 id="onwards">Onwards</h2>
+<p>As always, you are free to explore and remix the designs of our work. In fact, due to us having a great amount of freedom on this particular project, all LibOCon 2018 designs are licensed under a CC0 license (Public Domain dedication). We hope this will foster more innovative design processes for Free Software and Open Source events.</p>
+<p>We look forward to the next year&rsquo;s LibreOffice Conference in Almería, Spain!</p>
+<p><a href=https://ura.design/en/work/libocon
+    
+    
+    
+>Explore this work on our portfolio</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Thunderbird Style Guide and Usability Study</title>
+            <link>https://ura.design/de/blog/thunderbird-style-guide/</link>
+            <pubDate>Thu, 05 Jul 2018 08:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/thunderbird-style-guide/</guid>
+            <description>Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped redesign the Thunderbird Conversations add-on and even now our email infrastructure is powered by ProtonMail and ProtonMail Bridge via Thunderbird.
+Unfortunately, Mozilla moving away from Thunderbird created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird.</description>
+            <content type="html"><![CDATA[<p>Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped <a href=https://github.com/protz/thunderbird-conversations/issues/967
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>redesign the Thunderbird Conversations add-on</a> and even now our email infrastructure is powered by <a href=https://protonmail.com/bridge/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>ProtonMail and ProtonMail Bridge</a> via Thunderbird.</p>
+<p>Unfortunately, <a href=https://blog.mozilla.org/thunderbird/2017/05/thunderbirds-future-home/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Mozilla moving away from Thunderbird</a> created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird. As a comparison, Firefox latest logo makeovers happened in 2010, 2013 and 2017. Respectively, the last update to the Thunderbird logo and branding was 2010.</p>
+<p>The good news however is that efforts to revitalize Thunderbird have gained momentum again. Monterail have visualized their vision of a new Thunderbird UI, Thunderbird itself has now a <a href=https://twitter.com/ryanleesipes
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Community Manager, Ryan Sipes</a>, and a new Project Council was recently appointed. <a href=https://twitter.com/elioqoshi/status/972067552846319616
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>We didn&rsquo;t hesitate to jump on board</a>.</p>
+<h2 id="setting-the-stage">Setting the Stage</h2>
+<p>This marked the start of a wonderful collaboration. In Open Source we often times encounter resistance and hesitation to change. It&rsquo;s something we acknowledge and can understand, considering there are contributors who have been involved for years and suddenly someone out of the blue suggests doing a number of changes. We respect that. However the Thunderbird project has been welcoming to suggestions and help, allowing us to enjoy the process thoroughly beyond simply handing off the deliverables.</p>
+<p>To be inline with the new Firefox Photon Design system, we worked on a fork specifically tailored for Thunderbird, including a revamped logo and word mark. We also set the stage for an upcoming UI redesign in the future by conducting a small Usability Study specifically tailored on security features out-of-the-box within Thunderbird. We would like to thank <a href=https://opentech.fund
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Technology Fund</a> for supporting this work towards the Thunderbird project as part of its <a href=https://ura.design/en/blog/ura-now-part-open-tech-funds-usability-lab
+    
+    
+    
+>Usability Lab</a>.</p>
+<p><img alt="Thunderbird Revamped Logo" src="/img/work/thunderbird_logo.webp"></p>
+<h2 id="new-logo">New Logo</h2>
+<p>After the Firefox logo was revamped in 2017, a Thunderbird contributor filed a <a href=https://bugzilla.mozilla.org/show_bug.cgi?id&#61;1404648
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>ticket on Bugzilla</a> suggesting to follow Firefox&rsquo; lead and redesign the Thunderbird logo according to the new Photon Design guidelines. Funnily, this coincided with our own experiments on how Thunderbird&rsquo;s logo could be like so we joined the conversation on Bugzilla. We want to thank the great support we got from Ryan Sipes, Thunderbird&rsquo;s Community Manager, who helped facilitate communication with the Thunderbird Community. The new logo will appear in Thunderbird 60.</p>
+<h2 id="usability-study">Usability Study</h2>
+<p>Thunderbird was the first project we conducted a Usability Study on. This was possible due to Renata joining our team recently and expanding upon the services Ura offers support. Renata conducted user interviews during <a href=https://osc.al
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Conference Albania (OSCAL)</a> 2018. The tests were done with 5 testers from different backgrounds, asked to accomplish 9 different tasks. <a href=https://github.com/uradotdesign/works/raw/main/Thunderbird/Thunderbird%20Usability%20Study.pdf
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>You can read the final Thunderbid Usability Study here</a>.</p>
+<p><img alt="Thunderbird Usability Research" src="/img/work/thunderbird_1.webp"></p>
+<h2 id="style-guide">Style Guide</h2>
+<p>We talk a lot about style guides as you might have noticed. In fact, recently we wrote an article about why they are so important. Thunderbird is no exception. We developed a full <a href=https://thunderbird.ura.design
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>style guide for Thunderbird</a>, based on the <a href=https://design.firefox.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Photon Design system</a> used by Firefox. As latter is quite extensive (Firefox use cases are way broader than Thunderbird&rsquo;s), we tweaked it to apply in Thunderbird&rsquo;s case. It&rsquo;s a living style guide and has lots of room for improvement in the future. However the next step is to implement all these design decisions. If the style guide describes patterns and guidelines well, but they aren&rsquo;t put into practice, the impact of a style guide is minimal. Hence, we look forward to see those changes be implemented and continue supporting Thunderbird with that task.</p>
+<p>We also create an <a href=https://demo.identihub.co/project/thunderbird#/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Identihub page</a> where you can easily access the Thunderbird assets.</p>
+<p><img alt="Thunderbird Style Guide" src="/img/work/thunderbird_2.webp"></p>
+<h2 id="more-to-come">More to come</h2>
+<p>Furthermore, we are helping with the <a href=https://github.com/thundernest/thunderbird-website/issues/31
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>redesign of the Thunderbird website</a> putting the style guide finally into practice as well. If you&rsquo;d like to get involved, reach out to us or just contribute to the GitHub issue!</p>
+<p><a href=https://ura.design/en/work/thunderbird
+    
+    
+    
+>Explore this work on our portfolio</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Style Guides go Beyond Aesthetics</title>
+            <link>https://ura.design/de/blog/style-guides-go-beyond-aesthetics/</link>
+            <pubDate>Mon, 02 Jul 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/style-guides-go-beyond-aesthetics/</guid>
+            <description>Oftentimes we witness the results of elitist practices upon users, usually worded in the form of the acronym RTFM or &amp;ldquo;Read The Freaking Manual&amp;rdquo;. User manuals have their place, but up to which point can we expect users to learn by reading instead of doing?
+A similar stigma often appears in Free Software / Open Source projects as well. The alternative &amp;ldquo;Read the Documentation&amp;rdquo; certainly would ensure that people would give a little more effort before repeating questions.</description>
+            <content type="html"><![CDATA[<p>Oftentimes we witness the results of elitist practices upon users, usually worded in the form of the acronym <strong>RTFM</strong> or &ldquo;<em>Read The Freaking Manual&rdquo;</em>. User manuals have their place, but up to which point can we expect users to learn by reading instead of doing?</p>
+<p>A similar stigma often appears in Free Software / Open Source projects as well. The alternative &ldquo;<em>Read the Documentation</em>&rdquo; certainly would ensure that people would give a little more effort before repeating questions. With limited resources it&rsquo;s also understandable that this might be the most sane way for a project maintainer to channel user interactions. However is that by design or due to lack of resources? One could argue that it would make more sense to integrate those &lsquo;user lessons&rsquo; right inside the application instead of a manual or documentation alone.</p>
+<h2 id="manuals-are-no-replacement-for-good-usability">Manuals are no replacement for good Usability</h2>
+<p>Make a great manual and a mediocre application and you might be able to keep a user from running into blockers, however you won&rsquo;t be able to improve their workflow. The user is basically learning an app by heart, not by intuition.</p>
+<p>This is where Usability and User Experience come into play:  An alternative to the traditional manual, created by a researcher or designer instead of an engineer, so to speak.</p>
+<p>Unlike a manual though, a delightful User Experience doesn&rsquo;t ask to be read, it is seamlessly integrated into the application in a human-centric nature. Not the other way around.</p>
+<p>There is a strong connection between Usability and a user&rsquo;s emotional feedback: When an application lacks usability, the amount of time it takes the user to accomplish that task is not only higher, it also brings along  negative forms of feedback such as frustration and impatience. If this happens in the case of privacy-enhancing software, those emotions can quickly turn into fear and breach of trust, putting the stakes higher. At that point, usability is not only a commodity anymore.</p>
+<h2 id="consistency-is-key">Consistency is Key</h2>
+<p>User Experience is shaped by the usage of patterns and aesthetics familiar to the user within the same software. Unsurprisingly, users don&rsquo;t like change. If change and inconsistencies confuse users, we can conclude that consistent design decisions create trust; it feels familiar and the user has witnessed it in the past.</p>
+<p>Facilitating consistency can be done via a range of tools, including Brand Guidelines and a Tone of Voice. As early as 3 years ago, our friends at <a href=https://simplysecure.org/blog/nostalgia-trust-and-brand
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Simply Secure highlighted the importance of Brand Guidelines in relation to creating user trust</a>.</p>
+<blockquote>
+<p><em>Brand guidelines ensure consistency when many different people are working on a product. This is an important component for building trust with end-users. It&rsquo;s crucial for secure communication projects in particular because lay users can&rsquo;t assess the underlying cryptography. Instead, they assess how trustworthy something is by the user experience, and consistent brand expression is a key part of that. As a counterexample, consider how a sloppily-implemented logo in an email can alert people to a phishing scam by signaling untrustworthiness.</em></p>
+</blockquote>
+<p><strong>Style guides serve as a single source of truth for design decisions and guidelines. They also ensure that a project can be inclusive to diverse contributors, while helping them to communicate with users in one consistent voice throughout the whole range of mediums the project is present on</strong>. Depending on the context, style guides can include various ingredients, including (but not limited to) Brand Guidelines, UI Components and Tone of Voice. A style guide has no specific definition and can vary from use case to use case, so depending on a project&rsquo;s needs, specific parts can be prioritized.</p>
+<h2 id="playing-by-the-rules">Playing by the Rules</h2>
+<p><a href=https://www.sketchapp.com/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Sketch</a> revolutionized Prototyping and UX Design years ago. Nowadays <a href=https://www.figma.com/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Figma</a> is gaining popularity, being praised by its focus on unified design systems accessible by all members of a project without reinventing components. Figma emphasized the need for consistency and streamlined the design process by integrating it within a powerful design system. It&rsquo;s one of the primary reasons designers are so excited about it.</p>
+<p><img alt="Icon Grid Display" src="/img/blog/IconGridBlurry.webp"></p>
+<p>At the end of the day, style guides serve as a playbook for software creators. They go beyond the debate whether design decisions are justified or not, as long as it&rsquo;s covered within it. They are a single source of truth to help create consistently well designed experiences familiar to the user. It might not be a silver-bullet solution in the short run, but it immensely helps everyone involved be on the same page.</p>
+<h2 id="examples">Examples</h2>
+<p>In the past we have implemented style guides for various projects, including <a href=https://ura.design/en/work/tor-style-guide
+    
+    
+    
+>The Tor Project</a>, Thunderbird and <a href=https://ura.design/en/work/reproducible-builds
+    
+    
+    
+>Reproducible Builds</a>. If you want to know more, we also suggest to read Simply Secure&rsquo;s blog entry on <a href=https://simplysecure.org/blog/style-guide
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Why Open-Source projects need Style Guides</a>.</p>
+<p>Last but not least, the points touched upon in this article is the very reason we started building <a href=https://identihub.co
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Identihub</a>. Have a look and try it out yourself!</p>
+<p>If you like to explore the possibility of a style guide for your project, feel free to reach us by <a href=mailto:hello@ura.design
+    target="_blank" 
+    
+    
+>email</a> or <a href=https://twitter.com/uradotdesign
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Twitter</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Reproducible Builds Style Guide</title>
+            <link>https://ura.design/de/blog/reproducible-builds-styleguide/</link>
+            <pubDate>Wed, 13 Jun 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/reproducible-builds-styleguide/</guid>
+            <description>Earlier this year, we announced our involvement with Open Tech Fund&amp;rsquo;s Usability Lab, providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the announcement on our blog.
+Reproducible Builds has been the first project we supported as part of the Usability Lab. Reproducible Builds represents a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</description>
+            <content type="html"><![CDATA[<p>Earlier this year, we announced our involvement with <a href=http://opentech.fund/lab/usability-lab
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Tech Fund&rsquo;s Usability Lab</a>, providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the <a href=https://ura.design/en/blog/ura-now-part-open-tech-funds-usability-lab
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>announcement on our blog.</a></p>
+<p><img alt="Reproducible Builds Logo" src="/img/blog/rb_header.webp"></p>
+<p><a href=https://reproducible-builds.org
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Reproducible Builds</a> has been the first project we supported as part of the Usability Lab. Reproducible Builds represents a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</p>
+<p>We have been in talks with the Reproducible Builds community since late 2017 where they were looking to have a new logo to represent the project. Going a step further, we met with Holger, a core contributor to the project at this year&rsquo;s FOSDEM. During our conversations we decided to provide a full fledged style guide via the support of OTF&rsquo;s Usability Lab.</p>
+<p>The following weeks consisted of various IRC meetings and iterations on logo proposals which were presented on <a href=https://identihub.co
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Identihub</a>, our Free Software platform for hosting visual identites and assets. While the logo process has been quite extensive and we had a few delays, we were able to pin down a final logo throughout a selection voted by the community.</p>
+<p>With the logo being decided upon, we had a clear path going forward, implementing the visual identity in a live style guide, inspired from the <a href=https://styleguide.torproject.org
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Tor style guide</a> we helped set the foundations for in 2016.</p>
+<p><img alt="Colors Section" src="/img/blog/RB_image_1.webp"></p>
+<p>The style guide itself features visuals, assets and components ready to be used in Reproducible Builds projects. Additionally, the style guide is free of any 3rd party trackers (including Google Fonts), external libraries and works also with JavaScript disabled / Tor High Security Mode. We even made sure that the style guide is responsive and should work fine on all resolutions.</p>
+<p>The style guide is now migrated to <a href=https://salsa.debian.org/reproducible-builds/reproducible-styleguide
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Debian infrastructure</a>, but you can view a <a href=https://uradotdesign.github.io/reproducible-builds-styleguide/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>live version on GitHub pages</a>.</p>
+<p>In the coming weeks, the official version will live on <a href=https://reproducible-builds.org/style
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>https://reproducible-builds.org/style</a></p>
+<h3 id="identihub">Identihub</h3>
+<p>While a live style guide is an ideal solution to offer powerful guidelines in one place, creating an Identihub page is an accessible alternative which can be deployed right away without too much hassle.</p>
+<p>There you can also find the <a href=https://demo.identihub.co/project/reproducible-builds
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>style guide assets</a> where Identihub should make it easier to link, share and convert them.</p>
+<p>Also head over to our <a href=https://ura.design/en/work/reproducible-builds
+    
+    
+    
+>portfolio page</a> of Reproducible Builds!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Ura is now part of Open Tech Fund’s Usability Lab</title>
+            <link>https://ura.design/de/blog/ura-now-part-open-tech-funds-usability-lab/</link>
+            <pubDate>Mon, 12 Mar 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/ura-now-part-open-tech-funds-usability-lab/</guid>
+            <description>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of Open Tech Fund’s Usability Lab.
+The Usability Lab aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security tools. There are many open ­source software projects that aim to help people around the world – activists, journalists, and everyday citizens – communicate in privacy and security.</description>
+            <content type="html"><![CDATA[<p>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of <a href=https://www.opentech.fund/lab/usability-lab
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Tech Fund’s Usability Lab</a>.</p>
+<p><img alt="OTF logo" src="/img/blog/OTF.webp"></p>
+<p>The <a href=https://www.opentech.fund/lab/usability-lab
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Usability Lab</a> aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security tools. There are many open ­source software projects that aim to help people around the world – activists, journalists, and everyday citizens – communicate in privacy and security.<br>
+Unfortunately, few of these software­ development teams have the capacity or expertise in-house to make tools that are truly usable. These usability challenges hamper tool adoption, or may cause misunderstandings for users about tool functionalities, and subsequently may give users a false sense of security.</p>
+<p>To provide the above services, <a href=https://www.opentech.fund/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Tech Fund</a> (OTF) is working together with four different Usability Lab partners (among them also Simply Secure with whom we have collaborated in the past). As Ura we are proud to be involved in the Usability Lab and contribute to the improvement and accessibility of Internet Freedom projects.</p>
+<hr>
+<p><strong>About Open Tech Fund</strong></p>
+<p>The <a href=https://www.opentech.fund/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Technology Fund</a> utilizes available funds to support Internet freedom projects that empower world citizens to have access to modern communication channels that are free of restrictions, and allow them to communicate without fear of repressive censorship or surveillance.</p>
+<hr>
+<p><strong>About Usability Lab Services</strong></p>
+<p>In addition to Secure Usability Audits, which will analyze and identify any pitfalls that might make it difficult for users under threat to use a tool, the Lab will be offering these additional services:</p>
+<ul>
+<li><strong>Secure Usability and User Experience (UX) Consultations</strong>, to connect tools with Usability and UX experts to help address a specific gap in expertise, or to work on solving the hard and specific challenges facing digital security tools.</li>
+<li><strong>Secure Usability Testing</strong>, which is similar to a Usability Audit, but limited in scope to a particular area or aspect of the tool.</li>
+<li><strong>User Research and User Studies</strong>, to help tools better understand the needs of their users, and how to articulate those needs in the design of their tools.</li>
+<li>Assistance in secure <strong>UX Design</strong>, to help projects to design their tool in a manner that puts their user’s needs, usability, and security first.</li>
+<li>Assistance developing secure usable <strong>Style Guides</strong>, which outline user interface and graphical elements, rules and guidelines to ensure a cohesive and consistent user experience across different aspects of a tool.</li>
+</ul>
+<p>If you are interested to request help from the Usability Lab, you can <a href=https://www.opentech.fund/lab/usability-lab
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>file a request via OTF</a>.<br>
+If you are specifically requesting Ura’s services and believe that your project or tool and meets the criteria, you can also contact us directly and we will help you frame a scope of work proposal.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Inkscape Workshop in Tirana</title>
+            <link>https://ura.design/de/blog/inkscape-workshop-tirana/</link>
+            <pubDate>Fri, 23 Feb 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/inkscape-workshop-tirana/</guid>
+            <description>Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania.</description>
+            <content type="html"><![CDATA[<p>Quite some time has passed since we first got in touch with the <a href=https://opensourcedesign.net/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design community</a>. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania. We were happy to bring young designers in town more information about Open Source Design and the efforts the community is putting into improving Free Software/ Open Source projects.</p>
+<p><img alt="During the workshop" src="/img/blog/Inkscape-Workshop-1.webp"> <em>During the workshop</em></p>
+<p>Consequently, we organized another <a href=https://discourse.opensourcedesign.net/t/tirana-albania/573/1
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Design workshop</a> at the local <a href=https://openlabs.cc/en/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Labs Hackerspace</a>, this time with a deep dive into Inkscape. While there have been a few designers who worked with Adobe tools, everyone was new to Inkscape, so we went all the way from explaining basic tools, to designing a poster and making it production ready. The attendees were free to pick a main topic for their poster and design it themselves. Towards the end things were becoming interesting as people debated on colors, typography and other design rules.</p>
+<p><img alt="During the workshop" src="/img/blog/Inkscape-Workshop-2.webp"><br>
+<em>During the workshop</em></p>
+<p>The workshop was great fun and we learnt new things as well! Who said that giving workshops does not teach you something too? We are looking forward to host another workshop soon.</p>
+<p>[Photos during the event] <a href=https://creativecommons.org/licenses/by-sa/4.0/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>CC BY SA 4.0</a> Andis Rado</p>
+<p><img alt="During the workshop" src="/img/blog/Inkscape-Workshop-3.webp"></p>
+<p><img alt="During the workshop" src="/img/blog/Inkscape-Workshop-4.webp"></p>
+<p><img alt="During the workshop" src="/img/blog/Inkscape-Workshop-5.webp"></p>
+<p><img alt="During the workshop" src="/img/blog/Inkscape-Workshop-6.webp"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Ura at FOSDEM 2018</title>
+            <link>https://ura.design/de/blog/ura-fosdem-2018/</link>
+            <pubDate>Fri, 09 Feb 2018 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/ura-fosdem-2018/</guid>
+            <description>During last weekend the Ura team traveled to Brussels, Belgium to attend FOSDEM. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one). Just like at CCC, we strive to be at events which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</description>
+            <content type="html"><![CDATA[<p>During last weekend the Ura team traveled to Brussels, Belgium to attend <a href=https://fosdem.org/2018/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>FOSDEM</a>. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one). Just like at <a href=https://ura.design/en/blog/chaos-communication-congress-2017
+    
+    
+    
+>CCC</a>, we strive to be at events which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</p>
+<p><img alt="OSD booth at FOSDEM" src="/img/blog/OSD.webp"><br>
+<em>Open Source Design infobooth – By Mariana Balla (Creative Commons – Attribution-ShareAlike 4.0 International)</em></p>
+<p>As part of the <a href=https://opensourcedesign.net/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Source Design community</a>, you could find us at the respective infobooth on both days. Members of our team were at the both along with other fellow designers. Together, we emphasized the importance of usability and user centered design in Open Source Projects. At the “Design Clinic” session, attendees could come to us and showcase us their project. By doing so, designers could advise them on the improvements their design would benefit from.</p>
+<p>At the Open Source Design booth, apart talking about our Design philosophy, we also had the chance to tell people about the way we operate and why we are focused on Free and Open Source Software, We were also happy to introduce “Logobridge” our side-project which helps us contribute back to the community as a whole.</p>
+<p><img alt="Elio during his presentation at FOSDEM 2018" src="/img/blog/Elio-FOSDEM2018.webp"><br>
+<em>During the presentation – By Mariana Balla (Creative Commons – Attribution-ShareAlike 4.0 International)</em></p>
+<p>On the 2nd day, Elio, the founder of Ura presented <a href=https://identihub.co/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Identihub</a>. He presented a live <a href=https://demo.identihub.co/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>demo</a> of the latest version we are launching. During his presentation all attendees had the chance to watch in real time how they could host their visual assets and how to use some of its features, like format conversion of a certain file. Elio emphasized the importance of SVG as the “middleman” between developers and designers and how exciting it can be if in the future we would be able to have a similar version control powered by Git which would be tailored for designers and developers alike.</p>
+<p>Further the attendees were introduced to more technical details of the project. Identihub development and discussion happen on GitHub and contributions from everyone are welcomed. Having said that, everyone who is willing to contribute to the project can do so by either contributing with patches, reporting bugs, suggesting usability improvements or creating mockups. Last but not least you can support the Identihub development financially by signing up for a monthly contribution at our dedicated Patreon.</p>
+<p><img alt="Elio during his presentation about Identihub" src="/img/blog/Elio-Identihub.webp"><br>
+<em>During the presentation – By Mariana Balla (Creative Commons – Attribution-ShareAlike 4.0 International)</em></p>
+<p>The feedback we received was great! Among others, we are happy to have gone the AGPL route as it ensures full Free Software freedom throughout the journey of Identihub. Unfortunately there were a few technical problems with Elio’s talk recording so we will update you once we have updates.</p>
+<p>Another wonderful experience for Ura at the largest Open Source conference in Europe.<br>
+Looking forward at the next edition with more interesting projects and more <strong>Open Source Design!</strong></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hosting the first Open Source Design Workshop in Tirana</title>
+            <link>https://ura.design/de/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</link>
+            <pubDate>Sat, 11 Feb 2017 12:00:00 +0200</pubDate>
+            <author>hello@ura.design (Ura Design)</author>
+            <guid>https://ura.design/de/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</guid>
+            <description>When we started our Patreon campaign we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field.</description>
+            <content type="html"><![CDATA[<p>When we started our <a href=https://www.patreon.com/ura
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Patreon campaign</a> we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field. We quickly understood that they have many questions about the usage of free open source tools in the process of designing for their needs.<br>
+With this in mind it was clear that that we definitely need to educate the new generation of designers through workshops and talks about our philosophy. Without further delay we started organizing the first Open Source Design workshop at <a href=https://openlabs.cc/
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Open Labs hackerspace in Tirana</a>, home of the open source community in Albania.</p>
+<p><img alt="workshop" src="/img/blog/workshop-1.webp"></p>
+<p>A room full of young designers was the best first positive feedback from the initiative. Youngsters are the best audience for us since we hope to find the next designer(s) in the room that will work based on the open source design ethics and not the way the proprietary market imposes. During the presentation the participants had the opportunity to:</p>
+<ul>
+<li>learn the definition of open source design;</li>
+<li>understand the importance of working with open source tools;</li>
+<li>ways to use GIMP and Inkscape, two of the most used free open source design tools, in an effective and productive way;</li>
+<li>preparation of print-ready files using open source tools.</li>
+</ul>
+<p><img alt="workshop" src="/img/blog/workshop-2.webp"></p>
+<p>In conclusion: it was a great first step in educating the next generation of visual designers about the values designing in the open. We definitely need more of your <a href=https://www.patreon.com/ura
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>support though Patreon</a> to host even more workshops not only in Albania, but also other countries.<br>
+Interested in the next events? Follow us on Twitter.</p>
+<p><img alt="workshop" src="/img/blog/workshop-3.webp"></p>
+<p><img alt="workshop" src="/img/blog/workshop-5.webp"></p>
+<p><em>Photos: <a href=http://andisrado.com
+    
+    target="_blank" rel="noopener noreferrer"
+    
+>Andis Rado</a> (Creative Commons – Attribution-ShareAlike 4.0 International)</em></p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

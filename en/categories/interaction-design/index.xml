@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interaction Design on Ura Design</title>
+    <link>https://ura.design/en/categories/interaction-design/</link>
+    <description>Recent content in Interaction Design on Ura Design</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>hello@ura.design (Ura Design)</managingEditor>
+    <webMaster>hello@ura.design (Ura Design)</webMaster>
+    <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 30 Jul 2024 21:03:35 +0200</lastBuildDate>
+    <atom:link href="https://ura.design/en/categories/interaction-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rallly - Rebranding &amp; User Research</title>
+      <link>https://ura.design/en/work/rallly/</link>
+      <pubDate>Tue, 13 Feb 2024 18:30:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/rallly/</guid>
+      <description>We redesigned Rallly&amp;rsquo;s identity, delivering a fresh look and offered strategic UX recommendations for an improved user experience.</description>
+    </item>
+    <item>
+      <title>Tumpa - Desktop App &amp; Landing page</title>
+      <link>https://ura.design/en/work/tumpa/</link>
+      <pubDate>Mon, 16 Oct 2023 18:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/tumpa/</guid>
+      <description>We transformed Tumpa&amp;rsquo;s identity and interface, ensuring intuitive interactions and clear pathways for OpenPGP key management.</description>
+    </item>
+    <item>
+      <title>Internews SaferJourno</title>
+      <link>https://ura.design/en/work/saferjourno/</link>
+      <pubDate>Sun, 17 Sep 2023 18:30:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/saferjourno/</guid>
+      <description>We designed a distinct visual narrative for Internews SaferJourno, from the visual identity inception to a dedicated web platform for journalism trainers.</description>
+    </item>
+    <item>
+      <title>PrototypeFund - Virtual Demo Week</title>
+      <link>https://ura.design/en/work/demoweek/</link>
+      <pubDate>Sat, 11 Mar 2023 18:45:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/demoweek/</guid>
+      <description>We developed a virtual demo week experience to enable projects from Rounds 7-10 of the German Prototype Fund to showcase their work in a virtual setting.</description>
+    </item>
+    <item>
+      <title>AsciiDoc</title>
+      <link>https://ura.design/en/work/asciidoc/</link>
+      <pubDate>Mon, 15 Aug 2022 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/asciidoc/</guid>
+      <description>AsciiDoc is a plain text markup language for writing technical content. We were approached by the AsciiDoc working group to create a coherent brand identity and website to serve as the home for the AsciiDoc language.</description>
+    </item>
+    <item>
+      <title>Stackspin</title>
+      <link>https://ura.design/en/work/stackspin/</link>
+      <pubDate>Fri, 25 Mar 2022 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/stackspin/</guid>
+      <description>Stackspin, previously known as OpenAppStack, is a purpose-aligned work suite tailored for mission-driven teams. It delivers top-tier apps in open source cloud collaboration: set up with a single click, effortlessly managed, and fortified with security. Stackspin is built and managed by &lt;a href=https://greenhost.net/&#xD;&#xA;    &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xD;&#xA;     style=&#34;color: #FFFFFF;&#34;&#xD;&#xA;&gt;Greenhost&lt;/a&gt;.</description>
+    </item>
+  </channel>
+</rss>

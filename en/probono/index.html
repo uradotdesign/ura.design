@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta charset="UTF-8" />
+<meta name="author"
+  content="hello@ura.design Ura Design " />
+<meta name="description"
+  content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects." />
+<meta name="keywords"
+  content="design, ux, ui, public, developer, privacy, security, foss, floss" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#1F78D1" />
+<link rel="canonical" href="https://ura.design/en/probono/" />
+
+
+	
+	<link rel="alternate" hreflang="de" href="https://ura.design/de/probono/" title="Deutsch">
+	
+
+
+
+<title>
+   Pro Bono Design Support :: Ura Design  
+</title>
+
+
+
+ 
+
+
+
+  
+
+
+<link rel="stylesheet" href="https://ura.design/main.8f35c2bfe65c7d889011125ce1c0d9967ff0a3deb0ebf6831d74761ffac87a48.css" />
+
+
+
+<noscript>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root #fader {
+        background: #121212;
+      }
+
+      :root * {
+        background: #121212 !important;
+        color: rgba(255, 255, 255, 0.87) !important;
+      }
+
+      :root a:not(.nav-link, .see-more) {
+        text-decoration: underline;
+      }
+
+      :root .screen-reader-text:focus {
+        background-color: #ecc781;
+      }
+
+      :root .logo {
+        fill: #ecc781 !important;
+      }
+
+      :root a {
+        color: #ecc781 !important;
+        border-color: #ecc781;
+      }
+
+      :root .inline-svg svg path {
+        color: #ecc781 !important;
+      }
+
+      :root .acctoggle:hover,
+      :root .acctoggle:focus-visible,
+      :root .acctoggle:focus {
+        border: 2px solid #ecc781;
+      }
+
+      :root .tablinkservice:hover {
+        color: #ecc781 !important;
+        border-left-color: #ecc781;
+      }
+
+      :root .tablinkservice:focus-visible {
+        border-left: 0.2rem solid #ecc781 !important;
+      }
+
+      :root .active {
+        color: #ecc781 !important;
+        border-left-color: #ecc781;
+      }
+
+      :root .carousel-dark .carousel-indicators [data-bs-target] {
+        border-color: #ecc781;
+      }
+
+      :root .carousel-dark .carousel-indicators [data-bs-target]:hover {
+        background-color: #ecc781 !important;
+      }
+
+      :root .carousel-dark .carousel-indicators [data-bs-target].active {
+        background-color: #ecc781 !important;
+      }
+
+      :root .button-filter {
+        color: #ecc781 !important;
+      }
+
+      :root .button-filter:after {
+        background: #ecc781 !important;
+      }
+
+      :root .carousel-control-next path {
+        fill: #ecc781 !important;
+      }
+
+      :root .home a {
+        text-decoration: none !important;
+      }
+    }
+
+    .no-js {
+      display: block !important;
+    }
+
+    .with-js {
+      display: none;
+    }
+
+    .overlay.h-100 {
+      height: 100%;
+    }
+
+    svg.logo {
+      display: none;
+    }
+
+    .inline-svg {
+      display: none;
+    }
+
+    #expertise {
+      display: block !important;
+    }
+
+    .services {
+      background: none !important;
+    }
+
+    .allposts {
+      display: block !important;
+    }
+
+    #posts-filter {
+      display: none !important;
+    }
+
+    #services {
+      display: none !important;
+    }
+
+    #theme-toggle {
+      display: none !important;
+    }
+
+    .work {
+      display: block !important;
+    }
+
+    #work-filter {
+      display: none !important;
+    }
+
+    #testimonials {
+      display: none !important;
+    }
+
+    #testimonials-nojs {
+      display: block !important;
+    }
+
+    @media (min-width: 992px) {
+      .navbar-toggler.no-js {
+        display: none !important;
+      }
+    }
+  </style>
+</noscript>
+
+<script>
+    function fadeInPage() {
+      if (!window.AnimationEvent) { return; }
+      var fader = document.getElementById('fader');
+      fader.classList.add('fade-out');
+    }
+  
+    document.addEventListener('DOMContentLoaded', function () {
+      if (!window.AnimationEvent) { return }
+  
+      var anchors = document.getElementsByTagName('a');
+  
+      for (var idx = 0; idx < anchors.length; idx += 1) {
+        if (anchors[idx].hostname !== window.location.hostname ||
+            anchors[idx].pathname === window.location.pathname) {
+          continue;
+        }
+  
+        anchors[idx].addEventListener('click', function (event) {
+          var fader = document.getElementById('fader'),
+            anchor = event.currentTarget;
+  
+          var listener = function () {
+            window.location = anchor.href;
+            fader.removeEventListener('animationend', listener);
+          };
+          fader.addEventListener('animationend', listener);
+  
+          event.preventDefault();
+          fader.classList.add('fade-in');
+        });
+      }
+    });
+  
+    window.addEventListener('pageshow', function (event) {
+      if (!event.persisted) {
+        return;
+      }
+      var fader = document.getElementById('fader');
+      fader.classList.remove('fade-in');
+    });
+  </script>
+  
+  <style>
+    #fader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 999999;
+      pointer-events: none;
+      background: white;
+      animation-duration: 300ms;
+      animation-timing-function: ease-in-out;
+    }
+  
+    #fader:before {
+      content: 'fade'
+    }
+  
+    @keyframes fade-out {
+      from {
+        opacity: 1
+      }
+  
+      to {
+        opacity: 0
+      }
+    }
+  
+    @keyframes fade-in {
+      from {
+        opacity: 0
+      }
+  
+      to {
+        opacity: 1
+      }
+    }
+  
+    #fader.fade-out {
+      opacity: 0;
+      animation-name: fade-out;
+    }
+  
+    #fader.fade-in {
+      opacity: 1;
+      animation-name: fade-in;
+    }
+  </style>
+
+
+<link rel="apple-touch-icon" href="https://ura.design/favicons/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ura.design/favicons/favicon.svg" color="#1F78D1">
+<link rel="icon" href="https://ura.design/favicons/favicon.svg">
+
+  <meta itemprop="name" content="Pro Bono Design Support">
+  <meta itemprop="description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.">
+  <meta itemprop="dateModified" content="2024-07-30T21:03:35+02:00">
+  <meta itemprop="image" content="https://ura.design/img/default.png"><meta property="og:url" content="https://ura.design/en/probono/">
+  <meta property="og:site_name" content="Ura Design">
+  <meta property="og:title" content="Pro Bono Design Support">
+  <meta property="og:description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:modified_time" content="2024-07-30T21:03:35+02:00">
+    <meta property="og:image" content="https://ura.design/img/default.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ura.design/img/default.png">
+  <meta name="twitter:title" content="Pro Bono Design Support">
+  <meta name="twitter:description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.">
+
+ 
+
+
+
+
+
+
+
+<script defer data-domain="ura.design" src="https://stats.ura.design/js/plausible.js"></script>
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <svg id="fader" class="fade-out"></svg>
+    <script>fadeInPage()</script>
+
+    <a class="screen-reader-text" href="#content">Skip to content</a>
+
+    <button aria-label="Toggle High Contrast" id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Toggle High Contrast"
+        class="acctoggle"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill='currentColor' d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zm64 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256z"/></svg>
+</span></button>
+
+    <script>
+        let theme = localStorage.getItem("data-theme");
+        const themeToggle = document.querySelector("#theme-toggle");
+
+        const changeThemeToDark = () => {
+        document.documentElement.setAttribute("data-theme", "dark");
+        localStorage.setItem("data-theme", "dark");
+        };
+
+        const changeThemeToLight = () => {
+        document.documentElement.setAttribute("data-theme", "light");
+        localStorage.setItem("data-theme", "light");
+        };
+
+        if (theme === "dark") {
+        changeThemeToDark();
+        }
+
+        themeToggle.addEventListener("click", () => {
+        let theme = localStorage.getItem("data-theme");
+        if (theme === "dark") {
+            changeThemeToLight();
+        } else {
+            changeThemeToDark();
+        }
+        });
+    </script>
+
+    <header class="background-blue-500">
+    
+    <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg justify-content-between align-items-center" aria-label="Primary">
+        <a aria-label="Ura Logo" class="navbar-brand" href="https://ura.design/en">
+          
+          
+          
+          
+          
+          
+          
+          <svg class="logo" width="114" height="41" viewBox="0 0 114 41"fill="white"xmlns="http://www.w3.org/2000/svg">
+    <title>Ura Design logo</title>
+    <path
+        d="M62.8868 35.8264C67.0774 35.8264 68.3425 35.1938 70.6355 32.3474C70.6355 34.0068 71.9807 35.352 73.6401 35.352H76.6447V10.1292H70.3192V24.2033C70.3192 28.3149 68.1843 30.6869 64.8635 30.6869C61.7798 30.6869 60.5938 28.9474 60.5938 25.5475V10.1292H54.2683V26.8126C54.3474 32.9008 57.1938 35.8264 62.8868 35.8264Z" />
+    <path
+        d="M102.383 9.65598L97.8416 9.65588L95.7724 14.7856C95.7724 14.7856 107.525 13.8744 107.282 17.6911V18.2446C107.203 19.4306 106.412 20.0632 104.04 20.2213L99.6917 20.6957C93.3662 21.1701 90.9941 24.2538 90.9941 28.1282C90.9941 32.7932 94.1569 35.7978 100.087 35.7978C104.199 35.7978 105.938 35.3234 107.282 32.7932C107.361 32.7141 107.44 32.556 107.519 32.3978C107.519 34.0136 108.829 35.3234 110.445 35.3234H113.529V18.7981C113.608 13.6586 110.132 9.73505 102.383 9.65598ZM107.282 24.7282C107.282 28.3654 105.068 31.37 101.194 31.37C97.9522 31.37 96.5289 29.8677 96.5289 27.5747C96.5289 25.7561 97.794 24.4119 100.957 24.1747L103.961 23.9375C105.701 23.7794 106.808 23.4631 107.282 22.9887V24.7282Z" />
+    <path
+        d="M94.8297 9.65631H93.298C89.819 9.65631 87.2536 11.4698 86.2257 14.3162V10.1256H80.2166V31.3484C80.2166 33.5575 82.0074 35.3484 84.2166 35.3484H86.542V21.7486C86.542 16.4477 88.9934 14.7906 92.7681 14.7906L94.8297 9.65631Z" />
+    <path
+        d="M10.2216 40.7522L17.4342 20.5215C11.365 21.3132 5.82359 23.864 1.16174 27.7342C2.30521 33.0997 5.64767 37.6736 10.2216 40.7522Z" />
+    <path
+        d="M33.355 40.7522C38.0168 37.8495 41.3593 33.1877 42.5907 27.7342C37.9289 23.6881 32.3874 21.1373 26.3182 20.5215L33.355 40.7522Z" />
+    <path
+        d="M43.2943 23.6002V22.6326C43.2943 10.5822 33.7067 0.994629 21.9202 0.994629C10.1336 0.994629 0.370117 10.5822 0.370117 22.6326V23.6002C6.61523 18.9383 14.0918 16.3875 21.9202 16.3875C29.5726 16.3875 37.0492 18.9383 43.2943 23.6002Z" />
+</svg>
+          
+          <noscript>
+            
+            <img src="https://ura.design//img/logo-nojs-light.png" alt="Ura Design logo" width="114" height="41">
+            
+          </noscript>
+        </a>
+        <button class="navbar-toggler with-js" type="button" aria-label="Toggle navigation" onclick="openNav()">
+          <span class="inline-svg">
+            <svg class="txt-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" ><path fill="currentColor" d="M416 288C433.7 288 448 302.3 448 320C448 337.7 433.7 352 416 352H32C14.33 352 0 337.7 0 320C0 302.3 14.33 288 32 288H416zM416 160C433.7 160 448 174.3 448 192C448 209.7 433.7 224 416 224H32C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H416z"></path></svg>
+          </span>
+        </button>
+        <a class="navbar-toggler no-js d-lg-none" href="https://ura.design/en/menu/" aria-label="Open menu">
+          <noscript>
+            
+            <img src="https://ura.design//img/menu-nojs-light.png" alt="" width="24" height="24">
+            
+          </noscript>
+        </a>
+        <div class="collapse navbar-collapse flex-grow-0">
+          <ul class="navbar-nav"><li class="nav-item ms-4">
+              <a class="nav-link txt-white "   href="https://ura.design/en/about/">About</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link txt-white "   href="https://ura.design/en/work/">Work</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link txt-white "   href="https://ura.design/en/contact/">Contact</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link txt-white "   href="https://ura.design/en/clients/">Clients</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link txt-white "   href="https://ura.design/en/blog/">Blog</a>
+            </li>
+            
+
+            <li class="nav-item ms-4 txt-white" >
+                <div class="vr"></div>
+            </li>
+          </ul>
+
+          
+            <ul class="ms-4 navbar-nav">
+            
+              
+              <li class="nav-item ms-2">
+                <p class="nav-link active language text-uppercase mb-0 color-blue-500 background-white" >en</p>
+              </li>
+              
+            
+              
+                
+                <li class="nav-item ms-2">
+                  <a class="nav-link language text-uppercase txt-white"  href ="https://ura.design/de/probono/">de</a>
+                </li>
+                
+              
+            
+            </ul>
+          
+
+        </div>
+      </nav>
+
+      <div id="navbar-mobile" class="overlay d-block d-lg-none" >
+        <div class="container-fluid">
+          <div class="container">
+            <div class="navbar align-items-center justify-content-between">
+              <a aria-label="Ura Logo" class="brand" href="https://ura.design/">
+
+                
+                <svg class="logo" width="114" height="41" viewBox="0 0 114 41"fill="white"xmlns="http://www.w3.org/2000/svg">
+    <title>Ura Design logo</title>
+    <path
+        d="M62.8868 35.8264C67.0774 35.8264 68.3425 35.1938 70.6355 32.3474C70.6355 34.0068 71.9807 35.352 73.6401 35.352H76.6447V10.1292H70.3192V24.2033C70.3192 28.3149 68.1843 30.6869 64.8635 30.6869C61.7798 30.6869 60.5938 28.9474 60.5938 25.5475V10.1292H54.2683V26.8126C54.3474 32.9008 57.1938 35.8264 62.8868 35.8264Z" />
+    <path
+        d="M102.383 9.65598L97.8416 9.65588L95.7724 14.7856C95.7724 14.7856 107.525 13.8744 107.282 17.6911V18.2446C107.203 19.4306 106.412 20.0632 104.04 20.2213L99.6917 20.6957C93.3662 21.1701 90.9941 24.2538 90.9941 28.1282C90.9941 32.7932 94.1569 35.7978 100.087 35.7978C104.199 35.7978 105.938 35.3234 107.282 32.7932C107.361 32.7141 107.44 32.556 107.519 32.3978C107.519 34.0136 108.829 35.3234 110.445 35.3234H113.529V18.7981C113.608 13.6586 110.132 9.73505 102.383 9.65598ZM107.282 24.7282C107.282 28.3654 105.068 31.37 101.194 31.37C97.9522 31.37 96.5289 29.8677 96.5289 27.5747C96.5289 25.7561 97.794 24.4119 100.957 24.1747L103.961 23.9375C105.701 23.7794 106.808 23.4631 107.282 22.9887V24.7282Z" />
+    <path
+        d="M94.8297 9.65631H93.298C89.819 9.65631 87.2536 11.4698 86.2257 14.3162V10.1256H80.2166V31.3484C80.2166 33.5575 82.0074 35.3484 84.2166 35.3484H86.542V21.7486C86.542 16.4477 88.9934 14.7906 92.7681 14.7906L94.8297 9.65631Z" />
+    <path
+        d="M10.2216 40.7522L17.4342 20.5215C11.365 21.3132 5.82359 23.864 1.16174 27.7342C2.30521 33.0997 5.64767 37.6736 10.2216 40.7522Z" />
+    <path
+        d="M33.355 40.7522C38.0168 37.8495 41.3593 33.1877 42.5907 27.7342C37.9289 23.6881 32.3874 21.1373 26.3182 20.5215L33.355 40.7522Z" />
+    <path
+        d="M43.2943 23.6002V22.6326C43.2943 10.5822 33.7067 0.994629 21.9202 0.994629C10.1336 0.994629 0.370117 10.5822 0.370117 22.6326V23.6002C6.61523 18.9383 14.0918 16.3875 21.9202 16.3875C29.5726 16.3875 37.0492 18.9383 43.2943 23.6002Z" />
+</svg>
+                
+
+              </a>
+              <button type="button" class="closebtn" aria-label="Toggle navigation" onclick="closeNav()">
+                <span class="inline-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" ><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg>
+                </span>
+              </button>
+          </div>
+        </div>
+        <div class="overlay-content">
+            <div class="container pt-4"><a class=""   href="https://ura.design/en/about/">About</a>
+              <a class=""   href="https://ura.design/en/work/">Work</a>
+              <a class=""   href="https://ura.design/en/contact/">Contact</a>
+              <a class=""   href="https://ura.design/en/clients/">Clients</a>
+              <a class=""   href="https://ura.design/en/blog/">Blog</a>
+              
+
+              <hr class="background-white" >
+
+              
+                
+                  
+                    <p class="language text-uppercase active language text-uppercase mb-0 color-blue-500 background-white" >en</p>
+                  
+                
+                  
+                    
+                    <p class="mb-0"><a class="language text-uppercase"  href ="https://ura.design/de/probono/">de</a></p>
+                    
+                  
+                
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("navbar-mobile").style.height = "100%";
+}
+function closeNav() {
+  document.getElementById("navbar-mobile").style.height = "0%";
+}
+</script>
+
+    
+
+    
+    <div class="container-fluid about background-blue-500 text-white py-5 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 offset-xl-1 col-lg-8 col-12">
+                    <h1 class="fw-light mb-4">Design support for your project, free of charge</h1>
+                    <p class="mb-0 fw-normal">We support tools and libraries focused on internet freedom and digital rights with pro-bono services, including usability, accessibility &amp; visual design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
+
+    <div id="content" class="content">
+        
+<main class="post">
+
+    <div class="container-fluid background-gray-50">
+        <div class="container otf py-5">
+            <div class="row py-0 py-xl-5 px-2 px-xl-5 mx-xl-5 justify-content-between">
+                
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 mb-4 mb-xl-0 pe-5">
+
+                    
+                    <p class="mb-4 svg-bg"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill='currentColor' d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+</span></p>
+                    
+
+                    <p class="client-title">Pro Bono</p>
+                    <p class="mb-0 color-gray-600">We partner with Open Tech Fund who funds our work so we are able to provide pro bono services to critical open source projects.<p>
+                </div>
+                
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 mb-4 mb-xl-0 pe-5">
+
+                    
+                    <p class="mb-4 svg-bg"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill='currentColor' d="M327.5 85.2c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L384 128l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L448 128l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L448 64 426.8 7.5C425.1 3 420.8 0 416 0s-9.1 3-10.8 7.5L384 64 327.5 85.2zM205.1 73.3c-2.6-5.7-8.3-9.3-14.5-9.3s-11.9 3.6-14.5 9.3L123.3 187.3 9.3 240C3.6 242.6 0 248.3 0 254.6s3.6 11.9 9.3 14.5l114.1 52.7L176 435.8c2.6 5.7 8.3 9.3 14.5 9.3s11.9-3.6 14.5-9.3l52.7-114.1 114.1-52.7c5.7-2.6 9.3-8.3 9.3-14.5s-3.6-11.9-9.3-14.5L257.8 187.4 205.1 73.3zM384 384l-56.5 21.2c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L384 448l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L448 448l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L448 384l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L384 384z"/></svg>
+</span></p>
+                    
+
+                    <p class="client-title">No Overhead</p>
+                    <p class="mb-0 color-gray-600">As a part of the internet freedom community, we already have processes in place so we can go from idea to the drawing board as quickly as possible. No paperwork or accounting required.<p>
+                </div>
+                
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 mb-4 mb-xl-0 pe-5">
+
+                    
+                    <p class="mb-4 svg-bg"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill='currentColor' d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 21 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg>
+</span></p>
+                    
+
+                    <p class="client-title">Community Network</p>
+                    <p class="mb-0 color-gray-600">We would love to introduce you to the privacy-focused internet freedom community, so you can gain from the experience of our peers.<p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row py-3 px-2 px-xl-5 mx-xl-5">
+                <div class="col-lg-9 col-12">
+
+                    <h1 class="color-blue-800 fw-normal">When can we help?</h1>
+                    <p class="mb-5 color-gray-600">While projects can be diverse and in different parts of the development cycle, we are happy to help in any situation and have helped various project in past stage.</p>
+
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Discovering</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-0 color-gray-600">At the start of the project we can help explore with you the problem space and find potential pathways to help you ask the right questions. This can include understanding your audience, designing for the right audience or figuring out potential user journeys for new features.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Refactoring</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-0 color-gray-600">You have a technically working solution but need some support with tidying up, regardless if it’s information architecture or layout. We can support you with some design housekeeping without relying on major design changes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Auditing</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-0 color-gray-600">You have a working solution and need to test and audit it for potential shortcomings. We do conduct UX heuristics evaluations as well as accessibility audits (web, mobile or desktop).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Refreshing</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-0 color-gray-600">Communicating technical feasibility as part of a visual identity can prove to be difficult. We work with you to ensure your project can communicate its values efficiently.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Implementing</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-0 color-gray-600">We specialize in supporting to shape your product with frontend implementation, accessibility considerations, as well quality assurance.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row px-2 px-xl-5 mx-xl-5">
+                <div class="col-lg-9 col-12">
+                    <h1 class="color-blue-800 fw-normal">Past Projects</h1>
+                    <p class="mb-5 color-gray-600">Some of the past work we have provided pro bono.</p>
+                </div>
+            </div>
+            <div class="row pt-3 pb-5">
+                
+                <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
+                    <a class="zoom-wrapper" href="https://ura.design/en/work/totem/" aria-label="Totem Project case study">
+                        <img class="img-fluid w-100 with-js" src="https://ura.design//img/work/totem.svg" alt="">
+                        <img class="img-fluid w-100 no-js" src="https://ura.design//img/work/totem.webp" alt="">
+                    </a>
+                    <a class="title mt-3 mb-0" href="https://ura.design/en/work/totem/">Totem Project</a>
+                    <p class="mb-0">
+                        
+                            <a class="category" href="https://ura.design/en/categories/branding" aria-label="Work tagged as Branding">Branding</a>, 
+                            <a class="category" href="https://ura.design/en/categories/illustrations" aria-label="Work tagged as Illustrations">Illustrations</a>, 
+                            <a class="category" href="https://ura.design/en/categories/layout-design" aria-label="Work tagged as [i18n] Layout Design">Layout Design</a></p>
+                </div>
+                
+                <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
+                    <a class="zoom-wrapper" href="https://ura.design/en/work/calyxos/" aria-label="CalyxOS case study">
+                        <img class="img-fluid w-100 with-js" src="https://ura.design//img/work/calyxos.svg" alt="">
+                        <img class="img-fluid w-100 no-js" src="https://ura.design//img/work/calyxos.webp" alt="">
+                    </a>
+                    <a class="title mt-3 mb-0" href="https://ura.design/en/work/calyxos/">CalyxOS</a>
+                    <p class="mb-0">
+                        
+                            <a class="category" href="https://ura.design/en/categories/illustrations" aria-label="Work tagged as Illustrations">Illustrations</a>, 
+                            <a class="category" href="https://ura.design/en/categories/ux-research" aria-label="Work tagged as [i18n] UX Research">UX Research</a>, 
+                            <a class="category" href="https://ura.design/en/categories/accessibility" aria-label="Work tagged as Accessibility">Accessibility</a></p>
+                </div>
+                
+                <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
+                    <a class="zoom-wrapper" href="https://ura.design/en/work/thunderbird/" aria-label="Thunderbird case study">
+                        <img class="img-fluid w-100 with-js" src="https://ura.design//img/work/thunderbird.svg" alt="">
+                        <img class="img-fluid w-100 no-js" src="https://ura.design//img/work/thunderbird.webp" alt="">
+                    </a>
+                    <a class="title mt-3 mb-0" href="https://ura.design/en/work/thunderbird/">Thunderbird</a>
+                    <p class="mb-0">
+                        
+                            <a class="category" href="https://ura.design/en/categories/branding" aria-label="Work tagged as Branding">Branding</a>, 
+                            <a class="category" href="https://ura.design/en/categories/ux-research" aria-label="Work tagged as [i18n] UX Research">UX Research</a>, 
+                            <a class="category" href="https://ura.design/en/categories/web-development" aria-label="Work tagged as [i18n] Web Development">Web Development</a></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid background-gray-50">
+        <div class="container otf py-5">
+            <div class="row px-2 px-xl-5 mx-xl-5">
+                <div class="col-lg-9 col-12 pt-2 pb-5">
+
+                    <h1 class="color-blue-800 fw-normal mt-5">Supported by the Open Technology Fund</h1>
+                    <p class="mb-5 color-gray-600">As part of OTF Lab programs, Ura is supporting internet freedom and digital security tools with in-kind design support, including but not limited to Visual Design, UX/UI, Accessibility and Research.</p>
+
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Secure Usability and Accessibility Lab</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-3 color-gray-600">OTF’s Secure Usability and Accessibility Lab (short SUA Lab) offers secure usability and user-interface assistance to Internet freedom and digital security tools to help them recognise and solve usability challenges that hampered the adoption of those tools in repressive contexts.</p>
+                            
+                            <a href="https://www.opentech.fund/labs/sua-lab/" class="arrow-link" target="_blank" rel="noopener noreferrer">Details about SUA Lab<span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="row otfhelp justify-content-start py-4">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12 mb-3 mb-lg-0">
+                            <h3 class="mb-0">Learning Lab</h3>
+                        </div>
+
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-12">
+                            <p class="mb-3 color-gray-600">Through the Learning Lab, OTF is employing the help of researchers, writers, and designers to help projects across the finish line and ensure that, when the contract is closed out, the project efforts are documented in a compelling way.</p>
+                            
+                            <a href="https://www.opentech.fund/labs/learning-lab/" class="arrow-link" target="_blank" rel="noopener noreferrer">Details about Learning Lab<span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+                        </div>
+                    </div>
+                    
+
+                    <h1 class="color-blue-800 fw-normal pt-5 my-3">Apply for Sponsorship</h1>
+                    <p class="mb-4 color-gray-600">We welcome applications from all open source tools dedicated to internet freedom. Send us a short description of your project and what kind of design support you are looking for.</p>
+                    <a class="link-arrow" href="mailto:hello@ura.design">hello@ura.design<span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+    </div>
+
+    
+    <footer class="py-4 mt-auto">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row d-none d-lg-flex justify-content-between">
+        <nav class="navbar navbar-expand-lg">
+          <div class="navbar-collapse" id="footerNav">
+            <ul class="navbar-nav"><li class="nav-item">
+                <a class="nav-link "  href="https://ura.design/en/about/">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="https://ura.design/en/work/">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="https://ura.design/en/contact/">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="https://ura.design/en/clients/">Clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="https://ura.design/en/blog/">Blog</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div id="footerIcons">
+            
+
+<a href="https://github.com/uradotdesign" target="_blank" rel="noopener" title="Github" aria-label="Ura Design on Github"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill='currentColor' d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></a>
+
+<a href="https://twitter.com/uradotdesign" target="_blank" rel="noopener" title="Twitter" aria-label="Ura Design on Twitter"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill='currentColor' d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a>
+
+<a href="https://instagram.com/uradotdesign" target="_blank" rel="noopener" title="Instagram" aria-label="Ura Design on Instagram"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+</span></a>
+
+<a href="https://www.linkedin.com/company/ura/" target="_blank" rel="noopener" title="Linkedin" aria-label="Ura Design on Linkedin"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a>
+
+<a href="https://mastodon.online/@uradotdesign" target="_blank" rel="noopener" title="Mastodon" aria-label="Ura Design on Mastodon"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+</span></a>
+          </div>
+        </nav>
+      </div>
+      <div class="row py-0 py-lg-5 pt-lg-5 cta justify-content-between">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+          <h2>Let&#39;s talk:</h2>
+          <a class="arrow-link" href="https://ura.design/en/contact">Contact<span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+          <h2>Subscribe:</h2>
+          <a class="arrow-link" href="https://tinyletter.com/uracreative" target="_blank"
+            rel="noopener noreferrer">Newsletter<span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+          <h2>Pro-bono design:</h2>
+          <a class="arrow-link" href="https://ura.design/en/probono">Get sponsored<span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+</span></a>
+        </div>
+        <div class="col-xxl-3 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4 d-block d-lg-none">
+          <h2>We are on:</h2>
+          <div class="pt-2">
+            
+
+<a href="https://github.com/uradotdesign" target="_blank" rel="noopener" title="Github" aria-label="Ura Design on Github"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill='currentColor' d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></a>
+
+<a href="https://twitter.com/uradotdesign" target="_blank" rel="noopener" title="Twitter" aria-label="Ura Design on Twitter"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill='currentColor' d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a>
+
+<a href="https://instagram.com/uradotdesign" target="_blank" rel="noopener" title="Instagram" aria-label="Ura Design on Instagram"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+</span></a>
+
+<a href="https://www.linkedin.com/company/ura/" target="_blank" rel="noopener" title="Linkedin" aria-label="Ura Design on Linkedin"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a>
+
+<a href="https://mastodon.online/@uradotdesign" target="_blank" rel="noopener" title="Mastodon" aria-label="Ura Design on Mastodon"><span class="inline-svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+</span></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-xxl-4 col-xl-12">
+          <nav class="navbar navbar-expand-lg" aria-label="Secondary">
+            <div class="navbar-collapse" id="footerLinks">
+              <ul class="navbar-nav flex-row"><li class="nav-item">
+                  <a class="nav-link "  href="https://ura.design/en/source">Source Code</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "  href="https://ura.design/en/privacy">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "  href="https://ura.design/en/imprint">Imprint</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-xxl-8 col-xl-12 d-flex justify-content-xxl-end justify-content-start">
+          <p class="copyright mb-0">© Ura Design 2024. Some rights reserved. Unless otherwise noted, content on this page is under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative Commons license</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://ura.design/bundle.min.dd1176c124e234b1778e6c339d580e5a1e8e59e19bf1f8d21f36e9f1b6117b0f.js" integrity="sha256-3RF2wSTiNLF3jmwznVgOWh6OWeGb8fjSHzbp8bYRew8="></script>
+
+
+
+
+
+<script type="module" defer src="https://ura.design/instant.min.js"></script>
+    
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>

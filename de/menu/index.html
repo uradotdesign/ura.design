@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="de" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta charset="UTF-8" />
+<meta name="author"
+  content="hello@ura.design Ura Design " />
+<meta name="description"
+  content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects." />
+<meta name="keywords"
+  content="design, ux, ui, public, developer, privacy, security, foss, floss" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#1F78D1" />
+<link rel="canonical" href="https://ura.design/de/menu/" />
+
+
+	
+	<link rel="alternate" hreflang="en" href="https://ura.design/en/menu/" title="English">
+	
+
+
+
+<title>
+   Menu :: Ura Design  
+</title>
+
+
+
+ 
+
+
+
+  
+
+
+<link rel="stylesheet" href="https://ura.design/main.8f35c2bfe65c7d889011125ce1c0d9967ff0a3deb0ebf6831d74761ffac87a48.css" />
+
+
+
+<noscript>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root #fader {
+        background: #121212;
+      }
+
+      :root * {
+        background: #121212 !important;
+        color: rgba(255, 255, 255, 0.87) !important;
+      }
+
+      :root a:not(.nav-link, .see-more) {
+        text-decoration: underline;
+      }
+
+      :root .screen-reader-text:focus {
+        background-color: #ecc781;
+      }
+
+      :root .logo {
+        fill: #ecc781 !important;
+      }
+
+      :root a {
+        color: #ecc781 !important;
+        border-color: #ecc781;
+      }
+
+      :root .inline-svg svg path {
+        color: #ecc781 !important;
+      }
+
+      :root .acctoggle:hover,
+      :root .acctoggle:focus-visible,
+      :root .acctoggle:focus {
+        border: 2px solid #ecc781;
+      }
+
+      :root .tablinkservice:hover {
+        color: #ecc781 !important;
+        border-left-color: #ecc781;
+      }
+
+      :root .tablinkservice:focus-visible {
+        border-left: 0.2rem solid #ecc781 !important;
+      }
+
+      :root .active {
+        color: #ecc781 !important;
+        border-left-color: #ecc781;
+      }
+
+      :root .carousel-dark .carousel-indicators [data-bs-target] {
+        border-color: #ecc781;
+      }
+
+      :root .carousel-dark .carousel-indicators [data-bs-target]:hover {
+        background-color: #ecc781 !important;
+      }
+
+      :root .carousel-dark .carousel-indicators [data-bs-target].active {
+        background-color: #ecc781 !important;
+      }
+
+      :root .button-filter {
+        color: #ecc781 !important;
+      }
+
+      :root .button-filter:after {
+        background: #ecc781 !important;
+      }
+
+      :root .carousel-control-next path {
+        fill: #ecc781 !important;
+      }
+
+      :root .home a {
+        text-decoration: none !important;
+      }
+    }
+
+    .no-js {
+      display: block !important;
+    }
+
+    .with-js {
+      display: none;
+    }
+
+    .overlay.h-100 {
+      height: 100%;
+    }
+
+    svg.logo {
+      display: none;
+    }
+
+    .inline-svg {
+      display: none;
+    }
+
+    #expertise {
+      display: block !important;
+    }
+
+    .services {
+      background: none !important;
+    }
+
+    .allposts {
+      display: block !important;
+    }
+
+    #posts-filter {
+      display: none !important;
+    }
+
+    #services {
+      display: none !important;
+    }
+
+    #theme-toggle {
+      display: none !important;
+    }
+
+    .work {
+      display: block !important;
+    }
+
+    #work-filter {
+      display: none !important;
+    }
+
+    #testimonials {
+      display: none !important;
+    }
+
+    #testimonials-nojs {
+      display: block !important;
+    }
+
+    @media (min-width: 992px) {
+      .navbar-toggler.no-js {
+        display: none !important;
+      }
+    }
+  </style>
+</noscript>
+
+<script>
+    function fadeInPage() {
+      if (!window.AnimationEvent) { return; }
+      var fader = document.getElementById('fader');
+      fader.classList.add('fade-out');
+    }
+  
+    document.addEventListener('DOMContentLoaded', function () {
+      if (!window.AnimationEvent) { return }
+  
+      var anchors = document.getElementsByTagName('a');
+  
+      for (var idx = 0; idx < anchors.length; idx += 1) {
+        if (anchors[idx].hostname !== window.location.hostname ||
+            anchors[idx].pathname === window.location.pathname) {
+          continue;
+        }
+  
+        anchors[idx].addEventListener('click', function (event) {
+          var fader = document.getElementById('fader'),
+            anchor = event.currentTarget;
+  
+          var listener = function () {
+            window.location = anchor.href;
+            fader.removeEventListener('animationend', listener);
+          };
+          fader.addEventListener('animationend', listener);
+  
+          event.preventDefault();
+          fader.classList.add('fade-in');
+        });
+      }
+    });
+  
+    window.addEventListener('pageshow', function (event) {
+      if (!event.persisted) {
+        return;
+      }
+      var fader = document.getElementById('fader');
+      fader.classList.remove('fade-in');
+    });
+  </script>
+  
+  <style>
+    #fader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 999999;
+      pointer-events: none;
+      background: white;
+      animation-duration: 300ms;
+      animation-timing-function: ease-in-out;
+    }
+  
+    #fader:before {
+      content: 'fade'
+    }
+  
+    @keyframes fade-out {
+      from {
+        opacity: 1
+      }
+  
+      to {
+        opacity: 0
+      }
+    }
+  
+    @keyframes fade-in {
+      from {
+        opacity: 0
+      }
+  
+      to {
+        opacity: 1
+      }
+    }
+  
+    #fader.fade-out {
+      opacity: 0;
+      animation-name: fade-out;
+    }
+  
+    #fader.fade-in {
+      opacity: 1;
+      animation-name: fade-in;
+    }
+  </style>
+
+
+<link rel="apple-touch-icon" href="https://ura.design/favicons/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ura.design/favicons/favicon.svg" color="#1F78D1">
+<link rel="icon" href="https://ura.design/favicons/favicon.svg">
+
+  <meta itemprop="name" content="Menu">
+  <meta itemprop="description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.">
+  <meta itemprop="dateModified" content="2024-07-30T21:03:35+02:00">
+  <meta itemprop="image" content="https://ura.design/img/default.png"><meta property="og:url" content="https://ura.design/de/menu/">
+  <meta property="og:site_name" content="Ura Design">
+  <meta property="og:title" content="Menu">
+  <meta property="og:description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:modified_time" content="2024-07-30T21:03:35+02:00">
+    <meta property="og:image" content="https://ura.design/img/default.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ura.design/img/default.png">
+  <meta name="twitter:title" content="Menu">
+  <meta name="twitter:description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects.">
+
+ 
+
+
+
+
+
+
+
+<script defer data-domain="ura.design" src="https://stats.ura.design/js/plausible.js"></script>
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <a class="screen-reader-text" href="#content">Zum Inhalt springen</a>
+
+    <div id="navbar-mobile" class="overlay h-100 d-block">
+        <div class="container-fluid">
+          <div class="container pt-2">
+            <div class="navbar align-items-center justify-content-between">
+              <a aria-label="Ura Logo" class="brand" href="https://ura.design/">
+                <img src="https://ura.design//img/logo-nojs-light.png" alt="Ura Design logo" width="114" height="41">
+              </a>
+          </div>
+        </div>
+        <div class="overlay-content">
+            <div class="container pt-4"><a href="https://ura.design/de/about/">Über uns</a>
+              <a href="https://ura.design/de/work/">Arbeiten</a>
+              <a href="https://ura.design/de/contact/">Kontakt</a>
+              <a href="https://ura.design/de/clients/">Kunden</a>
+              <a href="https://ura.design/de/blog/">Blog</a>
+              
+
+              <hr class="background-white">
+
+              
+                
+                  
+                    
+                    <p class="mb-0"><a class="language text-uppercase" href ="https://ura.design/en/menu/">en</a></p>
+                    
+                  
+                
+                  
+                    <p class="language text-uppercase active language text-uppercase mb-0 color-blue-500 background-white">de</p>
+                  
+                
+              
+            </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
