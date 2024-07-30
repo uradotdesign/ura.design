@@ -1,0 +1,66 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Cache node_modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.16.0'
+
+    - name: Install dependencies
+      run: |
+        npm ci
+        npm install js-beautify
+
+    - name: Cache Hugo
+      id: cache-hugo
+      uses: actions/cache@v3
+      with:
+        path: ./hugo
+        key: ${{ runner.os }}-hugo-0.129.0-${{ hashFiles('**/package.json') }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-hugo-0.129.0-
+
+    - name: Install Hugo
+      if: steps.cache-hugo.outputs.cache-hit != 'true'
+      run: |
+        wget https://github.com/gohugoio/hugo/releases/download/v0.129.0/hugo_extended_0.129.0_Linux-64bit.tar.gz
+        tar -xzf hugo_extended_0.129.0_Linux-64bit.tar.gz
+        mv hugo ./hugo
+        rm hugo_extended_0.129.0_Linux-64bit.tar.gz
+
+    - name: Build Hugo site
+      run: ./hugo -d public
+
+    - name: Remove unwanted files
+      run: |
+        find public/de public/en -type d \( -name authors -o -name filters -o -name services -o -name testimonials -o -name source -o -name tags -o -name labs -o -name opentechfund -o -name otfhelp \) -exec rm -rf {} +
+        find public/de/clients public/en/clients -mindepth 1 -maxdepth 1 -type d -exec rm -rf {} +
+
+    - name: Beautify HTML files
+      run: find public/ -type f -name "*.html" -exec js-beautify --html -r -m 1 "{}" \;
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
