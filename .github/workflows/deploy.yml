@@ -50,6 +50,9 @@ jobs:
     - name: Build Hugo site
       run: ./hugo -d public
 
+    - name: Create CNAME file
+      run: echo 'ura.design' > public/CNAME
+
     - name: Remove unwanted files
       run: |
         find public/de public/en -type d \( -name authors -o -name filters -o -name services -o -name testimonials -o -name source -o -name tags -o -name labs -o -name opentechfund -o -name otfhelp \) -exec rm -rf {} +
