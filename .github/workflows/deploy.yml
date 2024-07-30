@@ -44,8 +44,7 @@ jobs:
       if: steps.cache-hugo.outputs.cache-hit != 'true'
       run: |
         wget https://github.com/gohugoio/hugo/releases/download/v0.129.0/hugo_extended_0.129.0_Linux-64bit.tar.gz
-        tar -xzf hugo_extended_0.129.0_Linux-64bit.tar.gz
-        mv hugo ./hugo
+        tar -xzf hugo_extended_0.129.0_Linux-64bit.tar.gz hugo
         rm hugo_extended_0.129.0_Linux-64bit.tar.gz
 
     - name: Build Hugo site
