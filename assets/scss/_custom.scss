@@ -185,7 +185,8 @@ body {
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: "Inter var", sans-serif;
+    font-family: "InterVariable", sans-serif; 
+    font-optical-sizing: auto;
   }
 }
 
@@ -252,10 +253,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter Display";
+  font-family: "InterDisplay";
   font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1, "cv11" 1;
   font-weight: 600;
-  letter-spacing: -0.025em;
 }
 
 // SVG

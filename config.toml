@@ -85,7 +85,7 @@ pluralizeListTitles = false
     url  = "https://github.com/uradotdesign"
 
   [[params.social]]
-    name = "twitter"
+    name = "x-twitter"
     url  = "https://twitter.com/uradotdesign"
 
   [[params.social]]
@@ -104,7 +104,6 @@ pluralizeListTitles = false
   [languages.en]
     languageName = "English"
     contentDir = "content/en"
-    subtitle  = ""
     weight    = 1
     copyright = 'Some rights reserved. Unless otherwise noted, content on this page is under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative Commons license</a>.'
   [[languages.en.menu.main]]
@@ -151,7 +150,6 @@ pluralizeListTitles = false
   [languages.de]
     languageName = "Deutsch"
     contentDir = "content/de"
-    subtitle  = ""
     weight    = 2
     copyright = 'Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative-Commons-Lizenz</a>.'
   [[languages.de.menu.main]]

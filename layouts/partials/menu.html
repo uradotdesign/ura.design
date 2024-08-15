@@ -78,7 +78,7 @@
             </li>
           </ul>
 
-          {{ if .Site.IsMultiLingual }}
+          {{ if hugo.IsMultilingual }}
             <ul class="ms-4 navbar-nav">
             {{ range .Site.Languages }}
               {{ if eq . $.Site.Language }}
@@ -133,7 +133,7 @@
 
               <hr class="{{ if eq $theme "dark" }}txt-white{{ else if eq $theme "light" }}txt-dark{{ else if $home }}background-white{{ else if eq $type "about" }}background-white{{ else if eq $type "probono" }}background-white{{ else if and (eq $page true) (eq $type "blog") }}background-white{{ else }}background-white{{ end }}" {{ if isset $param "text" }}style="background-color: {{ $text }} !important;"{{ end }}>
 
-              {{ if .Site.IsMultiLingual }}
+              {{ if hugo.IsMultilingual }}
                 {{ range .Site.Languages }}
                   {{ if eq . $.Site.Language }}
                     <p class="language text-uppercase active language text-uppercase mb-0 {{ if eq $theme "dark" }}background-white{{ else if eq $theme "light" }}txt-dark background-white{{ else if $home }}color-blue-500 background-white{{ else if eq $type "about" }}color-blue-500 background-white{{ else if eq $type "probono" }}color-blue-500 background-white{{ else if and (eq $page true) (eq $type "blog") }}color-blue-500 background-white{{ else }}txt-white background-blue-500{{ end }}" {{ if eq $.Params.text "#FFFFFF" }}style="color: {{ $.Params.background }} !important;"{{ else }}{{ if isset $param "text" }}style="color: {{ $text }};"{{ end }}{{ end }}>{{ .Lang }}</p>

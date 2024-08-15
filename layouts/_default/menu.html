@@ -27,7 +27,7 @@
 
               <hr class="background-white">
 
-              {{ if .Site.IsMultiLingual }}
+              {{ if hugo.IsMultilingual }}
                 {{ range .Site.Languages }}
                   {{ if eq . $.Site.Language }}
                     <p class="language text-uppercase active language text-uppercase mb-0 color-blue-500 background-white">{{ .Lang }}</p>
