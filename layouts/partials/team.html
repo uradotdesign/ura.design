@@ -9,7 +9,7 @@
                         <img class="img-fluid pb-3" src="/img/authors/{{ .Page.Params.image }}" alt="">
                     </div>
                     <div class="col-xxl-7 col-xl-12 col-7 circle-icons">
-                        <h3>{{ .Page.Params.name }}</h3>
+                        <h4>{{ .Page.Params.name }}</h4>
                         <p>{{ .Page.Params.position }}</p>
                         {{ if .Page.Params.linkedin }}
                             <a href="https://www.linkedin.com/in/{{ .Page.Params.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s LinkedIn">{{ partial "fontawesome.html" "brands/linkedin" }}</a>
@@ -37,7 +37,7 @@
                         <img class="img-fluid pb-3" src="/img/authors/{{ .Page.Params.image }}" alt="">
                     </div>
                     <div class="col-xxl-7 col-xl-12 col-7 circle-icons">
-                        <h3>{{ .Page.Params.name }}</h3>
+                        <h4>{{ .Page.Params.name }}</h4>
                         <p>{{ .Page.Params.position }}</p>
                         {{ if .Page.Params.linkedin }}
                             <a href="https://www.linkedin.com/in/{{ .Page.Params.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s LinkedIn">{{ partial "fontawesome.html" "brands/linkedin" }}</a>
@@ -58,7 +58,7 @@
         </div>
         <h2 class="mb-4">{{ i18n "alumni" }}</h2>
         {{ range where (where .Site.RegularPages "Type" "authors") "Params.alumni" "=" true }}
-            <h3>{{ .Page.Params.name }}</h3>
+            <h4>{{ .Page.Params.name }}</h4>
             <p>{{ .Page.Params.position }}</p>
             {{ if .Page.Params.github }}
                 <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub">{{ partial "fontawesome.html" "brands/github" }}</a>
