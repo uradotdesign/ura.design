@@ -124,13 +124,6 @@
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/hermes-center/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
-      <guid>https://ura.design/de/clients/hermes-center/</guid>
-      <description>Markenidentität, Web Design, UX Design und Testing für GlobaLeaks.</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://ura.design/de/clients/internews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/clients/internews/</guid>
@@ -177,6 +170,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/clients/whistleblower-aid/</guid>
       <description>Aktualisierung der Markenidentität für die Markenanmeldung von Whistleblower Aid.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ura.design/de/clients/whistleblowing-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/de/clients/whistleblowing-solutions/</guid>
+      <description>Markenidentität, Web Design, UX Design und Testing für GlobaLeaks.</description>
     </item>
   </channel>
 </rss>
