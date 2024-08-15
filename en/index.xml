@@ -9,7 +9,7 @@
     <managingEditor>hello@ura.design (Ura Design)</managingEditor>
     <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Thu, 15 Aug 2024 15:00:18 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 17:24:09 +0200</lastBuildDate>
     <atom:link href="https://ura.design/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -97,6 +97,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://ura.design/en/authors/sabine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/authors/sabine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
       <link>https://ura.design/en/clients/eclipse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/clients/eclipse/</guid>
@@ -156,6 +163,13 @@
       <link>https://ura.design/en/authors/marit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/authors/marit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ura.design/en/authors/tin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/authors/tin/</guid>
       <description></description>
     </item>
     <item>
