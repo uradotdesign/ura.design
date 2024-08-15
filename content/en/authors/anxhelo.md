@@ -1,4 +1,5 @@
 +++
+team = true
 name = "Anxhelo Lushka"
 position = "Lead Frontend Developer"
 bio = "Anxhelo"

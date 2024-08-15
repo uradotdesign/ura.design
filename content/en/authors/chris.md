@@ -1,4 +1,5 @@
 +++
+team = true
 name = "Christopher Hunter"
 position = "UX Designer"
 bio = "Christopher"
@@ -7,5 +8,5 @@ github = "avocadodavinci"
 email = "chris@ura.design"
 gpg = "chris"
 image = "Chris.webp"
-weight = 6
+weight = 5
 +++

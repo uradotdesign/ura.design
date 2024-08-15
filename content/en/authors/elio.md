@@ -1,4 +1,5 @@
 +++
+team = true
 name = "Elio Qoshi"
 position = "Founder"
 bio = "Elio"

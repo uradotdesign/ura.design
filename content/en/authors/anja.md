@@ -1,4 +1,5 @@
 +++
+team = true
 name = "Anja Xhakani"
 position = "Associate UX Researcher"
 bio = "Anja"

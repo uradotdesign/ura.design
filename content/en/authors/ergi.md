@@ -1,4 +1,5 @@
 +++
+team = true
 name = "Ergi Shkëlzeni"
 position = "Lead Visual Designer"
 bio = "Ergi"
