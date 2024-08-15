@@ -793,7 +793,7 @@ article.first {
     &:focus-visible,
     &:focus {
       & span {
-        margin-left: 0.75rem;
+        transform: translateX(0.25rem);
       }
     }
   }
