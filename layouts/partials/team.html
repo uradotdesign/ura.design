@@ -1,7 +1,8 @@
 <div class="container-fluid py-5">
     <div class="container">
         <h2 class="mb-2">{{ i18n "whoareWe" }}</h2>
-        <div class="row pt-lg-4 pt-0">
+        <hr class="my-0">
+        <div class="row pt-4 mb-4 mb-lg-3">
         {{ range where (where .Site.RegularPages "Type" "authors") "Params.team" "=" true }}
             <div class="col-xl-4 col-lg-6 col-12">
                 <div class="row mb-3 mb-lg-5">
@@ -28,8 +29,9 @@
             </div>
         {{ end }}
         </div>
-        <h2 class="mb-2">{{ i18n "partners" }}</h2>
-        <div class="row pt-lg-4 pt-0">
+        <h2 class="mb-2">{{ i18n "collaborators" }}</h2>
+        <hr class="my-0">
+        <div class="row pt-4 mb-4 mb-lg-3">
         {{ range where (where .Site.RegularPages "Type" "authors") "Params.partner" "=" true }}
             <div class="col-xl-4 col-lg-6 col-12">
                 <div class="row mb-3 mb-lg-5">
@@ -37,7 +39,7 @@
                         <img class="img-fluid pb-3" src="/img/authors/{{ .Page.Params.image }}" alt="">
                     </div>
                     <div class="col-xxl-7 col-xl-12 col-7 circle-icons">
-                        <h4>{{ .Page.Params.name }}</h4>
+                        <h4 class="mb-1">{{ .Page.Params.name }}</h4>
                         <p>{{ .Page.Params.position }}</p>
                         {{ if .Page.Params.linkedin }}
                             <a href="https://www.linkedin.com/in/{{ .Page.Params.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s LinkedIn">{{ partial "fontawesome.html" "brands/linkedin" }}</a>
@@ -57,10 +59,11 @@
         {{ end }}
         </div>
         <h2 class="mb-2">{{ i18n "alumni" }}</h2>
-        <div class="row pt-lg-4 pt-0">
+        <hr class="my-0">
+        <div class="row pt-4">
             {{ range where (where .Site.RegularPages "Type" "authors") "Params.alumni" "=" true }}
             <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
-                <h4>{{ .Page.Params.name }}</h4>
+                <h4 class="mb-1">{{ .Page.Params.name }}</h4>
                 <p>{{ .Page.Params.position }}</p>
                 {{ if .Page.Params.github }}
                     <a href="https://github.com/{{ .Page.Params.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .Page.Params.name }}'s GitHub">{{ partial "fontawesome.html" "brands/github" }}</a>

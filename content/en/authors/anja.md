@@ -1,7 +1,7 @@
 +++
 team = true
 name = "Anja Xhakani"
-position = "Associate UX Researcher"
+position = "UX Researcher"
 bio = "Anja"
 linkedin = "anja-xhakani-0a78b718a"
 github = "axhakani"
