@@ -9,8 +9,15 @@
     <managingEditor>hello@ura.design (Ura Design)</managingEditor>
     <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <lastBuildDate>Thu, 15 Aug 2024 10:20:50 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 11:12:06 +0200</lastBuildDate>
     <atom:link href="https://ura.design/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://ura.design/de/authors/breror/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/de/authors/breror/</guid>
+      <description></description>
+    </item>
     <item>
       <title></title>
       <link>https://ura.design/de/authors/elio/</link>
@@ -132,6 +139,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://ura.design/de/authors/marit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/de/authors/marit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
       <link>https://ura.design/de/clients/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/clients/tor/</guid>
@@ -174,6 +188,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://ura.design/de/authors/klesta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/de/authors/klesta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
       <link>https://ura.design/de/clients/tud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/clients/tud/</guid>
@@ -202,9 +223,9 @@
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/breror/</link>
+      <link>https://ura.design/de/authors/chris/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
-      <guid>https://ura.design/de/authors/breror/</guid>
+      <guid>https://ura.design/de/authors/chris/</guid>
       <description></description>
     </item>
     <item>
@@ -230,13 +251,6 @@
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/chris/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
-      <guid>https://ura.design/de/authors/chris/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
       <link>https://ura.design/de/clients/otf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/clients/otf/</guid>
@@ -248,20 +262,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/services/web-development/</guid>
       <description>Wir sind keine üblichen WordPress-Website-Entwickler. Während unserer Arbeit mit Dutzenden von Open-Source-Communities haben wir verstanden, dass niemand ein Backend für eine einfache Webseite pflegen möchte. Wir haben uns auf statische Website-Generatoren wie Hugo oder Jekyll spezialisiert, um Webseites zu erstellen (so wie diese Webseite wo Du gerade bist).</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://ura.design/de/authors/marit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
-      <guid>https://ura.design/de/authors/marit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://ura.design/de/authors/klesta/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
-      <guid>https://ura.design/de/authors/klesta/</guid>
-      <description></description>
     </item>
     <item>
       <title>Get ready for the European Accessibility Act (EAA)</title>
