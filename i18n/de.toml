@@ -97,6 +97,36 @@ other = "Wir freuen uns über Bewerbungen von allen Open-Source-Tools, die sich 
 [otfDetails]
 other = "Details über"
 
+# Research
+[researchLabel]
+other = "Join our research panel"
+[researchTitle]
+other = "Help us make Open Source easier to use"
+[researchSubtitle]
+other = "Become a part of our research panel and help make open source tools easier to use and more accessible for everyone."
+[signUp]
+other = "Sign up"
+[researchExamples]
+other = "Examples"
+[researchExamplesDescription]
+other = "People like you have helped us in the past on many projects, including some here."
+[researchersTitle]
+other = "Meet our Researchers"
+[researchersDescription]
+other = "Work with our user experience research team and help make our products better."
+[stillQuestions]
+other = "Still have questions?"
+[keyPlayer]
+other = "Become a key player in our mission to enhance open-source projects."
+[makeDifference]
+other = "Sign up now and start making a difference"
+[faq]
+other = "Frequently Asked Questions"
+[whatTest]
+other = "What Does It Mean to Be a Tester?"
+[whatDescription]
+other = "As a tester, you’ll play a crucial role in improving open-source projects. Here’s what you can expect."
+
 # Contact
 [getinTouch]
 other = "Kontakt aufnehmen"
@@ -116,6 +146,10 @@ other = "Wir sind auf"
 # Footer
 [letsTalk]
 other = "Lass uns reden"
+[getInvolved]
+other = "Werde Aktiv"
+[researchPanel]
+other = "Forschungspanel"
 
 # Works
 [allWorks]

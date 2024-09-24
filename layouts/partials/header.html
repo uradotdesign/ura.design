@@ -39,6 +39,48 @@
             </div>
         </div>
     </div>
+    {{ else if eq .Page.Type "research" }}
+    <div class="container-fluid py-5 my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 offset-xl-1 col-lg-8 col-12 mb-4 mb-lg-0">
+                    <p class="mb-0 fw-normal text-uppercase">{{ i18n "researchLabel" }}</p>
+                    <h1 class="fw-light mb-4">{{ i18n "researchTitle" }}</h1>
+                    <p class="mb-4 fw-normal">{{ i18n "researchSubtitle" }}</p>
+                    <a href="https://cloud.ura.design/apps/forms/embed/kdwCdKXFKmGKpQpeFzJKRRbK" class="see-more" target="_blank" rel="noopener noreferrer">{{ i18n "signUp" }}</a>
+                </div>
+                <div class="col-xl-4 offset-xl-2 col-lg-4 col-12">
+                    <div class="row mb-3">
+                        <div class="col-lg-2">
+                            <p class="d-flex flex align-items-start justify-content-start fs-1 mb-2 mb-lg-0 color-blue-400">{{ partial "fontawesome.html" "light/user-plus" }}</p>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="fs-5 fw-bolder mb-1">Sign up as a tester</p>
+                            <p>Fill out your details and preferred contact information.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-lg-2">
+                            <p class="d-flex flex align-items-start justify-content-start fs-1 mb-2 mb-lg-0 color-blue-400">{{ partial "fontawesome.html" "light/object-intersect" }}</p>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="fs-5 fw-bolder mb-1">Match with projects</p>
+                            <p>We'll reach out to you with user research opportunities that match you.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <p class="d-flex flex align-items-start justify-content-start fs-1 mb-2 mb-lg-0 color-blue-400">{{ partial "fontawesome.html" "light/treasure-chest" }}</p>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="fs-5 fw-bolder mb-1">Get rewarded</p>
+                            <p>Participate in research sessions and receive a gift card as a thank you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     {{ else }}
     {{ end }}
 </header>

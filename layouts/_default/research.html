@@ -1,0 +1,176 @@
+{{ define "main" }}
+<main class="post">
+
+    <section class="container-fluid background-blue-50">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 col-12">
+                    <h2>{{ i18n "whatTest" }}</h2>
+                    <p class="mb-5 color-gray-600">{{ i18n "whatDescription" }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="research-card">
+                        <h4 class="fw-bolder">Support Open Source</h4>
+                        <p>Contribute to projects that prioritise transparency and user privacy.</p>
+                        <p>{{ partial "fontawesome.html" "thin/handshake-angle" }}</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="research-card">
+                        <h4 class="fw-bolder">Time Commitment</h4>
+                        <p>Each session typically lasts 20-40 minutes. You can choose the sessions that fit your schedule.</p>
+                        <p>{{ partial "fontawesome.html" "thin/timer" }}</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="research-card">
+                        <h4 class="fw-bolder">Tasks</h4>
+                        <p>Participate in usability tests, try out new features before they’re released, and share your feedback through surveys or interviews.</p>
+                        <p>{{ partial "fontawesome.html" "thin/block-question" }}</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="research-card">
+                        <h4 class="fw-bolder">Your Impact</h4>
+                        <p>Your insights will directly influence the development of open-source projects, making them more user-friendly for everyone.</p>
+                        <p>{{ partial "fontawesome.html" "thin/leaf-heart" }}</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12 mb-4">
+                    <div class="research-card">
+                        <h4 class="fw-bolder">Incentives</h4>
+                        <p>In appreciation of your time, you may receive gift cards, early access to new features, or other rewards.</p>
+                        <p>{{ partial "fontawesome.html" "thin/treasure-chest" }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="examples" class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-12">
+                    <h2>{{ i18n "researchExamples" }}</h2>
+                    <p class="mb-5 color-gray-600">{{ i18n "researchExamplesDescription" }}</p>
+                </div>
+            </div>
+            <div class="row pt-3 pb-5">
+                {{ range first 3 (where (where .Site.RegularPages "Type" "work") "Params.lab" "=" true) }}
+                <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
+                    <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
+                        <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 1 }}{{ end -}}.svg" alt="">
+                        <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Params.images }}{{ index . 1 }}{{ end -}}.webp" alt="">
+                    </a>
+                    <a class="title mt-3 mb-0" href="{{ .Permalink }}">{{ .Title }}</a>
+                    <p class="mb-0">
+                        {{ range $i, $e := .Params.categories -}}
+                            {{- if $i -}}, {{ end -}}
+                            {{ $value := substr (replace $e " " "") 0 }}
+                            <a class="category" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}" aria-label="{{ i18n "workTagged" }} {{ i18n . }}">{{ i18n $value }}</a>
+                        {{- end -}}
+                    </p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <section id="researchers" class="container-fluid py-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-9 col-12">
+                    <h2>{{ i18n "researchersTitle" }}</h2>
+                    <p class="mb-5 color-gray-600">{{ i18n "researchersDescription" }}</p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between pt-3 pb-5">
+                <div class="col-xl-6 col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="row align-items-center">
+                        <div class="col-xxl-4 col-xl-12 col-12">
+                            <img class="img-fluid pb-3" src="/img/researchers/Anja.png" alt="Anja Xhakani">
+                        </div>
+                        <div class="col-xxl-8 col-xl-12 col-12">
+                            <h3 class="mb-2">Anja Xhakani</h3>
+                            <p>Anja is a UX Researcher with a passion for understanding user behaviors and improving digital experiences. With a keen eye for detail and a user-first approach, she is dedicated to ensuring that our products meet the highest standards of usability and accessibility.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-12">
+                    <div class="row align-items-center">
+                        <div class="col-xxl-4 col-xl-12 col-12">
+                            <img class="img-fluid pb-3" src="/img/researchers/Chris.png" alt="Christopher Hunter">
+                        </div>
+                        <div class="col-xxl-8 col-xl-12 col-12">
+                            <h3 class="mb-2">Christopher Hunter</h3>
+                            <p>Chris is a UX Designer who specializes in creating intuitive and user-friendly digital experiences. With a strong focus on design that meets both user needs and business goals, he crafts solutions that are both functional and visually engaging.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="container-fluid py-5">
+        <div class="container">
+            <div class="row mx-0 signup justify-content-between align-items-center">
+                <div class="col-xl-8 col-lg-8 col-12 pb-lg-0 pb-4">
+                    <h2>{{ i18n "keyPlayer" }}</h2>
+                    <p class="mb-0">{{ i18n "makeDifference" }}</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-12 d-flex justify-content-center mt-lg-0 mt-2 mb-lg-0 mb-3">
+                    <a class="design" href="https://cloud.ura.design/apps/forms/embed/kdwCdKXFKmGKpQpeFzJKRRbK" target="_blank" rel="noopener noreferrer">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="container-fluid py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8 col-12 faq">
+                    <h2 class="mb-5">{{ i18n "faq" }}</h2>
+                    <details>
+                        <summary>When will I be contacted? {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
+                        <p class="mb-3">We will contact you when we have a project that is fitting to your profile.</p>
+                    </details>
+                    <details>
+                        <summary>Do I need to have any skills to participate? {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
+                        <p class="mb-3">Not specific ones. You don’t have to be an expert or a tech savvy to sign up. We are interested in your experience and your usage of the products.</p>
+                    </details>
+                    <details>
+                        <summary>How is my data protected? {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
+                        <p class="mb-3">Your data is private and only visible to the research team who will moderate the testing sessions. Anything that is said or written during the sessions is confidential.</p>
+                    </details>
+                    <details>
+                        <summary>How does the reward process work? {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
+                        <p class="mb-3">After the testing has been concluded, we will share an online gift card with your for your feedback and your time.</p>
+                    </details>
+                    <details>
+                        <summary>Do I need a device for the testing? {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
+                        <p class="mb-3">As we conduct most our testing sessions online, you need to provide your own laptop or computer for the testing sessions.</p>
+                    </details>
+                    <details>
+                        <summary>Do I need to download anything beforehand? {{ partial "fontawesome.html" "solid/chevron-down" }}</summary>
+                        <p class="mb-3">You will be updated before the user testing session if you need to download anything.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row pt-lg-5 pt-0 justify-content-end">
+            <div class="col-xl-5 col-lg-7 col-12 px-lg-3 px-0">
+                <div class="cta-card py-5">
+                    <h2>{{ i18n "stillQuestions" }}</h2>
+                    <a class="arrow-link" href="mailto:hello@ura.design">{{ i18n "contactUs" }}{{ partial "fontawesome.html" "solid/arrow-right" }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+{{ end }}

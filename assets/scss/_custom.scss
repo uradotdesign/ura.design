@@ -158,7 +158,7 @@ html[data-theme="dark"] {
     .d-lg-block.d-none.on-light {
       display: none !important;
     }
-  
+
     .d-lg-block.d-none.on-dark {
       display: none !important;
     }
@@ -185,7 +185,7 @@ body {
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: "InterVariable", sans-serif; 
+    font-family: "InterVariable", sans-serif;
     font-optical-sizing: auto;
   }
 }
@@ -799,6 +799,35 @@ article.first {
   }
 }
 
+.signup {
+  background-color: $blue-600;
+  color: $white;
+  padding: 4rem 5rem;
+
+  & a {
+    color: $blue-800;
+  }
+
+  & a.design {
+    color: $white;
+    border: 2px solid $white;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+
+    &:hover,
+    &:focus-visible,
+    &:focus {
+      color: $blue-500 !important;
+      background-color: $white;
+    }
+  }
+}
+
 address {
   margin-bottom: 0;
 }
@@ -1081,6 +1110,11 @@ details:not(:last-of-type) {
 
 details[open] summary svg {
   transform: rotate(180deg);
+}
+
+.faq details summary {
+  color: $gray-800;
+  font-weight: 600;
 }
 
 .circle-icons span {
@@ -1507,6 +1541,35 @@ details[open] summary svg {
   margin-top: 1rem;
 }
 
+.research-card {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  padding: 2rem;
+  border: 1px solid $blue-200;
+  border-radius: 1rem;
+  height: 100%;
+
+  & p {
+    margin-bottom: 0;
+  }
+
+  & p:has(.inline-svg) {
+    margin-bottom: 0;
+    text-align: end;
+    margin-top: auto;
+  }
+
+  & .inline-svg {
+    height: 5em;
+    width: 5em;
+
+    & svg path {
+      fill: $blue-200;
+    }
+  }
+}
+
 .cta-card {
   background-color: $blue-500;
   color: $white;
@@ -1641,7 +1704,8 @@ details[open] summary svg {
   .copyright {
     font-size: 0.75rem;
   }
-  .schedule {
+  .schedule,
+  .signup {
     padding: 2rem;
   }
   article.first {
@@ -1710,13 +1774,12 @@ details[open] summary svg {
 // Clients
 .client {
   &-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 120%;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
   }
   &-description {
-    font-size: 1.125rem;
     margin-bottom: 0;
   }
 }
