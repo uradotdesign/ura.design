@@ -134,7 +134,7 @@ pluralizeListTitles = false
   [[languages.en.menu.footer]]
     identifier = "source"
     name       = "Source Code"
-    url        = "/source"
+    url        = "https://github.com/uradotdesign/ura.design"
     weight     = "1"
   [[languages.en.menu.footer]]
     identifier = "privacy-policy"
