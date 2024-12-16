@@ -180,7 +180,7 @@ pluralizeListTitles = false
   [[languages.de.menu.footer]]
     identifier = "source"
     name       = "Quellcode"
-    url        = "/source"
+    url        = "https://github.com/uradotdesign/ura.design"
     weight     = "1"
   [[languages.de.menu.footer]]
     identifier = "datenschutz"
