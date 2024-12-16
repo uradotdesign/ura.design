@@ -6,4 +6,4 @@ weight = 5
 home = true
 +++
 
-Mentoring for Wikimedia Germany projects
+Mentoring für Wikimedia Deutschland-Projekte
