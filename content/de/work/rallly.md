@@ -1,6 +1,5 @@
 +++
 layout = "work/single"
-featured = true
 theme = "light"
 background = "#F7F7FF"
 accent = "#54298B"

@@ -1,0 +1,23 @@
+{{ $lottieScript := resources.Get "js/lottie-player.js" | resources.Minify }}
+<script src="{{ $lottieScript.RelPermalink }}"></script>
+
+<lottie-player
+  src="{{ .Get "src" | relURL }}"
+  background="{{ .Get "background" | default "transparent" }}"
+  speed="{{ .Get "speed" | default "1" }}"
+  {{ if .Get "loop" }}loop{{ end }}
+  {{ if .Get "controls" }}controls{{ end }}
+  {{ if .Get "autoplay" }}autoplay{{ end }}>
+</lottie-player>
+
+<style>
+lottie-player {
+  height: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  --lottie-player-seeker-display: none;
+  --lottie-player-toolbar-icon-color: #999;
+  --lottie-player-toolbar-icon-hover-color: #555;
+  --lottie-player-toolbar-icon-active-color: #222;
+}
+</style>

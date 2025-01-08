@@ -1,0 +1,211 @@
+<div class="ba-slider-container">
+    <div class="ba-slider" style="--position: 0%;" role="region" aria-labelledby="slider">
+        <div class="image-container">
+            <div class="image-before slider-image">
+                <!-- Before Image (Desktop) -->
+                {{ if .Params.before_light_desktop }}
+                <figure class="with-js on-light d-lg-block d-none">
+                    <img src="{{ .Params.before_light_desktop }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.before_light }}
+                <figure class="with-js on-light d-lg-block d-none">
+                    <img src="{{ .Params.before_light }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.before_dark_desktop }}
+                <figure class="with-js on-dark d-lg-block d-none">
+                    <img src="{{ .Params.before_dark_desktop }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.before_dark }}
+                <figure class="with-js on-dark d-lg-block d-none">
+                    <img src="{{ .Params.before_dark }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.before_nojs_desktop }}
+                <figure class="no-js d-lg-block d-none">
+                    <img src="{{ .Params.before_nojs_desktop }}" alt="Before Image">
+                </figure>
+                {{ else if .Params.before_nojs }}
+                <figure class="no-js d-lg-block d-none">
+                    <img src="{{ .Params.before_nojs }}" alt="Before Image">
+                </figure>
+                {{ end }}
+
+                <!-- Before Image (Mobile) -->
+                {{ if .Params.before_light_mobile }}
+                <figure class="with-js on-light d-block d-lg-none">
+                    <img src="{{ .Params.before_light_mobile }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.before_light }}
+                <figure class="with-js on-light d-block d-lg-none">
+                    <img src="{{ .Params.before_light }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.before_dark_mobile }}
+                <figure class="with-js on-dark d-block d-lg-none">
+                    <img src="{{ .Params.before_dark_mobile }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.before_dark }}
+                <figure class="with-js on-dark d-block d-lg-none">
+                    <img src="{{ .Params.before_dark }}" alt="Before Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.before_nojs_mobile }}
+                <figure class="no-js d-block d-lg-none">
+                    <img src="{{ .Params.before_nojs_mobile }}" alt="Before Image">
+                </figure>
+                {{ else if .Params.before_nojs }}
+                <figure class="no-js d-block d-lg-none">
+                    <img src="{{ .Params.before_nojs }}" alt="Before Image">
+                </figure>
+                {{ end }}
+            </div>
+
+            <div class="image-after slider-image">
+                <!-- After Image (Desktop) -->
+                {{ if .Params.after_light_desktop }}
+                <figure class="with-js on-light d-lg-block d-none">
+                    <img src="{{ .Params.after_light_desktop }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.after_light }}
+                <figure class="with-js on-light d-lg-block d-none">
+                    <img src="{{ .Params.after_light }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.after_dark_desktop }}
+                <figure class="with-js on-dark d-lg-block d-none">
+                    <img src="{{ .Params.after_dark_desktop }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.after_dark }}
+                <figure class="with-js on-dark d-lg-block d-none">
+                    <img src="{{ .Params.after_dark }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.after_nojs_desktop }}
+                <figure class="no-js d-lg-block d-none">
+                    <img src="{{ .Params.after_nojs_desktop }}" alt="After Image">
+                </figure>
+                {{ else if .Params.after_nojs }}
+                <figure class="no-js d-lg-block d-none">
+                    <img src="{{ .Params.after_nojs }}" alt="After Image">
+                </figure>
+                {{ end }}
+
+                <!-- After Image (Mobile) -->
+                {{ if .Params.after_light_mobile }}
+                <figure class="with-js on-light d-block d-lg-none">
+                    <img src="{{ .Params.after_light_mobile }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.after_light }}
+                <figure class="with-js on-light d-block d-lg-none">
+                    <img src="{{ .Params.after_light }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.after_dark_mobile }}
+                <figure class="with-js on-dark d-block d-lg-none">
+                    <img src="{{ .Params.after_dark_mobile }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ else if .Params.after_dark }}
+                <figure class="with-js on-dark d-block d-lg-none">
+                    <img src="{{ .Params.after_dark }}" alt="After Image"
+                        style="background-color: {{ .Page.Params.background }};">
+                </figure>
+                {{ end }}
+
+                {{ if .Params.after_nojs_mobile }}
+                <figure class="no-js d-block d-lg-none">
+                    <img src="{{ .Params.after_nojs_mobile }}" alt="After Image">
+                </figure>
+                {{ else if .Params.after_nojs }}
+                <figure class="no-js d-block d-lg-none">
+                    <img src="{{ .Params.after_nojs }}" alt="After Image">
+                </figure>
+                {{ end }}
+            </div>
+        </div>
+
+        <input id="slider" type="range" min="0" max="100" value="0" aria-label="Adjust before and after view slider" 
+            class="slider" />
+        <div class="slider-line" aria-hidden="true"></div>
+        <div class="slider-button" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></line>
+                <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></line>
+                <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></polyline>
+                <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></line>
+                <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></polyline>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const lottiePlayer = document.querySelector('lottie-player');
+
+  if (lottiePlayer) {
+    const shadowRoot = lottiePlayer.shadowRoot;
+    const toolbar = shadowRoot.querySelector('.toolbar');
+    
+    if (toolbar) {
+      toolbar.style.justifyContent = 'center';
+      toolbar.style.gap = '0.5rem';
+    } else {
+      console.log('Toolbar not found inside shadow DOM.');
+    }
+  } else {
+    console.error('lottie-player element not found.');
+  }
+});
+</script>
+
+<div class="d-flex justify-content-center align-items-center gap-2" role="group" aria-label="Toggle between Before and After views">
+    <span class="fw-semibold text-muted" id="before-text">Before</span>
+    <label class="form-switch position-relative d-inline-block">
+        <input 
+            type="checkbox" 
+            class="form-check-input visually-hidden" 
+            id="view-toggle" 
+            checked 
+            aria-checked="true" 
+            aria-labelledby="before-text after-text"
+            aria-describedby="toggle-description"
+        >
+        <span class="switch-slider rounded-pill"></span>
+    </label>
+    <span class="fw-semibold" id="after-text">After</span>
+</div>
+<p id="toggle-description" class="visually-hidden">
+    Use this toggle to switch between the Before and After views of the slider.
+</p>
+
+{{ $js := resources.Get "js/before-after-slider.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}"></script>
