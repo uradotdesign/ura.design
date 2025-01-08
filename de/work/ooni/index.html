@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="de" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="hello@ura.design Ura Design " />
+    <meta name="description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects." />
+    <meta name="keywords" content="design, ux, ui, public, developer, privacy, security, foss, floss" />
+    <meta name="robots" content="noodp" />
+    <meta name="theme-color" content="#E7F5FF" />
+    <link rel="canonical" href="https://ura.design/de/work/ooni/" />
+
+    <link rel="alternate" hreflang="en" href="https://ura.design/en/work/ooni/" title="English">
+
+    <title>
+        OONI Illustration System :: Ura Design
+    </title>
+
+    <link rel="stylesheet" href="https://ura.design/main.cee0cf611bab7f7c8ef17401828f467e957fc0dfe250dd6b5f5e43d539c1a965.css" />
+
+    <noscript>
+        <style>
+            @media (prefers-color-scheme: dark) {
+                :root #fader {
+                    background: #121212;
+                }
+
+                :root * {
+                    background: #121212 !important;
+                    color: rgba(255, 255, 255, 0.87) !important;
+                }
+
+                :root a:not(.nav-link, .see-more) {
+                    text-decoration: underline;
+                }
+
+                :root .screen-reader-text:focus {
+                    background-color: #ecc781;
+                }
+
+                :root .logo {
+                    fill: #ecc781 !important;
+                }
+
+                :root a {
+                    color: #ecc781 !important;
+                    border-color: #ecc781;
+                }
+
+                :root .inline-svg svg path {
+                    color: #ecc781 !important;
+                }
+
+                :root .acctoggle:hover,
+                :root .acctoggle:focus-visible,
+                :root .acctoggle:focus {
+                    border: 2px solid #ecc781;
+                }
+
+                :root .tablinkservice:hover {
+                    color: #ecc781 !important;
+                    border-left-color: #ecc781;
+                }
+
+                :root .tablinkservice:focus-visible {
+                    border-left: 0.2rem solid #ecc781 !important;
+                }
+
+                :root .active {
+                    color: #ecc781 !important;
+                    border-left-color: #ecc781;
+                }
+
+                :root .carousel-dark .carousel-indicators [data-bs-target] {
+                    border-color: #ecc781;
+                }
+
+                :root .carousel-dark .carousel-indicators [data-bs-target]:hover {
+                    background-color: #ecc781 !important;
+                }
+
+                :root .carousel-dark .carousel-indicators [data-bs-target].active {
+                    background-color: #ecc781 !important;
+                }
+
+                :root .button-filter {
+                    color: #ecc781 !important;
+                }
+
+                :root .button-filter:after {
+                    background: #ecc781 !important;
+                }
+
+                :root .carousel-control-next path {
+                    fill: #ecc781 !important;
+                }
+
+                :root .home a {
+                    text-decoration: none !important;
+                }
+            }
+
+            .no-js {
+                display: block !important;
+            }
+
+            .with-js {
+                display: none;
+            }
+
+            .overlay.h-100 {
+                height: 100%;
+            }
+
+            svg.logo {
+                display: none;
+            }
+
+            .inline-svg {
+                display: none;
+            }
+
+            #expertise {
+                display: block !important;
+            }
+
+            .services {
+                background: none !important;
+            }
+
+            .allposts {
+                display: block !important;
+            }
+
+            #posts-filter {
+                display: none !important;
+            }
+
+            #services {
+                display: none !important;
+            }
+
+            #theme-toggle {
+                display: none !important;
+            }
+
+            .work {
+                display: block !important;
+            }
+
+            #work-filter {
+                display: none !important;
+            }
+
+            #testimonials {
+                display: none !important;
+            }
+
+            #testimonials-nojs {
+                display: block !important;
+            }
+
+            @media (min-width: 992px) {
+                .navbar-toggler.no-js {
+                    display: none !important;
+                }
+            }
+        </style>
+    </noscript>
+
+    <script>
+        function fadeInPage() {
+            if (!window.AnimationEvent) {
+                return;
+            }
+            var fader = document.getElementById('fader');
+            fader.classList.add('fade-out');
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!window.AnimationEvent) {
+                return
+            }
+            var anchors = document.getElementsByTagName('a');
+            for (var idx = 0; idx < anchors.length; idx += 1) {
+                if (anchors[idx].hostname !== window.location.hostname ||
+                    anchors[idx].pathname === window.location.pathname) {
+                    continue;
+                }
+                anchors[idx].addEventListener('click', function(event) {
+                    var fader = document.getElementById('fader'),
+                        anchor = event.currentTarget;
+                    var listener = function() {
+                        window.location = anchor.href;
+                        fader.removeEventListener('animationend', listener);
+                    };
+                    fader.addEventListener('animationend', listener);
+                    event.preventDefault();
+                    fader.classList.add('fade-in');
+                });
+            }
+        });
+        window.addEventListener('pageshow', function(event) {
+            if (!event.persisted) {
+                return;
+            }
+            var fader = document.getElementById('fader');
+            fader.classList.remove('fade-in');
+        });
+    </script>
+
+    <style>
+        #fader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999999;
+            pointer-events: none;
+            background: white;
+            animation-duration: 300ms;
+            animation-timing-function: ease-in-out;
+        }
+
+        #fader:before {
+            content: 'fade'
+        }
+
+        @keyframes fade-out {
+            from {
+                opacity: 1
+            }
+
+            to {
+                opacity: 0
+            }
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        #fader.fade-out {
+            opacity: 0;
+            animation-name: fade-out;
+        }
+
+        #fader.fade-in {
+            opacity: 1;
+            animation-name: fade-in;
+        }
+    </style>
+
+    <link rel="apple-touch-icon" href="https://ura.design/favicons/apple-touch-icon.png">
+    <link rel="mask-icon" href="https://ura.design/favicons/favicon.svg" color="#1F78D1">
+    <link rel="icon" href="https://ura.design/favicons/favicon.svg">
+
+    <meta itemprop="name" content="OONI Illustration System">
+    <meta itemprop="description" content="We created a modular illustration system for OONI making it easy for both designers and non-designers to craft their own illustrations, bringing the OONIverse to life.">
+    <meta itemprop="datePublished" content="2024-12-16T12:00:00+02:00">
+    <meta itemprop="dateModified" content="2025-01-08T12:08:03+01:00">
+    <meta itemprop="wordCount" content="663">
+    <meta itemprop="image" content="https://ura.design/img/work/ooni-illustration-system.webp">
+    <meta itemprop="image" content="https://ura.design/ooni-illustration-system">
+    <meta itemprop="keywords" content="Illustrations">
+    <meta property="og:url" content="https://ura.design/de/work/ooni/">
+    <meta property="og:site_name" content="Ura Design">
+    <meta property="og:title" content="OONI Illustration System">
+    <meta property="og:description" content="We created a modular illustration system for OONI making it easy for both designers and non-designers to craft their own illustrations, bringing the OONIverse to life.">
+    <meta property="og:locale" content="de">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="work">
+    <meta property="article:published_time" content="2024-12-16T12:00:00+02:00">
+    <meta property="article:modified_time" content="2025-01-08T12:08:03+01:00">
+    <meta property="og:image" content="https://ura.design/img/work/ooni-illustration-system.webp">
+    <meta property="og:image" content="https://ura.design/ooni-illustration-system">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ura.design/img/work/ooni-illustration-system.webp">
+    <meta name="twitter:title" content="OONI Illustration System">
+    <meta name="twitter:description" content="We created a modular illustration system for OONI making it easy for both designers and non-designers to craft their own illustrations, bringing the OONIverse to life.">
+
+    <meta property="article:section" content="Illustrations" />
+
+    <meta property="article:published_time" content="2024-12-16 12:00:00 &#43;0200 &#43;0200" />
+
+    <script defer data-domain="ura.design" src="https://stats.ura.design/js/script.js"></script>
+
+</head>
+
+<body class="d-flex flex-column min-vh-100" style="background-color: #E7F5FF;">
+
+    <svg id="fader" class="fade-out"></svg>
+    <script>
+        fadeInPage()
+    </script>
+
+    <a class="screen-reader-text" href="#content">Zum Inhalt springen</a>
+
+    <button aria-label="Hohen Kontrast umschalten" id="theme-toggle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Hohen Kontrast umschalten" class="acctoggle"><span class="inline-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill='currentColor' d="M448 256c0-106-86-192-192-192l0 384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
+            </svg>
+        </span></button>
+
+    <script>
+        let theme = localStorage.getItem("data-theme");
+        const themeToggle = document.querySelector("#theme-toggle");
+        const changeThemeToDark = () => {
+            document.documentElement.setAttribute("data-theme", "dark");
+            localStorage.setItem("data-theme", "dark");
+        };
+        const changeThemeToLight = () => {
+            document.documentElement.setAttribute("data-theme", "light");
+            localStorage.setItem("data-theme", "light");
+        };
+        if (theme === "dark") {
+            changeThemeToDark();
+        }
+        themeToggle.addEventListener("click", () => {
+            let theme = localStorage.getItem("data-theme");
+            if (theme === "dark") {
+                changeThemeToLight();
+            } else {
+                changeThemeToDark();
+            }
+        });
+    </script>
+
+    <header>
+        <div class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg justify-content-between align-items-center" aria-label="Primary">
+                    <a aria-label="Ura Logo" class="navbar-brand" href="https://ura.design/de">
+
+                        <svg class="logo" width="114" height="41" viewBox="0 0 114 41" fill="#212529" xmlns="http://www.w3.org/2000/svg">
+                            <title>Ura Design logo</title>
+                            <path d="M62.8868 35.8264C67.0774 35.8264 68.3425 35.1938 70.6355 32.3474C70.6355 34.0068 71.9807 35.352 73.6401 35.352H76.6447V10.1292H70.3192V24.2033C70.3192 28.3149 68.1843 30.6869 64.8635 30.6869C61.7798 30.6869 60.5938 28.9474 60.5938 25.5475V10.1292H54.2683V26.8126C54.3474 32.9008 57.1938 35.8264 62.8868 35.8264Z" />
+                            <path d="M102.383 9.65598L97.8416 9.65588L95.7724 14.7856C95.7724 14.7856 107.525 13.8744 107.282 17.6911V18.2446C107.203 19.4306 106.412 20.0632 104.04 20.2213L99.6917 20.6957C93.3662 21.1701 90.9941 24.2538 90.9941 28.1282C90.9941 32.7932 94.1569 35.7978 100.087 35.7978C104.199 35.7978 105.938 35.3234 107.282 32.7932C107.361 32.7141 107.44 32.556 107.519 32.3978C107.519 34.0136 108.829 35.3234 110.445 35.3234H113.529V18.7981C113.608 13.6586 110.132 9.73505 102.383 9.65598ZM107.282 24.7282C107.282 28.3654 105.068 31.37 101.194 31.37C97.9522 31.37 96.5289 29.8677 96.5289 27.5747C96.5289 25.7561 97.794 24.4119 100.957 24.1747L103.961 23.9375C105.701 23.7794 106.808 23.4631 107.282 22.9887V24.7282Z" />
+                            <path d="M94.8297 9.65631H93.298C89.819 9.65631 87.2536 11.4698 86.2257 14.3162V10.1256H80.2166V31.3484C80.2166 33.5575 82.0074 35.3484 84.2166 35.3484H86.542V21.7486C86.542 16.4477 88.9934 14.7906 92.7681 14.7906L94.8297 9.65631Z" />
+                            <path d="M10.2216 40.7522L17.4342 20.5215C11.365 21.3132 5.82359 23.864 1.16174 27.7342C2.30521 33.0997 5.64767 37.6736 10.2216 40.7522Z" />
+                            <path d="M33.355 40.7522C38.0168 37.8495 41.3593 33.1877 42.5907 27.7342C37.9289 23.6881 32.3874 21.1373 26.3182 20.5215L33.355 40.7522Z" />
+                            <path d="M43.2943 23.6002V22.6326C43.2943 10.5822 33.7067 0.994629 21.9202 0.994629C10.1336 0.994629 0.370117 10.5822 0.370117 22.6326V23.6002C6.61523 18.9383 14.0918 16.3875 21.9202 16.3875C29.5726 16.3875 37.0492 18.9383 43.2943 23.6002Z" />
+                        </svg>
+
+                        <noscript>
+
+                            <img src="https://ura.design//img/logo-nojs-dark.png" alt="Ura Design logo" width="114" height="41">
+
+                        </noscript>
+                    </a>
+                    <button class="navbar-toggler with-js" type="button" aria-label="Toggle navigation" onclick="openNav()">
+                        <span class="inline-svg">
+                            <svg class="txt-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="color: #212529 !important;">
+                                <path fill="currentColor" d="M416 288C433.7 288 448 302.3 448 320C448 337.7 433.7 352 416 352H32C14.33 352 0 337.7 0 320C0 302.3 14.33 288 32 288H416zM416 160C433.7 160 448 174.3 448 192C448 209.7 433.7 224 416 224H32C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H416z"></path>
+                            </svg>
+                        </span>
+                    </button>
+                    <a class="navbar-toggler no-js d-lg-none" href="https://ura.design/de/menu/" aria-label="Open menu">
+                        <noscript>
+
+                            <img src="https://ura.design//img/menu-nojs-dark.png" alt="" width="24" height="24">
+
+                        </noscript>
+                    </a>
+                    <div class="collapse navbar-collapse flex-grow-0">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ms-4">
+                                <a class="nav-link txt-dark " style="color: #212529;" href="https://ura.design/de/about/">Über uns</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link txt-dark active" aria-current="page" style="color: #212529;" href="https://ura.design/de/work/">Arbeiten</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link txt-dark " style="color: #212529;" href="https://ura.design/de/contact/">Kontakt</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link txt-dark " style="color: #212529;" href="https://ura.design/de/clients/">Kunden</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link txt-dark " style="color: #212529;" href="https://ura.design/de/blog/">Blog</a>
+                            </li>
+
+                            <li class="nav-item ms-4 txt-dark" style="color: #212529 !important;">
+                                <div class="vr"></div>
+                            </li>
+                        </ul>
+
+                        <ul class="ms-4 navbar-nav">
+
+                            <li class="nav-item ms-2">
+                                <a class="nav-link language text-uppercase txt-dark" style="color: #212529;" href="https://ura.design/en/work/ooni/">en</a>
+                            </li>
+
+                            <li class="nav-item ms-2">
+                                <p class="nav-link active language text-uppercase mb-0 txt-dark background-white" style="color: #212529;">de</p>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+
+                <div id="navbar-mobile" class="overlay d-block d-lg-none" style="background-color: #E7F5FF;">
+                    <div class="container-fluid">
+                        <div class="container">
+                            <div class="navbar align-items-center justify-content-between">
+                                <a aria-label="Ura Logo" class="brand" href="https://ura.design/">
+
+                                    <svg class="logo" width="114" height="41" viewBox="0 0 114 41" fill="#212529" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Ura Design logo</title>
+                                        <path d="M62.8868 35.8264C67.0774 35.8264 68.3425 35.1938 70.6355 32.3474C70.6355 34.0068 71.9807 35.352 73.6401 35.352H76.6447V10.1292H70.3192V24.2033C70.3192 28.3149 68.1843 30.6869 64.8635 30.6869C61.7798 30.6869 60.5938 28.9474 60.5938 25.5475V10.1292H54.2683V26.8126C54.3474 32.9008 57.1938 35.8264 62.8868 35.8264Z" />
+                                        <path d="M102.383 9.65598L97.8416 9.65588L95.7724 14.7856C95.7724 14.7856 107.525 13.8744 107.282 17.6911V18.2446C107.203 19.4306 106.412 20.0632 104.04 20.2213L99.6917 20.6957C93.3662 21.1701 90.9941 24.2538 90.9941 28.1282C90.9941 32.7932 94.1569 35.7978 100.087 35.7978C104.199 35.7978 105.938 35.3234 107.282 32.7932C107.361 32.7141 107.44 32.556 107.519 32.3978C107.519 34.0136 108.829 35.3234 110.445 35.3234H113.529V18.7981C113.608 13.6586 110.132 9.73505 102.383 9.65598ZM107.282 24.7282C107.282 28.3654 105.068 31.37 101.194 31.37C97.9522 31.37 96.5289 29.8677 96.5289 27.5747C96.5289 25.7561 97.794 24.4119 100.957 24.1747L103.961 23.9375C105.701 23.7794 106.808 23.4631 107.282 22.9887V24.7282Z" />
+                                        <path d="M94.8297 9.65631H93.298C89.819 9.65631 87.2536 11.4698 86.2257 14.3162V10.1256H80.2166V31.3484C80.2166 33.5575 82.0074 35.3484 84.2166 35.3484H86.542V21.7486C86.542 16.4477 88.9934 14.7906 92.7681 14.7906L94.8297 9.65631Z" />
+                                        <path d="M10.2216 40.7522L17.4342 20.5215C11.365 21.3132 5.82359 23.864 1.16174 27.7342C2.30521 33.0997 5.64767 37.6736 10.2216 40.7522Z" />
+                                        <path d="M33.355 40.7522C38.0168 37.8495 41.3593 33.1877 42.5907 27.7342C37.9289 23.6881 32.3874 21.1373 26.3182 20.5215L33.355 40.7522Z" />
+                                        <path d="M43.2943 23.6002V22.6326C43.2943 10.5822 33.7067 0.994629 21.9202 0.994629C10.1336 0.994629 0.370117 10.5822 0.370117 22.6326V23.6002C6.61523 18.9383 14.0918 16.3875 21.9202 16.3875C29.5726 16.3875 37.0492 18.9383 43.2943 23.6002Z" />
+                                    </svg>
+
+                                </a>
+                                <button type="button" class="closebtn" aria-label="Toggle navigation" onclick="closeNav()">
+                                    <span class="inline-svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="color: #212529 !important;">
+                                            <path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="overlay-content">
+                            <div class="container pt-4"><a class="" style="color: #212529;" href="https://ura.design/de/about/">Über uns</a>
+                                <a class="" style="color: #212529;" href="https://ura.design/de/work/">Arbeiten</a>
+                                <a class="" style="color: #212529;" href="https://ura.design/de/contact/">Kontakt</a>
+                                <a class="" style="color: #212529;" href="https://ura.design/de/clients/">Kunden</a>
+                                <a class="" style="color: #212529;" href="https://ura.design/de/blog/">Blog</a>
+
+                                <hr class="txt-dark" style="background-color: #212529 !important;">
+
+                                <p class="mb-0"><a class="language text-uppercase" style="color: #212529;" href="https://ura.design/en/work/ooni/">en</a></p>
+
+                                <p class="language text-uppercase active language text-uppercase mb-0 txt-dark background-white" style="color: #212529;">de</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("navbar-mobile").style.height = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("navbar-mobile").style.height = "0%";
+            }
+        </script>
+
+    </header>
+
+    <div id="content" class="content">
+        <main class="project" style="color: #212529;">
+            <div class="container-fluid py-5 mb-5">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-xl-9 col-lg-9 col-12 pt-5">
+                            <h1 class="project-title">OONI Illustration System</h1>
+                            <p class="project-summary">We created a modular illustration system for OONI making it easy for both designers and non-designers to craft their own illustrations, bringing the OONIverse to life.</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-12">
+                            <div class="sticky-xl-top pt-5">
+
+                                <div class="mb-5">
+                                    <p class="list">Services</p>
+                                    <div class="d-flex flex-column" style="color: #005F9C;">
+
+                                        <a class="category" href="https://ura.design/de/categories/illustrations">Illustrationen</a>
+
+                                    </div>
+                                </div>
+
+                                <div class="mb-5">
+                                    <p class="list">Links</p>
+                                    <div class="d-flex flex-column" style="color: #005F9C;">
+
+                                        <a class="links" href="https://ooni.org" target="_blank" rel="noopener noreferrer">ooni website</a>
+
+                                        <a class="links" href="https://ooni.org/support/ooni-outreach-kit/" target="_blank" rel="noopener noreferrer">outreach kit</a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="offset-xl-1 col-xl-7 col-lg-7 col-12 pt-5 project-content" style="color: #212529;">
+                            <figure><img src="https://ura.design/img/work/ooni-cover.webp" alt="OONI Illustration System" loading="lazy" />
+                            </figure>
+                            <h2 id="oonis-mission">OONI’s Mission</h2>
+                            <p>OONI, or the Open Observatory of Network Interference, is an open source project dedicated to measuring internet censorship worldwide. Their work is vital for documenting and understanding the landscape of internet freedom, particularly in regions where access to information is controlled or restricted by governments or other entities.</p>
+                            <h2 id="our-approach-and-objectives">Our Approach and Objectives</h2>
+                            <p>OONI’s tools offer crucial insights into internet censorship, but the information can sometimes feel dense and hard to navigate. This can make it tough for users to fully engage and understand its implications.</p>
+                            <p>To address this, we used illustrations to clarify the content, making it more engaging and dynamic. Our goal was to transform OONI’s website, tools, and promotional materials into resources that are both informative and inviting, helping their diverse, global audience understand and connect with the information more easily.</p>
+                            <h2 id="redesigning-the-mascot">Redesigning the Mascot</h2>
+                            <p>OONI’s original mascot played a vital role in their brand identity, but they needed a more streamlined design that could be easily adapted and used in different settings.</p>
+                            <div class="ba-slider-container">
+                                <div class="ba-slider" style="--position: 0%;" role="region" aria-labelledby="slider">
+                                    <div class="image-container">
+                                        <div class="image-before slider-image">
+
+                                            <figure class="with-js on-light d-lg-block d-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-before.svg" alt="Before Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="with-js on-dark d-lg-block d-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-before-dark.svg" alt="Before Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="no-js d-lg-block d-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-before.webp" alt="Before Image">
+                                            </figure>
+
+                                            <figure class="with-js on-light d-block d-lg-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-before.svg" alt="Before Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="with-js on-dark d-block d-lg-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-before-dark.svg" alt="Before Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="no-js d-block d-lg-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-before.webp" alt="Before Image">
+                                            </figure>
+
+                                        </div>
+
+                                        <div class="image-after slider-image">
+
+                                            <figure class="with-js on-light d-lg-block d-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-after.svg" alt="After Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="with-js on-dark d-lg-block d-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-after-dark.svg" alt="After Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="no-js d-lg-block d-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-after.webp" alt="After Image">
+                                            </figure>
+
+                                            <figure class="with-js on-light d-block d-lg-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-after.svg" alt="After Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="with-js on-dark d-block d-lg-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-after-dark.svg" alt="After Image" style="background-color: #E7F5FF;">
+                                            </figure>
+
+                                            <figure class="no-js d-block d-lg-none">
+                                                <img src="https://ura.design/img/work/ooni-mascot-after.webp" alt="After Image">
+                                            </figure>
+
+                                        </div>
+                                    </div>
+
+                                    <input id="slider" type="range" min="0" max="100" value="0" aria-label="Adjust before and after view slider" class="slider" />
+                                    <div class="slider-line" aria-hidden="true"></div>
+                                    <div class="slider-button" aria-hidden="true">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256">
+                                            <rect width="256" height="256" fill="none"></rect>
+                                            <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                                            <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                                            <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                                            <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                                            <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const lottiePlayer = document.querySelector('lottie-player');
+                                    if (lottiePlayer) {
+                                        const shadowRoot = lottiePlayer.shadowRoot;
+                                        const toolbar = shadowRoot.querySelector('.toolbar');
+                                        if (toolbar) {
+                                            toolbar.style.justifyContent = 'center';
+                                            toolbar.style.gap = '0.5rem';
+                                        } else {
+                                            console.log('Toolbar not found inside shadow DOM.');
+                                        }
+                                    } else {
+                                        console.error('lottie-player element not found.');
+                                    }
+                                });
+                            </script>
+
+                            <div class="d-flex justify-content-center align-items-center gap-2" role="group" aria-label="Toggle between Before and After views">
+                                <span class="fw-semibold text-muted" id="before-text">Before</span>
+                                <label class="form-switch position-relative d-inline-block">
+                                    <input type="checkbox" class="form-check-input visually-hidden" id="view-toggle" checked aria-checked="true" aria-labelledby="before-text after-text" aria-describedby="toggle-description">
+                                    <span class="switch-slider rounded-pill"></span>
+                                </label>
+                                <span class="fw-semibold" id="after-text">After</span>
+                            </div>
+                            <p id="toggle-description" class="visually-hidden">
+                                Use this toggle to switch between the Before and After views of the slider.
+                            </p>
+
+                            <script src="https://ura.design/js/before-after-slider.min.js"></script>
+                            <h2 id="refined-design">Refined Design</h2>
+                            <p>The new mascot features a simplified design with a balanced look, making it more adaptable to different environments.</p>
+                            <p><strong>Streamlined Aesthetic</strong>: We removed the suction cup details from the tentacles and adjusted their spread, ensuring a consistent appearance in every use.</p>
+                            <p><strong>Modular Components</strong>: The mascot includes a separate head and four movable tentacles that can be adjusted or rearranged independently.</p>
+                            <p><strong>Versatility</strong>: This modular design allows for a wide range of combinations and poses, making the mascot adaptable to many different scenarios.</p>
+                            <p>
+                            <figure class="with-js d-lg-block d-none"><img src="https://ura.design/img/work/ooni-octopus-tentacles.svg" alt="OONI octopus tentacles" loading="lazy" />
+                            </figure>
+                            <figure class="with-js d-block d-lg-none"><img src="https://ura.design/img/work/ooni-octopus-tentacles-mobile.svg" alt="OONI octopus tentacles" loading="lazy" />
+                            </figure>
+                            </p>
+                            <p>
+                            <figure class="no-js d-lg-block d-none"><img src="https://ura.design/img/work/ooni-octopus-tentacles.webp" alt="OONI octopus tentacles" loading="lazy" />
+                            </figure>
+                            <figure class="no-js d-block d-lg-none"><img src="https://ura.design/img/work/ooni-octopus-tentacles-mobile.webp" alt="OONI octopus tentacles" loading="lazy" />
+                            </figure>
+                            </p>
+                            <h2 id="refining-the-tentacles">Refining the Tentacles</h2>
+                            <p>The octopus is the central figure in the OONIverse, notable for its complexity and flexibility. With modular parts like the head, neck, and four tentacles, and 2,496 possible tentacle combinations, it offers a rich variety of visual expressions and potential uses across different contexts.</p>
+                            <p>Designing the mascot’s tentacles presented several challenges. The primary goal was to create a stable structure that kept all elements intact while allowing for various combinations. Striking the right balance between organic and geometric shapes was crucial to ensure the design was both modern and reflective of underwater life.</p>
+                            <p>
+                            <figure class="with-js"><img src="https://ura.design/img/work/ooni-tentacles.svg" alt="OONI octopus tentacles" loading="lazy" />
+                            </figure>
+                            <figure class="no-js"><img src="https://ura.design/img/work/ooni-tentacles.webp" alt="OONI octopus tentacles" loading="lazy" />
+                            </figure>
+                            </p>
+                            <h2 id="adding-emotional-depth">Adding Emotional Depth</h2>
+                            <p>Adding an array of emotions brought the characters to life, infusing them with personality and expression. We designed a range of expressions, including neutral, bored, excited, shy, and angry, to cover the main emotions the character would need. This variety ensures that the mascot is vivid, lifelike, and approachable, making it easier to connect with and engage the audience.</p>
+
+                            <script src="https://ura.design/js/lottie-player.min.js"></script>
+
+                            <lottie-player src="https://lottie.host/79ec3797-da81-4e42-8260-cb907ddbfa67/TyiAKnh6SA.json" background="transparent" speed="1" loop controls autoplay>
+                            </lottie-player>
+
+                            <style>
+                                lottie-player {
+                                    height: 300px;
+                                    max-width: 100%;
+                                    max-height: 100%;
+                                    --lottie-player-seeker-display: none;
+                                    --lottie-player-toolbar-icon-color: #999;
+                                    --lottie-player-toolbar-icon-hover-color: #555;
+                                    --lottie-player-toolbar-icon-active-color: #222;
+                                }
+                            </style>
+
+                            <h2 id="expanding-the-ooniverse">Expanding the OONIverse</h2>
+                            <p>Once the mascot was ready, we set out to build a world for them to explore. Using a similar modular approach, we developed two additional characters: the fish and the eel, each with its own set of components and variations. We also created scenes or ‘play sets’ featuring interchangeable elements like seaweed and various ‘underwater’ shapes, allowing for the creation of lively and dynamic scenes, including different color modes for different depths of the ocean.</p>
+                            <figure><img src="https://ura.design/img/work/ooni-ooniverse.webp" alt="OONIverse" loading="lazy" />
+                            </figure>
+                            <h2 id="managing-design-elements-with-precision">Managing Design Elements with Precision</h2>
+                            <p>To manage the various elements of each character and scene, we developed a comprehensive design system that organizes all the components and variations. A key aspect of this system is the use of Figma variables to create color options for each illustration component. This approach allows the creatures to change colors with just one click, offering six different color collections, each with 3-4 color modes.</p>
+                            <figure><img src="https://ura.design/img/work/ooni-precision.webp" alt="OONI design elements" loading="lazy" />
+                            </figure>
+                            <h2 id="how-we-helped">How we helped</h2>
+                            <p><strong>Custom Illustration System</strong>: We designed a modular illustration system that allows both designers and non-designers to easily create custom visuals.</p>
+                            <p><strong>Simplified Mascot</strong>: We streamlined the mascot’s design for improved adaptability and introduced a range of emotions to keep it engaging and relatable across different scenarios.</p>
+                            <p><strong>Enhanced Accessibility</strong>: We created visuals that align with WCAG 2.2 guidelines, making OONI’s content more accessible for their diverse global audience.</p>
+                            <p><strong>Cohesive Design System</strong>: We built a cohesive design system that streamlines the creation process, offering flexibility and consistency for designers and non designers alike.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <section aria-label="Return to all items page">
+        <div class="container-fluid py-5 background-white">
+            <div class="container">
+                <a class="back-overview" href="https://ura.design/de/work/"><span class="inline-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill='currentColor' d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                        </svg>
+                    </span>Zurück zur Übersicht</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 mt-auto">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row d-none d-lg-flex justify-content-between">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-collapse" id="footerNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="https://ura.design/de/about/">Über uns</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="https://ura.design/de/work/">Arbeiten</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="https://ura.design/de/contact/">Kontakt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="https://ura.design/de/clients/">Kunden</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="https://ura.design/de/blog/">Blog</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div id="footerIcons">
+
+                            <a href="https://github.com/uradotdesign" target="_blank" rel="noopener " title="Github" aria-label="Ura Design on Github"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path fill='currentColor' d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://twitter.com/uradotdesign" target="_blank" rel="noopener " title="X twitter" aria-label="Ura Design on X twitter"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill='currentColor' d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://instagram.com/uradotdesign" target="_blank" rel="noopener " title="Instagram" aria-label="Ura Design on Instagram"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill='currentColor' d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://www.linkedin.com/company/ura/" target="_blank" rel="noopener " title="Linkedin" aria-label="Ura Design on Linkedin"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill='currentColor' d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://mastodon.online/@uradotdesign" target="_blank" rel="noopener me" title="Mastodon" aria-label="Ura Design on Mastodon"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill='currentColor' d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z" />
+                                    </svg>
+                                </span></a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="row py-0 py-lg-5 pt-lg-5 cta justify-content-between">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+                        <h2>Lass uns reden:</h2>
+                        <a class="arrow-link" href="https://ura.design/de/contact">Kontakt<span class="inline-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </span></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+                        <h2>Werde Aktiv:</h2>
+                        <a class="arrow-link" href="https://ura.design/de/research">Forschungspanel<span class="inline-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </span></a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4">
+                        <h2>Pro-bono design:</h2>
+                        <a class="arrow-link" href="https://ura.design/de/probono">Gesponsert werden<span class="inline-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill='currentColor' d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </span></a>
+                    </div>
+                    <div class="col-xxl-3 col-xl-4 col-lg-4 col-12 pb-xl-0 pb-4 d-block d-lg-none">
+                        <h2>Wir sind auf:</h2>
+                        <div class="pt-2">
+
+                            <a href="https://github.com/uradotdesign" target="_blank" rel="noopener " title="Github" aria-label="Ura Design on Github"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path fill='currentColor' d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://twitter.com/uradotdesign" target="_blank" rel="noopener " title="X twitter" aria-label="Ura Design on X twitter"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill='currentColor' d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://instagram.com/uradotdesign" target="_blank" rel="noopener " title="Instagram" aria-label="Ura Design on Instagram"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill='currentColor' d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://www.linkedin.com/company/ura/" target="_blank" rel="noopener " title="Linkedin" aria-label="Ura Design on Linkedin"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill='currentColor' d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                    </svg>
+                                </span></a>
+
+                            <a href="https://mastodon.online/@uradotdesign" target="_blank" rel="noopener me" title="Mastodon" aria-label="Ura Design on Mastodon"><span class="inline-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path fill='currentColor' d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z" />
+                                    </svg>
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-xxl-4 col-xl-12">
+                        <nav class="navbar navbar-expand-lg" aria-label="Secondary">
+                            <div class="navbar-collapse" id="footerLinks">
+                                <ul class="navbar-nav flex-row">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="https://github.com/uradotdesign/ura.design">Quellcode</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="https://ura.design/de/privacy">Datenschutz</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="https://ura.design/de/imprint">Impressum</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-xxl-8 col-xl-12 d-flex justify-content-xxl-end justify-content-start">
+                        <p class="copyright mb-0">© Ura Design 2025. Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License"> Creative-Commons-Lizenz</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ura.design/bundle.min.dd1176c124e234b1778e6c339d580e5a1e8e59e19bf1f8d21f36e9f1b6117b0f.js" integrity="sha256-3RF2wSTiNLF3jmwznVgOWh6OWeGb8fjSHzbp8bYRew8="></script>
+
+    <script type="module" defer src="https://ura.design/instant.min.js"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
