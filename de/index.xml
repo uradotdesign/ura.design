@@ -9,7 +9,7 @@
     <managingEditor>hello@ura.design (Ura Design)</managingEditor>
     <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 12:08:03 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2025 18:35:08 +0100</lastBuildDate>
     <atom:link href="https://ura.design/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -283,6 +283,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/services/web-development/</guid>
       <description>Wir sind keine üblichen WordPress-Website-Entwickler. Während unserer Arbeit mit Dutzenden von Open-Source-Communities haben wir verstanden, dass niemand ein Backend für eine einfache Webseite pflegen möchte. Wir haben uns auf statische Website-Generatoren wie Hugo oder Jekyll spezialisiert, um Webseites zu erstellen (so wie diese Webseite wo Du gerade bist).</description>
+    </item>
+    <item>
+      <title>Qubes OS Usability Audit</title>
+      <link>https://ura.design/de/work/qubesos/</link>
+      <pubDate>Wed, 08 Jan 2025 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/de/work/qubesos/</guid>
+      <description>Qubes OS is renowned for its security, but its complex interface can be a major hurdle for new users. This project aimed to untangle that complexity while preserving the advanced protections that make it one of the most secure systems available.</description>
     </item>
     <item>
       <title>OONI Illustration System</title>
@@ -709,7 +716,7 @@
       <link>https://ura.design/de/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/de/imprint/</guid>
-      <description>Ura Design wird betrieben von (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):&#xA;Elio Qoshi&#xA;c/o Cultivation Space&#xA;Aufgang 4&#xA;Gottschedstraße 4&#xA;13357 Berlin&#xA;Steuernummer: 34/481/01445&#xA;USt.-IDNr: DE357155567&#xA;Email: hello@ura.design&#xA;Website: https://ura.design</description>
+      <description>Ura Design wird betrieben von (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):&#xA;Elio Qoshi&#xA;Ura Design e.K.&#xA;c/o Cultivation Space&#xA;Aufgang 4&#xA;Gottschedstraße 4&#xA;13357 Berlin, Deutschland&#xA;Steuernummer: 34/481/01445&#xA;USt.-IDNr: DE357155567&#xA;Email: hello@ura.design&#xA;Website: https://ura.design</description>
     </item>
     <item>
       <title>Interaction Design</title>

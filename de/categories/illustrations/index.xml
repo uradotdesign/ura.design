@@ -9,8 +9,15 @@
     <managingEditor>hello@ura.design (Ura Design)</managingEditor>
     <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 12:08:03 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2025 18:35:08 +0100</lastBuildDate>
     <atom:link href="https://ura.design/de/categories/illustrations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qubes OS Usability Audit</title>
+      <link>https://ura.design/de/work/qubesos/</link>
+      <pubDate>Wed, 08 Jan 2025 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/de/work/qubesos/</guid>
+      <description>Qubes OS is renowned for its security, but its complex interface can be a major hurdle for new users. This project aimed to untangle that complexity while preserving the advanced protections that make it one of the most secure systems available.</description>
+    </item>
     <item>
       <title>OONI Illustration System</title>
       <link>https://ura.design/de/work/ooni/</link>
