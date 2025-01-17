@@ -85,10 +85,6 @@ pluralizeListTitles = false
     url  = "https://github.com/uradotdesign"
 
   [[params.social]]
-    name = "x-twitter"
-    url  = "https://twitter.com/uradotdesign"
-
-  [[params.social]]
     name = "instagram"
     url  = "https://instagram.com/uradotdesign"
   

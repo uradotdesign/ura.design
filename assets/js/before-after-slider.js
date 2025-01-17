@@ -1,21 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const toggleSwitch = document.getElementById("view-toggle");
-  const slider = document.getElementById("slider");
-  const container = document.querySelector(".ba-slider");
-  const beforeText = document.getElementById("before-text");
-  const afterText = document.getElementById("after-text");
-
-  // Initialize the state
-  const initializeState = () => {
-    slider.value = 0; // Start with "After" at 0%
-    container.style.setProperty("--position", "0%");
-    beforeText.classList.add("text-muted");
-    afterText.classList.remove("text-muted");
-    toggleSwitch.setAttribute("aria-checked", "true");
-  };
+  // Get all instances of the toggle switch, sliders, and containers
+  const toggleSwitches = document.querySelectorAll(".toggle-input");
+  const sliders = document.querySelectorAll(".slider");
+  const containers = document.querySelectorAll(".ba-slider");
+  const beforeTexts = document.querySelectorAll(".before-text");
+  const afterTexts = document.querySelectorAll(".after-text");
 
   // Function to animate the slider
-  const animateSlider = (start, end, duration = 350) => {
+  const animateSlider = (slider, container, start, end, duration = 350) => {
     const stepTime = 10; // Step interval in ms
     const steps = duration / stepTime;
     const stepValue = (end - start) / steps;
@@ -36,33 +28,91 @@ document.addEventListener("DOMContentLoaded", function () {
     }, stepTime);
   };
 
-  // Function to handle slider position when toggling
-  const handleToggle = () => {
-    const isChecked = toggleSwitch.checked;
+  // Function to update the toggle switch based on slider position
+  const updateToggleFromSlider = (
+    container,
+    slider,
+    toggleSwitch,
+    beforeText,
+    afterText
+  ) => {
+    const position =
+      parseFloat(container.style.getPropertyValue("--position")) || 0;
 
-    if (isChecked) {
-      // Show "After" view
-      animateSlider(parseFloat(slider.value), 0); // Animate to 0% (After)
-      beforeText.classList.add("text-muted");
+    if (position === 0 && !toggleSwitch.checked) {
+      toggleSwitch.checked = true;
       afterText.classList.remove("text-muted");
+      beforeText.classList.add("text-muted");
       toggleSwitch.setAttribute("aria-checked", "true");
-    } else {
-      // Show "Before" view
-      animateSlider(parseFloat(slider.value), 100); // Animate to 100% (Before)
+    } else if (position === 100 && toggleSwitch.checked) {
+      toggleSwitch.checked = false;
       afterText.classList.add("text-muted");
       beforeText.classList.remove("text-muted");
       toggleSwitch.setAttribute("aria-checked", "false");
     }
   };
 
-  // Initialize the state on page load
-  initializeState();
+  // Function to handle toggle switch logic
+  const handleToggle = (
+    toggleSwitch,
+    slider,
+    container,
+    beforeText,
+    afterText
+  ) => {
+    const isChecked = toggleSwitch.checked;
 
-  // Add event listener for the switch toggle
-  toggleSwitch.addEventListener("change", handleToggle);
+    if (isChecked) {
+      // Show "After" view
+      animateSlider(slider, container, parseFloat(slider.value), 0); // Animate to 0% (After)
+      beforeText.classList.add("text-muted");
+      afterText.classList.remove("text-muted");
+      toggleSwitch.setAttribute("aria-checked", "true");
+    } else {
+      // Show "Before" view
+      animateSlider(slider, container, parseFloat(slider.value), 100); // Animate to 100% (Before)
+      afterText.classList.add("text-muted");
+      beforeText.classList.remove("text-muted");
+      toggleSwitch.setAttribute("aria-checked", "false");
+    }
+  };
 
-  // Add slider logic (if manual adjustment is still needed)
-  slider.addEventListener("input", (e) => {
-    container.style.setProperty("--position", `${e.target.value}%`);
+  // Initialize the state for each slider instance
+  toggleSwitches.forEach((toggleSwitch, index) => {
+    const slider = sliders[index];
+    const container = containers[index];
+    const beforeText = beforeTexts[index];
+    const afterText = afterTexts[index];
+
+    if (slider && container && beforeText && afterText) {
+      // Initialize slider position
+      container.style.setProperty("--position", "0%");
+      slider.value = 0;
+      beforeText.classList.add("text-muted");
+      afterText.classList.remove("text-muted");
+      toggleSwitch.setAttribute("aria-checked", "true");
+
+      // Add event listener for the switch toggle
+      toggleSwitch.addEventListener("change", () => {
+        handleToggle(toggleSwitch, slider, container, beforeText, afterText);
+      });
+
+      // Add event listener for manual slider input
+      slider.addEventListener("input", () => {
+        const value = parseFloat(slider.value);
+        container.style.setProperty("--position", `${value}%`);
+        updateToggleFromSlider(
+          container,
+          slider,
+          toggleSwitch,
+          beforeText,
+          afterText
+        );
+      });
+    } else {
+      console.error(
+        "One or more elements (slider, container, beforeText, afterText) are missing."
+      );
+    }
   });
 });

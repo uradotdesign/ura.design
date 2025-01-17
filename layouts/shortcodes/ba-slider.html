@@ -146,11 +146,10 @@
             </div>
         </div>
 
-        <input id="slider" type="range" min="0" max="100" value="0" aria-label="Adjust before and after view slider" 
-            class="slider" />
+        <input type="range" min="0" max="100" value="0" aria-label="Adjust before and after view slider" class="slider" />
         <div class="slider-line" aria-hidden="true"></div>
         <div class="slider-button" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 256 256">
                 <rect width="256" height="256" fill="none"></rect>
                 <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                     stroke-linejoin="round" stroke-width="16"></line>
@@ -179,33 +178,28 @@ document.addEventListener('DOMContentLoaded', () => {
       toolbar.style.justifyContent = 'center';
       toolbar.style.gap = '0.5rem';
     } else {
-      console.log('Toolbar not found inside shadow DOM.');
+      //console.log('Toolbar not found inside shadow DOM.');
     }
   } else {
-    console.error('lottie-player element not found.');
+    //console.error('lottie-player element not found.');
   }
 });
 </script>
 
-<div class="d-flex justify-content-center align-items-center gap-2" role="group" aria-label="Toggle between Before and After views">
-    <span class="fw-semibold text-muted" id="before-text">Before</span>
+<div class="d-flex justify-content-center align-items-center gap-2 toggle-container mb-5" role="group" aria-label="Toggle between Before and After views">
+    <span class="fw-semibold text-muted before-text">Before</span>
     <label class="form-switch position-relative d-inline-block">
-        <input 
-            type="checkbox" 
-            class="form-check-input visually-hidden" 
-            id="view-toggle" 
-            checked 
-            aria-checked="true" 
-            aria-labelledby="before-text after-text"
-            aria-describedby="toggle-description"
-        >
+        <input
+            type="checkbox"
+            class="form-check-input visually-hidden toggle-input"
+            aria-checked="true"
+            aria-label="Toggle between Before and After views"
+            checked="checked"
+        />
         <span class="switch-slider rounded-pill"></span>
     </label>
-    <span class="fw-semibold" id="after-text">After</span>
+    <span class="fw-semibold after-text">After</span>
 </div>
-<p id="toggle-description" class="visually-hidden">
-    Use this toggle to switch between the Before and After views of the slider.
-</p>
 
 {{ $js := resources.Get "js/before-after-slider.js" | resources.Minify }}
 <script src="{{ $js.RelPermalink }}"></script>

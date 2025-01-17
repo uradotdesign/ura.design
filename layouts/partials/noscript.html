@@ -140,6 +140,22 @@
       display: block !important;
     }
 
+    .slider,
+    .slider-line,
+    .slider-button,
+    [aria-label="Toggle between Before and After views"],
+    .image-before.slider-image {
+      display: none !important;
+    }
+
+    .image-after.slider-image {
+
+      & .with-js,
+      & .no-js.d-block.d-lg-none {
+        display: none !important;
+      }
+    }
+
     @media (min-width: 992px) {
       .navbar-toggler.no-js {
         display: none !important;

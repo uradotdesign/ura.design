@@ -123,7 +123,7 @@ other = "Sign up now and start making a difference"
 [faq]
 other = "Frequently Asked Questions"
 [whatTest]
-other = "What Does It Mean to Be a Tester?"
+other = "What does it mean to be a tester?"
 [whatDescription]
 other = "As a tester, you’ll play a crucial role in improving open-source projects. Here’s what you can expect."
 
@@ -133,9 +133,9 @@ other = "Kontakt aufnehmen"
 [contactTeam]
 other = "Hast Du eine Herausforderung für uns? Setze Dich mit unserem Team in Verbindung, um zu sehen, wie wir helfen können."
 [preferCall]
-other = "Möchtest Du lieber ein persönliches Gespräch?"
+other = "Was unsere Kunden über uns sagen"
 [scheduleCall]
-other = "Einen Anruf vereinbaren"
+other = "Lesen Sie Erfahrungsberichte"
 [helpProject]
 other = "Können wir Dir bei Deinem Projekt helfen?"
 [contactUs]
@@ -147,7 +147,7 @@ other = "Wir sind auf"
 [letsTalk]
 other = "Lass uns reden"
 [getInvolved]
-other = "Werde Aktiv"
+other = "Mach mit"
 [researchPanel]
 other = "Forschungspanel"
 
