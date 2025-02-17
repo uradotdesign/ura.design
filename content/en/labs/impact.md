@@ -5,4 +5,4 @@ link = "https://www.opentech.fund/labs/impact-engagement-lab/"
 weight = 2
 +++
 
-Through the Impact & Engagement Lab, OTF is employing the help of researchers, writers, and designers to help projects across the finish line and ensure that, when the contract is closed out, the project efforts are documented in a compelling way.
+Through the Impact & Engagement Lab, OTF is offering communications support services to help technology-focused internet freedom projects effectively communicate updates and findings, educate users, tell their stories, and reach core audiences.
