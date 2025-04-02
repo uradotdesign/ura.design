@@ -6,48 +6,50 @@
     <description>Recent content in Web Development on Ura Design</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <managingEditor>hello@ura.design (Ura Design)</managingEditor>
+    <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 02 Apr 2025 18:05:56 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 18:06:28 +0200</lastBuildDate>
     <atom:link href="https://ura.design/en/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tumpa - Desktop App &amp; Landing page</title>
       <link>https://ura.design/en/work/tumpa/</link>
-      <pubDate>Mon, 16 Oct 2023 18:00:00 +0200</pubDate>
+      <pubDate>Mon, 16 Oct 2023 18:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/tumpa/</guid>
       <description>We transformed Tumpa&amp;rsquo;s identity and interface, ensuring intuitive interactions and clear pathways for OpenPGP key management.</description>
     </item>
     <item>
       <title>Internews SaferJourno</title>
       <link>https://ura.design/en/work/saferjourno/</link>
-      <pubDate>Sun, 17 Sep 2023 18:30:00 +0200</pubDate>
+      <pubDate>Sun, 17 Sep 2023 18:30:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/saferjourno/</guid>
       <description>We designed a distinct visual narrative for Internews SaferJourno, from the visual identity inception to a dedicated web platform for journalism trainers.</description>
     </item>
     <item>
       <title>PrototypeFund - Virtual Demo Week</title>
       <link>https://ura.design/en/work/demoweek/</link>
-      <pubDate>Sat, 11 Mar 2023 18:45:00 +0200</pubDate>
+      <pubDate>Sat, 11 Mar 2023 18:45:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/demoweek/</guid>
       <description>We developed a virtual demo week experience to enable projects from Rounds 7-10 of the German Prototype Fund to showcase their work in a virtual setting.</description>
     </item>
     <item>
       <title>Internews’ ADAPT</title>
       <link>https://ura.design/en/work/adapt/</link>
-      <pubDate>Mon, 24 Jan 2022 12:00:00 +0200</pubDate>
+      <pubDate>Mon, 24 Jan 2022 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/adapt/</guid>
       <description>We designed the full visual identity for Internews’ ADAPT, creating a style to graphically represent ADAPT everywhere.</description>
     </item>
     <item>
       <title>Oxidize - The Conference of embedded Rust</title>
       <link>https://ura.design/en/work/oxizide/</link>
-      <pubDate>Tue, 24 Mar 2020 12:00:00 +0200</pubDate>
+      <pubDate>Tue, 24 Mar 2020 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/oxizide/</guid>
       <description>We created the brand and visual identity for Oxidize, designing every digital and print asset for the conference and providing a long-term design solution.</description>
     </item>
     <item>
       <title>Thunderbird</title>
       <link>https://ura.design/en/work/thunderbird/</link>
-      <pubDate>Thu, 24 Jan 2019 12:00:00 +0200</pubDate>
+      <pubDate>Thu, 24 Jan 2019 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/thunderbird/</guid>
       <description>We created the new Thunderbird brand and helped the project with extensive usability research.</description>
     </item>
