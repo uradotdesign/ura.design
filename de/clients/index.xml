@@ -6,182 +6,187 @@
     <description>Recent content in Kunden on Ura Design</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <managingEditor>hello@ura.design (Ura Design)</managingEditor>
-    <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
     <atom:link href="https://ura.design/de/clients/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://ura.design/de/clients/mozilla/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/mozilla/</guid>
       <description>Visuelles Design und Illustrationen für Mitarbeiter, UI- und UX-Forschung und Design für Thunderbird.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/eclipse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/eclipse/</guid>
       <description>Branding und Web-Design für die AsciiDoc-Sprache und -Arbeitsgruppe.</description>
     </item>
     <item>
       <title></title>
+      <link>https://ura.design/de/clients/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ura.design/de/clients/github/</guid>
+      <description>Ecosystem partner for GitHub Secure Open Source Fund.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://ura.design/de/clients/tor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/tor/</guid>
       <description>Aktualisierungen des Brandings und UX-Design.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/tud/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/tud/</guid>
       <description>Markenidentität, Printdesign und Webentwicklung für Hessian.AI und Queryella.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/wikimedia-germany/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/wikimedia-germany/</guid>
       <description>Mentoring für Wikimedia Deutschland-Projekte</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/otf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
-      <guid>https://ura.design/de/clients/otf/</guid>
-      <description>Usability- und Design-Dienstleister für geförderte Projekte im Rahmen von SUA Lab und Learning Lab.</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://ura.design/de/clients/briar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/briar/</guid>
       <description>Markenidentität, Illustrationen, UX-Design, UX-Forschung und Zugänglichkeitstests für Briar Android und Desktop.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/calyx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/calyx/</guid>
       <description>Illustrationen und Zugänglichkeitstests für CalyxOS.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/cotech/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/cotech/</guid>
       <description>Web-Entwicklung für die Websites von COTECH, hwsecurity und heylogin.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/eff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/eff/</guid>
       <description>UX Design und Forschung für die Desktop-Browser-Erweiterung von HTTPS Everywhere.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/equalitie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/equalitie/</guid>
       <description>Markenidentität und UX-Forschung für verschiedene Projekte.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/ferrous/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/ferrous/</guid>
       <description>Markenidentität, Print- und Web-Design für Oxidize und Ferrocene.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/geocode-earth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/geocode-earth/</guid>
       <description>Markenidentität und Web-Design für Pelias und Geocode Earth.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/giz/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/giz/</guid>
       <description>Aktualisierung des Brandings und Druckdesign für openIMIS.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/greatfire/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/greatfire/</guid>
       <description>Layout-Design und UX-Forschung.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/greenhost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/greenhost/</guid>
       <description>Markenidentität, UX-Design und Tests für Stackspin und Totem Project.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/internews/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/internews/</guid>
       <description>Markenidentität, Layoutdesign, Webentwicklung und Nutzerforschung für Optima, Adapt, BASICS und mehr.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/magma-collective/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/magma-collective/</guid>
       <description>UX-Forschung und -Tests für Briar Android.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/okf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/okf/</guid>
       <description>Markenidentität, Web-Entwicklung und Web-Design für Prototype Fund und Open Knowledge Foundation.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/osso/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/osso/</guid>
       <description>Markenidentität und Druckdesign für verschiedene Open-Source-Bibliotheken.</description>
     </item>
     <item>
       <title></title>
+      <link>https://ura.design/de/clients/otf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ura.design/de/clients/otf/</guid>
+      <description>Usability- und Design-Dienstleister für geförderte Projekte im Rahmen von SUA Lab und Learning Lab.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://ura.design/de/clients/rust/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/rust/</guid>
       <description>Markenidentität, Webdesign und Drucksachen für das RustFest und andere Rust-Projekte.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/tech-cultivation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/tech-cultivation/</guid>
       <description>Branding, Informationsarchitektur und Webdesign für die Website von Tech Cultivation.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/unimichigan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/unimichigan/</guid>
       <description>Markenidentität und UX-Design für Censored Planet.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/whistleblower-aid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/whistleblower-aid/</guid>
       <description>Aktualisierung der Markenidentität für die Markenanmeldung von Whistleblower Aid.</description>
     </item>
     <item>
       <title></title>
       <link>https://ura.design/de/clients/whistleblowing-solutions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@ura.design (Ura Design)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/clients/whistleblowing-solutions/</guid>
       <description>Markenidentität, Web Design, UX Design und Testing für GlobaLeaks.</description>
     </item>
