@@ -30,7 +30,7 @@
                         <div class="data">
                             <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                             <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                            <p class="description mb-0 mt-2">{{ .Summary | truncate 200 }}</p>
+                            <p class="description mb-0 mt-2">{{ .Summary | plainify | truncate 200 }}</p>
                         </div>
                     </article>
                 </div>
@@ -41,7 +41,7 @@
                         <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" width="368px" height="276px" alt="{{ .Title }}">
                         <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                         <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                        <p class="description mb-0">{{ .Summary | plainify | truncate 200 }}</p>
                     </article>
                 </div>
                 {{ end }}
@@ -54,7 +54,7 @@
                         <img class="grayscale mb-3" src="{{ .Site.BaseURL }}{{ .Params.image }}" width="368px" height="276px" alt="{{ .Title }}" loading="lazy">
                         <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                         <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                        <p class="description mb-0">{{ .Summary | plainify | truncate 200 }}</p>
                     </article>
                 </div>
                 {{- end }}
@@ -76,7 +76,7 @@
                     <article class="card">
                         <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                         <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                        <p class="description mb-0">{{ .Summary | plainify | truncate 200 }}</p>
                     </article>
                 </div>
                 {{- end }}
@@ -89,7 +89,7 @@
                     <article class="card">
                         <p class="info mb-1">{{ i18n "readingTime" .Page.ReadingTime }} / <strong><time datetime="{{ .Date.Format .Site.Params.dateform }}">{{ .Date.Format .Site.Params.dateform }}</time></strong></p>
                         <a class="title mb-2 stretched-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                        <p class="description mb-0">{{ .Summary | truncate 200 }}</p>
+                        <p class="description mb-0">{{ .Summary | plainify | truncate 200 }}</p>
                     </article>
                 </div>
                 {{- end }}

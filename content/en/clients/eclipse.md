@@ -2,7 +2,7 @@
 name = "Eclipse Foundation"
 image = "eclipse"
 link = "https://www.eclipse.org/"
-weight = 2
+weight = 3
 home = true
 +++
 
