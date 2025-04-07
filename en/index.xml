@@ -9,7 +9,7 @@
     <managingEditor>hello@ura.design (Ura Design)</managingEditor>
     <webMaster>hello@ura.design (Ura Design)</webMaster>
     <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Fri, 04 Apr 2025 10:39:54 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 12:14:29 +0200</lastBuildDate>
     <atom:link href="https://ura.design/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -325,6 +325,13 @@
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
       <guid>https://ura.design/en/work/reset-tech/</guid>
       <description>We refreshed Reset Tech’s visual identity by leading collaborative workshops, establishing clear guidelines, and creating illustrations for digital platforms, print, and accessible data visualizations. The result is a progressive identity that connects with diverse audiences.</description>
+    </item>
+    <item>
+      <title>Mailvelope UX &amp; UI Improvements</title>
+      <link>https://ura.design/en/work/mailvelope/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0200</pubDate><author>hello@ura.design (Ura Design)</author>
+      <guid>https://ura.design/en/work/mailvelope/</guid>
+      <description>We made it easier to set up Mailvelope in Nextcloud Mail and send encrypted emails.</description>
     </item>
     <item>
       <title>Qubes OS Usability Audit</title>
