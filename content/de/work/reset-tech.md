@@ -1,4 +1,5 @@
 +++
+featured = true
 layout = "work/single"
 theme = "light"
 background = "#FAFAFA"
@@ -35,7 +36,8 @@ We kicked off the project by bringing key Reset Tech stakeholders together for t
 
 We asked participants to bring images they felt represented Reset Tech. This was a free-thinking exercise - colors, shapes, moods, concepts - anything that felt aligned with their brand was welcome. From the discussions that followed, three distinct visual style directions emerged: **Modern Minimalist**, **Bauhaus Precision**, and **Digital Collage**.
 
-{{< figure src="/img/work/reset-tech-moodboards.webp" alt="Reset Tech Moodboards" >}}
+{{< figure class="on-light" src="/img/work/reset-tech-moodboards.webp" alt="Reset Tech Moodboards" >}}
+{{< figure class="on-dark" src="/img/work/reset-tech-moodboards-dark.webp" alt="Reset Tech Moodboards" >}}
 
 ## The Eureka Moment
 
@@ -51,7 +53,8 @@ By defining these audience groups, we realized we didn’t have to pick just one
 
 Instead of a one size fits all approach, Reset Tech’s new visual system became flexible, allowing each audience to engage with their content in the most effective way.
 
-{{< figure class="with-js" src="/img/work/reset-tech-approach.svg" alt="Reset Tech approach" >}}
+{{< figure class="with-js on-light" src="/img/work/reset-tech-approach.svg" alt="Reset Tech approach" >}}
+{{< figure class="with-js on-dark" src="/img/work/reset-tech-approach-dark.svg" alt="Reset Tech approach" >}}
 {{< figure class="no-js" src="/img/work/reset-tech-approach.webp" alt="Reset Tech approach" >}}
 
 ## Guidelines & Application

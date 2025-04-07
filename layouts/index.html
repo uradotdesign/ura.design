@@ -19,10 +19,10 @@
             <h3 class="pt-3 text-xl-start text-center text-uppercase custom-text">{{ i18n "featuredStudies" }}</h3>
 
             <div class="row pt-3 pb-3">
-                {{ range first 2 (where (where .Site.RegularPages "Type" "work") "Params.featured" "=" true) }}
-                <div class="col-xl-6 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
+                {{ range first 3 (where (where .Site.RegularPages "Type" "work") "Params.featured" "=" true) }}
+                <div class="col-xl-4 col-lg-12 col-12 pb-xl-0 pb-4 d-flex flex-column work">
                     <a class="zoom-wrapper" href="{{ .Permalink }}" aria-label="{{ .Title }} case study">
-                        <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Page.Params.images }}{{ index . 1 }}{{ end -}}.svg" width="636px" height="357px" alt="">
+                        <img class="img-fluid w-100 with-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Page.Params.images }}{{ index . 1 }}{{ end -}}.svg" width="420px" height="236px" alt="">
                         <img class="img-fluid w-100 no-js" src="{{ .Site.BaseURL }}/img/work/{{- with .Page.Params.images }}{{ index . 1 }}{{ end -}}.webp" alt="">
                     </a>
                     {{ $path := printf "/%s/%s" "img/work" .Params.image }}
