@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta charset="UTF-8" />
-    <meta name="author" content="hello@ura.design Ura Design " />
+    <meta name="author" content="" />
     <meta name="description" content="Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects." />
     <meta name="keywords" content="design, ux, ui, public, developer, privacy, security, foss, floss" />
     <meta name="robots" content="noodp" />
@@ -17,7 +17,7 @@
         OONI Illustration System :: Ura Design
     </title>
 
-    <link rel="stylesheet" href="https://ura.design/main.6d8399bb406e31a0b972153d7d74933444050b8b4c090ce61892d5d6bfd3f0ae.css" />
+    <link rel="stylesheet" href="https://ura.design/main.f89f11c842cf3b344c7301efd3fd4af44ea030113e189546fde770986217dea5.css" />
 
     <noscript>
         <style>
@@ -280,7 +280,7 @@
     <meta itemprop="name" content="OONI Illustration System">
     <meta itemprop="description" content="We created a modular illustration system for OONI making it easy for both designers and non-designers to craft their own illustrations, bringing the OONIverse to life.">
     <meta itemprop="datePublished" content="2024-12-16T12:00:00+02:00">
-    <meta itemprop="dateModified" content="2025-04-07T12:14:29+02:00">
+    <meta itemprop="dateModified" content="2025-04-08T15:27:39+02:00">
     <meta itemprop="wordCount" content="649">
     <meta itemprop="image" content="https://ura.design/img/work/ooni-illustration-system.webp">
     <meta itemprop="image" content="https://ura.design/ooni-illustration-system">
@@ -293,7 +293,7 @@
     <meta property="og:type" content="article">
     <meta property="article:section" content="work">
     <meta property="article:published_time" content="2024-12-16T12:00:00+02:00">
-    <meta property="article:modified_time" content="2025-04-07T12:14:29+02:00">
+    <meta property="article:modified_time" content="2025-04-08T15:27:39+02:00">
     <meta property="og:image" content="https://ura.design/img/work/ooni-illustration-system.webp">
     <meta property="og:image" content="https://ura.design/ooni-illustration-system">
 
@@ -658,12 +658,7 @@
                             </p>
                             <h2 id="adding-emotional-depth">Adding Emotional Depth</h2>
                             <p>Adding an array of emotions brought the characters to life, infusing them with personality and expression. We designed a range of expressions, including neutral, bored, excited, shy, and angry, to cover the main emotions the character would need. This variety ensures that the mascot is vivid, lifelike, and approachable, making it easier to connect with and engage the audience.</p>
-
                             <script src="https://ura.design/js/lottie-player.min.js"></script>
-
-                            <lottie-player src="https://lottie.host/79ec3797-da81-4e42-8260-cb907ddbfa67/TyiAKnh6SA.json" background="transparent" speed="1" loop controls autoplay>
-                            </lottie-player>
-
                             <style>
                                 lottie-player {
                                     height: 300px;
@@ -674,8 +669,43 @@
                                     --lottie-player-toolbar-icon-hover-color: #555;
                                     --lottie-player-toolbar-icon-active-color: #222;
                                 }
-                            </style>
 
+                                .sync-lottie {
+                                    display: inline-flex;
+                                    width: auto;
+                                    height: auto;
+                                }
+
+                                .player {
+                                    border: 0;
+                                    background-color: transparent;
+                                    color: #525252;
+                                }
+
+                                .player:hover {
+                                    color: #000000;
+                                }
+                            </style>
+                            <div class="col-auto">
+                                <lottie-player src="https://ura.design/img/work/ooni-eyes.json" background="transparent" speed="1" loop controls autoplay>
+                                </lottie-player>
+
+                            </div>
+
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    const animations = document.querySelectorAll(".sync-lottie");
+                                    document.getElementById("playAll").addEventListener("click", () => {
+                                        animations.forEach(anim => anim.play());
+                                    });
+                                    document.getElementById("pauseAll").addEventListener("click", () => {
+                                        animations.forEach(anim => anim.pause());
+                                    });
+                                    document.getElementById("stopAll").addEventListener("click", () => {
+                                        animations.forEach(anim => anim.stop());
+                                    });
+                                });
+                            </script>
                             <h2 id="expanding-the-ooniverse">Expanding the OONIverse</h2>
                             <p>Once the mascot was ready, we set out to build a world for them to explore. Using a similar modular approach, we developed two additional characters: the fish and the eel, each with its own set of components and variations. We also created scenes or ‘play sets’ featuring interchangeable elements like seaweed and various ‘underwater’ shapes, allowing for the creation of lively and dynamic scenes, including different color modes for different depths of the ocean.</p>
                             <figure><img src="https://ura.design/img/work/ooni-ooniverse.webp" alt="OONIverse" loading="lazy" />
