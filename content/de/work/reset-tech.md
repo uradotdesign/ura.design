@@ -30,6 +30,20 @@ Reset had a loosely defined brand identity, but as the organization grew and mor
 
 With a diverse audience that included policymakers, researchers,  as well as the general public, the challenge was ensuring their messaging was visually cohesive yet adaptable to different contexts. Our goal was to create a refined visual identity that resonated with all their audiences while keeping their communications clear and engaging.
 
+<div class="row justify-content-start justify-content-xl-between gap-2 my-4">
+{{< lottie src="/img/work/reset-tech-technology.json" loop="true" autoplay="true" class="sync-lottie" caption="Technology" >}}
+{{< lottie src="/img/work/reset-tech-network.json" loop="true" autoplay="true" class="sync-lottie" caption="Network" >}}
+{{< lottie src="/img/work/reset-tech-research.json" loop="true" autoplay="true" class="sync-lottie" caption="Research" >}}
+{{< lottie src="/img/work/reset-tech-policy.json" loop="true" autoplay="true" class="sync-lottie" caption="Policy" >}}
+{{< lottie src="/img/work/reset-tech-philantropy.json" loop="true" autoplay="true" class="sync-lottie" caption="Philantropy" >}}
+</div>
+
+<div class="text-center my-3">
+<button class="player me-2" id="playAll">{{< fontawesome "solid/play" >}} Play All</button>
+<button class="player me-2" id="pauseAll">{{< fontawesome "solid/pause" >}} Pause All</button>
+<button class="player" id="stopAll">{{< fontawesome "solid/stop" >}} Stop All</button>
+</div>
+
 ## Concept & Workshops
 
 We kicked off the project by bringing key Reset Tech stakeholders together for three collaborative workshops. Using FigJam and post-it notes, we stripped things back to the basics: Who is Reset Tech? What do they stand for? What challenges do they face from a branding perspective?

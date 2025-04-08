@@ -70,7 +70,7 @@ Designing the mascot’s tentacles presented several challenges. The primary goa
 
 Adding an array of emotions brought the characters to life, infusing them with personality and expression. We designed a range of expressions, including neutral, bored, excited, shy, and angry, to cover the main emotions the character would need. This variety ensures that the mascot is vivid, lifelike, and approachable, making it easier to connect with and engage the audience.
 
-{{< lottie src="https://lottie.host/79ec3797-da81-4e42-8260-cb907ddbfa67/TyiAKnh6SA.json" loop="true" autoplay="true" controls="true" >}}
+{{< lottie src="/img/work/ooni-eyes.json" loop="true" autoplay="true" controls="true" >}}
 
 ## Expanding the OONIverse
 

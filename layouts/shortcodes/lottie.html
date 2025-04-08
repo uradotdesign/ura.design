@@ -1,23 +1,70 @@
-{{ $lottieScript := resources.Get "js/lottie-player.js" | resources.Minify }}
-<script src="{{ $lottieScript.RelPermalink }}"></script>
+{{/* Only include the script and style once */}}
+{{- if not (.Page.Scratch.Get "lottie-script-loaded") -}}
+  {{- $lottieScript := resources.Get "js/lottie-player.js" | resources.Minify -}}
+  <script src="{{ $lottieScript.RelPermalink }}"></script>
+  <style>
+    lottie-player {
+      height: 300px;
+      max-width: 100%;
+      max-height: 100%;
+      --lottie-player-seeker-display: none;
+      --lottie-player-toolbar-icon-color: #999;
+      --lottie-player-toolbar-icon-hover-color: #555;
+      --lottie-player-toolbar-icon-active-color: #222;
+    }
 
+    .sync-lottie {
+      display: inline-flex;
+      width: auto;
+      height: auto;
+    }
+
+    .player {
+      border: 0;
+      background-color: transparent;
+      color: #525252;
+    }
+
+    .player:hover {
+        color: #000000;
+    }
+  </style>
+  {{- .Page.Scratch.Set "lottie-script-loaded" true -}}
+{{- end -}}
+
+<div class="col-auto">
 <lottie-player
-  src="{{ .Get "src" | relURL }}"
+  src="{{ .Get "src" }}"
   background="{{ .Get "background" | default "transparent" }}"
   speed="{{ .Get "speed" | default "1" }}"
   {{ if .Get "loop" }}loop{{ end }}
   {{ if .Get "controls" }}controls{{ end }}
-  {{ if .Get "autoplay" }}autoplay{{ end }}>
+  {{ if .Get "autoplay" }}autoplay{{ end }}
+  {{ with .Get "id" }}id="{{ . }}"{{ end }}
+  {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 </lottie-player>
 
-<style>
-lottie-player {
-  height: 300px;
-  max-width: 100%;
-  max-height: 100%;
-  --lottie-player-seeker-display: none;
-  --lottie-player-toolbar-icon-color: #999;
-  --lottie-player-toolbar-icon-hover-color: #555;
-  --lottie-player-toolbar-icon-active-color: #222;
-}
-</style>
+{{ with .Get "caption" }}
+  <div class="mt-1 fs-5">
+    {{ . }}
+  </div>
+{{ end }}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const animations = document.querySelectorAll(".sync-lottie");
+
+    document.getElementById("playAll").addEventListener("click", () => {
+      animations.forEach(anim => anim.play());
+    });
+
+    document.getElementById("pauseAll").addEventListener("click", () => {
+      animations.forEach(anim => anim.pause());
+    });
+
+    document.getElementById("stopAll").addEventListener("click", () => {
+      animations.forEach(anim => anim.stop());
+    });
+  });
+</script>

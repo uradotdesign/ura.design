@@ -33,9 +33,9 @@ pluralizeListTitles = false
 [permalinks]
   blog = "/blog/:filename/"
 
-[author]
-  name = "Ura Design"
-  email = "hello@ura.design"
+#[author]
+#  name = "Ura Design"
+#  email = "hello@ura.design"
 
 [markup]
   [markup.goldmark]
