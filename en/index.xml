@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Some rights reserved. Unless otherwise noted, content on this page is under a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative Commons license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Tue, 08 Apr 2025 15:27:39 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 09:52:11 +0200</lastBuildDate>
     <atom:link href="https://ura.design/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -309,6 +309,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/en/services/web-development/</guid>
       <description>We are not your usual WordPress website developers. While working with dozens of open source communities we understood that no one wants to maintain a backend for a simple website. We specialize in static site generators such as Hugo or Jekyll to craft websites.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ura.design/en/authors/anxhela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ura.design/en/authors/anxhela/</guid>
+      <description></description>
     </item>
     <item>
       <title>Ura Design is now an Ecosystem Partner of the GitHub Secure Open Source (SOSS) Fund</title>

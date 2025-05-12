@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <lastBuildDate>Tue, 08 Apr 2025 15:27:39 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 09:52:11 +0200</lastBuildDate>
     <atom:link href="https://ura.design/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -281,6 +281,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ura.design/de/services/web-development/</guid>
       <description>Wir sind keine üblichen WordPress-Website-Entwickler. Während unserer Arbeit mit Dutzenden von Open-Source-Communities haben wir verstanden, dass niemand ein Backend für eine einfache Webseite pflegen möchte. Wir haben uns auf statische Website-Generatoren wie Hugo oder Jekyll spezialisiert, um Webseites zu erstellen (so wie diese Webseite wo Du gerade bist).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ura.design/de/authors/anxhela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ura.design/de/authors/anxhela/</guid>
+      <description></description>
     </item>
     <item>
       <title>Reset Tech: Visual Identity Refresh</title>
