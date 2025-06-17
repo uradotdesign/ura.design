@@ -62,7 +62,7 @@
         <hr class="my-0">
         <div class="row pt-4">
             {{ range where (where .Site.RegularPages "Type" "authors") "Params.alumni" "=" true }}
-            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+            <div class="col-xl-4 col-lg-4 col-sm-6 col-12 mb-3">
                 <h4 class="mb-1">{{ .Page.Params.name }}</h4>
                 <p>{{ .Page.Params.position }}</p>
                 {{ if .Page.Params.github }}
