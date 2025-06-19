@@ -17,5 +17,7 @@ Gottschedstraße 4\
 Tax ID: 34/481/01445\
 VAT: DE357155567
 
+Trade Register: Amtsgericht Charlottenburg (Berlin) HRA 63392 B
+
 Email: hello@ura.design\
 Website: https://ura.design

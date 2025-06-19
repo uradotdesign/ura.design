@@ -17,5 +17,7 @@ Gottschedstraße 4\
 Steuernummer: 34/481/01445\
 USt.-IDNr: DE357155567
 
+Handelsregister: Amtsgericht Charlottenburg (Berlin) HRA 63392 B
+
 Email: hello@ura.design\
 Website: https://ura.design
