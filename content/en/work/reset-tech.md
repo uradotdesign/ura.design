@@ -13,16 +13,13 @@ tags = []
 categories = ["Branding", "Illustrations"]
 [links]
     "Reset Tech Website" = "https://reset.tech/"
-    "Visual Guidelines" = "https://cloud.ura.design/s/sfoK2CTWcmfn4gs"
-    "Report: Profiting from Propaganda" = "https://www.reset.tech/resources/profiting-from-propaganda/"
-    "Report: Verified Disinformation" = "https://www.reset.tech/resources/verified-disinformation-research-report/"
 +++
 
 {{< figure src="/img/work/reset-tech-cover.webp" alt="Reset Tech" >}}
 
 ## About Reset Tech
 
-Reset Tech is a global nonprofit working to defend democracy from digital threats. Their goal is to reset the relationship between media and democracy by tackling misinformation and disinformation with data-driven research. They focus on making their findings accessible to a wide range of audiences, from policymakers to the public, shaping policy and public debate as a trusted voice in today’s digital landscape.
+Reset Tech is a global nonprofit working to guard against digital threats to security, safety, and fundamental rights. Their goal is to reset the connection between media and democracy to restore the promise of technology that works for people and free expression with data-driven research. They focus on making their findings accessible to a wide range of audiences, from policymakers to the public, shaping policy and public debate as a trusted voice in today’s digital landscape.
 
 ## Objectives and Goal
 
