@@ -7,17 +7,15 @@ text = "#FFFFFF"
 
 Ura Design wird betrieben von (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):
 
-Elio Qoshi\
-Ura Design e.K.\
-c/o Cultivation Space\
-Aufgang 4\
+Ura Design GmbH\
+c/o Center for the Cultivation of Technology gemeinnützige GmbH, Aufgang 4,\
 Gottschedstraße 4\
-13357 Berlin, Deutschland
+13357 Berlin\
+Deutschland
+ 
+Steuernummer und Umsatzsteuer-Identifikationsnummer: beantragt
 
-Steuernummer: 34/481/01445\
-USt.-IDNr: DE357155567
-
-Handelsregister: Amtsgericht Charlottenburg (Berlin) HRA 63392 B
+HRB 279684 Amtsgericht Berlin (Charlottenburg)
 
 Email: hello@ura.design\
 Website: https://ura.design
