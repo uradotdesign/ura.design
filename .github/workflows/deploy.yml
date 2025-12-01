@@ -51,7 +51,7 @@ jobs:
       run: ./hugo -d public
 
     - name: Create CNAME file
-      run: echo 'ura.design' > public/CNAME
+      run: echo 'old.ura.design' > public/CNAME
 
     - name: Remove unwanted files
       run: |
