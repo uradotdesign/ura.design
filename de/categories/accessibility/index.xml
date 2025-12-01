@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accessibility on Ura Design</title>
-    <link>https://ura.design/de/categories/accessibility/</link>
+    <link>https://old.ura.design/de/categories/accessibility/</link>
     <description>Recent content in Accessibility on Ura Design</description>
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <lastBuildDate>Mon, 01 Dec 2025 14:52:45 +0100</lastBuildDate>
-    <atom:link href="https://ura.design/de/categories/accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Dec 2025 14:58:03 +0100</lastBuildDate>
+    <atom:link href="https://old.ura.design/de/categories/accessibility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mailvelope UX &amp; UI Improvements</title>
-      <link>https://ura.design/de/work/mailvelope/</link>
+      <link>https://old.ura.design/de/work/mailvelope/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/mailvelope/</guid>
+      <guid>https://old.ura.design/de/work/mailvelope/</guid>
       <description>We made it easier to set up Mailvelope in Nextcloud Mail and send encrypted emails.</description>
     </item>
     <item>
       <title>Qubes OS Usability Audit</title>
-      <link>https://ura.design/de/work/qubesos/</link>
+      <link>https://old.ura.design/de/work/qubesos/</link>
       <pubDate>Wed, 08 Jan 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/qubesos/</guid>
+      <guid>https://old.ura.design/de/work/qubesos/</guid>
       <description>Qubes OS is renowned for its security, but its complex interface can be a major hurdle for new users. This project aimed to untangle that complexity while preserving the advanced protections that make it one of the most secure systems available.</description>
     </item>
     <item>
       <title>Rallly - Rebranding &amp; User Research</title>
-      <link>https://ura.design/de/work/rallly/</link>
+      <link>https://old.ura.design/de/work/rallly/</link>
       <pubDate>Tue, 13 Feb 2024 18:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/rallly/</guid>
+      <guid>https://old.ura.design/de/work/rallly/</guid>
       <description>We redesigned Rallly&amp;rsquo;s identity, delivering a fresh look and offered strategic UX recommendations for an improved user experience.</description>
     </item>
     <item>
       <title>Tumpa - Desktop App &amp; Landing page</title>
-      <link>https://ura.design/de/work/tumpa/</link>
+      <link>https://old.ura.design/de/work/tumpa/</link>
       <pubDate>Mon, 16 Oct 2023 18:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/tumpa/</guid>
+      <guid>https://old.ura.design/de/work/tumpa/</guid>
       <description>We transformed Tumpa&amp;rsquo;s identity and interface, ensuring intuitive interactions and clear pathways for OpenPGP key management.</description>
     </item>
     <item>
       <title>Internews SaferJourno</title>
-      <link>https://ura.design/de/work/saferjourno/</link>
+      <link>https://old.ura.design/de/work/saferjourno/</link>
       <pubDate>Sun, 17 Sep 2023 18:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/saferjourno/</guid>
+      <guid>https://old.ura.design/de/work/saferjourno/</guid>
       <description>We designed a distinct visual narrative for Internews SaferJourno, from the visual identity inception to a dedicated web platform for journalism trainers.</description>
     </item>
     <item>
       <title>Open Technology Fund - Annual Report</title>
-      <link>https://ura.design/de/work/otf-annual-report/</link>
+      <link>https://old.ura.design/de/work/otf-annual-report/</link>
       <pubDate>Sat, 16 Sep 2023 11:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/otf-annual-report/</guid>
+      <guid>https://old.ura.design/de/work/otf-annual-report/</guid>
       <description>We designed the layout of the OTF Annual Report, creating a consistent visual language which emphasizes their motive, principles and style.</description>
     </item>
     <item>
       <title>CalyxOS</title>
-      <link>https://ura.design/de/work/calyxos/</link>
+      <link>https://old.ura.design/de/work/calyxos/</link>
       <pubDate>Thu, 24 Mar 2022 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/calyxos/</guid>
+      <guid>https://old.ura.design/de/work/calyxos/</guid>
       <description>We provided a new visual style for CalyxOS, concretized into graphics to illustrate their main concepts and new wallpaper images for the Operating System.</description>
     </item>
   </channel>

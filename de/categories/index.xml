@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ura Design</title>
-    <link>https://ura.design/de/categories/</link>
+    <link>https://old.ura.design/de/categories/</link>
     <description>Recent content in Categories on Ura Design</description>
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <atom:link href="https://ura.design/de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.ura.design/de/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Branding</title>
-      <link>https://ura.design/de/categories/branding/</link>
+      <link>https://old.ura.design/de/categories/branding/</link>
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/branding/</guid>
+      <guid>https://old.ura.design/de/categories/branding/</guid>
       <description></description>
     </item>
     <item>
       <title>Illustrations</title>
-      <link>https://ura.design/de/categories/illustrations/</link>
+      <link>https://old.ura.design/de/categories/illustrations/</link>
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/illustrations/</guid>
+      <guid>https://old.ura.design/de/categories/illustrations/</guid>
       <description></description>
     </item>
     <item>
       <title>Accessibility</title>
-      <link>https://ura.design/de/categories/accessibility/</link>
+      <link>https://old.ura.design/de/categories/accessibility/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/accessibility/</guid>
+      <guid>https://old.ura.design/de/categories/accessibility/</guid>
       <description></description>
     </item>
     <item>
       <title>Interaction Design</title>
-      <link>https://ura.design/de/categories/interaction-design/</link>
+      <link>https://old.ura.design/de/categories/interaction-design/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/interaction-design/</guid>
+      <guid>https://old.ura.design/de/categories/interaction-design/</guid>
       <description></description>
     </item>
     <item>
       <title>UX Research</title>
-      <link>https://ura.design/de/categories/ux-research/</link>
+      <link>https://old.ura.design/de/categories/ux-research/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/ux-research/</guid>
+      <guid>https://old.ura.design/de/categories/ux-research/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Development</title>
-      <link>https://ura.design/de/categories/web-development/</link>
+      <link>https://old.ura.design/de/categories/web-development/</link>
       <pubDate>Mon, 16 Oct 2023 18:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/web-development/</guid>
+      <guid>https://old.ura.design/de/categories/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Layout Design</title>
-      <link>https://ura.design/de/categories/layout-design/</link>
+      <link>https://old.ura.design/de/categories/layout-design/</link>
       <pubDate>Sat, 16 Sep 2023 11:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/categories/layout-design/</guid>
+      <guid>https://old.ura.design/de/categories/layout-design/</guid>
       <description></description>
     </item>
   </channel>

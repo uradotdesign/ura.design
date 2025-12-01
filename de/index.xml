@@ -2,823 +2,823 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ura Design</title>
-    <link>https://ura.design/de/</link>
+    <link>https://old.ura.design/de/</link>
     <description>Recent content on Ura Design</description>
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Einige Rechte vorbehalten. Sofern nicht anders angegeben, steht der Inhalt dieser Seite unter einer &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;License&#34;&gt; Creative-Commons-Lizenz&lt;/a&gt;.</copyright>
-    <lastBuildDate>Mon, 01 Dec 2025 14:52:45 +0100</lastBuildDate>
-    <atom:link href="https://ura.design/de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Dec 2025 14:58:03 +0100</lastBuildDate>
+    <atom:link href="https://old.ura.design/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/breror/</link>
+      <link>https://old.ura.design/de/authors/breror/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/breror/</guid>
+      <guid>https://old.ura.design/de/authors/breror/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/elio/</link>
+      <link>https://old.ura.design/de/authors/elio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/elio/</guid>
+      <guid>https://old.ura.design/de/authors/elio/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/renata/</link>
+      <link>https://old.ura.design/de/authors/renata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/renata/</guid>
+      <guid>https://old.ura.design/de/authors/renata/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/mozilla/</link>
+      <link>https://old.ura.design/de/clients/mozilla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/mozilla/</guid>
+      <guid>https://old.ura.design/de/clients/mozilla/</guid>
       <description>Visuelles Design und Illustrationen für Mitarbeiter, UI- und UX-Forschung und Design für Thunderbird.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/testimonials/sara/</link>
+      <link>https://old.ura.design/de/testimonials/sara/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/testimonials/sara/</guid>
+      <guid>https://old.ura.design/de/testimonials/sara/</guid>
       <description>“Als wir an einem Styleguide für das Tor-Projekt arbeiteten, verstand Ura die Bedürfnisse der Open-Source-Gemeinschaft, und lieferte ein tadelloses Ergebnis.”</description>
     </item>
     <item>
       <title>Branding</title>
-      <link>https://ura.design/de/services/branding/</link>
+      <link>https://old.ura.design/de/services/branding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/services/branding/</guid>
+      <guid>https://old.ura.design/de/services/branding/</guid>
       <description>Die Visuelle Identität ist oft ein nachträglicher Gedanke, besonders im Open-Source-Bereich. Wir möchten diesen Status quo ändern und mit Dir zusammenarbeiten, um den Charakter und die Geschichte Eurer Identität besser zu verstehen. Unsere Branding-Dienstleistungen reichen vom Logodesign über das Layoutdesign bis hin zum Druck. Ganz gleich, ob Du eine kleine Auffrischung oder eine komplette Überarbeitung benötigst, wir arbeiten mit Dir bis zur Ziellinie.</description>
     </item>
     <item>
       <title>Entdecken</title>
-      <link>https://ura.design/de/otfhelp/discovering/</link>
+      <link>https://old.ura.design/de/otfhelp/discovering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/otfhelp/discovering/</guid>
+      <guid>https://old.ura.design/de/otfhelp/discovering/</guid>
       <description>Zu Beginn des Projekts können wir gemeinsam mit dir den Problembereich erkunden und mögliche Wege finden, um dir zu helfen, die richtigen Fragen zu stellen. Dazu kann gehören, dass du deine Zielgruppe verstehst, für die richtige Zielgruppe entwirfst oder mögliche User Journeys für neue Funktionen herausfindest.</description>
     </item>
     <item>
       <title>Pro Bono</title>
-      <link>https://ura.design/de/opentechfund/probono/</link>
+      <link>https://old.ura.design/de/opentechfund/probono/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/opentechfund/probono/</guid>
+      <guid>https://old.ura.design/de/opentechfund/probono/</guid>
       <description>Wir arbeiten mit dem Open Tech Fund zusammen, der unsere Arbeit finanziert, damit wir kritischen Open-Source-Projekten Pro-Bono-Dienste anbieten können.</description>
     </item>
     <item>
       <title>Secure Usability and Accessibility Lab</title>
-      <link>https://ura.design/de/labs/sua/</link>
+      <link>https://old.ura.design/de/labs/sua/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/labs/sua/</guid>
+      <guid>https://old.ura.design/de/labs/sua/</guid>
       <description>Das OTF Secure Usability and Accessibility Lab, kurz SUA Lab bietet Unterstützung für sichere Benutzerfreundlichkeit und Benutzeroberflächen für Tools zur Förderung der Internetfreiheit und der digitalen Sicherheit.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/anxhelo/</link>
+      <link>https://old.ura.design/de/authors/anxhelo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/anxhelo/</guid>
+      <guid>https://old.ura.design/de/authors/anxhelo/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/rudolf/</link>
+      <link>https://old.ura.design/de/authors/rudolf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/rudolf/</guid>
+      <guid>https://old.ura.design/de/authors/rudolf/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/sabine/</link>
+      <link>https://old.ura.design/de/authors/sabine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/sabine/</guid>
+      <guid>https://old.ura.design/de/authors/sabine/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/eclipse/</link>
+      <link>https://old.ura.design/de/clients/eclipse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/eclipse/</guid>
+      <guid>https://old.ura.design/de/clients/eclipse/</guid>
       <description>Branding und Web-Design für die AsciiDoc-Sprache und -Arbeitsgruppe.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/github/</link>
+      <link>https://old.ura.design/de/clients/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/github/</guid>
+      <guid>https://old.ura.design/de/clients/github/</guid>
       <description>Ecosystem partner for GitHub Secure Open Source Fund.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/testimonials/jeff/</link>
+      <link>https://old.ura.design/de/testimonials/jeff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/testimonials/jeff/</guid>
+      <guid>https://old.ura.design/de/testimonials/jeff/</guid>
       <description>“Das Team von Ura war sehr professionell als es darum ging unsere Erwartungen zu erfahren und flexibel genug zu sein, wenn sich Anforderungen änderten.”</description>
     </item>
     <item>
       <title>Barrierefreiheit</title>
-      <link>https://ura.design/de/services/accessibility/</link>
+      <link>https://old.ura.design/de/services/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/services/accessibility/</guid>
+      <guid>https://old.ura.design/de/services/accessibility/</guid>
       <description>Wir betrachten Barrierefreiheit als ein Erfordernis und nicht als Extra. Automatische Accessibilty Tests sind nicht genug. Wir bieten manuelle und automatisierte Accessibility Tests an, einschließlich bewährter Praktiken in Design und Entwicklung, um sicherzustellen, dass Dein Projekt mit ADA, Abschnitt 508 und WCAG 2.1 AA oder höher konform ist.</description>
     </item>
     <item>
       <title>Learning Lab</title>
-      <link>https://ura.design/de/labs/learning/</link>
+      <link>https://old.ura.design/de/labs/learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/labs/learning/</guid>
+      <guid>https://old.ura.design/de/labs/learning/</guid>
       <description>Über das Learning Lab stellt OTF die Hilfe von Forschern, Redakteuren und Designern in Anspruch, um Projekte über die Ziellinie zu bringen und sicherzustellen, dass bei Vertragsabschluss die Projektbemühungen auf überzeugende Weise dokumentiert werden.</description>
     </item>
     <item>
       <title>Null Gemeinkosten</title>
-      <link>https://ura.design/de/opentechfund/overhead/</link>
+      <link>https://old.ura.design/de/opentechfund/overhead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/opentechfund/overhead/</guid>
+      <guid>https://old.ura.design/de/opentechfund/overhead/</guid>
       <description>Als Teil der Gemeinschaft für Internetfreiheit verfügen wir bereits über Verfahren, mit denen wir so schnell wie möglich von der Idee zur Umsetzung kommen können. Kein Papierkram oder Buchhaltung erforderlich.</description>
     </item>
     <item>
       <title>Umstrukturierung</title>
-      <link>https://ura.design/de/otfhelp/refactoring/</link>
+      <link>https://old.ura.design/de/otfhelp/refactoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/otfhelp/refactoring/</guid>
+      <guid>https://old.ura.design/de/otfhelp/refactoring/</guid>
       <description>Du hast eine technisch funktionierende Lösung, brauchst aber etwas Unterstützung beim Aufräumen, egal ob es um die Informationsarchitektur oder das Layout geht. Wir können dich beim Design-Housekeeping unterstützen, ohne dass du große Designänderungen vornehmen musst.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/ergi/</link>
+      <link>https://old.ura.design/de/authors/ergi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/ergi/</guid>
+      <guid>https://old.ura.design/de/authors/ergi/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/marit/</link>
+      <link>https://old.ura.design/de/authors/marit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/marit/</guid>
+      <guid>https://old.ura.design/de/authors/marit/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/tin/</link>
+      <link>https://old.ura.design/de/authors/tin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/tin/</guid>
+      <guid>https://old.ura.design/de/authors/tin/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/tor/</link>
+      <link>https://old.ura.design/de/clients/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/tor/</guid>
+      <guid>https://old.ura.design/de/clients/tor/</guid>
       <description>Aktualisierungen des Brandings und UX-Design.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/testimonials/florian/</link>
+      <link>https://old.ura.design/de/testimonials/florian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/testimonials/florian/</guid>
+      <guid>https://old.ura.design/de/testimonials/florian/</guid>
       <description>“Wir haben gerne mit Ura für Oxidize zusammengearbeitet. Von der Forschung über das Design bis hin zur Implementierung hat alles hervorragend funktioniert.”</description>
     </item>
     <item>
       <title>Community Netzwerk</title>
-      <link>https://ura.design/de/opentechfund/network/</link>
+      <link>https://old.ura.design/de/opentechfund/network/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/opentechfund/network/</guid>
+      <guid>https://old.ura.design/de/opentechfund/network/</guid>
       <description>Wir würden Sie gerne in die Gemeinschaft der Datenschutzbeauftragten für Internetfreiheit einführen, damit Sie von den Erfahrungen unserer Kollegen profitieren können.</description>
     </item>
     <item>
       <title>Prüfung</title>
-      <link>https://ura.design/de/otfhelp/auditing/</link>
+      <link>https://old.ura.design/de/otfhelp/auditing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/otfhelp/auditing/</guid>
+      <guid>https://old.ura.design/de/otfhelp/auditing/</guid>
       <description>Du hast eine funktionierende Lösung und musst sie auf mögliche Schwachstellen testen und prüfen. Wir führen heuristische UX-Evaluierungen und Zugänglichkeitsprüfungen durch (Web, Mobile oder Desktop).</description>
     </item>
     <item>
       <title>UX-Forschung</title>
-      <link>https://ura.design/de/services/ux-research/</link>
+      <link>https://old.ura.design/de/services/ux-research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/services/ux-research/</guid>
+      <guid>https://old.ura.design/de/services/ux-research/</guid>
       <description>Von der Informationsarchitektur bis zum Usability-Testing bieten wir Dir die richtigen Werkzeuge und Erfahrungen, die Du für einen menschenzentrierten Designansatz benötigst. Wir wenden unsere Branchenerfahrung auf Dein Projekt an, indem wir die 10 Heuristiken für UX von Nielsen Norman anwenden. Wir möchten Dir dabei helfen, von Anfang an das Richtige zu entwickeln, anstatt Dinge im Nachhinein zu korrigieren. Wenn es um User Tests geht, bieten wir auch interne Rekrutierungs- und Testdienste an, einschließlich Benutzerinterviews und Usability-Tests.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/anja/</link>
+      <link>https://old.ura.design/de/authors/anja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/anja/</guid>
+      <guid>https://old.ura.design/de/authors/anja/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/klesta/</link>
+      <link>https://old.ura.design/de/authors/klesta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/klesta/</guid>
+      <guid>https://old.ura.design/de/authors/klesta/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/tud/</link>
+      <link>https://old.ura.design/de/clients/tud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/tud/</guid>
+      <guid>https://old.ura.design/de/clients/tud/</guid>
       <description>Markenidentität, Printdesign und Webentwicklung für Hessian.AI und Queryella.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/testimonials/mira/</link>
+      <link>https://old.ura.design/de/testimonials/mira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/testimonials/mira/</guid>
+      <guid>https://old.ura.design/de/testimonials/mira/</guid>
       <description>“Von der Konzeption bis zur Ausführung war Ura bei der Erfassung von unseren Anforderungen und deren Umsetzung äußerst effizient, ohne jegliche Überraschungen.”</description>
     </item>
     <item>
       <title>Aktualisierung</title>
-      <link>https://ura.design/de/otfhelp/refreshing/</link>
+      <link>https://old.ura.design/de/otfhelp/refreshing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/otfhelp/refreshing/</guid>
+      <guid>https://old.ura.design/de/otfhelp/refreshing/</guid>
       <description>Die Kommunikation der technischen Machbarkeit im Rahmen einer visuellen Identität kann sich als schwierig erweisen. Wir arbeiten mit dir zusammen, um sicherzustellen, dass dein Projekt seine Werte effizient vermitteln kann.</description>
     </item>
     <item>
       <title>Interaktionsdesign</title>
-      <link>https://ura.design/de/services/interaction-design/</link>
+      <link>https://old.ura.design/de/services/interaction-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/services/interaction-design/</guid>
+      <guid>https://old.ura.design/de/services/interaction-design/</guid>
       <description>Wir entwerfen und erstellen datenschutzgerechte Benutzeroberflächen und Designsysteme, um Deine Vision zum Leben zu erwecken. Von der Skizze bis zum High-Fidelity-Prototyp decken wir den gesamten Designprozess Deiner Webesite oder Mobile App ab. Das natürlich einschließlich der Dokumentation von Animationen und Interaktionen, wie auch der Übergabe an die Entwickler.&#xA;UX-Zertifizierung durch die Nielsen Norman Group&#xA;#1049847</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/chris/</link>
+      <link>https://old.ura.design/de/authors/chris/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/chris/</guid>
+      <guid>https://old.ura.design/de/authors/chris/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/wikimedia-germany/</link>
+      <link>https://old.ura.design/de/clients/wikimedia-germany/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/wikimedia-germany/</guid>
+      <guid>https://old.ura.design/de/clients/wikimedia-germany/</guid>
       <description>Mentoring für Wikimedia Deutschland-Projekte</description>
     </item>
     <item>
       <title>Illustrationen</title>
-      <link>https://ura.design/de/services/illustrations/</link>
+      <link>https://old.ura.design/de/services/illustrations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/services/illustrations/</guid>
+      <guid>https://old.ura.design/de/services/illustrations/</guid>
       <description>Komplexe Lösungen erfordern einfache Erklärungen. Erlaube uns mit maßgeschneiderten Illustrationen zu helfen, die zu Deiner Marke und Ton passen. Wir verzichten auf Stockbilder und erstellen Illustrationen, die auf Dich zugeschnitten sind, nicht auf andere. Vom Konzept bis zur Umsetzung werden unsere handgezeichneten Illustrationen Deiner App Leben einhauchen.</description>
     </item>
     <item>
       <title>Implementierung</title>
-      <link>https://ura.design/de/otfhelp/implementing/</link>
+      <link>https://old.ura.design/de/otfhelp/implementing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/otfhelp/implementing/</guid>
+      <guid>https://old.ura.design/de/otfhelp/implementing/</guid>
       <description>Wir sind darauf spezialisiert, dein Produkt mit der Frontend-Implementierung, den Überlegungen zur Barrierefreiheit und der Qualitätssicherung zu unterstützen.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/ayako/</link>
+      <link>https://old.ura.design/de/authors/ayako/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/ayako/</guid>
+      <guid>https://old.ura.design/de/authors/ayako/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Entwicklung</title>
-      <link>https://ura.design/de/services/web-development/</link>
+      <link>https://old.ura.design/de/services/web-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/services/web-development/</guid>
+      <guid>https://old.ura.design/de/services/web-development/</guid>
       <description>Wir sind keine üblichen WordPress-Website-Entwickler. Während unserer Arbeit mit Dutzenden von Open-Source-Communities haben wir verstanden, dass niemand ein Backend für eine einfache Webseite pflegen möchte. Wir haben uns auf statische Website-Generatoren wie Hugo oder Jekyll spezialisiert, um Webseites zu erstellen (so wie diese Webseite wo Du gerade bist).</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/authors/anxhela/</link>
+      <link>https://old.ura.design/de/authors/anxhela/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/authors/anxhela/</guid>
+      <guid>https://old.ura.design/de/authors/anxhela/</guid>
       <description></description>
     </item>
     <item>
       <title>Reset Tech: Visual Identity Refresh</title>
-      <link>https://ura.design/de/work/reset-tech/</link>
+      <link>https://old.ura.design/de/work/reset-tech/</link>
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/reset-tech/</guid>
+      <guid>https://old.ura.design/de/work/reset-tech/</guid>
       <description>We refreshed Reset Tech’s visual identity by leading collaborative workshops, establishing clear guidelines, and creating illustrations for digital platforms, print, and accessible data visualizations. The result is a progressive identity that connects with diverse audiences.</description>
     </item>
     <item>
       <title>Mailvelope UX &amp; UI Improvements</title>
-      <link>https://ura.design/de/work/mailvelope/</link>
+      <link>https://old.ura.design/de/work/mailvelope/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/mailvelope/</guid>
+      <guid>https://old.ura.design/de/work/mailvelope/</guid>
       <description>We made it easier to set up Mailvelope in Nextcloud Mail and send encrypted emails.</description>
     </item>
     <item>
       <title>Qubes OS Usability Audit</title>
-      <link>https://ura.design/de/work/qubesos/</link>
+      <link>https://old.ura.design/de/work/qubesos/</link>
       <pubDate>Wed, 08 Jan 2025 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/qubesos/</guid>
+      <guid>https://old.ura.design/de/work/qubesos/</guid>
       <description>Qubes OS is renowned for its security, but its complex interface can be a major hurdle for new users. This project aimed to untangle that complexity while preserving the advanced protections that make it one of the most secure systems available.</description>
     </item>
     <item>
       <title>OONI Illustration System</title>
-      <link>https://ura.design/de/work/ooni/</link>
+      <link>https://old.ura.design/de/work/ooni/</link>
       <pubDate>Mon, 16 Dec 2024 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/ooni/</guid>
+      <guid>https://old.ura.design/de/work/ooni/</guid>
       <description>We created a modular illustration system for OONI making it easy for both designers and non-designers to craft their own illustrations, bringing the OONIverse to life.</description>
     </item>
     <item>
       <title>Get ready for the European Accessibility Act (EAA)</title>
-      <link>https://ura.design/de/blog/european-accessibility-act/</link>
+      <link>https://old.ura.design/de/blog/european-accessibility-act/</link>
       <pubDate>Thu, 11 Apr 2024 16:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/european-accessibility-act/</guid>
+      <guid>https://old.ura.design/de/blog/european-accessibility-act/</guid>
       <description>In today&amp;rsquo;s digital age where our lives are increasingly intertwined with technology, the importance of digital accessibility has never been clearer. Web accessibility is crucial for ensuring that websites and applications are usable by everyone. It addresses various aspects such as presentation, functionality, navigation, and interaction methods to accommodate users of all abilities.&#xA;“The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.</description>
     </item>
     <item>
       <title>Rallly - Rebranding &amp; User Research</title>
-      <link>https://ura.design/de/work/rallly/</link>
+      <link>https://old.ura.design/de/work/rallly/</link>
       <pubDate>Tue, 13 Feb 2024 18:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/rallly/</guid>
+      <guid>https://old.ura.design/de/work/rallly/</guid>
       <description>We redesigned Rallly&amp;rsquo;s identity, delivering a fresh look and offered strategic UX recommendations for an improved user experience.</description>
     </item>
     <item>
       <title>Ergi sharing the Process of Open Source Designing</title>
-      <link>https://ura.design/de/blog/ergi-sharing-design-process/</link>
+      <link>https://old.ura.design/de/blog/ergi-sharing-design-process/</link>
       <pubDate>Wed, 17 Jan 2024 14:35:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/ergi-sharing-design-process/</guid>
+      <guid>https://old.ura.design/de/blog/ergi-sharing-design-process/</guid>
       <description>Right before the end of 2023, I spoke with our Visual Design Lead Ergi. Anything from unforgettable logos, to compelling visual storytelling to creating a unique visual identity, you can be sure it bears Ergi’s handwriting. He has been with Ura for more than 5 years. In the following conversation, he introduces us to his creative process, sheds light onto the myths of logo design, and what design collaboration looks like.</description>
     </item>
     <item>
       <title>Tumpa - Desktop App &amp; Landing page</title>
-      <link>https://ura.design/de/work/tumpa/</link>
+      <link>https://old.ura.design/de/work/tumpa/</link>
       <pubDate>Mon, 16 Oct 2023 18:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/tumpa/</guid>
+      <guid>https://old.ura.design/de/work/tumpa/</guid>
       <description>We transformed Tumpa&amp;rsquo;s identity and interface, ensuring intuitive interactions and clear pathways for OpenPGP key management.</description>
     </item>
     <item>
       <title>Open Technology Fund - Website Illustrations</title>
-      <link>https://ura.design/de/work/otf-website-illustrations/</link>
+      <link>https://old.ura.design/de/work/otf-website-illustrations/</link>
       <pubDate>Mon, 16 Oct 2023 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/otf-website-illustrations/</guid>
+      <guid>https://old.ura.design/de/work/otf-website-illustrations/</guid>
       <description>We created a fresh visual style, offering a series of illustrations for the OTF&amp;rsquo;s new website. These visuals highlight the importance of open technology and, most importantly, the community. They enhance OTF’s website, providing a visually engaging user experience.</description>
     </item>
     <item>
       <title>Internews SaferJourno</title>
-      <link>https://ura.design/de/work/saferjourno/</link>
+      <link>https://old.ura.design/de/work/saferjourno/</link>
       <pubDate>Sun, 17 Sep 2023 18:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/saferjourno/</guid>
+      <guid>https://old.ura.design/de/work/saferjourno/</guid>
       <description>We designed a distinct visual narrative for Internews SaferJourno, from the visual identity inception to a dedicated web platform for journalism trainers.</description>
     </item>
     <item>
       <title>Bridgebeam - ongoing design support for any budget</title>
-      <link>https://ura.design/de/blog/hello-bridgebeam/</link>
+      <link>https://old.ura.design/de/blog/hello-bridgebeam/</link>
       <pubDate>Sat, 16 Sep 2023 13:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/hello-bridgebeam/</guid>
+      <guid>https://old.ura.design/de/blog/hello-bridgebeam/</guid>
       <description>Over our years immersed in the open source community, we’ve forged invaluable relationships. This spans both commercial and non-profit open source projects. Many of these collaborations entailed continuous projects that often involved paperwork and, for organizations, even procurement processes.&#xA;From our interactions, a recurring sentiment emerged: many clients expressed a preference for a more structured engagement with us. They desired a support contract model, where they could allocate a set monthly budget.</description>
     </item>
     <item>
       <title>Open Technology Fund - Annual Report</title>
-      <link>https://ura.design/de/work/otf-annual-report/</link>
+      <link>https://old.ura.design/de/work/otf-annual-report/</link>
       <pubDate>Sat, 16 Sep 2023 11:30:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/otf-annual-report/</guid>
+      <guid>https://old.ura.design/de/work/otf-annual-report/</guid>
       <description>We designed the layout of the OTF Annual Report, creating a consistent visual language which emphasizes their motive, principles and style.</description>
     </item>
     <item>
       <title>PrototypeFund - Virtual Demo Week</title>
-      <link>https://ura.design/de/work/demoweek/</link>
+      <link>https://old.ura.design/de/work/demoweek/</link>
       <pubDate>Sat, 11 Mar 2023 18:45:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/demoweek/</guid>
+      <guid>https://old.ura.design/de/work/demoweek/</guid>
       <description>Wir haben eine virtuelle Demo-Woche entwickelt, um Projekte aus den Runden 7-10 des deutschen Prototype Fund die Möglichkeit zu geben, ihre Arbeit in einer virtuellen Umgebung zu präsentieren.</description>
     </item>
     <item>
       <title>Introducing the Briar Android Illustration System</title>
-      <link>https://ura.design/de/blog/briar-android-illustration-system/</link>
+      <link>https://old.ura.design/de/blog/briar-android-illustration-system/</link>
       <pubDate>Fri, 21 Oct 2022 15:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/briar-android-illustration-system/</guid>
+      <guid>https://old.ura.design/de/blog/briar-android-illustration-system/</guid>
       <description>Ura has been working with Briar since 2018, namely on various UX features such as adding contacts remotely, SD card message sync, image attachments, mailbox features and more.&#xA;As we have worked on various short engagements throughout the years which required certain educational or illustrative images, the image coherency of icons and illustrations deteriorated as Briar received more and more features and visual assets became an afterthought.&#xA;This resulted in over 30 illustrations looking vastly different from each other and desperately in need for unification.</description>
     </item>
     <item>
       <title>AsciiDoc</title>
-      <link>https://ura.design/de/work/asciidoc/</link>
+      <link>https://old.ura.design/de/work/asciidoc/</link>
       <pubDate>Mon, 15 Aug 2022 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/asciidoc/</guid>
+      <guid>https://old.ura.design/de/work/asciidoc/</guid>
       <description>AsciiDoc is a plain text markup language for writing technical content. We were approached by the AsciiDoc working group to create a coherent brand identity and website to serve as the home for the AsciiDoc language.</description>
     </item>
     <item>
       <title>Totem Project</title>
-      <link>https://ura.design/de/work/totem/</link>
+      <link>https://old.ura.design/de/work/totem/</link>
       <pubDate>Mon, 08 Aug 2022 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/totem/</guid>
+      <guid>https://old.ura.design/de/work/totem/</guid>
       <description>Totem is an online learning platform that offers educational courses about digital security and privacy in a safe, online classroom environment. We helped them refresh their visual identity and explain technical concepts in a more visual way.</description>
     </item>
     <item>
       <title>Stackspin</title>
-      <link>https://ura.design/de/work/stackspin/</link>
+      <link>https://old.ura.design/de/work/stackspin/</link>
       <pubDate>Fri, 25 Mar 2022 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/stackspin/</guid>
+      <guid>https://old.ura.design/de/work/stackspin/</guid>
       <description>Stackspin, previously known as OpenAppStack, is a purpose-aligned work suite tailored for mission-driven teams. It delivers top-tier apps in open source cloud collaboration: set up with a single click, effortlessly managed, and fortified with security. Stackspin is built and managed by &lt;a href=https://greenhost.net/&#xD;&#xA;    &#xD;&#xA;    target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xD;&#xA;     style=&#34;color: #FFFFFF;&#34;&#xD;&#xA;&gt;Greenhost&lt;/a&gt;.</description>
     </item>
     <item>
       <title>CalyxOS</title>
-      <link>https://ura.design/de/work/calyxos/</link>
+      <link>https://old.ura.design/de/work/calyxos/</link>
       <pubDate>Thu, 24 Mar 2022 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/calyxos/</guid>
+      <guid>https://old.ura.design/de/work/calyxos/</guid>
       <description>We provided a new visual style for CalyxOS, concretized into graphics to illustrate their main concepts and new wallpaper images for the Operating System.</description>
     </item>
     <item>
       <title>Internews’ ADAPT</title>
-      <link>https://ura.design/de/work/adapt/</link>
+      <link>https://old.ura.design/de/work/adapt/</link>
       <pubDate>Mon, 24 Jan 2022 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/adapt/</guid>
+      <guid>https://old.ura.design/de/work/adapt/</guid>
       <description>We designed the full visual identity for Internews’ ADAPT, creating a style to graphically represent ADAPT everywhere.</description>
     </item>
     <item>
       <title>Internews’ OPTIMA</title>
-      <link>https://ura.design/de/work/optima/</link>
+      <link>https://old.ura.design/de/work/optima/</link>
       <pubDate>Sun, 24 Jan 2021 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/optima/</guid>
+      <guid>https://old.ura.design/de/work/optima/</guid>
       <description>We designed the brand and visual identity for OPTIMA, creating a visual language which emphasizes their motive, principles and style.</description>
     </item>
     <item>
       <title>Oxidize - The Conference of embedded Rust</title>
-      <link>https://ura.design/de/work/oxizide/</link>
+      <link>https://old.ura.design/de/work/oxizide/</link>
       <pubDate>Tue, 24 Mar 2020 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/oxizide/</guid>
+      <guid>https://old.ura.design/de/work/oxizide/</guid>
       <description>We created the brand and visual identity for Oxidize, designing every digital and print asset for the conference and providing a long-term design solution.</description>
     </item>
     <item>
       <title>HTTPS Everywhere Redesign</title>
-      <link>https://ura.design/de/blog/https-everywhere-redesign/</link>
+      <link>https://old.ura.design/de/blog/https-everywhere-redesign/</link>
       <pubDate>Sun, 08 Sep 2019 19:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/https-everywhere-redesign/</guid>
+      <guid>https://old.ura.design/de/blog/https-everywhere-redesign/</guid>
       <description>HTTPS Everywhere is a free and open-source browser extension for Google Chrome, Mozilla Firefox, Opera, Brave, and Firefox for Android, which is developed collaboratively by The Tor Project and the Electronic Frontier Foundation (EFF).&#xA;It automatically makes websites use a more secure HTTPS connection instead of HTTP if they support it. HTTPS Everywhere makes it possible to block and unblock all non-HTTPS browser connections with one click.&#xA;In an effort to improve the user experience, we worked with the EFF team to reimagine HTTPS Everywhere.</description>
     </item>
     <item>
       <title>Introducing Logobridge</title>
-      <link>https://ura.design/de/blog/introducing-logobridge/</link>
+      <link>https://old.ura.design/de/blog/introducing-logobridge/</link>
       <pubDate>Tue, 07 May 2019 18:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/introducing-logobridge/</guid>
+      <guid>https://old.ura.design/de/blog/introducing-logobridge/</guid>
       <description>At Ura we have been constantly working with open source projects to get their branding up to speed. While we love working on fully fledged visual identities for projects, we are aware that some projects simply need a logo to get started and focus on the actual software features. This motivated us to build Logobridge, an open source collection of public domain logos anyone can use for their projects for free: https://logobridge.</description>
     </item>
     <item>
       <title>Underexposed 2019</title>
-      <link>https://ura.design/de/blog/underexposed-2019/</link>
+      <link>https://old.ura.design/de/blog/underexposed-2019/</link>
       <pubDate>Mon, 11 Feb 2019 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/underexposed-2019/</guid>
+      <guid>https://old.ura.design/de/blog/underexposed-2019/</guid>
       <description>During early January (7-11) Elio and Anxhelo from our team participated as mentors in the Underexposed event organized by Simply Secure in Berlin, Germany.&#xA;Underexposed Collective is a loosely-knit group of designers, researchers, writers, advocates, and users who reject the current trajectory of mainstream technology development. They support people by providing funding, education, mentorship, design support, research, testing, and a community for collaboration.&#xA;This was the first time Underexposed took place in the form of a residency.</description>
     </item>
     <item>
       <title>Thunderbird</title>
-      <link>https://ura.design/de/work/thunderbird/</link>
+      <link>https://old.ura.design/de/work/thunderbird/</link>
       <pubDate>Thu, 24 Jan 2019 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/thunderbird/</guid>
+      <guid>https://old.ura.design/de/work/thunderbird/</guid>
       <description>We created the new Thunderbird brand and helped the project with extensive usability research.</description>
     </item>
     <item>
       <title>SecureDrop Style Guide</title>
-      <link>https://ura.design/de/blog/securedrop-styleguide/</link>
+      <link>https://old.ura.design/de/blog/securedrop-styleguide/</link>
       <pubDate>Tue, 25 Dec 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/securedrop-styleguide/</guid>
+      <guid>https://old.ura.design/de/blog/securedrop-styleguide/</guid>
       <description>Our next project, in the series of funding from OpenTechFund, is SecureDrop. SecureDrop is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources.&#xA;During this process we were brought closer with the Project, getting to know the developers and designers behind it that help create a secure system for whistleblowers. The work we conducted with SecureDrop was part of the OTF Usability Lab, as have been previous ones before.</description>
     </item>
     <item>
       <title>I2P Style Guide and Usability Study</title>
-      <link>https://ura.design/de/blog/i2p-usability-study-and-styleguide/</link>
+      <link>https://old.ura.design/de/blog/i2p-usability-study-and-styleguide/</link>
       <pubDate>Mon, 03 Dec 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/i2p-usability-study-and-styleguide/</guid>
+      <guid>https://old.ura.design/de/blog/i2p-usability-study-and-styleguide/</guid>
       <description>Back when Ura was founded in 2016 we only had a small landing page and a Patreon to help fund the time we help Open Source projects. It was very little but the thought that people would support us kept us fueled. During that time we were also approached by I2P for helping them with updating their website and some branding. We resided to simplify the logo to something which would offer more flexibility and be already an improvement of the former logo.</description>
     </item>
     <item>
       <title>Open Source Design Summit 2018</title>
-      <link>https://ura.design/de/blog/osd-summit-2018/</link>
+      <link>https://old.ura.design/de/blog/osd-summit-2018/</link>
       <pubDate>Fri, 16 Nov 2018 08:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/osd-summit-2018/</guid>
+      <guid>https://old.ura.design/de/blog/osd-summit-2018/</guid>
       <description>During the first weekend of November we had the pleasure to facilitate the annual Open Source Design Summit in the city we are based in, Tirana.&#xA;Open Source Design (short OSD) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a job board, puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.</description>
     </item>
     <item>
       <title>LibreOffice Conference 2018</title>
-      <link>https://ura.design/de/blog/libocon-2018-visual-identity/</link>
+      <link>https://old.ura.design/de/blog/libocon-2018-visual-identity/</link>
       <pubDate>Sat, 20 Oct 2018 08:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/libocon-2018-visual-identity/</guid>
+      <guid>https://old.ura.design/de/blog/libocon-2018-visual-identity/</guid>
       <description>As part of dedicating our efforts to improve local grassroot initatives, we were delighted to be curating the visual identity of the LibreOffice Conference (short LibOCon). The conference is organized by the local Open Labs Hackerspace community, with which we share a lot of values and goals together.&#xA;We were particularly excited to support this year&amp;rsquo;s edition as it would be the first time the local community would host a major Free Software project conference in Tirana, Albania.</description>
     </item>
     <item>
       <title>Thunderbird Style Guide and Usability Study</title>
-      <link>https://ura.design/de/blog/thunderbird-style-guide/</link>
+      <link>https://old.ura.design/de/blog/thunderbird-style-guide/</link>
       <pubDate>Thu, 05 Jul 2018 08:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/thunderbird-style-guide/</guid>
+      <guid>https://old.ura.design/de/blog/thunderbird-style-guide/</guid>
       <description>Since early on, we had a special connection with Thunderbird. While many users moved to web-based mail clients, we always preferred using a single mail client to manage our mail and calendar. In fact, in the early days our founder Elio helped redesign the Thunderbird Conversations add-on and even now our email infrastructure is powered by ProtonMail and ProtonMail Bridge via Thunderbird.&#xA;Unfortunately, Mozilla moving away from Thunderbird created technical and design debt throughout the past years, resulting in a wider gap between Firefox and Thunderbird.</description>
     </item>
     <item>
       <title>Style Guides go Beyond Aesthetics</title>
-      <link>https://ura.design/de/blog/style-guides-go-beyond-aesthetics/</link>
+      <link>https://old.ura.design/de/blog/style-guides-go-beyond-aesthetics/</link>
       <pubDate>Mon, 02 Jul 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/style-guides-go-beyond-aesthetics/</guid>
+      <guid>https://old.ura.design/de/blog/style-guides-go-beyond-aesthetics/</guid>
       <description>Oftentimes we witness the results of elitist practices upon users, usually worded in the form of the acronym RTFM or &amp;ldquo;Read The Freaking Manual&amp;rdquo;. User manuals have their place, but up to which point can we expect users to learn by reading instead of doing?&#xA;A similar stigma often appears in Free Software / Open Source projects as well. The alternative &amp;ldquo;Read the Documentation&amp;rdquo; certainly would ensure that people would give a little more effort before repeating questions.</description>
     </item>
     <item>
       <title>Reproducible Builds Style Guide</title>
-      <link>https://ura.design/de/blog/reproducible-builds-styleguide/</link>
+      <link>https://old.ura.design/de/blog/reproducible-builds-styleguide/</link>
       <pubDate>Wed, 13 Jun 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/reproducible-builds-styleguide/</guid>
+      <guid>https://old.ura.design/de/blog/reproducible-builds-styleguide/</guid>
       <description>Earlier this year, we announced our involvement with Open Tech Fund&amp;rsquo;s Usability Lab, providing Usability and Design Services to Internet Freedom projects. If you missed the news, head over to the announcement on our blog.&#xA;Reproducible Builds has been the first project we supported as part of the Usability Lab. Reproducible Builds represents a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</description>
     </item>
     <item>
       <title>Ura is now part of Open Tech Fund’s Usability Lab</title>
-      <link>https://ura.design/de/blog/ura-now-part-open-tech-funds-usability-lab/</link>
+      <link>https://old.ura.design/de/blog/ura-now-part-open-tech-funds-usability-lab/</link>
       <pubDate>Mon, 12 Mar 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/ura-now-part-open-tech-funds-usability-lab/</guid>
+      <guid>https://old.ura.design/de/blog/ura-now-part-open-tech-funds-usability-lab/</guid>
       <description>Starting now, Ura will be providing Usability and Design Services to Internet Freedom projects as part of Open Tech Fund’s Usability Lab.&#xA;The Usability Lab aims to increase user safety and promote practical internet freedom by working with developers and technologists to improve the usability of open ­source circumvention and digital security tools. There are many open ­source software projects that aim to help people around the world – activists, journalists, and everyday citizens – communicate in privacy and security.</description>
     </item>
     <item>
       <title>Inkscape Workshop in Tirana</title>
-      <link>https://ura.design/de/blog/inkscape-workshop-tirana/</link>
+      <link>https://old.ura.design/de/blog/inkscape-workshop-tirana/</link>
       <pubDate>Fri, 23 Feb 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/inkscape-workshop-tirana/</guid>
+      <guid>https://old.ura.design/de/blog/inkscape-workshop-tirana/</guid>
       <description>Quite some time has passed since we first got in touch with the Open Source Design community. While being an utopian idea in the beginning, it has become clear to us that bringing Open Source values to Design and vice versa requires more of a culture shift than anything else. Having this mantra in mind, we tried to apply these principles in all communities we were part of. While Ura has a global audience, we care about our roots as well, which are in Tirana, Albania.</description>
     </item>
     <item>
       <title>Ura at FOSDEM 2018</title>
-      <link>https://ura.design/de/blog/ura-fosdem-2018/</link>
+      <link>https://old.ura.design/de/blog/ura-fosdem-2018/</link>
       <pubDate>Fri, 09 Feb 2018 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/ura-fosdem-2018/</guid>
+      <guid>https://old.ura.design/de/blog/ura-fosdem-2018/</guid>
       <description>During last weekend the Ura team traveled to Brussels, Belgium to attend FOSDEM. We had the chance to be present at one of the largest conferences in Europe (and probably the largest Free Software/ Open Source one). Just like at CCC, we strive to be at events which promote collaborative projects and initiatives. In addition to that, three members of the team were there as Mozilla Tech Speakers. It can be said that many of us wear various hats at the same time.</description>
     </item>
     <item>
       <title>Hosting the first Open Source Design Workshop in Tirana</title>
-      <link>https://ura.design/de/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</link>
+      <link>https://old.ura.design/de/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</link>
       <pubDate>Sat, 11 Feb 2017 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</guid>
+      <guid>https://old.ura.design/de/blog/open-source-design-workshop-open-labs-hackerspace-tirana/</guid>
       <description>When we started our Patreon campaign we had a simple vision: to use the financial resources of our supporters to provide better design to free open source and open web initiatives that we think are important to communicate better with the outside world through better design. In the first days we thought that this was enough to change the quality of visual communication. This perception changed gradually after discussions with graphic designers that are doing their first step in this field.</description>
     </item>
     <item>
       <title>I2P - The Invisible Internet Project</title>
-      <link>https://ura.design/de/work/i2p/</link>
+      <link>https://old.ura.design/de/work/i2p/</link>
       <pubDate>Tue, 24 Jan 2017 12:00:00 +0200</pubDate>
-      <guid>https://ura.design/de/work/i2p/</guid>
+      <guid>https://old.ura.design/de/work/i2p/</guid>
       <description>We helped I2P create their new brand strategy, visual identity and shape the user experience of their browser extension for Firefox.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/briar/</link>
+      <link>https://old.ura.design/de/clients/briar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/briar/</guid>
+      <guid>https://old.ura.design/de/clients/briar/</guid>
       <description>Markenidentität, Illustrationen, UX-Design, UX-Forschung und Zugänglichkeitstests für Briar Android und Desktop.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/calyx/</link>
+      <link>https://old.ura.design/de/clients/calyx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/calyx/</guid>
+      <guid>https://old.ura.design/de/clients/calyx/</guid>
       <description>Illustrationen und Zugänglichkeitstests für CalyxOS.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/cotech/</link>
+      <link>https://old.ura.design/de/clients/cotech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/cotech/</guid>
+      <guid>https://old.ura.design/de/clients/cotech/</guid>
       <description>Web-Entwicklung für die Websites von COTECH, hwsecurity und heylogin.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/eff/</link>
+      <link>https://old.ura.design/de/clients/eff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/eff/</guid>
+      <guid>https://old.ura.design/de/clients/eff/</guid>
       <description>UX Design und Forschung für die Desktop-Browser-Erweiterung von HTTPS Everywhere.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/equalitie/</link>
+      <link>https://old.ura.design/de/clients/equalitie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/equalitie/</guid>
+      <guid>https://old.ura.design/de/clients/equalitie/</guid>
       <description>Markenidentität und UX-Forschung für verschiedene Projekte.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/ferrous/</link>
+      <link>https://old.ura.design/de/clients/ferrous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/ferrous/</guid>
+      <guid>https://old.ura.design/de/clients/ferrous/</guid>
       <description>Markenidentität, Print- und Web-Design für Oxidize und Ferrocene.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/geocode-earth/</link>
+      <link>https://old.ura.design/de/clients/geocode-earth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/geocode-earth/</guid>
+      <guid>https://old.ura.design/de/clients/geocode-earth/</guid>
       <description>Markenidentität und Web-Design für Pelias und Geocode Earth.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/giz/</link>
+      <link>https://old.ura.design/de/clients/giz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/giz/</guid>
+      <guid>https://old.ura.design/de/clients/giz/</guid>
       <description>Aktualisierung des Brandings und Druckdesign für openIMIS.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/greatfire/</link>
+      <link>https://old.ura.design/de/clients/greatfire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/greatfire/</guid>
+      <guid>https://old.ura.design/de/clients/greatfire/</guid>
       <description>Layout-Design und UX-Forschung.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/greenhost/</link>
+      <link>https://old.ura.design/de/clients/greenhost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/greenhost/</guid>
+      <guid>https://old.ura.design/de/clients/greenhost/</guid>
       <description>Markenidentität, UX-Design und Tests für Stackspin und Totem Project.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/internews/</link>
+      <link>https://old.ura.design/de/clients/internews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/internews/</guid>
+      <guid>https://old.ura.design/de/clients/internews/</guid>
       <description>Markenidentität, Layoutdesign, Webentwicklung und Nutzerforschung für Optima, Adapt, BASICS und mehr.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/magma-collective/</link>
+      <link>https://old.ura.design/de/clients/magma-collective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/magma-collective/</guid>
+      <guid>https://old.ura.design/de/clients/magma-collective/</guid>
       <description>UX-Forschung und -Tests für Briar Android.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/okf/</link>
+      <link>https://old.ura.design/de/clients/okf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/okf/</guid>
+      <guid>https://old.ura.design/de/clients/okf/</guid>
       <description>Markenidentität, Web-Entwicklung und Web-Design für Prototype Fund und Open Knowledge Foundation.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/osso/</link>
+      <link>https://old.ura.design/de/clients/osso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/osso/</guid>
+      <guid>https://old.ura.design/de/clients/osso/</guid>
       <description>Markenidentität und Druckdesign für verschiedene Open-Source-Bibliotheken.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/otf/</link>
+      <link>https://old.ura.design/de/clients/otf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/otf/</guid>
+      <guid>https://old.ura.design/de/clients/otf/</guid>
       <description>Usability- und Design-Dienstleister für geförderte Projekte im Rahmen von SUA Lab und Learning Lab.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/rust/</link>
+      <link>https://old.ura.design/de/clients/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/rust/</guid>
+      <guid>https://old.ura.design/de/clients/rust/</guid>
       <description>Markenidentität, Webdesign und Drucksachen für das RustFest und andere Rust-Projekte.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/tech-cultivation/</link>
+      <link>https://old.ura.design/de/clients/tech-cultivation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/tech-cultivation/</guid>
+      <guid>https://old.ura.design/de/clients/tech-cultivation/</guid>
       <description>Branding, Informationsarchitektur und Webdesign für die Website von Tech Cultivation.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/unimichigan/</link>
+      <link>https://old.ura.design/de/clients/unimichigan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/unimichigan/</guid>
+      <guid>https://old.ura.design/de/clients/unimichigan/</guid>
       <description>Markenidentität und UX-Design für Censored Planet.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/whistleblower-aid/</link>
+      <link>https://old.ura.design/de/clients/whistleblower-aid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/whistleblower-aid/</guid>
+      <guid>https://old.ura.design/de/clients/whistleblower-aid/</guid>
       <description>Aktualisierung der Markenidentität für die Markenanmeldung von Whistleblower Aid.</description>
     </item>
     <item>
       <title></title>
-      <link>https://ura.design/de/clients/whistleblowing-solutions/</link>
+      <link>https://old.ura.design/de/clients/whistleblowing-solutions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/clients/whistleblowing-solutions/</guid>
+      <guid>https://old.ura.design/de/clients/whistleblowing-solutions/</guid>
       <description>Markenidentität, Web Design, UX Design und Testing für GlobaLeaks.</description>
     </item>
     <item>
       <title>404 Nicht Gefunden</title>
-      <link>https://ura.design/de/404/</link>
+      <link>https://old.ura.design/de/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/404/</guid>
+      <guid>https://old.ura.design/de/404/</guid>
       <description></description>
     </item>
     <item>
       <title>Aktuelles</title>
-      <link>https://ura.design/de/categories/news/</link>
+      <link>https://old.ura.design/de/categories/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/categories/news/</guid>
+      <guid>https://old.ura.design/de/categories/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Barrierefreiheit</title>
-      <link>https://ura.design/de/filters/accessibility/</link>
+      <link>https://old.ura.design/de/filters/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/filters/accessibility/</guid>
+      <guid>https://old.ura.design/de/filters/accessibility/</guid>
       <description></description>
     </item>
     <item>
       <title>Branding</title>
-      <link>https://ura.design/de/filters/branding/</link>
+      <link>https://old.ura.design/de/filters/branding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/filters/branding/</guid>
+      <guid>https://old.ura.design/de/filters/branding/</guid>
       <description></description>
     </item>
     <item>
       <title>Datenschutz</title>
-      <link>https://ura.design/de/privacy/</link>
+      <link>https://old.ura.design/de/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/privacy/</guid>
+      <guid>https://old.ura.design/de/privacy/</guid>
       <description>Ura Design hält sich bei all seinen Tätigkeiten an die höchsten ethischen Standards und ist bestrebt, die Privatsphäre aller Personen zu schützen, die mit uns in Kontakt treten. Wir verkaufen, tauschen, verschenken, vermieten oder erlauben niemandem außerhalb von Ura Design und projektbezogenen Auftragnehmern, Informationen über unsere Partner, Mitarbeiter, Forschungsteilnehmer oder Website-Besucher zu verwenden oder darauf zuzugreifen.&#xA;Wir nutzen die Dienste Dritter, um Arbeiten zu veröffentlichen, mit Menschen in Kontakt zu bleiben und zu verstehen, wie wir diese beiden Dinge besser machen können.</description>
     </item>
     <item>
       <title>Events</title>
-      <link>https://ura.design/de/categories/events/</link>
+      <link>https://old.ura.design/de/categories/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/categories/events/</guid>
+      <guid>https://old.ura.design/de/categories/events/</guid>
       <description></description>
     </item>
     <item>
       <title>Illustrationen</title>
-      <link>https://ura.design/de/filters/illustrations/</link>
+      <link>https://old.ura.design/de/filters/illustrations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/filters/illustrations/</guid>
+      <guid>https://old.ura.design/de/filters/illustrations/</guid>
       <description></description>
     </item>
     <item>
       <title>Impressum</title>
-      <link>https://ura.design/de/imprint/</link>
+      <link>https://old.ura.design/de/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/imprint/</guid>
+      <guid>https://old.ura.design/de/imprint/</guid>
       <description>Ura Design wird betrieben von (Impressum nach § 5 TMG, ebenso verantwortlich für den Inhalt nach § 55 Abs. 2 RStV):&#xA;Ura Design GmbH&#xA;c/o Center for the Cultivation of Technology gemeinnützige GmbH, Aufgang 4,&#xA;Gottschedstraße 4&#xA;13357 Berlin&#xA;Deutschland&#xA;Steuernummer und Umsatzsteuer-Identifikationsnummer: beantragt&#xA;HRB 279684 Amtsgericht Berlin (Charlottenburg)&#xA;Email: hello@ura.design&#xA;Website: https://ura.design</description>
     </item>
     <item>
       <title>Interaction Design</title>
-      <link>https://ura.design/de/filters/interaction-design/</link>
+      <link>https://old.ura.design/de/filters/interaction-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/filters/interaction-design/</guid>
+      <guid>https://old.ura.design/de/filters/interaction-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Kontakt</title>
-      <link>https://ura.design/de/contact/</link>
+      <link>https://old.ura.design/de/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/contact/</guid>
+      <guid>https://old.ura.design/de/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Kulturen</title>
-      <link>https://ura.design/de/categories/culture/</link>
+      <link>https://old.ura.design/de/categories/culture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/categories/culture/</guid>
+      <guid>https://old.ura.design/de/categories/culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Menu</title>
-      <link>https://ura.design/de/menu/</link>
+      <link>https://old.ura.design/de/menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/menu/</guid>
+      <guid>https://old.ura.design/de/menu/</guid>
       <description></description>
     </item>
     <item>
       <title>Pro Bono Design Support</title>
-      <link>https://ura.design/de/probono/</link>
+      <link>https://old.ura.design/de/probono/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/probono/</guid>
+      <guid>https://old.ura.design/de/probono/</guid>
       <description></description>
     </item>
     <item>
       <title>Projekte</title>
-      <link>https://ura.design/de/categories/projects/</link>
+      <link>https://old.ura.design/de/categories/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/categories/projects/</guid>
+      <guid>https://old.ura.design/de/categories/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Quellcode</title>
-      <link>https://ura.design/de/source/</link>
+      <link>https://old.ura.design/de/source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/source/</guid>
+      <guid>https://old.ura.design/de/source/</guid>
       <description></description>
     </item>
     <item>
       <title>Über</title>
-      <link>https://ura.design/de/about/</link>
+      <link>https://old.ura.design/de/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/about/</guid>
+      <guid>https://old.ura.design/de/about/</guid>
       <description></description>
     </item>
     <item>
       <title>User Research Panel</title>
-      <link>https://ura.design/de/research/</link>
+      <link>https://old.ura.design/de/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/research/</guid>
+      <guid>https://old.ura.design/de/research/</guid>
       <description></description>
     </item>
     <item>
       <title>UX Research</title>
-      <link>https://ura.design/de/filters/ux-research/</link>
+      <link>https://old.ura.design/de/filters/ux-research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/filters/ux-research/</guid>
+      <guid>https://old.ura.design/de/filters/ux-research/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Entwicklung</title>
-      <link>https://ura.design/de/filters/web-development/</link>
+      <link>https://old.ura.design/de/filters/web-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ura.design/de/filters/web-development/</guid>
+      <guid>https://old.ura.design/de/filters/web-development/</guid>
       <description></description>
     </item>
   </channel>
